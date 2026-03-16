@@ -311,16 +311,17 @@ main {
 }
 
 .hero-image {
-  min-height: 560px;
-  border-radius: 28px;
+  min-height: 580px;
+  border-radius: 30px;
   position: relative;
   overflow: hidden;
   border: 1px solid var(--border);
-  background:
-    linear-gradient(to top, rgba(10, 7, 6, 0.75), rgba(10, 7, 6, 0.15)),
-    radial-gradient(circle at top right, rgba(165, 122, 67, 0.25), transparent 35%),
-    linear-gradient(135deg, #5a4333 0%, #2c201a 35%, #8b2c2c 100%);
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+  background-image:
+    linear-gradient(to top, rgba(12,8,7,0.55), rgba(12,8,7,0.1)),
+    url("images/IMG_0887.jpeg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 30px 80px var(--shadow);
 }
 
 .hero-image::before {
