@@ -191,7 +191,7 @@ main {
   border: 1px solid var(--border);
   background-image:
     linear-gradient(to top, rgba(12, 8, 7, 0.55), rgba(12, 8, 7, 0.10)),
-    url("./images/IMG_0734.jpeg");
+    url("./images/IMG_0735.jpeg");
   background-size: cover;
   background-position: center;
   box-shadow: 0 30px 80px var(--shadow);
