@@ -1,136 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mokosh Threads</title>
-
-<style>
-
-body{
-margin:0;
-font-family: Georgia, serif;
-background:#14110f;
-color:#f5f1ea;
-}
-
-header{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 40px;
-border-bottom:1px solid rgba(255,255,255,0.1);
-}
-
-nav a{
-color:#e6dccd;
-margin-left:20px;
-text-decoration:none;
-font-size:15px;
-}
-
-.hero{
-padding:120px 40px;
-max-width:1000px;
-}
-
-.hero h1{
-font-size:56px;
-line-height:1.1;
-margin-bottom:20px;
-}
-
-.hero p{
-font-size:20px;
-color:#b9ab96;
-max-width:600px;
-}
-
-.categories{
-display:grid;
-grid-template-columns:repeat(3,1fr);
-gap:20px;
-padding:40px;
-}
-
-.card{
-padding:60px 30px;
-border-radius:12px;
-background:#1d1815;
-text-decoration:none;
-color:white;
-transition:0.2s;
-}
-
-.card:hover{
-transform:translateY(-4px);
-background:#231c18;
-}
-
-.card h2{
-margin-bottom:10px;
-}
-
-footer{
-text-align:center;
-padding:40px;
-color:#b9ab96;
-}
-
-</style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mokosh Threads</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
 
-<header>
+  <div class="topbar">
+    Slavic heritage in cloth, time, and symbol
+  </div>
 
-<div><strong>Mokosh Threads</strong></div>
+  <header class="site-header">
+    <div class="logo">Mokosh Threads</div>
 
-<nav>
-<a href="./">Home</a>
-<a href="./clothing/">Clothing</a>
-<a href="./watches/">Watches</a>
-<a href="./relics/">Relics</a>
-</nav>
+    <nav class="site-nav">
+      <a href="./">Home</a>
+      <a href="./clothing/">Clothing</a>
+      <a href="./watches/">Watches</a>
+      <a href="./relics/">Relics</a>
+    </nav>
+  </header>
 
-</header>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Rooted in Slavic memory</p>
+        <h1>Wear the memory of a people.</h1>
+        <p class="hero-text">
+          Mokosh Threads brings together Slavic garments, vintage Soviet watches,
+          and cultural relics shaped by heritage, craftsmanship, and story.
+        </p>
 
-<section class="hero">
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="./clothing/">Explore Clothing</a>
+          <a class="btn btn-secondary" href="./watches/">View Watches</a>
+        </div>
+      </div>
 
-<h1>Wear the memory of a people.</h1>
+      <div class="hero-image">
+        <div class="hero-image-overlay">
+          <span>Slavic Clothing</span>
+        </div>
+      </div>
+    </section>
 
-<p>
-Mokosh Threads brings together Slavic garments, vintage Soviet watches,
-and cultural relics shaped by heritage, craftsmanship, and story.
-</p>
+    <section class="categories">
+      <a class="category-card clothing-card" href="./clothing/">
+        <div class="card-overlay">
+          <h2>Slavic Clothing</h2>
+          <p>Traditional shirts and dresses inspired by folk embroidery and ancestral craft.</p>
+        </div>
+      </a>
 
-</section>
+      <a class="category-card watches-card" href="./watches/">
+        <div class="card-overlay">
+          <h2>Vintage Soviet Watches</h2>
+          <p>Mechanical timepieces from the USSR and post-Soviet era, collected for history and character.</p>
+        </div>
+      </a>
 
-<section class="categories">
+      <a class="category-card relics-card" href="./relics/">
+        <div class="card-overlay">
+          <h2>Slavic Relics</h2>
+          <p>Runes, necklaces, charms, and cultural items rooted in symbol, myth, and memory.</p>
+        </div>
+      </a>
+    </section>
 
-<a class="card" href="/clothing/">
-<h2>Slavic Clothing</h2>
-<p>Traditional shirts and dresses inspired by Slavic heritage.</p>
-</a>
+    <section class="brand-story">
+      <p class="section-label">About the Brand</p>
+      <h2>A house of Slavic craft and memory</h2>
+      <p>
+        Mokosh Threads is a curated world of garments, timepieces, and relics.
+        Each collection carries a different expression of heritage — what we wear,
+        what we keep, and what we remember.
+      </p>
+    </section>
+  </main>
 
-<a class="card" href="/watches/">
-<h2>Vintage Soviet Watches</h2>
-<p>Mechanical timepieces from the USSR and post-Soviet era.</p>
-</a>
-
-<a class="card" href="/relics/">
-<h2>Slavic Relics</h2>
-<p>Runes, charms, and cultural items rooted in myth and symbol.</p>
-</a>
-
-</section>
-
-<footer>
-
-<p>Mokosh Threads — Slavic heritage in cloth, time, and symbol</p>
-
-</footer>
+  <footer class="site-footer">
+    <p>Mokosh Threads — Slavic heritage in cloth, time, and symbol.</p>
+  </footer>
 
 </body>
 </html>
