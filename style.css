@@ -23,9 +23,21 @@ html {
 body {
   margin: 0;
   font-family: Georgia, serif;
-  background:
+  background-image:
     radial-gradient(circle at top, rgba(141, 47, 47, 0.18), transparent 30%),
-    linear-gradient(180deg, #161210 0%, #14110f 100%);
+    linear-gradient(180deg, #161210 0%, #14110f 100%),
+    url("./images/linen-texture.jpg");
+
+  background-size:
+    auto,
+    auto,
+    400px;
+
+  background-repeat:
+    no-repeat,
+    no-repeat,
+    repeat;
+
   color: var(--text);
 }
 
