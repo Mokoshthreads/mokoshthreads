@@ -1,30 +1,42 @@
 [
   {
+    "id": "vostok-generalskie-01",
     "name": "Generalskie",
     "brand": "Vostok",
     "era": "1990s",
     "type": "Military style",
+    "price": 90,
+    "priceRange": "$81–120",
     "image": "../images/IMG_0887.jpeg"
   },
   {
+    "id": "raketa-copernicus-01",
     "name": "Copernicus",
     "brand": "Raketa",
     "era": "1980s",
     "type": "Collector classic",
+    "price": 140,
+    "priceRange": "$121+",
+    "image": "../images/IMG_0887.jpeg"
+  }
+  {
+    "id": "vostok-komandirskie-01",
+    "name": "Komandirskie 144150",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 70,
+    "priceRange": "$31-80",
     "image": "../images/IMG_0887.jpeg"
   },
   {
-    "name": "De Luxe",
-    "brand": "Poljot",
-    "era": "1970s",
-    "type": "Dress watch",
-    "image": "../images/IMG_0887.jpeg"
-  },
-  {
+    "id": "slave-tank",
     "name": "Tank",
     "brand": "Slava",
     "era": "1980s",
-    "type": "Rectangular case",
+    "type": "Collector classic",
+    "price": 140,
+    "priceRange": "$121+",
     "image": "../images/IMG_0887.jpeg"
   }
 ]
