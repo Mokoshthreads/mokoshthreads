@@ -43,78 +43,22 @@
       />
     </section>
 
-    <section class="watch-gallery" id="watchGallery">
-      <article class="watch-card" data-name="Vostok Generalskie" data-brand="Vostok" data-era="1990s">
-        <div class="watch-card-image">
-          <img src="../images/IMG_0887.jpeg" alt="Vostok Generalskie" />
-        </div>
-        <div class="watch-card-body">
-          <p class="watch-brand">Vostok</p>
-          <h2>Generalskie</h2>
-          <p class="watch-meta">1990s • Military style</p>
-        </div>
-      </article>
+  <section class="watch-controls">
+  <input
+    type="text"
+    id="watchSearch"
+    placeholder="Search by brand, model, or era..."
+  />
+</section>
 
-      <article class="watch-card" data-name="Raketa Copernicus" data-brand="Raketa" data-era="1980s">
-        <div class="watch-card-image">
-          <img src="../images/IMG_0887.jpeg" alt="Raketa Copernicus" />
-        </div>
-        <div class="watch-card-body">
-          <p class="watch-brand">Raketa</p>
-          <h2>Copernicus</h2>
-          <p class="watch-meta">1980s • Collector classic</p>
-        </div>
-      </article>
+<section class="watch-gallery" id="watchGallery"></section>
 
-      <article class="watch-card" data-name="Poljot De Luxe" data-brand="Poljot" data-era="1970s">
-        <div class="watch-card-image">
-          <img src="../images/IMG_0887.jpeg" alt="Poljot De Luxe" />
-        </div>
-        <div class="watch-card-body">
-          <p class="watch-brand">Poljot</p>
-          <h2>De Luxe</h2>
-          <p class="watch-meta">1970s • Dress watch</p>
-        </div>
-      </article>
+</main>
 
-      <article class="watch-card" data-name="Slava Tank" data-brand="Slava" data-era="1980s">
-        <div class="watch-card-image">
-          <img src="../images/IMG_0887.jpeg" alt="Slava Tank" />
-        </div>
-        <div class="watch-card-body">
-          <p class="watch-brand">Slava</p>
-          <h2>Tank</h2>
-          <p class="watch-meta">1980s • Rectangular case</p>
-        </div>
-      </article>
-    </section>
-  </main>
+<footer class="site-footer">
+  <p>Mokosh Threads — Slavic heritage in cloth, time, and symbol.</p>
+</footer>
 
-  <footer class="site-footer">
-    <p>Mokosh Threads — Slavic heritage in cloth, time, and symbol.</p>
-  </footer>
-
-  <script>
-    const searchInput = document.getElementById("watchSearch");
-    const cards = document.querySelectorAll(".watch-card");
-
-    searchInput.addEventListener("input", function () {
-      const term = this.value.toLowerCase();
-
-      cards.forEach(card => {
-        const name = card.dataset.name.toLowerCase();
-        const brand = card.dataset.brand.toLowerCase();
-        const era = card.dataset.era.toLowerCase();
-
-        const match =
-          name.includes(term) ||
-          brand.includes(term) ||
-          era.includes(term);
-
-        card.style.display = match ? "block" : "none";
-      });
-    });
-  </script>
-
+<script src="./watches.js"></script>
 </body>
 </html>
