@@ -23,6 +23,35 @@
   max-width: 720px;
 }
 
+.watch-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 6px 0 24px;
+}
+
+.watch-sort-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.watch-sort-row select {
+  padding: 12px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #1a1d21;
+  color: var(--linen);
+  font-size: 14px;
+  outline: none;
+}
+
+.watch-price {
+  margin: 12px 0 0;
+  color: var(--bronze);
+  font-size: 15px;
+  font-weight: bold;
+}
 .watch-filters {
   display: flex;
   gap: 12px;
