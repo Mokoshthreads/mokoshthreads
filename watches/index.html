@@ -1,63 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vintage Soviet Watches | Mokosh Threads</title>
-
-<style>
-body{
-  margin:0;
-  font-family:Georgia,serif;
-  background:#111315;
-  color:#f3f0ea;
-}
-header{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:20px 40px;
-  border-bottom:1px solid rgba(255,255,255,0.1);
-  background:#161a1d;
-}
-nav a{
-  margin-left:20px;
-  text-decoration:none;
-  color:#d8d2c8;
-}
-.hero{
-  padding:120px 40px;
-  max-width:900px;
-}
-.hero h1{
-  font-size:48px;
-  margin-bottom:20px;
-}
-.hero p{
-  font-size:20px;
-  color:#b6b0a7;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vintage Soviet Watches | Mokosh Threads</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="watches.css" />
 </head>
 <body>
 
-<header>
-<strong>Mokosh Threads</strong>
-<nav>
-  <a href="../">Home</a>
-  <a href="../clothing/">Clothing</a>
-  <a href="../watches/">Watches</a>
-  <a href="../relics/">Relics</a>
-</nav>
-</header>
+  <div class="topbar">
+    Vintage Soviet and Russian watches from a private collection
+  </div>
 
-<section class="hero">
-  <h1>Vintage Soviet Watches</h1>
-  <p>
-    Mechanical timepieces from the USSR and post-Soviet era, collected for their history,
-    design, engineering, and character.
-  </p>
-</section>
+  <header class="site-header">
+    <div class="logo">Mokosh Threads</div>
+
+    <nav class="site-nav">
+      <a href="../">Home</a>
+      <a href="../clothing/">Clothing</a>
+      <a href="../watches/">Watches</a>
+      <a href="../relics/">Relics</a>
+    </nav>
+  </header>
+
+  <main class="watches-page">
+    <section class="watches-hero">
+      <p class="section-label">Mokosh Time</p>
+      <h1>Vintage Soviet Watches</h1>
+      <p class="watches-intro">
+        A curated collection of Soviet and Russian timepieces — mechanical history,
+        military character, and collector charm from brands such as Vostok, Raketa,
+        Poljot, and more.
+      </p>
+    </section>
+
+    <section class="watch-controls">
+      <input
+        type="text"
+        id="watchSearch"
+        placeholder="Search by brand, model, or era..."
+      />
+    </section>
+
+    <section class="watch-gallery" id="watchGallery">
+      <article class="watch-card" data-name="Vostok Generalskie" data-brand="Vostok" data-era="1990s">
+        <div class="watch-card-image">
+          <img src="../images/IMG_0887.jpeg" alt="Vostok Generalskie" />
+        </div>
+        <div class="watch-card-body">
+          <p class="watch-brand">Vostok</p>
+          <h2>Generalskie</h2>
+          <p class="watch-meta">1990s • Military style</p>
+        </div>
+      </article>
+
+      <article class="watch-card" data-name="Raketa Copernicus" data-brand="Raketa" data-era="1980s">
+        <div class="watch-card-image">
+          <img src="../images/IMG_0887.jpeg" alt="Raketa Copernicus" />
+        </div>
+        <div class="watch-card-body">
+          <p class="watch-brand">Raketa</p>
+          <h2>Copernicus</h2>
+          <p class="watch-meta">1980s • Collector classic</p>
+        </div>
+      </article>
+
+      <article class="watch-card" data-name="Poljot De Luxe" data-brand="Poljot" data-era="1970s">
+        <div class="watch-card-image">
+          <img src="../images/IMG_0887.jpeg" alt="Poljot De Luxe" />
+        </div>
+        <div class="watch-card-body">
+          <p class="watch-brand">Poljot</p>
+          <h2>De Luxe</h2>
+          <p class="watch-meta">1970s • Dress watch</p>
+        </div>
+      </article>
+
+      <article class="watch-card" data-name="Slava Tank" data-brand="Slava" data-era="1980s">
+        <div class="watch-card-image">
+          <img src="../images/IMG_0887.jpeg" alt="Slava Tank" />
+        </div>
+        <div class="watch-card-body">
+          <p class="watch-brand">Slava</p>
+          <h2>Tank</h2>
+          <p class="watch-meta">1980s • Rectangular case</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Mokosh Threads — Slavic heritage in cloth, time, and symbol.</p>
+  </footer>
+
+  <script>
+    const searchInput = document.getElementById("watchSearch");
+    const cards = document.querySelectorAll(".watch-card");
+
+    searchInput.addEventListener("input", function () {
+      const term = this.value.toLowerCase();
+
+      cards.forEach(card => {
+        const name = card.dataset.name.toLowerCase();
+        const brand = card.dataset.brand.toLowerCase();
+        const era = card.dataset.era.toLowerCase();
+
+        const match =
+          name.includes(term) ||
+          brand.includes(term) ||
+          era.includes(term);
+
+        card.style.display = match ? "block" : "none";
+      });
+    });
+  </script>
 
 </body>
 </html>
