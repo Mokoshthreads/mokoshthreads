@@ -23,6 +23,35 @@
   max-width: 720px;
 }
 
+.watch-filters {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 6px 0 20px;
+}
+
+.filter-btn {
+  padding: 10px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #1a1d21;
+  color: var(--linen);
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.18s ease, transform 0.18s ease, color 0.18s ease;
+}
+
+.filter-btn:hover {
+  transform: translateY(-1px);
+  background: #23272c;
+}
+
+.filter-btn.active {
+  background: var(--red);
+  color: white;
+  border-color: transparent;
+}
+
 .watch-controls {
   padding: 12px 0 30px;
 }
