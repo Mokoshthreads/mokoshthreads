@@ -22,16 +22,18 @@ async function loadWatches() {
         const card = document.createElement("article");
         card.className = "watch-card";
 
-        card.innerHTML = `
-          <div class="watch-card-image">
-            <img src="${watch.image}" alt="${watch.brand} ${watch.name}" />
-          </div>
-          <div class="watch-card-body">
-            <p class="watch-brand">${watch.brand}</p>
-            <h2>${watch.name}</h2>
-            <p class="watch-meta">${watch.era} • ${watch.type}</p>
-          </div>
-        `;
+     
+card.innerHTML = `
+  <div class="watch-card-image">
+    <img src="${watch.image}" alt="${watch.brand} ${watch.name}" />
+  </div>
+  <div class="watch-card-body">
+    <p class="watch-brand">${watch.brand}</p>
+    <h2>${watch.name}</h2>
+    <p class="watch-meta">${watch.era} • ${watch.type}</p>
+    <p class="watch-price">${watch.priceRange}</p>
+  </div>
+`;
 
         gallery.appendChild(card);
       });
