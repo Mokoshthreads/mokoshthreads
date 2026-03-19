@@ -1,13 +1,22 @@
 async function loadWatches() {
   const gallery = document.getElementById("watchGallery");
   const searchInput = document.getElementById("watchSearch");
+  const filterButtons = document.querySelectorAll(".filter-btn");
 
   try {
     const response = await fetch("./watches.json");
     const watches = await response.json();
 
+    let activeFilter = "all";
+    let searchTerm = "";
+
     function render(items) {
       gallery.innerHTML = "";
+
+      if (items.length === 0) {
+        gallery.innerHTML = "<p>No watches found.</p>";
+        return;
+      }
 
       items.forEach((watch) => {
         const card = document.createElement("article");
@@ -28,21 +37,37 @@ async function loadWatches() {
       });
     }
 
-    render(watches);
-
-    searchInput.addEventListener("input", function () {
-      const term = this.value.toLowerCase();
-
+    function applyFilters() {
       const filtered = watches.filter((watch) => {
-        return (
-          watch.name.toLowerCase().includes(term) ||
-          watch.brand.toLowerCase().includes(term) ||
-          watch.era.toLowerCase().includes(term) ||
-          watch.type.toLowerCase().includes(term)
-        );
+        const matchesSearch =
+          watch.name.toLowerCase().includes(searchTerm) ||
+          watch.brand.toLowerCase().includes(searchTerm) ||
+          watch.era.toLowerCase().includes(searchTerm) ||
+          watch.type.toLowerCase().includes(searchTerm);
+
+        const matchesBrand =
+          activeFilter === "all" || watch.brand === activeFilter;
+
+        return matchesSearch && matchesBrand;
       });
 
       render(filtered);
+    }
+
+    render(watches);
+
+    searchInput.addEventListener("input", function () {
+      searchTerm = this.value.toLowerCase();
+      applyFilters();
+    });
+
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", function () {
+        filterButtons.forEach((btn) => btn.classList.remove("active"));
+        this.classList.add("active");
+        activeFilter = this.dataset.filter;
+        applyFilters();
+      });
     });
   } catch (error) {
     gallery.innerHTML = "<p>Unable to load watches right now.</p>";
