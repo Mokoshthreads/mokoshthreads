@@ -18,7 +18,7 @@
     "price": 140,
     "priceRange": "$121+",
     "image": "../images/IMG_0887.jpeg"
-  }
+  },
   {
     "id": "vostok-komandirskie-01",
     "name": "Komandirskie 144150",
@@ -26,11 +26,11 @@
     "era": "1990s",
     "type": "Military style",
     "price": 70,
-    "priceRange": "$31-80",
+    "priceRange": "$31–80",
     "image": "../images/IMG_0887.jpeg"
   },
   {
-    "id": "slave-tank",
+    "id": "slava-tank",
     "name": "Tank",
     "brand": "Slava",
     "era": "1980s",
