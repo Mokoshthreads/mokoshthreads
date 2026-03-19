@@ -35,12 +35,34 @@
       </p>
     </section>
     
-<section class="watch-filters">
-  <button class="filter-btn active" data-filter="all">All</button>
-  <button class="filter-btn" data-filter="Vostok">Vostok</button>
-  <button class="filter-btn" data-filter="Raketa">Raketa</button>
-  <button class="filter-btn" data-filter="Poljot">Poljot</button>
-  <button class="filter-btn" data-filter="Slava">Slava</button>
+<section class="watch-toolbar">
+  <div class="watch-filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="Vostok">Vostok</button>
+    <button class="filter-btn" data-filter="Raketa">Raketa</button>
+    <button class="filter-btn" data-filter="Poljot">Poljot</button>
+    <button class="filter-btn" data-filter="Slava">Slava</button>
+  </div>
+
+  <div class="watch-sort-row">
+    <select id="priceRangeFilter">
+      <option value="all">All Prices</option>
+      <option value="$0–30">$0–30</option>
+      <option value="$31–80">$31–80</option>
+      <option value="$81–120">$81–120</option>
+      <option value="$121+">$121+</option>
+    </select>
+
+    <select id="sortSelect">
+      <option value="default">Sort By</option>
+      <option value="price-low-high">Price: Low to High</option>
+      <option value="price-high-low">Price: High to Low</option>
+      <option value="brand-a-z">Brand: A to Z</option>
+      <option value="era-old-new">Era: Old to New</option>
+      <option value="era-new-old">Era: New to Old</option>
+    </select>
+  </div>
+</section>
   
 </section>
   <section class="watch-controls">
