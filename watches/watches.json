@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Generalskie",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "image": "../images/IMG_0887.jpeg"
+  },
+  {
+    "name": "Copernicus",
+    "brand": "Raketa",
+    "era": "1980s",
+    "type": "Collector classic",
+    "image": "../images/IMG_0887.jpeg"
+  },
+  {
+    "name": "De Luxe",
+    "brand": "Poljot",
+    "era": "1970s",
+    "type": "Dress watch",
+    "image": "../images/IMG_0887.jpeg"
+  },
+  {
+    "name": "Tank",
+    "brand": "Slava",
+    "era": "1980s",
+    "type": "Rectangular case",
+    "image": "../images/IMG_0887.jpeg"
+  }
+]
