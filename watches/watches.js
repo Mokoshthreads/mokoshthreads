@@ -46,7 +46,7 @@ async function loadWatches() {
 
       const modalBuyBtn = document.getElementById("modalBuyBtn");
       if (modalBuyBtn) {
-        modalBuyBtn.href = `https://t.me/sleepy_bois_inc?text=${encodeURIComponent(`Hi, I'm interested in ${watch.brand} ${watch.name}`)}`;
+        modalBuyBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(`Hi, I'm interested in ${watch.brand} ${watch.name}`)}`;
       }
 
       document.getElementById("modalDescription").textContent = watch.description || "";
