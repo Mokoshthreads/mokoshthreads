@@ -43,6 +43,10 @@ async function loadWatches() {
       modal.classList.add("open");
       modal.setAttribute("aria-hidden", "false");
       document.body.classList.add("modal-open");
+      document.getElementById("modalDescription").textContent = watch.description || "";
+      document.getElementById("modalMovement").textContent = watch.movement || "-";
+      document.getElementById("modalCase").textContent = watch.caseShape || "-";
+      document.getElementById("modalCondition").textContent = watch.condition || "-";
     }
 
     function closeModal() {
