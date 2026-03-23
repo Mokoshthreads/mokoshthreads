@@ -71,7 +71,7 @@ if (modalBuyBtn) {
 
         card.innerHTML = `
           <div class="watch-card-image">
-            <img src="${watch.image}" alt="${watch.brand} ${watch.name}" />
+            <img src="${watch.image}" loading="lazy" alt="${watch.brand} ${watch.name}" />
           </div>
           <div class="watch-card-body">
             <p class="watch-brand">${watch.brand}</p>
