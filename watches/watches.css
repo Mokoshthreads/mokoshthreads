@@ -323,4 +323,13 @@ body.modal-open {
     min-height: 240px;
     max-height: 320px;
   }
+  .load-more-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0 10px;
+  }
+
+  #loadMoreBtn {
+    min-width: 180px;
+  }
 }
