@@ -42,7 +42,7 @@ async function loadWatches() {
 
   const modalBuyBtn = document.getElementById("modalBuyBtn");
   if (modalBuyBtn) {
-    modalBuyBtn.href = `https://t.me/YOUR_USERNAME?text=Hi, I'm interested in ${watch.brand} ${watch.name}`;
+    modalBuyBtn.href = `https://t.me/wantwotwee?text=Hi, I'm interested in ${watch.brand} ${watch.name}`;
   }
 
   modal.classList.add("open");
