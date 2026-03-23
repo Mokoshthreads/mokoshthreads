@@ -1,54 +1,3 @@
-async function loadWatches() {
-  const gallery = document.getElementById("watchGallery");
-  const searchInput = document.getElementById("watchSearch");
-  const filterButtons = document.querySelectorAll(".filter-btn");
-  const sortSelect = document.getElementById("sortSelect");
-  const priceRangeFilter = document.getElementById("priceRangeFilter");
-
-  try {
-    const response = await fetch("./watches.json");
-    const watches = await response.json();
-
-    let activeFilter = "all";
-    let searchTerm = "";
-    let activeSort = "default";
-    let activePriceRange = "all";
-
-    function eraToNumber(era) {
-      if (!era) return 0;
-      const match = era.match(/\d{4}/);
-      if (match) return parseInt(match[0], 10);
-      const decadeMatch = era.match(/\d{4}s/);
-      if (decadeMatch) return parseInt(decadeMatch[0], 10);
-      return 0;
-    }
-
-    function render(items) {
-      gallery.innerHTML = "";
-
-      if (items.length === 0) {
-        gallery.innerHTML = "<p>No watches found.</p>";
-        return;
-      }
-
-      items.forEach((watch) => {
-        const card = document.createElement("article");
-        card.className = "watch-card";
-
-        card.innerHTML = `
-          <div class="watch-card-image">
-            <img src="${watch.image}" alt="${watch.brand} ${watch.name}" />
-          </div>
-          <div class="watch-card-body">
-            <p class="watch-brand">${watch.brand}</p>
-            <h2>${watch.name}</h2>
-            <p class="watch-meta">${watch.era} • ${watch.type}</p>
-            <p class="watch-price">${watch.priceRange}</p>
-          </div>
-        `;
-
-        gallery.appendChild(card);
-      });
     }
 
     function applyFilters() {
@@ -99,14 +48,27 @@ async function loadWatches() {
       });
     });
 
-    sortSelect.addEventListener("change", function () {
-      activeSort = this.value;
-      applyFilters();
-    });
+    if (sortSelect) {
+      sortSelect.addEventListener("change", function () {
+        activeSort = this.value;
+        applyFilters();
+      });
+    }
 
-    priceRangeFilter.addEventListener("change", function () {
-      activePriceRange = this.value;
-      applyFilters();
+    if (priceRangeFilter) {
+      priceRangeFilter.addEventListener("change", function () {
+        activePriceRange = this.value;
+        applyFilters();
+      });
+    }
+
+    modalBackdrop.addEventListener("click", closeModal);
+    modalClose.addEventListener("click", closeModal);
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape" && modal.classList.contains("open")) {
+        closeModal();
+      }
     });
   } catch (error) {
     gallery.innerHTML = "<p>Unable to load watches right now.</p>";
