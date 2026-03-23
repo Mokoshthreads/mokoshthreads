@@ -18,9 +18,18 @@ async function loadWatches() {
   try {
     const response = await fetch("./watches.json");
     const watches = await response.json();
-    function getBrandCounts(items) {
+   function getBrandCounts(items) {
   const counts = {};
-      function updateFilterCounts(items) {
+
+  items.forEach((watch) => {
+    const brand = watch.brand;
+    counts[brand] = (counts[brand] || 0) + 1;
+  });
+
+  return counts;
+}
+
+function updateFilterCounts(items) {
   const counts = getBrandCounts(items);
 
   filterButtons.forEach((button) => {
@@ -33,14 +42,6 @@ async function loadWatches() {
       button.textContent = `${brand} (${count})`;
     }
   });
-}
-
-  items.forEach((watch) => {
-    const brand = watch.brand;
-    counts[brand] = (counts[brand] || 0) + 1;
-  });
-
-  return counts;
 }
 
     let activeFilter = "all";
