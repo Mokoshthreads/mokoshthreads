@@ -39,7 +39,9 @@ async function loadWatches() {
       modalName.textContent = watch.name;
       modalMeta.textContent = `${watch.era} • ${watch.type}`;
       modalPrice.textContent = watch.priceRange;
-
+      const modalBuyBtn = document.getElementById("modalBuyBtn");
+if (modalBuyBtn) {
+  modalBuyBtn.href = `https://t.me/YOUR_USERNAME?text=Hi, I'm interested in ${watch.brand} ${watch.name}`;
       modal.classList.add("open");
       modal.setAttribute("aria-hidden", "false");
       document.body.classList.add("modal-open");
