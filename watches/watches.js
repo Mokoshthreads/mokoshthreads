@@ -4,6 +4,7 @@ async function loadWatches() {
   const filterButtons = document.querySelectorAll(".filter-btn");
   const sortSelect = document.getElementById("sortSelect");
   const priceRangeFilter = document.getElementById("priceRangeFilter");
+  const loadMoreBtn = document.getElementById("loadMoreBtn");
 
   const modal = document.getElementById("watchModal");
   const modalBackdrop = document.getElementById("watchModalBackdrop");
@@ -23,6 +24,9 @@ async function loadWatches() {
     let activeSort = "default";
     let activePriceRange = "all";
 
+    const itemsPerPage = 12;
+    let visibleCount = itemsPerPage;
+
     function eraToNumber(era) {
       if (!era) return 0;
       const match = era.match(/\d{4}/);
@@ -32,28 +36,28 @@ async function loadWatches() {
       return 0;
     }
 
-   function openModal(watch) {
-  modalImage.src = watch.image;
-  modalImage.alt = `${watch.brand} ${watch.name}`;
-  modalBrand.textContent = watch.brand;
-  modalName.textContent = watch.name;
-  modalMeta.textContent = `${watch.era} • ${watch.type}`;
-  modalPrice.textContent = watch.priceRange;
+    function openModal(watch) {
+      modalImage.src = watch.image;
+      modalImage.alt = `${watch.brand} ${watch.name}`;
+      modalBrand.textContent = watch.brand;
+      modalName.textContent = watch.name;
+      modalMeta.textContent = `${watch.era} • ${watch.type}`;
+      modalPrice.textContent = watch.priceRange;
 
-  const modalBuyBtn = document.getElementById("modalBuyBtn");
-  if (modalBuyBtn) {
-    modalBuyBtn.href = `https://t.me/wantwotwee?text=Hi, I'm interested in ${watch.brand} ${watch.name}`;
-  }
+      const modalBuyBtn = document.getElementById("modalBuyBtn");
+      if (modalBuyBtn) {
+        modalBuyBtn.href = `https://t.me/mokoshthreads?text=${encodeURIComponent(`Hi, I'm interested in ${watch.brand} ${watch.name}`)}`;
+      }
 
-  modal.classList.add("open");
-  modal.setAttribute("aria-hidden", "false");
-  document.body.classList.add("modal-open");
+      document.getElementById("modalDescription").textContent = watch.description || "";
+      document.getElementById("modalMovement").textContent = watch.movement || "-";
+      document.getElementById("modalCase").textContent = watch.caseShape || "-";
+      document.getElementById("modalCondition").textContent = watch.condition || "-";
 
-  document.getElementById("modalDescription").textContent = watch.description || "";
-  document.getElementById("modalMovement").textContent = watch.movement || "-";
-  document.getElementById("modalCase").textContent = watch.caseShape || "-";
-  document.getElementById("modalCondition").textContent = watch.condition || "-";
-}
+      modal.classList.add("open");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("modal-open");
+    }
 
     function closeModal() {
       modal.classList.remove("open");
@@ -64,12 +68,15 @@ async function loadWatches() {
     function render(items) {
       gallery.innerHTML = "";
 
-      if (items.length === 0) {
+      const visibleItems = items.slice(0, visibleCount);
+
+      if (visibleItems.length === 0) {
         gallery.innerHTML = "<p>No watches found.</p>";
+        if (loadMoreBtn) loadMoreBtn.style.display = "none";
         return;
       }
 
-      items.forEach((watch) => {
+      visibleItems.forEach((watch) => {
         const card = document.createElement("article");
         card.className = "watch-card";
 
@@ -88,9 +95,13 @@ async function loadWatches() {
         card.addEventListener("click", () => openModal(watch));
         gallery.appendChild(card);
       });
+
+      if (loadMoreBtn) {
+        loadMoreBtn.style.display = items.length > visibleCount ? "inline-block" : "none";
+      }
     }
 
-    function applyFilters() {
+    function getFilteredItems() {
       let filtered = watches.filter((watch) => {
         const matchesSearch =
           watch.name.toLowerCase().includes(searchTerm) ||
@@ -119,6 +130,15 @@ async function loadWatches() {
         filtered.sort((a, b) => eraToNumber(b.era) - eraToNumber(a.era));
       }
 
+      return filtered;
+    }
+
+    function applyFilters(resetVisible = true) {
+      if (resetVisible) {
+        visibleCount = itemsPerPage;
+      }
+
+      const filtered = getFilteredItems();
       render(filtered);
     }
 
@@ -126,7 +146,7 @@ async function loadWatches() {
 
     searchInput.addEventListener("input", function () {
       searchTerm = this.value.toLowerCase();
-      applyFilters();
+      applyFilters(true);
     });
 
     filterButtons.forEach((button) => {
@@ -134,21 +154,28 @@ async function loadWatches() {
         filterButtons.forEach((btn) => btn.classList.remove("active"));
         this.classList.add("active");
         activeFilter = this.dataset.filter;
-        applyFilters();
+        applyFilters(true);
       });
     });
 
     if (sortSelect) {
       sortSelect.addEventListener("change", function () {
         activeSort = this.value;
-        applyFilters();
+        applyFilters(true);
       });
     }
 
     if (priceRangeFilter) {
       priceRangeFilter.addEventListener("change", function () {
         activePriceRange = this.value;
-        applyFilters();
+        applyFilters(true);
+      });
+    }
+
+    if (loadMoreBtn) {
+      loadMoreBtn.addEventListener("click", function () {
+        visibleCount += itemsPerPage;
+        render(getFilteredItems());
       });
     }
 
