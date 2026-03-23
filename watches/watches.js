@@ -32,24 +32,28 @@ async function loadWatches() {
       return 0;
     }
 
-    function openModal(watch) {
-      modalImage.src = watch.image;
-      modalImage.alt = `${watch.brand} ${watch.name}`;
-      modalBrand.textContent = watch.brand;
-      modalName.textContent = watch.name;
-      modalMeta.textContent = `${watch.era} • ${watch.type}`;
-      modalPrice.textContent = watch.priceRange;
-      const modalBuyBtn = document.getElementById("modalBuyBtn");
-if (modalBuyBtn) {
-  modalBuyBtn.href = `https://t.me/YOUR_USERNAME?text=Hi, I'm interested in ${watch.brand} ${watch.name}`;
-      modal.classList.add("open");
-      modal.setAttribute("aria-hidden", "false");
-      document.body.classList.add("modal-open");
-      document.getElementById("modalDescription").textContent = watch.description || "";
-      document.getElementById("modalMovement").textContent = watch.movement || "-";
-      document.getElementById("modalCase").textContent = watch.caseShape || "-";
-      document.getElementById("modalCondition").textContent = watch.condition || "-";
-    }
+   function openModal(watch) {
+  modalImage.src = watch.image;
+  modalImage.alt = `${watch.brand} ${watch.name}`;
+  modalBrand.textContent = watch.brand;
+  modalName.textContent = watch.name;
+  modalMeta.textContent = `${watch.era} • ${watch.type}`;
+  modalPrice.textContent = watch.priceRange;
+
+  const modalBuyBtn = document.getElementById("modalBuyBtn");
+  if (modalBuyBtn) {
+    modalBuyBtn.href = `https://t.me/YOUR_USERNAME?text=Hi, I'm interested in ${watch.brand} ${watch.name}`;
+  }
+
+  modal.classList.add("open");
+  modal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("modal-open");
+
+  document.getElementById("modalDescription").textContent = watch.description || "";
+  document.getElementById("modalMovement").textContent = watch.movement || "-";
+  document.getElementById("modalCase").textContent = watch.caseShape || "-";
+  document.getElementById("modalCondition").textContent = watch.condition || "-";
+}
 
     function closeModal() {
       modal.classList.remove("open");
