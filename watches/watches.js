@@ -18,6 +18,30 @@ async function loadWatches() {
   try {
     const response = await fetch("./watches.json");
     const watches = await response.json();
+    function getBrandCounts(items) {
+  const counts = {};
+      function updateFilterCounts(items) {
+  const counts = getBrandCounts(items);
+
+  filterButtons.forEach((button) => {
+    const brand = button.dataset.filter;
+
+    if (brand === "all") {
+      button.textContent = `All (${items.length})`;
+    } else {
+      const count = counts[brand] || 0;
+      button.textContent = `${brand} (${count})`;
+    }
+  });
+}
+
+  items.forEach((watch) => {
+    const brand = watch.brand;
+    counts[brand] = (counts[brand] || 0) + 1;
+  });
+
+  return counts;
+}
 
     let activeFilter = "all";
     let searchTerm = "";
@@ -143,6 +167,7 @@ async function loadWatches() {
     }
 
     render(watches);
+    updateFilterCounts(watches);
 
     searchInput.addEventListener("input", function () {
       searchTerm = this.value.toLowerCase();
