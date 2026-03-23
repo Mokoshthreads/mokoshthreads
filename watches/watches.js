@@ -66,8 +66,8 @@ async function loadWatches() {
       modalBrand.textContent = watch.brand;
       modalName.textContent = watch.name;
       modalMeta.textContent = `${watch.era} • ${watch.type}`;
-      modalPrice.textContent = watch.price ? '$${watch.price}' : "Price on request";
-
+      modalPrice.textContent = watch.price ? `$${watch.price}` : "Price on request";
+        
       const modalBuyBtn = document.getElementById("modalBuyBtn");
       if (modalBuyBtn) {
         modalBuyBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(`Hi, I'm interested in ${watch.brand} ${watch.name}`)}`;
