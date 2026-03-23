@@ -11,7 +11,7 @@
     "movement": "Manual",
     "caseShape": "Round",
     "condition": "Good",
-    "description": "A bold military-themed Soviet watch with strong wrist presence and classic dial design.",
+    "description": "A bold military-themed Soviet watch with strong wrist presence. A true General's watch.",
     "video": ""
   },
   {
@@ -30,17 +30,17 @@
   },
   {
     "id": "vostok-komandirskie-01",
-    "name": "Komandirskie 144150",
+    "name": "Komandirskie VDV Paratrooper - Gold",
     "brand": "Vostok",
     "era": "1990s",
     "type": "Collector classic",
     "type": "Military style",
-    "price": 70,
+    "price": 65,
     "priceRange": "$31–80",
     "movement": "Manual",
     "caseShape": "Round",
-    "condition": "Good",
-    "description": "A collector favourite.",
+    "condition": "Good - Unclear acrylic",
+    "description": "Soviet airborne identity on the wrist.",
     "image": "../images/IMG_0887.jpeg"
   },
   {
