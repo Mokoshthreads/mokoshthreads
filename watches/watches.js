@@ -42,7 +42,7 @@ async function loadWatches() {
       modalBrand.textContent = watch.brand;
       modalName.textContent = watch.name;
       modalMeta.textContent = `${watch.era} • ${watch.type}`;
-      modalPrice.textContent = watch.priceRange;
+      modalPrice.textContent = watch.price ? '$${watch.price}' : "Price on request";
 
       const modalBuyBtn = document.getElementById("modalBuyBtn");
       if (modalBuyBtn) {
