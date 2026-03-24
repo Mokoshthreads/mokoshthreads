@@ -1,0 +1,80 @@
+[
+  {
+    "id": "embroidered-linen-dress-01",
+    "name": "Embroidered Linen Dress",
+    "category": "Dress",
+    "style": "Womenswear",
+    "price": 180,
+    "priceRange": "$151–250",
+    "material": "Linen",
+    "origin": "Ukraine",
+    "fit": "Relaxed",
+    "description": "A traditional Slavic linen dress with hand-embroidered patterns, crafted by a Ukrainian artisan.",
+    "image": "../images/clothing/IMG_0887.jpeg"
+  },
+  {
+    "id": "vyshyvanka-shirt-01",
+    "name": "Vyshyvanka Shirt",
+    "category": "Shirt",
+    "style": "Menswear",
+    "price": 120,
+    "priceRange": "$81–150",
+    "material": "Cotton",
+    "origin": "Ukraine",
+    "fit": "Regular",
+    "description": "A classic embroidered vyshyvanka shirt featuring traditional Slavic motifs and patterns.",
+    "image": "../images/clothing/IMG_0887.jpeg"
+  },
+  {
+    "id": "folk-embroidered-blouse-01",
+    "name": "Folk Embroidered Blouse",
+    "category": "Shirt",
+    "style": "Womenswear",
+    "price": 95,
+    "priceRange": "$81–150",
+    "material": "Cotton Blend",
+    "origin": "Russia",
+    "fit": "Loose",
+    "description": "A soft, breathable blouse with intricate embroidery inspired by rural Slavic traditions.",
+    "image": "../images/clothing/IMG_0887.jpeg"
+  },
+  {
+    "id": "slavic-festival-dress-01",
+    "name": "Slavic Festival Dress",
+    "category": "Dress",
+    "style": "Womenswear",
+    "price": 240,
+    "priceRange": "$151–250",
+    "material": "Linen",
+    "origin": "Ukraine",
+    "fit": "Flowing",
+    "description": "A flowing festival dress with bold embroidery and vibrant colors, made for cultural celebrations.",
+    "image": "../images/clothing/IMG_0887.jpeg"
+  },
+  {
+    "id": "traditional-peasant-shirt-01",
+    "name": "Traditional Peasant Shirt",
+    "category": "Shirt",
+    "style": "Menswear",
+    "price": 85,
+    "priceRange": "$81–150",
+    "material": "Cotton",
+    "origin": "Russia",
+    "fit": "Relaxed",
+    "description": "A simple yet elegant peasant-style shirt with subtle embroidery and traditional construction.",
+    "image": "../images/clothing/IMG_0887.jpeg"
+  },
+  {
+    "id": "embroidered-summer-dress-01",
+    "name": "Embroidered Summer Dress",
+    "category": "Dress",
+    "style": "Womenswear",
+    "price": 150,
+    "priceRange": "$151–250",
+    "material": "Linen Blend",
+    "origin": "Ukraine",
+    "fit": "Lightweight",
+    "description": "A breathable summer dress with delicate embroidery, perfect for warm climates.",
+    "image": "../images/clothing/IMG_0887.jpeg"
+  }
+]
