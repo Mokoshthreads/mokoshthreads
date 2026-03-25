@@ -15,18 +15,18 @@
     "video": ""
   },
   {
-   "id": "raketa-copernicus-01",
-    "name": "Copernicus",
-    "brand": "Raketa",
+   "id": "vostok-komandirskie-blue-zakaz-01",
+    "name": "Komandirskie Zakaz Mo USSR Blue",
+    "brand": "Vostok",
     "era": "1980s",
     "type": "Collector classic",
-    "price": 140,
-    "priceRange": "$121+",
+    "price": 70,
+    "priceRange": "$31-80",
     "movement": "Manual",
     "caseShape": "Round",
-    "condition": "Good",
-    "description": "A collector favorite known for its distinctive dial concept.",
-    "image": "../images/IMG_0887.jpeg"
+    "condition": "Working with distinct wear & scratches",
+    "description": "A collector favorite. Specially made to order for the Soviet military.",
+    "image": "../images/vostok-komandirskie-blue-zakaz-01.jpeg"
   },
   {
     "id": "vostok-komandirskie-01",
