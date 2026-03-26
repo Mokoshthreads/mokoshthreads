@@ -376,17 +376,43 @@
     "description": "A simple yet elegant shirt with subtle embroidery and traditional construction.",
     "image": "../images/clothing/IMG_0887.jpeg"
   },
-  {
-    "id": "embroidered-summer-dress-01",
-    "name": "Embroidered Summer Dress",
-    "category": "Dress",
-    "style": "Womenswear",
-    "price": 150,
-    "priceRange": "$151–250",
-    "material": "Linen Blend",
+   {
+    "id": "girl blouse Flowers",
+    "name": "Embroidered Cotton Blouse `Flowers`",
+    "category": "Blouse",
+    "style": "Children's Clothes",
+    "price": 29,
+    "priceRange": "$0–80",
+    "material": "100% cotton",
     "origin": "Ukraine",
-    "fit": "Lightweight",
-    "description": "A breathable summer dress with delicate embroidery, perfect for warm climates.",
+    "fit": "Relaxed",
+    "description": "A traditional Slavic cotton blouse with hand-embroidered patterns, crafted by a Ukrainian artisan.",
     "image": "../images/clothing/IMG_0887.jpeg"
-  }
+  },
+   {
+    "id": "girl blouse Violet red",
+    "name": "Embroidered Cotton Blouse `Violet` - Red",
+    "category": "Blouse",
+    "style": "Children's Clothes",
+    "price": 29,
+    "priceRange": "$0–80",
+    "material": "100% cotton",
+    "origin": "Ukraine",
+    "fit": "Relaxed",
+    "description": "A traditional Slavic cotton blouse with hand-embroidered patterns, crafted by a Ukrainian artisan.",
+    "image": "../images/clothing/IMG_0887.jpeg"
+  },
+   {
+    "id": "girl blouse Ornament blue",
+    "name": "Embroidered Cotton Blouse `Ornament` - Blue",
+    "category": "Blouse",
+    "style": "Children's Clothes",
+    "price": 29,
+    "priceRange": "$0–80",
+    "material": "100% cotton",
+    "origin": "Ukraine",
+    "fit": "Relaxed",
+    "description": "A traditional Slavic cotton blouse with hand-embroidered patterns, crafted by a Ukrainian artisan.",
+    "image": "../images/clothing/IMG_0887.jpeg"
+  },
 ]
