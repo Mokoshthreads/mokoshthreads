@@ -322,7 +322,7 @@
     "origin": "Ukraine",
     "fit": "Regular",
     "description": "A simple yet elegant shirt with subtle embroidery and traditional construction.",
-    "image": "../images/clothing/IMG_0887.jpeg"
+    "image": "../images/clothing/boy-ornament-red.webp"
   },
    {
     "id": "boy shirt Ornament white blue",
@@ -335,7 +335,7 @@
     "origin": "Ukraine",
     "fit": "Regular",
     "description": "A simple yet elegant shirt with subtle embroidery and traditional construction.",
-    "image": "../images/clothing/IMG_0887.jpeg"
+    "image": "../images/clothing/boy-ornament-blue.webp"
   },
    {
     "id": "boy shirt Elite",
@@ -348,7 +348,7 @@
     "origin": "Ukraine",
     "fit": "Regular",
     "description": "A simple yet elegant shirt with subtle embroidery and traditional construction.",
-    "image": "../images/clothing/IMG_0887.jpeg"
+    "image": "../images/clothing/boy-elite.webp"
   },
    {
     "id": "boy shirt Luka white blue",
@@ -361,7 +361,7 @@
     "origin": "Ukraine",
     "fit": "Regular",
     "description": "A simple yet elegant shirt with subtle embroidery and traditional construction.",
-    "image": "../images/clothing/IMG_0887.jpeg"
+    "image": "../images/clothing/boy-luka-blue.webp"
   },
    {
     "id": "boy shirt Veremiy white red",
@@ -374,7 +374,7 @@
     "origin": "Ukraine",
     "fit": "Regular",
     "description": "A simple yet elegant shirt with subtle embroidery and traditional construction.",
-    "image": "../images/clothing/IMG_0887.jpeg"
+    "image": "../images/clothing/boy-veremiy-red.webp"
   },
    {
     "id": "girl blouse Flowers",
