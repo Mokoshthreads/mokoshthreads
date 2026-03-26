@@ -2,7 +2,7 @@
   {
     "id": "blouse Podilska cherry red",
     "name": "Embroidered Linen Blouse `Podilska' - Cherry Red",
-    "category": "Blouse",
+    "category": "Blouses",
     "style": "Womenswear",
     "price": 49,
     "priceRange": "$41-80",
@@ -15,7 +15,7 @@
   {
     "id": "blouse Podilska black",
     "name": "Embroidered Linen Blouse `Podilska` - Black",
-    "category": "Blouse",
+    "category": "Blouses",
     "style": "Womenswear",
     "price": 49,
     "priceRange": "$41-80",
@@ -28,7 +28,7 @@
   {
     "id": "blouse Victory green",
     "name": "Embroidered Cotton Blouse `Victory` - Green",
-    "category": "Blouse",
+    "category": "Blouses",
     "style": "Womenswear",
     "price": 39,
     "priceRange": "$0-40",
@@ -41,7 +41,7 @@
   {
     "id": "blouse Daniela white",
     "name": "Embroidered Linen Blouse `Daniela` - White",
-    "category": "Blouse",
+    "category": "Blouses",
     "style": "Womenswear",
     "price": 49,
     "priceRange": "$41-80",
@@ -54,7 +54,7 @@
     {
     "id": "blouse Daniela dark blue",
     "name": "Embroidered Linen Blouse `Daniela` - Dark Blue",
-    "category": "Blouse",
+    "category": "Blouses",
     "style": "Womenswear",
     "price": 49,
     "priceRange": "$41-80",
@@ -67,7 +67,7 @@
   {
     "id": "blouse Lesya Ukrainka Special",
     "name": "Embroidered Linen Blouse `Lesya Ukrainka` - Premium",
-    "category": "Blouse",
+    "category": "Blouses",
     "style": "Womenswear",
     "price": 89,
     "priceRange": "$81-150",
@@ -80,7 +80,7 @@
   {
     "id": "blouse Ornament blue",
     "name": "Embroidered Cotton Blouse `Ornament` - White/Blue",
-    "category": "Blouse",
+    "category": "Blouses",
     "style": "Womenswear",
     "price": 39,
     "priceRange": "$0-40",
@@ -93,7 +93,7 @@
     {
     "id": "blouse Ruta gold",
     "name": "Embroidered Linen Blouse `Ruta` - Gold",
-    "category": "Blouse",
+    "category": "Blouses",
     "style": "Womenswear",
     "price": 49,
     "priceRange": "$41-80",
@@ -106,7 +106,7 @@
     {
     "id": "blouse Ruta red",
     "name": "Embroidered Linen Blouse `Ruta` - Red",
-    "category": "Blouse",
+    "category": "Blouses",
     "style": "Womenswear",
     "price": 49,
     "priceRange": "$41-80",
@@ -119,7 +119,7 @@
     {
     "id": "blouse Sokalska black",
     "name": "Embroidered 'Sokalska' Blouse - Black",
-    "category": "Blouse",
+    "category": "Blouses",
     "style": "Womenswear",
     "price": 149,
     "priceRange": "$81-150",
@@ -132,7 +132,7 @@
   {
     "id": "blouse Volynska red",
     "name": "Embroidered 'Volynska' Blouse - Red",
-    "category": "Blouse",
+    "category": "Blouses",
     "style": "Womenswear",
     "price": 149,
     "priceRange": "$81-150",
@@ -145,7 +145,7 @@
     {
     "id": "blouse Fern yellow",
     "name": "Embroidered Linen Blouse `Fern` - Yellow/Blue",
-    "category": "Blouse",
+    "category": "Blouses",
     "style": "Womenswear",
     "price": 49,
     "priceRange": "$41-80",
