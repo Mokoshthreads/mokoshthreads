@@ -1,63 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Slavic Relics | Mokosh Threads</title>
-
-<style>
-body{
-  margin:0;
-  font-family:Georgia,serif;
-  background:#191c18;
-  color:#f2eee6;
-}
-header{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:20px 40px;
-  border-bottom:1px solid rgba(255,255,255,0.08);
-  background:#20251f;
-}
-nav a{
-  margin-left:20px;
-  text-decoration:none;
-  color:#d9d2c4;
-}
-.hero{
-  padding:120px 40px;
-  max-width:900px;
-}
-.hero h1{
-  font-size:48px;
-  margin-bottom:20px;
-}
-.hero p{
-  font-size:20px;
-  color:#b8b09e;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slavic Relics | Mokosh Threads</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="relics.css" />
 </head>
 <body>
 
-<header>
-<strong>Mokosh Threads</strong>
-<nav>
-  <a href="../">Home</a>
-  <a href="../clothing/">Clothing</a>
-  <a href="../watches/">Watches</a>
-  <a href="../relics/">Relics</a>
-</nav>
-</header>
+  <div class="topbar">
+    Slavic symbols, runes, amulets, and relics shaped by heritage and meaning
+  </div>
 
-<section class="hero">
-  <h1>Slavic Relics</h1>
-  <p>
-    Runes, necklaces, charms, and cultural items rooted in Slavic symbolism,
-    mythology, and ancestral memory.
-  </p>
-</section>
+  <header class="site-header">
+    <div class="logo">Mokosh Threads</div>
 
+    <nav class="site-nav">
+      <a href="../">Home</a>
+      <a href="../clothing/">Clothing</a>
+      <a href="../watches/">Watches</a>
+      <a href="../relics/">Relics</a>
+    </nav>
+  </header>
+
+  <main class="relics-page">
+    <section class="relics-hero">
+      <p class="section-label">Mokosh Relics</p>
+      <h1>Slavic Relics</h1>
+      <p class="relics-intro">
+        Runes, necklaces, charms, and cultural items rooted in Slavic symbolism,
+        mythology, and ancestral memory.
+      </p>
+    </section>
+
+    <section class="relics-toolbar">
+      <div class="relics-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="Necklace">Necklaces</button>
+        <button class="filter-btn" data-filter="Amulet">Amulets</button>
+        <button class="filter-btn" data-filter="Rune">Runes</button>
+        <button class="filter-btn" data-filter="Charm">Charms</button>
+      </div>
+
+      <div class="relics-sort-row">
+        <select id="priceRangeFilter">
+          <option value="all">All Prices</option>
+          <option value="$0-30">$0-30</option>
+          <option value="$31-80">$31-80</option>
+          <option value="$81-150">$81-150</option>
+          <option value="$151+">$151+</option>
+        </select>
+
+        <select id="sortSelect">
+          <option value="default">Sort By</option>
+          <option value="price-low-high">Price: Low to High</option>
+          <option value="price-high-low">Price: High to Low</option>
+          <option value="name-a-z">Name: A to Z</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="relics-controls">
+      <input
+        type="text"
+        id="relicsSearch"
+        placeholder="Search by type, symbol, or relic..."
+      />
+    </section>
+
+    <section class="relics-gallery" id="relicsGallery"></section>
+
+    <div class="load-more-wrap">
+      <button id="loadMoreBtn" class="btn btn-secondary">Load More</button>
+    </div>
+  </main>
+
+  <div class="relics-modal" id="relicsModal" aria-hidden="true">
+    <div class="relics-modal-backdrop" id="relicsModalBackdrop"></div>
+
+    <div class="relics-modal-content">
+      <button class="relics-modal-close" id="relicsModalClose" aria-label="Close modal">
+        ×
+      </button>
+
+      <div class="relics-modal-grid">
+        <div class="relics-modal-image-wrap">
+          <img id="modalImage" src="" alt="" />
+        </div>
+
+        <div class="relics-modal-details">
+          <p class="relics-tag" id="modalCategory"></p>
+          <h2 id="modalName"></h2>
+          <p class="relics-meta" id="modalMeta"></p>
+          <p class="relics-price" id="modalPrice"></p>
+
+          <a class="btn btn-primary" id="modalBuyBtn" target="_blank">
+            Enquire on Telegram
+          </a>
+
+          <p id="modalDescription"></p>
+
+          <ul class="relics-specs">
+            <li><strong>Material:</strong> <span id="modalMaterial"></span></li>
+            <li><strong>Symbol:</strong> <span id="modalSymbol"></span></li>
+            <li><strong>Origin:</strong> <span id="modalOrigin"></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Mokosh Threads — Slavic heritage in cloth, time, and symbol.</p>
+  </footer>
+
+  <script src="./relics.js"></script>
 </body>
 </html>
