@@ -20,6 +20,14 @@ async function loadClothing() {
   const modalFit = document.getElementById("modalFit");
   const modalBuyBtn = document.getElementById("modalBuyBtn");
 
+  const SGD_TO_MYR = 3.50;
+
+  function formatDualPrice(price) {
+    if (!price && price !== 0) return "Price on request";
+    const myrPrice = (price * SGD_TO_MYR).toFixed(2);
+    return `S$${price} / RM${myrPrice}`;
+  }
+
   try {
     const response = await fetch("./clothing.json");
     const clothingItems = await response.json();
@@ -72,7 +80,7 @@ async function loadClothing() {
       modalCategory.textContent = item.category || "";
       modalName.textContent = item.name;
       modalMeta.textContent = item.style || "";
-      modalPrice.textContent = item.price ? `S$${item.price}` : "Price on request";
+      modalPrice.textContent = formatDualPrice(item.price);
       modalDescription.textContent = item.description || "";
       modalMaterial.textContent = item.material || "-";
       modalOrigin.textContent = item.origin || "-";
@@ -116,7 +124,7 @@ async function loadClothing() {
             <p class="clothing-tag">${item.category || ""}</p>
             <h2>${item.name}</h2>
             <p class="clothing-meta">${item.style || ""}</p>
-            <p class="clothing-price">${item.priceRange || ""}</p>
+            <p class="clothing-price">${formatDualPrice(item.price)}</p>
           </div>
         `;
 
