@@ -39,19 +39,6 @@
     "image": "../images/clothing/IMG_0887.jpeg"
   },
   {
-    "id": "blouse Podilska black",
-    "name": "Embroidered Blouse `Podilska` - Black",
-    "category": "Blouse",
-    "style": "Womenswear",
-    "price": 49,
-    "priceRange": "$41-80",
-    "material": "55% cotton, 45% linen",
-    "origin": "Ukraine",
-    "fit": "Relaxed",
-    "description": "A traditional Slavic linen blouse with hand-embroidered patterns, crafted by a Ukrainian artisan.",
-    "image": "../images/clothing/IMG_0887.jpeg"
-  },
-  {
     "id": "blouse Daniela white",
     "name": "Embroidered Linen Blouse `Daniela` - White",
     "category": "Blouse",
@@ -143,19 +130,6 @@
     "image": "../images/clothing/IMG_0887.jpeg"
   },
    {
-    "id": "blouse Lesya Ukrainka Special",
-    "name": "Embroidered Linen Blouse `Lesya Ukrainka` - Premium",
-    "category": "Blouse",
-    "style": "Womenswear",
-    "price": 89,
-    "priceRange": "$81-150",
-    "material": "55% cotton, 45% linen",
-    "origin": "Ukraine",
-    "fit": "Elaborate",
-    "description": "A soft, breathable blouse with intricate embroidery inspired by rural Slavic traditions.",
-    "image": "../images/clothing/IMG_0887.jpeg"
-  },
-   {
     "id": "dress Waterfall blue",
     "name": "Embroidered Linen Dress 'Waterfall' - Blue",
     "category": "Dress",
@@ -187,7 +161,7 @@
     "category": "Dress",
     "style": "Womenswear",
     "price": 69,
-    "priceRange": "41-80",
+    "priceRange": "$41-80",
     "material": "55% cotton, 45% linen",
     "origin": "Ukraine",
     "fit": "Regular",
