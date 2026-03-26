@@ -290,7 +290,41 @@ main {
   line-height: 1.6;
   font-size: 16px;
 }
+.category-card {
+  position: relative;
+  display: block;
+  height: 320px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
 
+/* CLOTHING */
+.clothing-card {
+  background-image: url('./images/blouse-daniela-darkblue-01.jpeg');
+}
+
+/* WATCHES */
+.watches-card {
+  background-image: url('./images/vostok-generalskie-01.jpeg');
+}
+
+/* RELICS */
+.relics-card {
+  background-image: url('./images/relics/relic1.jpeg');
+}
+
+/* Overlay for readability */
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+  color: white;
+}
 .brand-story {
   max-width: 860px;
   margin: 0 auto;
