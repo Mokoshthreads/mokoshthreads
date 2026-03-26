@@ -10,7 +10,7 @@
     "origin": "Ukraine",
     "fit": "Relaxed",
     "description": "A traditional Slavic linen blouse with hand-embroidered patterns, crafted by a Ukrainian artisan.",
-    "image": "../images/clothing/blouse-podilska-red-01.jpeg"
+    "image": "../images/blouse-podilska-red-01.jpeg"
   },
   {
     "id": "blouse Podilska black",
@@ -62,7 +62,7 @@
     "origin": "Ukraine",
     "fit": "Relaxed",
     "description": "A traditional Slavic linen blouse with hand-embroidered patterns, crafted by a Ukrainian artisan.",
-    "image": "../images/clothing/blouse-daniela-darkblue-01.jpeg"
+    "image": "../images/blouse-daniela-darkblue-01.jpeg"
   },
   {
     "id": "blouse Lesya Ukrainka Special",
@@ -75,7 +75,7 @@
     "origin": "Ukraine",
     "fit": "Elaborate",
     "description": "A soft, breathable blouse with intricate embroidery inspired by rural Slavic traditions.",
-    "image": "../images/clothing/blouse-lesya-ukrainka-01.jpeg"
+    "image": "../images/blouse-lesya-ukrainka-01.jpeg"
   },
   {
     "id": "blouse Ornament blue",
@@ -114,7 +114,7 @@
     "origin": "Ukraine",
     "fit": "Relaxed",
     "description": "A traditional Slavic linen blouse with hand-embroidered patterns, crafted by a Ukrainian artisan.",
-    "image": "../images/clothing/blouse-ruta-red-01.jpeg"
+    "image": "../images/blouse-ruta-red-01.jpeg"
   },
     {
     "id": "blouse Sokalska red",
@@ -127,7 +127,7 @@
     "origin": "Ukraine",
     "fit": "Relaxed",
     "description": "A traditional Slavic nettle blouse with hand-embroidered patterns, crafted by a Ukrainian artisan.",
-    "image": "../images/clothing/blouse-sokolska-01.jpeg"
+    "image": "../images/blouse-sokolska-01.jpeg"
   },
   {
     "id": "blouse Volynska black",
@@ -140,7 +140,7 @@
     "origin": "Ukraine",
     "fit": "Relaxed",
     "description": "A traditional Slavic nettle blouse with hand-embroidered patterns, crafted by a Ukrainian artisan.",
-    "image": "../images/clothing/blouse-sokolska-01.jpeg"
+    "image": "../images/blouse-sokolska-01.jpeg"
   },
     {
     "id": "blouse Fern yellow",
@@ -153,7 +153,7 @@
     "origin": "Ukraine",
     "fit": "Relaxed",
     "description": "A traditional Slavic linen blouse with hand-embroidered patterns, crafted by a Ukrainian artisan.",
-    "image": "../images/clothing/blouse-fern-yellow-01.jpeg"
+    "image": "../images/blouse-fern-yellow-01.jpeg"
   },
    {
     "id": "dress Waterfall blue",
@@ -179,7 +179,7 @@
     "origin": "Ukraine",
     "fit": "Elegant",
     "description": "A breathable nettle dress with delicate embroidery, perfect for all climates.",
-    "image": "../images/clothing/dress-princess-01.jpeg"
+    "image": "../images/dress-princess-01.jpeg"
   },
      {
     "id": "dress Podilska white",
