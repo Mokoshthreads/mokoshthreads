@@ -129,6 +129,19 @@
     "description": "A traditional Slavic nettle blouse with hand-embroidered patterns, crafted by a Ukrainian artisan.",
     "image": "../images/clothing/blouse-sokolska-01.jpeg"
   },
+  {
+    "id": "blouse Volynska black",
+    "name": "Embroidered 'Sokalska' Blouse - Black",
+    "category": "Blouse",
+    "style": "Womenswear",
+    "price": 149,
+    "priceRange": "$151+",
+    "material": "80% nettle, 20% linen",
+    "origin": "Ukraine",
+    "fit": "Relaxed",
+    "description": "A traditional Slavic nettle blouse with hand-embroidered patterns, crafted by a Ukrainian artisan.",
+    "image": "../images/clothing/blouse-sokolska-01.jpeg"
+  },
     {
     "id": "blouse Fern yellow",
     "name": "Embroidered Linen Blouse `Fern` - Yellow/Blue",
