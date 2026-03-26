@@ -20,7 +20,7 @@ async function loadClothing() {
   const modalFit = document.getElementById("modalFit");
   const modalBuyBtn = document.getElementById("modalBuyBtn");
 
-  const SGD_TO_MYR = 3.50;
+  const SGD_TO_MYR = 3.10;
 
   function formatDualPrice(price) {
     if (!price && price !== 0) return "Price on request";
