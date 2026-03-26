@@ -15,34 +15,43 @@ async function loadWatches() {
   const modalMeta = document.getElementById("modalMeta");
   const modalPrice = document.getElementById("modalPrice");
 
+  const SGD_TO_MYR = 3.10;
+
+  function formatDualPrice(price) {
+    if (!price && price !== 0) return "Price on request";
+    const myrPrice = (price * SGD_TO_MYR).toFixed(2);
+    return `S$${price} / RM${myrPrice}`;
+  }
+
   try {
     const response = await fetch("./watches.json");
     const watches = await response.json();
-   function getBrandCounts(items) {
-  const counts = {};
 
-  items.forEach((watch) => {
-    const brand = watch.brand;
-    counts[brand] = (counts[brand] || 0) + 1;
-  });
+    function getBrandCounts(items) {
+      const counts = {};
 
-  return counts;
-}
+      items.forEach((watch) => {
+        const brand = watch.brand;
+        counts[brand] = (counts[brand] || 0) + 1;
+      });
 
-function updateFilterCounts(items) {
-  const counts = getBrandCounts(items);
-
-  filterButtons.forEach((button) => {
-    const brand = button.dataset.filter;
-
-    if (brand === "all") {
-      button.textContent = `All (${items.length})`;
-    } else {
-      const count = counts[brand] || 0;
-      button.textContent = `${brand} (${count})`;
+      return counts;
     }
-  });
-}
+
+    function updateFilterCounts(items) {
+      const counts = getBrandCounts(items);
+
+      filterButtons.forEach((button) => {
+        const brand = button.dataset.filter;
+
+        if (brand === "all") {
+          button.textContent = `All (${items.length})`;
+        } else {
+          const count = counts[brand] || 0;
+          button.textContent = `${brand} (${count})`;
+        }
+      });
+    }
 
     let activeFilter = "all";
     let searchTerm = "";
@@ -67,8 +76,8 @@ function updateFilterCounts(items) {
       modalBrand.textContent = watch.brand;
       modalName.textContent = watch.name;
       modalMeta.textContent = `${watch.era} • ${watch.type}`;
-      modalPrice.textContent = watch.price ? `$${watch.price}` : "Price on request";
-        
+      modalPrice.textContent = formatDualPrice(watch.price);
+
       const modalBuyBtn = document.getElementById("modalBuyBtn");
       if (modalBuyBtn) {
         modalBuyBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(`Hi, I'm interested in ${watch.brand} ${watch.name}`)}`;
@@ -113,7 +122,7 @@ function updateFilterCounts(items) {
             <p class="watch-brand">${watch.brand}</p>
             <h2>${watch.name}</h2>
             <p class="watch-meta">${watch.era} • ${watch.type}</p>
-            <p class="watch-price">${watch.priceRange}</p>
+            <p class="watch-price">${formatDualPrice(watch.price)}</p>
           </div>
         `;
 
