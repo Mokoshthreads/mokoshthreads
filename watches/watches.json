@@ -57,6 +57,21 @@
     "description": "Simple and elegant. Showcases the simplicity and endurance of Russian-made product.",
     "image": "../images/watches/IMG_3227.jpeg"
   },
+    {
+    "id": "vostok-komandirskie-desertshield",
+    "name": "Komandirskie 'Operation Desert Shield'",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "type": "Collector classic",
+    "price": 80,
+    "priceRange": "$31–80",
+    "movement": "Manual",
+    "caseShape": "Round",
+    "condition": "Good - without Bezel",
+    "description": "Historical time-piece. Made in 1990 to commemorate Operation Desert Shield, symbolizing Russia's support and allegiance to the USA.",
+    "image": "../images/watches/IMG_3242.jpeg"
+  },
   {
      "id": "slava-tank-01",
     "name": "Slava Tank",
