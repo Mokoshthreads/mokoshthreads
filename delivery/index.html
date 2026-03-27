@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delivery Information | Mokosh Threads</title>
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .info-page {
+      width: min(1000px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 72px 0 88px;
+    }
 
+    .info-hero {
+      max-width: 760px;
+      margin-bottom: 36px;
+    }
+
+    .info-hero h1 {
+      margin: 0 0 18px;
+      font-size: clamp(40px, 6vw, 68px);
+      line-height: 1;
+      color: var(--text);
+    }
+
+    .info-intro {
+      font-size: 19px;
+      line-height: 1.8;
+      color: var(--muted);
+    }
+
+    .info-sections {
+      display: grid;
+      gap: 22px;
+    }
+
+    .info-card {
+      background: linear-gradient(180deg, #1b1714 0%, #14110f 100%);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 26px;
+      box-shadow: 0 14px 32px rgba(0, 0, 0, 0.18);
+    }
+
+    .info-card h2 {
+      margin: 0 0 14px;
+      font-size: 28px;
+      color: var(--linen);
+    }
+
+    .info-card p,
+    .info-card li {
+      color: var(--muted);
+      line-height: 1.8;
+      font-size: 17px;
+    }
+
+    .info-card ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .highlight-line {
+      color: var(--linen);
+      font-weight: bold;
+    }
+
+    @media (max-width: 640px) {
+      .info-page {
+        width: min(100% - 28px, 1000px);
+        padding: 48px 0 72px;
+      }
+
+      .info-card {
+        padding: 20px;
+      }
+
+      .info-card h2 {
+        font-size: 24px;
+      }
+
+      .info-card p,
+      .info-card li,
+      .info-intro {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    Slavic heritage in cloth, time, and symbol
+  </div>
+
+  <header class="site-header">
+    <div class="logo">Mokosh Threads</div>
+
+    <nav class="site-nav">
+      <a href="../">Home</a>
+      <a href="../clothing/">Clothing</a>
+      <a href="../watches/">Watches</a>
+      <a href="../relics/">Relics</a>
+      <a href="../delivery/">Delivery</a>
+      <a href="../contact/">Contact</a>
+    </nav>
+  </header>
+
+  <main class="info-page">
+    <section class="info-hero">
+      <p class="section-label">Mokosh Threads</p>
+      <h1>Delivery Information</h1>
+      <p class="info-intro">
+        We offer <span class="highlight-line">free delivery within Singapore and Malaysia</span>.
+        For all other destinations, shipping can be arranged on request.
+      </p>
+    </section>
+
+    <section class="info-sections">
+      <article class="info-card">
+        <h2>Delivery Coverage</h2>
+        <p>Free delivery is available within Singapore and Malaysia.</p>
+        <p>International shipping may be arranged depending on destination and item type.</p>
+      </article>
+
+      <article class="info-card">
+        <h2>Processing Time</h2>
+        <p>Orders are usually prepared within 1–3 business days.</p>
+        <p>Custom items, special requests, or made-to-order pieces may require additional time.</p>
+      </article>
+
+      <article class="info-card">
+        <h2>Shipping Notes</h2>
+        <ul>
+          <li>Delivery times may vary depending on location.</li>
+          <li>Tracking details will be provided where available.</li>
+          <li>Delays may occur during peak periods, customs clearance, or courier disruptions.</li>
+        </ul>
+      </article>
+
+      <article class="info-card">
+        <h2>Important Notes for Clothing</h2>
+        <ul>
+          <li>Please confirm sizing before purchase.</li>
+          <li>Colors may vary slightly depending on screen settings.</li>
+          <li>Handmade or artisan-made garments may have slight natural variations.</li>
+        </ul>
+      </article>
+
+      <article class="info-card">
+        <h2>Important Notes for Vintage Watches</h2>
+        <ul>
+          <li>Vintage watches are one-of-a-kind pieces.</li>
+          <li>Signs of age, patina, and wear are part of their character.</li>
+          <li>Condition and details will be described as accurately as possible before sale.</li>
+        </ul>
+      </article>
+
+      <article class="info-card">
+        <h2>Questions Before Ordering</h2>
+        <p>
+          If you have any questions about measurements, sizing, condition, extra photos,
+          or international delivery, please contact us before purchase.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Mokosh Threads — Slavic heritage in cloth, time, and symbol.</p>
+  </footer>
+
+</body>
+</html>
