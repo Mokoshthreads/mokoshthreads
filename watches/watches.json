@@ -43,6 +43,20 @@
     "description": "Soviet airborne identity on the wrist.",
     "image": "../images/vostok-komandirskie-gold-paratrooper-01.jpeg"
   },
+    {
+    "id": "vostok-komandirskie-plain-gold",
+    "name": "Komandirskie Gold 819980",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Military style",
+    "price": 70,
+    "priceRange": "$31–80",
+    "movement": "Manual",
+    "caseShape": "Round",
+    "condition": "Good",
+    "description": "Simple and elegant. Showcases the simplicity and endurance of Russian-made product.",
+    "image": "../images/watches/IMG_3227.jpeg"
+  },
   {
      "id": "slava-tank-01",
     "name": "Slava Tank",
