@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Mokosh Threads</title>
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .info-page {
+      width: min(1000px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 72px 0 88px;
+    }
+
+    .info-hero {
+      max-width: 760px;
+      margin-bottom: 36px;
+    }
+
+    .info-hero h1 {
+      margin: 0 0 18px;
+      font-size: clamp(40px, 6vw, 68px);
+      line-height: 1;
+      color: var(--text);
+    }
+
+    .info-intro {
+      font-size: 19px;
+      line-height: 1.8;
+      color: var(--muted);
+    }
+
+    .info-sections {
+      display: grid;
+      gap: 22px;
+    }
+
+    .info-card {
+      background: linear-gradient(180deg, #1b1714 0%, #14110f 100%);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 26px;
+      box-shadow: 0 14px 32px rgba(0, 0, 0, 0.18);
+    }
+
+    .info-card h2 {
+      margin: 0 0 14px;
+      font-size: 28px;
+      color: var(--linen);
+    }
+
+    .info-card p,
+    .info-card li {
+      color: var(--muted);
+      line-height: 1.8;
+      font-size: 17px;
+    }
+
+    .info-card ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 10px;
+    }
+
+    .contact-links a {
+      text-decoration: none;
+    }
+
+    @media (max-width: 640px) {
+      .info-page {
+        width: min(100% - 28px, 1000px);
+        padding: 48px 0 72px;
+      }
+
+      .info-card {
+        padding: 20px;
+      }
+
+      .info-card h2 {
+        font-size: 24px;
+      }
+
+      .info-card p,
+      .info-card li,
+      .info-intro {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    Slavic heritage in cloth, time, and symbol
+  </div>
+
+  <header class="site-header">
+    <div class="logo">Mokosh Threads</div>
+
+    <nav class="site-nav">
+      <a href="../">Home</a>
+      <a href="../clothing/">Clothing</a>
+      <a href="../watches/">Watches</a>
+      <a href="../relics/">Relics</a>
+      <a href="../delivery/">Delivery</a>
+      <a href="../contact/">Contact</a>
+    </nav>
+  </header>
+
+  <main class="info-page">
+    <section class="info-hero">
+      <p class="section-label">Mokosh Threads</p>
+      <h1>Contact</h1>
+      <p class="info-intro">
+        If you would like to enquire about clothing, watches, or relics, please contact us.
+        We are happy to answer questions about sizing, condition, measurements, and delivery.
+      </p>
+    </section>
+
+    <section class="info-sections">
+      <article class="info-card">
+        <h2>Contact Us</h2>
+        <p>You can reach us through the channels below:</p>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="https://t.me/Wantwotwee" target="_blank">Telegram</a>
+          <a class="btn btn-secondary" href="https://instagram.com/mokoshthreads" target="_blank">Instagram</a>
+          <a class="btn btn-secondary" href="mailto:hello@mokoshthreads.com">Email</a>
+        </div>
+      </article>
+
+      <article class="info-card">
+        <h2>When Enquiring, Please Include</h2>
+        <ul>
+          <li>Item name</li>
+          <li>Your country or location</li>
+          <li>Your size, if you are enquiring about clothing</li>
+          <li>Any questions about measurements, condition, or shipping</li>
+        </ul>
+      </article>
+
+      <article class="info-card">
+        <h2>Clothing Enquiries</h2>
+        <p>
+          Please include the item name, your preferred size, and any sizing questions.
+          If needed, we can clarify fit, fabric, and garment details before purchase.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h2>Watch Enquiries</h2>
+        <p>
+          Please include the watch name and let us know if you would like more photos,
+          videos, or information about condition, movement, or dimensions.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h2>Relics Enquiries</h2>
+        <p>
+          Please include the item name and any questions about symbolism, materials,
+          or custom requests.
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h2>Before Purchase</h2>
+        <p>
+          We recommend confirming all important details before ordering, especially for
+          sizing, measurements, vintage condition, and special requests.
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Mokosh Threads — Slavic heritage in cloth, time, and symbol.</p>
+  </footer>
+
+</body>
+</html>
