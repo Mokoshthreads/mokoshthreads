@@ -44,6 +44,20 @@
     "image": "../images/vostok-komandirskie-gold-paratrooper-01.jpeg"
   },
     {
+    "id": "vostok-komandirskie-02",
+    "name": "Komandirskie Airborne Troops Black",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 70,
+    "priceRange": "$31–80",
+    "movement": "Manual",
+    "caseShape": "Round",
+    "condition": "Good",
+    "description": "Forged for the airborne, worn by those who never follow the ground.",
+    "image": "../images/watches/IMG_3304.jpeg"
+  },
+    {
     "id": "vostok-komandirskie-plain-gold",
     "name": "Komandirskie Gold 819980",
     "brand": "Vostok",
