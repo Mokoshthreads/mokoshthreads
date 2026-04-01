@@ -45,7 +45,7 @@ function closeLightbox() {
 function buildCollection(grid, folder, count, altPrefix) {
   for (let i = 1; i <= count; i++) {
     const num = String(i).padStart(3, "0");
-    const src = `./images/${folder}/card${num}.png`;
+    const src = `./${folder}/card${num}.png`;
     const alt = `${altPrefix} ${i}`;
     grid.appendChild(createCardTile(src, alt));
   }
