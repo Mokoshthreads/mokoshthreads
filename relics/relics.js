@@ -1,5 +1,3 @@
-import relicItems from "./relics-data.js";
-
 const gallery = document.getElementById("relicsGallery");
 const loadMoreBtn = document.getElementById("loadMoreBtn");
 
@@ -25,11 +23,11 @@ const modalCollectionBtn = document.getElementById("modalCollectionBtn");
 const modalClose = document.getElementById("relicsModalClose");
 const modalBackdrop = document.getElementById("relicsModalBackdrop");
 
+let relicItems = [];
 let activeFilter = "all";
 let visibleCount = 8;
 const itemsPerPage = 8;
 
-// ✅ Move this OUTSIDE (cleaner)
 const collectionPackIds = [
   "thrones-old-gods-pack",
   "oaths-crown-sword-pack",
@@ -39,9 +37,6 @@ const collectionPackIds = [
   "singapore-legends-pack"
 ];
 
-// ======================
-// RENDER
-// ======================
 function render(items) {
   gallery.innerHTML = "";
 
@@ -63,17 +58,12 @@ function render(items) {
     `;
 
     card.addEventListener("click", () => openModal(item));
-
     gallery.appendChild(card);
   });
 
-  loadMoreBtn.style.display =
-    visibleCount < items.length ? "block" : "none";
+  loadMoreBtn.style.display = visibleCount < items.length ? "block" : "none";
 }
 
-// ======================
-// FILTERING
-// ======================
 function getFilteredItems() {
   let filtered = [...relicItems];
 
@@ -86,12 +76,13 @@ function getFilteredItems() {
     filtered = filtered.filter(item => item.priceRange === priceRange);
   }
 
-  const searchTerm = searchInput.value.toLowerCase();
+  const searchTerm = searchInput.value.toLowerCase().trim();
   if (searchTerm) {
     filtered = filtered.filter(item =>
       item.name.toLowerCase().includes(searchTerm) ||
       item.symbol.toLowerCase().includes(searchTerm) ||
-      item.category.toLowerCase().includes(searchTerm)
+      item.category.toLowerCase().includes(searchTerm) ||
+      item.type.toLowerCase().includes(searchTerm)
     );
   }
 
@@ -115,14 +106,9 @@ function applyFilters(resetVisible = true) {
 
   const filtered = getFilteredItems();
   render(filtered);
-
-  // ✅ update counts dynamically
   updateFilterCounts(filtered);
 }
 
-// ======================
-// FILTER BUTTONS
-// ======================
 filterButtons.forEach(btn => {
   btn.addEventListener("click", () => {
     filterButtons.forEach(b => b.classList.remove("active"));
@@ -137,22 +123,16 @@ priceRangeFilter.addEventListener("change", () => applyFilters());
 sortSelect.addEventListener("change", () => applyFilters());
 searchInput.addEventListener("input", () => applyFilters());
 
-// ======================
-// LOAD MORE
-// ======================
 loadMoreBtn.addEventListener("click", () => {
   visibleCount += itemsPerPage;
   applyFilters(false);
 });
 
-// ======================
-// MODAL
-// ======================
 function openModal(item) {
   modalImage.src = item.image;
   modalImage.alt = item.name;
   modalCategory.textContent = item.category || "";
-  modalName.textContent = item.name;
+  modalName.textContent = item.name || "";
   modalMeta.textContent = item.type || "";
   modalPrice.textContent = formatDualPrice(item.price);
   modalDescription.textContent = item.description || "";
@@ -160,7 +140,6 @@ function openModal(item) {
   modalSymbol.textContent = item.symbol || "-";
   modalOrigin.textContent = item.origin || "-";
 
-  // ✅ SHOW / HIDE COLLECTION BUTTON
   if (modalCollectionBtn) {
     if (collectionPackIds.includes(item.id)) {
       modalCollectionBtn.style.display = "inline-flex";
@@ -170,7 +149,6 @@ function openModal(item) {
     }
   }
 
-  // TELEGRAM LINK
   if (modalBuyBtn) {
     modalBuyBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(
       `Hi, I'm interested in ${item.name}`
@@ -188,16 +166,20 @@ function closeModal() {
   document.body.classList.remove("modal-open");
 }
 
-modalClose.addEventListener("click", closeModal);
-modalBackdrop.addEventListener("click", closeModal);
+if (modalClose) {
+  modalClose.addEventListener("click", closeModal);
+}
+
+if (modalBackdrop) {
+  modalBackdrop.addEventListener("click", closeModal);
+}
 
 document.addEventListener("keydown", e => {
-  if (e.key === "Escape") closeModal();
+  if (e.key === "Escape") {
+    closeModal();
+  }
 });
 
-// ======================
-// FILTER COUNT LABELS
-// ======================
 function updateFilterCounts(items) {
   const counts = {
     all: items.length,
@@ -227,16 +209,32 @@ function updateFilterCounts(items) {
   });
 }
 
-// ======================
-// PRICE FORMAT
-// ======================
 function formatDualPrice(sgd) {
   const usd = (sgd * 0.74).toFixed(2);
   return `S$${sgd} / US$${usd}`;
 }
 
-// ======================
-// INITIAL LOAD
-// ======================
-render(relicItems);
-updateFilterCounts(relicItems);
+async function initRelics() {
+  try {
+    const response = await fetch("./relics.json");
+
+    if (!response.ok) {
+      throw new Error(`Failed to load relics.json: ${response.status}`);
+    }
+
+    relicItems = await response.json();
+
+    render(relicItems);
+    updateFilterCounts(relicItems);
+  } catch (error) {
+    console.error("Error loading relic items:", error);
+    gallery.innerHTML = `
+      <p style="padding:20px; text-align:center;">
+        Unable to load relics at the moment.
+      </p>
+    `;
+    loadMoreBtn.style.display = "none";
+  }
+}
+
+initRelics();
