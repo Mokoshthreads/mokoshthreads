@@ -71,58 +71,6 @@
 .relics-controls input::placeholder {
   color: #9e978d;
 }
-/* FEATURE CARD SECTION */
-.relics-feature-card {
-  margin: 40px 0 10px;
-  padding: 50px 30px;
-  border: 1px solid #3a372f;
-  background: radial-gradient(circle at top, #1c1a16, #0f0e0b);
-  box-shadow: 0 0 40px rgba(0,0,0,0.6);
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-/* subtle glow effect */
-.relics-feature-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(circle at center, rgba(180,140,60,0.15), transparent 70%);
-  pointer-events: none;
-}
-
-.feature-label {
-  font-size: 12px;
-  letter-spacing: 2px;
-  color: #bfa76a;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-
-.feature-card-content h2 {
-  font-size: 26px;
-  margin-bottom: 12px;
-}
-
-.feature-description {
-  max-width: 520px;
-  margin: 0 auto 20px;
-  color: #cfc7b8;
-  line-height: 1.5;
-}
-
-.feature-btn {
-  padding: 12px 26px;
-  font-size: 14px;
-  letter-spacing: 1px;
-}
-
-/* Hover effect */
-.feature-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 0 12px rgba(180,140,60,0.5);
-}
 
 .relics-gallery {
   display: grid;
