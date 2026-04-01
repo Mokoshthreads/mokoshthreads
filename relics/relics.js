@@ -44,16 +44,17 @@ function render(items) {
 
   visibleItems.forEach(item => {
     const card = document.createElement("div");
-    card.className = "relic-card";
+    card.className = "relics-card";
     card.dataset.category = item.category;
 
     card.innerHTML = `
-      <div class="relic-card-inner">
+      <div class="relics-card-image">
         <img src="${item.image}" alt="${item.name}" />
-        <div class="relic-card-info">
-          <p class="relic-card-name">${item.name}</p>
-          <p class="relic-card-price">${formatDualPrice(item.price)}</p>
-        </div>
+      </div>
+      <div class="relics-card-body">
+        <p class="relics-tag">${item.category || ""}</p>
+        <h2>${item.name}</h2>
+        <p class="relics-price">${formatDualPrice(item.price)}</p>
       </div>
     `;
 
@@ -61,7 +62,8 @@ function render(items) {
     gallery.appendChild(card);
   });
 
-  loadMoreBtn.style.display = visibleCount < items.length ? "block" : "none";
+  loadMoreBtn.style.display =
+    visibleCount < items.length ? "block" : "none";
 }
 
 function getFilteredItems() {
