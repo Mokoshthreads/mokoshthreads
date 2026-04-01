@@ -19,6 +19,7 @@ async function loadRelics() {
   const modalSymbol = document.getElementById("modalSymbol");
   const modalOrigin = document.getElementById("modalOrigin");
   const modalBuyBtn = document.getElementById("modalBuyBtn");
+  const modalCollectionBtn = document.getElementById("modalCollectionBtn");
 
   const SGD_TO_MYR = 3.10;
 
@@ -80,6 +81,22 @@ async function loadRelics() {
       modalMaterial.textContent = item.material || "-";
       modalSymbol.textContent = item.symbol || "-";
       modalOrigin.textContent = item.origin || "-";
+      
+      const collectionPackIds = [
+  "thrones-old-gods-pack",
+  "oaths-crown-sword-pack",
+  "whispers-hearth-forest-pack",
+  "veils-sorcery-pack",
+  "fangs-myth-oath-pack",
+  "singapore-legends-pack"
+];
+
+if (collectionPackIds.includes(item.id)) {
+  modalCollectionBtn.style.display = "inline-flex";
+  modalCollectionBtn.href = "../cards/";
+} else {
+  modalCollectionBtn.style.display = "none";
+}
 
       if (modalBuyBtn) {
         modalBuyBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(`Hi, I'm interested in ${item.name}`)}`;
