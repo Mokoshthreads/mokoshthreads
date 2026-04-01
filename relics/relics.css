@@ -115,6 +115,18 @@
   padding: 18px;
 }
 
+#modalCollectionBtn {
+  display: none;
+  margin-bottom: 12px;
+  text-align: center;
+  border-color: #bfa76a;
+  color: #e6dcc8;
+}
+
+#modalCollectionBtn:hover {
+  box-shadow: 0 0 12px rgba(191, 167, 106, 0.35);
+}
+
 .relics-tag {
   margin: 0 0 8px;
   color: var(--bronze);
