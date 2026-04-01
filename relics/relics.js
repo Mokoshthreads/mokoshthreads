@@ -142,14 +142,19 @@ function openModal(item) {
   modalSymbol.textContent = item.symbol || "-";
   modalOrigin.textContent = item.origin || "-";
 
-  if (modalCollectionBtn) {
-    if (collectionPackIds.includes(item.id)) {
-      modalCollectionBtn.style.display = "inline-flex";
-      modalCollectionBtn.href = "../cards/";
+ if (modalCollectionBtn) {
+  if (collectionPackIds.includes(item.id)) {
+    modalCollectionBtn.style.display = "inline-flex";
+
+    if (item.id === "singapore-legends-pack") {
+      modalCollectionBtn.href = "../cards/#singapore";
     } else {
-      modalCollectionBtn.style.display = "none";
+      modalCollectionBtn.href = "../cards/#slavic";
     }
+  } else {
+    modalCollectionBtn.style.display = "none";
   }
+}
 
   if (modalBuyBtn) {
     modalBuyBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(
