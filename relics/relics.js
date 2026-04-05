@@ -30,11 +30,11 @@ const itemsPerPage = 8;
 
 const collectionPackIds = [
   "thrones-old-gods-pack",
-  "oaths-crown-sword-pack",
-  "whispers-hearth-forest-pack",
+  "oaths-pack",
+  "hearth-pack",
   "veils-sorcery-pack",
-  "fangs-myth-oath-pack",
-  "singapore-legends-pack"
+  "fangs-myth-pack",
+  "singapore-pack"
 ];
 
 function render(items) {
