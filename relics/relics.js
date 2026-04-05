@@ -217,8 +217,8 @@ function updateFilterCounts(items) {
 }
 
 function formatDualPrice(sgd) {
-  const usd = (sgd * 0.74).toFixed(2);
-  return `S$${sgd} / US$${usd}`;
+  const myr = (sgd * 3.1).toFixed(2);
+  return `S$${sgd} / RM${myr}`;
 }
 
 async function initRelics() {
