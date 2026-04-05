@@ -146,7 +146,7 @@ function openModal(item) {
   if (collectionPackIds.includes(item.id)) {
     modalCollectionBtn.style.display = "inline-flex";
 
-    if (item.id === "singapore-legends-pack") {
+    if (item.id === "singapore-pack") {
       modalCollectionBtn.href = "../cards/#singapore";
     } else {
       modalCollectionBtn.href = "../cards/#slavic";
