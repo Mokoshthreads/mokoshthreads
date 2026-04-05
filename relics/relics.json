@@ -129,6 +129,19 @@
     "description": "A themed booster pack featuring Slavic household & nature spirits such as the Domovoi, Rusalka, and Kimimora. Each pack contains 8 mythology character cards and 1 limited edition NFT card. The NFT grants you ownership of the entire art & exclusive NFT benefits.",
     "image": "../images/relics/hearth.png"
   },
+            {
+    "id": "singapore-pack",
+    "name": "Singapore Myths Card Pack",
+    "category": "Card Pack",
+    "type": "Singapore",
+    "price": 9,
+    "priceRange": "$6-10",
+    "material": "Premium printed card stock",
+    "symbol": "Singapore Myths & Legends",
+    "origin": "Mokosh Threads",
+    "description": "A themed booster pack featuring characters from Singapore myths, legends, & local beliefs such as the Pontianak, Badang, and Kusu Island. Each pack contains 8 mythology character cards and 1 limited edition NFT card. The NFT grants you ownership of the entire art & exclusive NFT benefits.",
+    "image": "../images/relics/singapore.png"
+  },
   {
     "id": "custom-watch-painting",
     "name": "Custom Leather Watch Painting",
