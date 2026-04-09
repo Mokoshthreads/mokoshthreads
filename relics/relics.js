@@ -215,17 +215,19 @@ function updateFilterCounts(items) {
 
   filterButtons.forEach(btn => {
     const key = btn.dataset.filter;
-    const label =
-      key === "all"
-        ? "All"
-        : key === "Necklace"
-        ? "Necklaces"
-        : key === "Card Pack"
-        ? "Card Pack"
-        : key === "Watch Strap"
-      ? "Watch Strap"
-      : key == "Sticker Pack"
-      ? "Sticker Pack";
+
+    let label = key;
+    if (key === "all") {
+      label = "All";
+    } else if (key === "Necklace") {
+      label = "Necklaces";
+    } else if (key === "Card Pack") {
+      label = "Card Pack";
+    } else if (key === "Watch Strap") {
+      label = "Watch Strap";
+    } else if (key === "Sticker Pack") {
+      label = "Sticker Pack";
+    }
 
     btn.textContent = `${label} (${counts[key] || 0})`;
   });
