@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mokosh Cards | Mokosh Threads</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="./cards.css" />
+</head>
+<body>
+
+  <div class="topbar">
+    Mythic archives of Slavic gods, spirits, creatures, and Singapore legends
+  </div>
+
+  <header class="site-header">
+    <div class="logo">Mokosh Threads</div>
+
+    <nav class="site-nav">
+      <a href="../">Home</a>
+      <a href="../clothing/">Clothing</a>
+      <a href="../watches/">Watches</a>
+      <a href="../relics/">Relics</a>
+      <a href="../delivery/">Delivery</a>
+      <a href="../contact/">Contact</a>
+    </nav>
+  </header>
+
+  <main class="cards-page">
+    <section class="cards-hero">
+      <p class="cards-label">Mokosh Archive</p>
+      <h1>Mokosh Cards NFTs</h1>
+      <p class="cards-intro">
+        A visual archive of Mokosh Cards NFTs
+        gathered into one cinematic collection.
+      </p>
+
+      <div class="cards-hero-actions">
+        <a href="../relics/" class="btn btn-primary">Back to Relics</a>
+      </div>
+    </section>
+
+    <section class="cards-section" id="slavic">
+      <div class="cards-section-head">
+        <p class="cards-label">Slavic Myths NFTs</p>
+        <h2>Slavic Myths NFT Collection</h2>
+        <p class="cards-count">Cards</p>
+      </div>
+
+      <div class="cards-grid" id="slavicGrid"></div>
+    </section>
+
+    <section class="cards-section" id="singapore">
+      <div class="cards-section-head">
+        <p class="cards-label">Singapore Myths NFTs</p>
+        <h2>Singapore Myths NFT Collection</h2>
+        <p class="cards-count">Cards</p>
+      </div>
+
+      <div class="cards-grid" id="singaporeGrid"></div>
+    </section>
+  </main>
+
+  <div class="cards-lightbox" id="cardsLightbox" aria-hidden="true">
+    <div class="cards-lightbox-backdrop" id="cardsLightboxBackdrop"></div>
+
+    <div class="cards-lightbox-content">
+      <button class="cards-lightbox-close" id="cardsLightboxClose" aria-label="Close image">
+        ×
+      </button>
+      <img id="cardsLightboxImage" src="" alt="" />
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Mokosh Threads — Slavic heritage in cloth, time, and symbol.</p>
+  </footer>
+
+  <script src="./cards.js"></script>
+</body>
+</html>
