@@ -344,6 +344,19 @@
   box-shadow: 0 0 12px rgba(191, 167, 106, 0.22);
 }
 
+#modalStickerBtn {
+  display: none;
+  margin-top: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-color: #bfa76a;
+  color: #e6dcc8;
+}
+
+#modalStickerBtn:hover {
+  box-shadow: 0 0 12px rgba(191, 167, 106, 0.22);
+}
+
 #modalBuyBtn {
   margin-top: 0;
 }
