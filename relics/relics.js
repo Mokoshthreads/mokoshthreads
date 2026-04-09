@@ -19,6 +19,7 @@ const modalOrigin = document.getElementById("modalOrigin");
 
 const modalBuyBtn = document.getElementById("modalBuyBtn");
 const modalCollectionBtn = document.getElementById("modalCollectionBtn");
+const modalStickerBtn = document.getElementById("modalStickerBtn");
 
 const modalClose = document.getElementById("relicsModalClose");
 const modalBackdrop = document.getElementById("relicsModalBackdrop");
@@ -36,6 +37,10 @@ const collectionPackIds = [
   "fangs-myth-pack",
   "singapore-pack"
 ];
+
+const stickerPackIds = [
+  "babayaga-sticker"
+  ];
 
 function render(items) {
   gallery.innerHTML = "";
@@ -156,6 +161,10 @@ function openModal(item) {
   }
 }
 
+  if (modalStickerBtn) {
+    if (stickerPackIds.includes(item.id)) {
+      modalStickerBtn.style.display = "inline-flex";
+
   if (modalBuyBtn) {
     modalBuyBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(
       `Hi, I'm interested in ${item.name}`
@@ -192,7 +201,8 @@ function updateFilterCounts(items) {
     all: items.length,
     Necklace: 0,
     "Card Pack": 0,
-    "Watch Strap": 0
+    "Watch Strap": 0,
+    "Sticker Pack": 0
   };
 
   items.forEach(item => {
