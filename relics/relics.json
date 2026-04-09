@@ -142,7 +142,19 @@
     "description": "A themed booster pack featuring characters from Singapore myths, legends, & local beliefs such as the Pontianak, Badang, and Kusu Island. Each pack contains 8 mythology character cards and 1 limited edition NFT card. The NFT grants you ownership of the entire art & exclusive NFT benefits.",
     "image": "../images/relics/singapore.png"
   },
-  
+              {
+    "id": "babayaga-sticker",
+    "name": "Baba Yaga Bad Day Sticker Pack",
+    "category": "Sticker Pack",
+    "type": "Slavic",
+    "price": 4,
+    "priceRange": "$0-5",
+    "material": "Premium glossy sticker",
+    "symbol": "Slavic Myths",
+    "origin": "Mokosh Threads",
+    "description": "A themed sticker pack featuring the famous mystical Baba Yaga having a bad day.",
+    "image": "../images/stickers/babayagabadday/sticker1.png"
+  },
   {
     "id": "custom-watch-painting",
     "name": "Custom Leather Watch Painting",
