@@ -1,5 +1,5 @@
-const slavicGrid = document.getElementById("slavicGrid");
-const singaporeGrid = document.getElementById("singaporeGrid");
+const slavicGrid = document.getElementById("slavicnftsGrid");
+const singaporeGrid = document.getElementById("singaporenftsGrid");
 
 const lightbox = document.getElementById("cardsLightbox");
 const lightboxImage = document.getElementById("cardsLightboxImage");
