@@ -210,7 +210,10 @@ function updateFilterCounts(items) {
         ? "Necklaces"
         : key === "Card Pack"
         ? "Card Pack"
-        : "Watch Strap";
+        : key === "Watch Strap"
+      ? "Watch Strap"
+      : key == "Sticker Pack"
+      ? "Sticker Pack";
 
     btn.textContent = `${label} (${counts[key] || 0})`;
   });
