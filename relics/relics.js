@@ -19,7 +19,6 @@ const modalOrigin = document.getElementById("modalOrigin");
 
 const modalBuyBtn = document.getElementById("modalBuyBtn");
 const modalCollectionBtn = document.getElementById("modalCollectionBtn");
-const modalStickerBtn = document.getElementById("modalStickerBtn");
 
 const modalClose = document.getElementById("relicsModalClose");
 const modalBackdrop = document.getElementById("relicsModalBackdrop");
@@ -150,6 +149,7 @@ function openModal(item) {
   if (modalCollectionBtn) {
     if (collectionPackIds.includes(item.id)) {
       modalCollectionBtn.style.display = "inline-flex";
+      modalCollectionBtn.textContent = "Enter the Card Collection";
 
       if (item.id === "singapore-pack") {
         modalCollectionBtn.href = "../cards/#singapore";
@@ -163,6 +163,7 @@ function openModal(item) {
     } else {
       modalCollectionBtn.style.display = "none";
       modalCollectionBtn.textContent = "Enter the Card Collection";
+      modalCollectionBtn.href = "../cards/";
     }
   }
 
