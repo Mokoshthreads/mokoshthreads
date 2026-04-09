@@ -52,11 +52,11 @@ function buildCollection(grid, folder, count, altPrefix) {
 }
 
 if (slavicGrid) {
-  buildCollection(slavicGrid, "slavic", 175, "Slavic mythology card");
+  buildCollection(slavicGrid, "slavicnfts", 175, "Slavic mythology card");
 }
 
 if (singaporeGrid) {
-  buildCollection(singaporeGrid, "singapore", 27, "Singapore mythology card");
+  buildCollection(singaporeGrid, "singaporenfts", 27, "Singapore mythology card");
 }
 
 if (lightboxClose) {
