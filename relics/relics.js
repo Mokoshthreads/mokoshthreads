@@ -147,23 +147,24 @@ function openModal(item) {
   modalSymbol.textContent = item.symbol || "-";
   modalOrigin.textContent = item.origin || "-";
 
- if (modalCollectionBtn) {
-  if (collectionPackIds.includes(item.id)) {
-    modalCollectionBtn.style.display = "inline-flex";
+  if (modalCollectionBtn) {
+    if (collectionPackIds.includes(item.id)) {
+      modalCollectionBtn.style.display = "inline-flex";
 
-    if (item.id === "singapore-pack") {
-      modalCollectionBtn.href = "../cards/#singapore";
+      if (item.id === "singapore-pack") {
+        modalCollectionBtn.href = "../cards/#singapore";
+      } else {
+        modalCollectionBtn.href = "../cards/#slavic";
+      }
+    } else if (stickerPackIds.includes(item.id)) {
+      modalCollectionBtn.style.display = "inline-flex";
+      modalCollectionBtn.href = "../stickers/#babayaga";
+      modalCollectionBtn.textContent = "Enter the Sticker Collection";
     } else {
-      modalCollectionBtn.href = "../cards/#slavic";
+      modalCollectionBtn.style.display = "none";
+      modalCollectionBtn.textContent = "Enter the Card Collection";
     }
-  } else {
-    modalCollectionBtn.style.display = "none";
   }
-}
-
-  if (modalStickerBtn) {
-    if (stickerPackIds.includes(item.id)) {
-      modalStickerBtn.style.display = "inline-flex";
 
   if (modalBuyBtn) {
     modalBuyBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(
