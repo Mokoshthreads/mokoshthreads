@@ -83,13 +83,13 @@ function getFilteredItems() {
   }
 
   const searchTerm = searchInput.value.toLowerCase().trim();
-  if (searchTerm) {
-    filtered = filtered.filter(item =>
-      item.name.toLowerCase().includes(searchTerm) ||
-      item.symbol.toLowerCase().includes(searchTerm) ||
-      item.category.toLowerCase().includes(searchTerm) ||
-      item.type.toLowerCase().includes(searchTerm)
-    );
+  if (searchTerm) {filtered = filtered.filter(item =>
+  (item.name || "").toLowerCase().includes(searchTerm) ||
+  (item.symbol || "").toLowerCase().includes(searchTerm) ||
+  (item.category || "").toLowerCase().includes(searchTerm) ||
+  (item.type || "").toLowerCase().includes(searchTerm)
+);
+    
   }
 
   const sortValue = sortSelect.value;
