@@ -282,5 +282,19 @@
     "condition": "Excellent working condition with light scratches.",
     "description": "Gold plated casing with unique TV-case design. Dress watch with a flair & class.",
     "image": "../images/watches/IMG_3615.jpg"
+  },
+  {
+   "id": "poljot-export-dress-01",
+    "name": "Export Dress",
+    "brand": "Poljot",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Poljot 2414/2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition with a small crack in the acrylic.",
+    "description": "A quiet relic of Soviet engineering - where simplicity, steel, and time itself were built to endure.",
+    "image": "../images/watches/IMG_3680.jpg"
   }
 ]
