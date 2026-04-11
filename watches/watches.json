@@ -156,5 +156,19 @@
     "condition": "Working - slight crack in the acrylic, not hindering time visual.",
     "description": "90s Russian experimental design - when Soviet watchmaking broke the rules.",
     "image": "../images/watches/IMG_3591.jpg"
-  } 
+  } ,
+     {
+     "id": "vostok-komandirskie-ussr-blue-01",
+    "name": "Komandirskie Blue",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Military style",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual",
+    "caseShape": "Round",
+    "condition": "Working - no crack on acrylic but patina on dial and casing.",
+    "description": "Soviet export model for Vostok Komandirskie. Blue with Soviet navy logo.",
+    "image": "../images/watches/IMG_3593.jpg"
+  }  
 ]
