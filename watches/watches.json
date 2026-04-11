@@ -240,5 +240,19 @@
     "condition": "Working, with light scratches on acrylic & case",
     "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
     "image": "../images/watches/IMG_3613.jpg"
-  } 
+  } ,
+   {
+   "id": "raketa-tv-case-01",
+    "name": "TV Case",
+    "brand": "Raketa",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual",
+    "caseShape": "Round",
+    "condition": "Excellent working condition with light scratches.",
+    "description": "Gold plated casing with unique TV-case design. Dress watch with a flair & class.",
+    "image": "../images/watches/IMG_3615.jpg"
+  }
 ]
