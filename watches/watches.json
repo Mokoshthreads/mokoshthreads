@@ -310,5 +310,19 @@
     "condition": "Excellent working condition with a small crack in the acrylic.",
     "description": "A quiet relic of Soviet engineering - where simplicity, steel, and time itself were built to endure.",
     "image": "../images/watches/IMG_3680.jpg"
+  },
+  {
+   "id": "poljot-classic-dress-02",
+    "name": "Classic Dress",
+    "brand": "Poljot",
+    "era": "1960s",
+    "type": "Collector classic",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Poljot 2409",
+    "caseShape": "Round",
+    "condition": "Excellent working condition with light scratches on the acrylic, natural patina on the dial.",
+    "description": "Softened by time, this Poljot carries the quiet dignity of a Soviet era long past.",
+    "image": "../images/watches/IMG_3688.jpg"
   }
 ]
