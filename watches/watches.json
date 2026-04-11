@@ -241,6 +241,20 @@
     "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
     "image": "../images/watches/IMG_3613.jpg"
   } ,
+    {
+   "id": "vostok-Amphibia-purple-02",
+    "name": "Amphibia Purple",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on acrylic & case",
+    "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
+    "image": "../images/watches/IMG_3617.jpg"
+  } ,
    {
    "id": "raketa-tv-case-01",
     "name": "TV Case",
