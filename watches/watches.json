@@ -212,5 +212,19 @@
     "condition": "Working - original bracelet signs of worn.",
     "description": "Minimalist Soviet vintage with a simple everyday design. By Penza Watch Factory.",
     "image": "../images/watches/IMG_3604.jpg"
-  } 
+  } ,
+    {
+   "id": "vostok-komandirskie-50-years",
+    "name": "Komandirskie 1995 '50 Years of Victory'",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Collector classic",
+    "price": 85,
+    "priceRange": "$81-120",
+    "movement": "Manual",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on acrylic",
+    "description": "Commemorating 50 years to the end of WW2. The Motherland Calls statue is emblematic to the sacrifice & history of the Soviet army.",
+    "image": "../images/IMG_3609.jpg"
+  }
 ]
