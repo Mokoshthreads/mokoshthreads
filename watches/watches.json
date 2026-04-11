@@ -28,6 +28,20 @@
     "description": "A collector favorite. Specially ordered by the Soviet military. Serial no.: 817103.",
     "image": "../images/vostok-komandirskie-blue-zakaz-01.jpeg"
   },
+    {
+     "id": "slava-columbus",
+    "name": "500 year Anniversary Columbus",
+    "brand": "Slava",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 200,
+    "priceRange": "$120+",
+    "movement": "Automatic",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - some patina to the casing.",
+    "description": "A rare soviet export piece blending bold exploration heritage with classic mechanical craftsmanship.",
+    "image": "../images/watches/IMG_3589.jpg"
+  },
   {
     "id": "vostok-komandirskie-01",
     "name": "Komandirskie Paratrooper Gold",
@@ -128,5 +142,5 @@
     "condition": "Working - excellent running condition",
     "description": "A Soviet-made Vostok Buran — built to echo the ambition of Russia’s space shuttle era, where engineering met the cosmos.",
     "image": "../images/watches/IMG_3577.jpg"
-  }
+  } 
 ]
