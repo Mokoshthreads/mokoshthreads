@@ -226,5 +226,19 @@
     "condition": "Working, with light scratches on acrylic",
     "description": "Commemorating 50 years to the end of WW2. The Motherland Calls statue is emblematic to the sacrifice & history of the Soviet army.",
     "image": "../images/watches/IMG_3609.jpg"
-  }
+  },
+  {
+   "id": "vostok-Amphibia-purple-01",
+    "name": "Amphibia Purple",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on acrylic & case",
+    "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
+    "image": "../images/watches/IMG_3613.jpg"
+  } 
 ]
