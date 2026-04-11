@@ -338,5 +338,19 @@
     "condition": "Excellent working condition with light scratches on the acrylic, natural patina on the dial.",
     "description": "Softened by time, this Poljot carries the quiet dignity of a Soviet era long past.",
     "image": "../images/watches/IMG_3688.jpg"
+  },
+    {
+   "id": "pobeda-export-classic-01",
+    "name": "Export Clasic",
+    "brand": "Pobeda",
+    "era": "1960s",
+    "type": "Collector classic",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Pobeda K-26",
+    "caseShape": "Round",
+    "condition": "Working, with patina on dial and light scratches on acrylic.",
+    "description": "Built in the shadows of the Cold War, this Pobeda ticks with quiet Soviet resilience-simple, worn, enduring.",
+    "image": "../images/watches/IMG_3691.jpg"
   }
 ]
