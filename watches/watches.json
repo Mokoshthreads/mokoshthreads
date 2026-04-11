@@ -256,12 +256,26 @@
     "image": "../images/watches/IMG_3617.jpg"
   } ,
      {
+   "id": "slava-moscow",
+    "name": "Moscow",
+    "brand": "Slava",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 120,
+    "priceRange": "$120+",
+    "movement": "Manual Slava 2414/2427",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on acrylic.",
+    "description": "A tribute to Moscow's timeless skyline, this Slava captures the spirit of a city etched in steel and memory.",
+    "image": "../images/watches/IMG_3690.jpg"
+  } ,
+     {
    "id": "vostok-Amphibia-light-blue-01",
     "name": "Amphibia Light Blue",
     "brand": "Vostok",
     "era": "1980s",
     "type": "Collector classic",
-    "price": 110,
+    "price": 120,
     "priceRange": "$81-120",
     "movement": "Manual Vostok 2209/2409",
     "caseShape": "Cushion",
