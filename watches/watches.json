@@ -114,5 +114,19 @@
     "condition": "Working - worn, with scratches on acrylic and bracelet",
     "description": "Gold-plated with in-built alarm mechanism. Made in 1993 to commemorate the 125th anniversary of the birth of the last Russian Tsar.",
     "image": "../images/watches/10B78514-AF2A-43B6-AF62-FE4CCF95A8FE.jpeg"
+  },
+   {
+     "id": "vostok-buran",
+    "name": "Buran",
+    "brand": "Vostok",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 300,
+    "priceRange": "$121+",
+    "movement": "Manual",
+    "caseShape": "Round",
+    "condition": "Working - excellent running condition",
+    "description": "A Soviet-made Vostok Buran — built to echo the ambition of Russia’s space shuttle era, where engineering met the cosmos.",
+    "image": "../images/watches/IMG_3577.jpg"
   }
 ]
