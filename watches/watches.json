@@ -115,6 +115,20 @@
     "description": "Historical time-piece. Made in 1990-1991 to commemorate Operation Desert Shield, symbolizing Russia's support and allegiance to the USA. Mini 34mm cadet version.",
     "image": "../images/watches/IMG_3246.jpeg"
   },
+    {
+     "id": "poljot-tv-case-01",
+    "name": "TV Case",
+    "brand": "Poljot",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 85,
+    "priceRange": "$81–120",
+    "movement": "Manual",
+    "caseShape": "Round",
+    "condition": "Working in excellent condition.",
+    "description": "Refined Soviet dress watch from the flagship Poljot factory.",
+    "image": "../images/watches/IMG_3608.jpg"
+  },
   {
      "id": "poljot-russianimperator",
     "name": "Russian Imperator",
