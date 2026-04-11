@@ -170,5 +170,19 @@
     "condition": "Working - no crack on acrylic but patina on dial and casing.",
     "description": "Soviet export model for Vostok Komandirskie. Blue with Soviet navy logo.",
     "image": "../images/watches/IMG_3593.jpg"
-  }  
+  }  ,
+     {
+     "id": "zarya-red-gold-01",
+    "name": "Red Gold",
+    "brand": "Zarya",
+    "era": "1980s",
+    "type": "Vintage classic",
+    "price": 55,
+    "priceRange": "$31-80",
+    "movement": "Manual",
+    "caseShape": "Round",
+    "condition": "Working - slight crack in acrylic. Patina on red dial.",
+    "description": "Minimalist Soviet vintage with a bold red dial. By Penza Watch Factory.",
+    "image": "../images/watches/IMG_3601.jpg"
+  } 
 ]
