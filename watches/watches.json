@@ -182,7 +182,21 @@
     "movement": "Manual",
     "caseShape": "Round",
     "condition": "Working - slight crack in acrylic. Patina on red dial.",
-    "description": "Minimalist Soviet vintage with a bold red dial. By Penza Watch Factory.",
+    "description": "Minimalist Soviet vintage with a bold red dial & gold-plated case. By Penza Watch Factory.",
     "image": "../images/watches/IMG_3601.jpg"
+  } ,
+     {
+     "id": "zarya-dress-watch-01",
+    "name": "Dress Watch - USSR Export Dial",
+    "brand": "Zarya",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 55,
+    "priceRange": "$31-80",
+    "movement": "Manual",
+    "caseShape": "Round",
+    "condition": "Working - original bracelet signs of worn.",
+    "description": "Minimalist Soviet vintage with a simple everyday design. By Penza Watch Factory.",
+    "image": "../images/watches/IMG_3604.jpg"
   } 
 ]
