@@ -135,12 +135,26 @@
     "brand": "Vostok",
     "era": "1970s",
     "type": "Collector classic",
-    "price": 300,
+    "price": 250,
     "priceRange": "$121+",
     "movement": "Manual",
     "caseShape": "Round",
     "condition": "Working - excellent running condition",
     "description": "A Soviet-made Vostok Buran — built to echo the ambition of Russia’s space shuttle era, where engineering met the cosmos.",
     "image": "../images/watches/IMG_3577.jpg"
+  },
+     {
+     "id": "cardi-vostok-capitan-01",
+    "name": "Capitan Chronoscope 4-Star",
+    "brand": "Cardi-Vostok",
+    "era": "1990s",
+    "type": "Collector classic",
+    "price": 70,
+    "priceRange": "$31-80",
+    "movement": "Manual",
+    "caseShape": "Round",
+    "condition": "Working - slight crack in the acrylic, not hindering time visual.",
+    "description": "90s Russian experimental design - when Soviet watchmaking broke the rules.",
+    "image": "../images/watches/IMG_3591.jpg"
   } 
 ]
