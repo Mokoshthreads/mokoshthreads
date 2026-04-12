@@ -450,5 +450,19 @@
     "condition": "Working, with light case wear",
     "description": "Forged for the naval fleet, worn through storms - this is a sailor's time that never stood still.",
     "image": "../images/watches/IMG_3710.jpg"
+  },
+       {
+   "id": "vostok-Komandirskie-Naval-02",
+    "name": "Komandirskie Naval Army",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Military style",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with signs of case wear",
+    "description": "Forged for the naval fleet, worn through storms - this is a sailor's time that never stood still.",
+    "image": "../images/watches/IMG_3711.jpg"
   }
 ]
