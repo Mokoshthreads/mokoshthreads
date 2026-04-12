@@ -380,5 +380,19 @@
     "condition": "Working, with light crack on bottom side of acrylic.",
     "description": "A warm Soviet sunburst dial hides a clever mechanical calendar - quietly ticking with everyday ingenuity, with a novel date push corrector.",
     "image": "../images/watches/IMG_3695.jpg"
+  },
+    {
+   "id": "chaika-brown_sunburst-01",
+    "name": "Two-Tone Orange Sunburst Center",
+    "brand": "Chaika",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Chaika 1601/1600",
+    "caseShape": "Round",
+    "condition": "Working, with light crack on bottom side of acrylic.",
+    "description": "Vintage piece with a rare orange sunburst dial design, atypical of Soviet aesthetics.",
+    "image": "../images/watches/IMG_3697.jpg"
   }
 ]
