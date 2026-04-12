@@ -548,5 +548,19 @@
     "condition": "Working - with slight patina around.",
     "description": "When Vostok starts speaking loudly, this is what it looked like.",
     "image": "../images/watches/IMG_3725.jpg"
+  },
+         {
+   "id": "vostok-Komandirskie-Submarine-Fleet-01",
+    "name": "Komandirskie Submarine Fleet",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on the acrylic ",
+    "description": "A Soviet submarine breaking the surface - captured on a dial for the Cold War.",
+    "image": "../images/watches/IMG_3727.jpg"
   }
 ]
