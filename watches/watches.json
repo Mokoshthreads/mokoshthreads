@@ -299,7 +299,7 @@
   } ,
    {
    "id": "raketa-tv-case-01",
-    "name": "TV Case",
+    "name": "TV Case White",
     "brand": "Raketa",
     "era": "1970s",
     "type": "Collector classic",
@@ -341,7 +341,7 @@
   },
     {
    "id": "pobeda-export-classic-01",
-    "name": "Export Clasic",
+    "name": "Export Classic",
     "brand": "Pobeda",
     "era": "1960s",
     "type": "Collector classic",
@@ -352,5 +352,19 @@
     "condition": "Working, with patina on dial and light scratches on acrylic.",
     "description": "Built in the shadows of the Cold War, this Pobeda ticks with quiet Soviet resilience-simple, worn, enduring.",
     "image": "../images/watches/IMG_3691.jpg"
+  },
+      {
+   "id": "raketa-cushion-tvcase-01",
+    "name": "TV Case Gold",
+    "brand": "Raketa",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Raketa 2609.HA",
+    "caseShape": "Cushion TV",
+    "condition": "Working, with patina on dial and light scratches on acrylic.",
+    "description": "A relic of 1970s Soviet design, where brutal simplicity meets quiet elegance in aged steel and fading gold.",
+    "image": "../images/watches/IMG_3693.jpg"
   }
 ]
