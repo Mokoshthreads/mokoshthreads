@@ -534,5 +534,19 @@
     "condition": "Working, with light scratches on acrylic & aged bezel",
     "description": "A collector favorite. Specially ordered by the Soviet military. Serial no.: 635829.",
     "image": "../images/watches/IMG_3723.jpg"
+  },
+    {
+     "id": "vostok-komandirskie-Black-Red-Star-01",
+    "name": "Komandirskie Black Red Star",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working - with slight patina around.",
+    "description": "When Vostok starts speaking loudly, this is what it looked like.",
+    "image": "../images/watches/IMG_3725.jpg"
   }
 ]
