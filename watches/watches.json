@@ -173,7 +173,7 @@
   } ,
      {
      "id": "vostok-komandirskie-ussr-blue-01",
-    "name": "Komandirskie Naval Blue",
+    "name": "Komandirskie Submarine Blue",
     "brand": "Vostok",
     "era": "1980s",
     "type": "Military style",
@@ -506,5 +506,19 @@
     "condition": "Working, with light scratches on the acrylic.",
     "description": "A mechnaical Soviet classic - simple, honest, enduring. With Cyrillic date function",
     "image": "../images/watches/IMG_3719.jpg"
+  },
+  {
+     "id": "vostok-komandirskie-submarine-tropical-01",
+    "name": "Komandirskie Submarine Tropical",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working - with crack on acrylic.",
+    "description": "A Soviet submarine watch that aged like the ocean it was meant for.",
+    "image": "../images/watches/IMG_3721.jpg"
   }
 ]
