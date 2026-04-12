@@ -562,5 +562,20 @@
     "condition": "Working, with light scratches on the acrylic ",
     "description": "A Soviet submarine breaking the surface - captured on a dial for the Cold War.",
     "image": "../images/watches/IMG_3727.jpg"
+  },
+    {
+    "id": "vostok-komandirskie-Russia-Black01",
+    "name": "Komandirskie Russia Black",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Vintage classic",
+    "type": "Military style",
+    "price": 80,
+    "priceRange": "$31–80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working - light scratches on acrylic",
+    "description": "Transitional Soviet-Russian piece. This is what comes after the Soviets.",
+    "image": "../images/watches/IMG_3731.jpg"
   }
 ]
