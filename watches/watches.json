@@ -520,5 +520,19 @@
     "condition": "Working - with crack on acrylic.",
     "description": "A Soviet submarine watch that aged like the ocean it was meant for.",
     "image": "../images/watches/IMG_3721.jpg"
+  },
+    {
+   "id": "vostok-komandirskie-black-zakaz-01",
+    "name": "Komandirskie Zakaz Mo USSR Black",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on acrylic & aged bezel",
+    "description": "A collector favorite. Specially ordered by the Soviet military. Serial no.: 635829.",
+    "image": "../images/watches/IMG_3723.jpg"
   }
 ]
