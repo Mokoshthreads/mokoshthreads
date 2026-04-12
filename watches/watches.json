@@ -478,5 +478,19 @@
     "condition": "Working, with light scratches on acrylic",
     "description": "Built for function with a rare striking green dial.",
     "image": "../images/watches/IMG_3713.jpg"
+  },
+       {
+     "id": "cardi-vostok-chronoscope-01",
+    "name": "Chronoscope/ Racing Time",
+    "brand": "Cardi-Vostok",
+    "era": "1990s",
+    "type": "Vintage classic",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2409/2414",
+    "caseShape": "Round",
+    "condition": "Excellent working condition with no front watch scratches or embeleshment. Back has slight ageing",
+    "description": "Built for daily use, not a relic, meant to be worn.",
+    "image": "../images/watches/IMG_3716.jpg"
   }
 ]
