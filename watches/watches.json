@@ -577,5 +577,19 @@
     "condition": "Working - light scratches on acrylic",
     "description": "Transitional Soviet-Russian piece. This is what comes after the Soviets.",
     "image": "../images/watches/IMG_3731.jpg"
+  },
+     {
+   "id": "raketa-world-time-01",
+    "name": "World Time",
+    "brand": "Raketa",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 110,
+    "priceRange": "$81-120",
+    "movement": "Manual Raketa 2628.H",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on the acrylic.",
+    "description": "A Soviet world time travel watch that knew the time in every capital in the world.",
+    "image": "../images/watches/IMG_3735.jpg"
   }
 ]
