@@ -408,5 +408,19 @@
     "condition": "Working, with cracked bottom acrylic.",
     "description": "Vintage Soviet sport watch with military-style bezel - affordable entry piece.",
     "image": "../images/watches/IMG_3700.jpg"
+  },
+      {
+   "id": "vostok-Amphibia-antimagnetic-01",
+    "name": "Amphibia Antimagnetic",
+    "brand": "Vostok",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2209/2409",
+    "caseShape": "Tonneau",
+    "condition": "Working, with visible scratches on acrylic & worn bezel",
+    "description": "A battle-worn Soviet diver - its scarred bezel and aged dial carrying decades of underwater history.",
+    "image": "../images/watches/IMG_3703.jpg"
   }
 ]
