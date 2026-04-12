@@ -425,7 +425,7 @@
   },
    {
    "id": "vostok-Komandirskie-Russia-White-01",
-    "name": "Komandirskie Russia Whitec",
+    "name": "Komandirskie Russia White",
     "brand": "Vostok",
     "era": "2000s",
     "type": "Military style",
@@ -436,5 +436,19 @@
     "condition": "Working, with case wear and light scratches on acrylic",
     "description": "A soldier's symbol of a fallen empire - reborn in steel, worn through time.",
     "image": "../images/watches/IMG_3705.jpg"
+  },
+     {
+   "id": "vostok-Komandirskie-Naval-01",
+    "name": "Komandirskie Naval Army",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with light case wear",
+    "description": "Forged for the naval fleet, worn through storms - this is a sailor's time that never stood still.",
+    "image": "../images/watches/IMG_3710.jpg"
   }
 ]
