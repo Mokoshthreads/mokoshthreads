@@ -591,5 +591,19 @@
     "condition": "Working, with light scratches on the acrylic.",
     "description": "A Soviet world time travel watch that knew the time in every capital in the world.",
     "image": "../images/watches/IMG_3735.jpg"
+  },
+       {
+   "id": "zim-franken-01",
+    "name": "Franken Dress Watch - Raketa movement",
+    "brand": "ZiM",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 50,
+    "priceRange": "$31-80",
+    "movement": "Manual Raketa 2609.HA",
+    "caseShape": "Round",
+    "condition": "Excellent Working, with light scratches on the acrylic.",
+    "description": "A Soviet franken watch with center seconds Raketa movement housed within a ZiM dial.",
+    "image": "../images/watches/IMG_3738.jpg"
   }
 ]
