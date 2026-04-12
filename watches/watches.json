@@ -422,5 +422,19 @@
     "condition": "Working, with visible scratches on acrylic & worn bezel",
     "description": "A battle-worn Soviet diver - its scarred bezel and aged dial carrying decades of underwater history.",
     "image": "../images/watches/IMG_3703.jpg"
+  },
+   {
+   "id": "vostok-Komandirskie-Russia-White-01",
+    "name": "Komandirskie Russia Whitec",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Military style",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with case wear and light scratches on acrylic",
+    "description": "A soldier's symbol of a fallen empire - reborn in steel, worn through time.",
+    "image": "../images/watches/IMG_3705.jpg"
   }
 ]
