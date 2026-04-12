@@ -464,5 +464,19 @@
     "condition": "Working, with signs of case wear",
     "description": "Forged for the naval fleet, worn through storms - this is a sailor's time that never stood still.",
     "image": "../images/watches/IMG_3711.jpg"
+  },
+         {
+   "id": "vostok-Komandirskie-Green-01",
+    "name": "Komandirskie Green",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on acrylic",
+    "description": "Built for function with a rare striking green dial.",
+    "image": "../images/watches/IMG_3713.jpg"
   }
 ]
