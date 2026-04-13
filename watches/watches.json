@@ -773,5 +773,19 @@
     "condition": "Working, minor plating wear across bracelet.",
     "description": "An everyday vintage ladies piece in the Soviet era.",
     "image": "../images/watches/IMG_3767.jpeg"
+  },
+      {
+     "id": "raketa-navy-24h-01",
+    "name": "Navy 24h",
+    "brand": "Raketa",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Raketa 2623.H",
+    "caseShape": "Round",
+    "condition": "Working, with slight cracks on the crystal and signs of patina on casing.",
+    "description": "A unique 24hour watch that moves one revolution a day with the image of flags of the Russian navy and St Andrew's crest on the dial.",
+    "image": "../images/watches/IMG_3769.jpeg"
   }
 ]
