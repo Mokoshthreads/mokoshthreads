@@ -745,5 +745,19 @@
     "condition": "Working, worn but great aesthetic condition.",
     "description": "A quiet Soviet ornament of time - where elegance was shaped in gold and worn with restraint.",
     "image": "../images/watches/IMG_3763.jpeg"
+  },
+    {
+     "id": "slava-ladies-ornamental-01",
+    "name": "Ladies Ornamental",
+    "brand": "Slava",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 45,
+    "priceRange": "$31-80",
+    "movement": "Manual",
+    "caseShape": "Small Rounded",
+    "condition": "Working, heavy plating wear across bracelet.",
+    "description": "An exceptionally unique design - a statement piece, more ornament than instrument.",
+    "image": "../images/watches/IMG_3765.jpeg"
   }
 ]
