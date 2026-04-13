@@ -717,5 +717,19 @@
     "condition": "Working, light scratches on crystal. Great aesthetic condition.",
     "description": "A quiet piece of elegance - with original bracelet & forward-looking Soviet watch deisgn.",
     "image": "../images/watches/IMG_3759.jpeg"
-  }  
+  }  ,
+    {
+     "id": "luch-ladies-gold-01",
+    "name": "Ladies Gold",
+    "brand": "Luch",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 40,
+    "priceRange": "$31-80",
+    "movement": "Manual",
+    "caseShape": "Small Rectangle",
+    "condition": "Working, aged but great aesthetic condition.",
+    "description": "A delicate piece of Soviet elegance - where time was worn as quiet gold.",
+    "image": "../images/watches/IMG_3761.jpeg"
+  }
 ]
