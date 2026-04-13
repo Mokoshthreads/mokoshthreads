@@ -675,5 +675,19 @@
     "condition": "Working, with light scratches on crystal.",
     "description": "This Soviet automatic watch do not only just tell time, it also tells the DAY too.",
     "image": "../images/watches/IMG_3752.jpeg"
+  },
+    {
+     "id": "zarya-rectangle-dress-01",
+    "name": "Rectangle Dress",
+    "brand": "Zarya",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Zarya 2009/2014",
+    "caseShape": "Small Rectangular",
+    "condition": "Working, light scratches on crystal.",
+    "description": "Minimalist Soviet vintage with a bold red dial & gold-plated case. By Penza Watch Factory.",
+    "image": "../images/watches/IMG_3755.jpeg"
   }
 ]
