@@ -787,5 +787,19 @@
     "condition": "Working, with slight cracks on the crystal and signs of patina on casing.",
     "description": "A unique 24hour watch that moves one revolution a day with the image of flags of the Russian navy and St Andrew's crest on the dial.",
     "image": "../images/watches/IMG_3769.jpeg"
+  },
+      {
+     "id": "chaika-Black-Red-01",
+    "name": "Black Red",
+    "brand": "Chaika",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 75,
+    "priceRange": "$31-80",
+    "movement": "Manual Chaika 1601/1600",
+    "caseShape": "Cushion TV",
+    "condition": "Working, with slight cracks on the crystal and signs of patina on casing.",
+    "description": "A relic of late-Soviet design, where black steel met red signals.",
+    "image": "../images/watches/IMG_3772.jpeg"
   }
 ]
