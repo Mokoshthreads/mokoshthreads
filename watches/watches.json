@@ -256,7 +256,7 @@
     "image": "../images/watches/IMG_3617.jpg"
   } ,
      {
-   "id": "slava-moscow",
+   "id": "slava-moscow-01",
     "name": "Moscow",
     "brand": "Slava",
     "era": "1980s",
@@ -633,5 +633,19 @@
     "condition": "Working, with scratched crystal and oxidation on dial.",
     "description": "Slava - one of the few Soviet watches with a dual mainspring movement.",
     "image": "../images/watches/IMG_3743.jpeg"
+  },
+       {
+   "id": "slava-moscow-02",
+    "name": "Moscow",
+    "brand": "Slava",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 100,
+    "priceRange": "$81-$120",
+    "movement": "Manual Slava 2414/2427",
+    "caseShape": "Round",
+    "condition": "Working, with heavy scratches on bottom side of acrylic.",
+    "description": "A tribute to Moscow's timeless skyline, this Slava captures the spirit of a city etched in steel and memory.",
+    "image": "../images/watches/IMG_3746.jpeg"
   }
 ]
