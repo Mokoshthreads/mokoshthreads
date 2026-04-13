@@ -242,8 +242,13 @@
 
 .clothing-modal-details .btn {
   margin-top: 20px;
-  width: 100%;
   text-align: center;
+}
+
+.clothing-modal-details .modal-cta-buttons .btn {
+  margin-top: 0;
+  width: auto;
+  flex: 1;
 }
 
 .modal-cta-buttons {
@@ -253,7 +258,7 @@
   margin-top: 18px;
 }
 
-.watch-modal-details .modal-cta-buttons .btn {
+.clothing-modal-details .modal-cta-buttons .btn {
   margin-top: 0;
 }
 
