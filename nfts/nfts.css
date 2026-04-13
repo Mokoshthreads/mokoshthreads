@@ -1,14 +1,10 @@
-html {
-  scroll-behavior: smooth;
-}
-
-.cards-page {
+.nfts-page {
   max-width: 1320px;
   margin: 0 auto;
   padding: 48px 24px 80px;
 }
 
-.cards-hero {
+.nfts-hero {
   text-align: center;
   padding: 54px 28px;
   margin-bottom: 46px;
@@ -17,210 +13,163 @@ html {
   background:
     radial-gradient(circle at top, rgba(191,167,106,0.14), transparent 34%),
     linear-gradient(180deg, rgba(23,19,16,0.98), rgba(14,12,10,0.98));
-  box-shadow: 0 24px 60px rgba(0,0,0,0.24);
 }
 
-.cards-label {
-  margin: 0 0 10px;
+.nfts-label {
   color: #bfa76a;
-  text-transform: uppercase;
   letter-spacing: 0.18em;
-  font-size: 0.78rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
 }
 
-.cards-hero h1 {
-  margin: 0 0 14px;
-  font-size: clamp(2.4rem, 5vw, 4.3rem);
-  line-height: 1.04;
+.nfts-intro {
+  max-width: 560px;
+  margin: 16px auto 0;
+  color: #cfc6b6;
 }
 
-.cards-intro {
-  max-width: 760px;
-  margin: 0 auto;
-  font-size: 1.04rem;
-  line-height: 1.7;
-  color: rgba(255,255,255,0.78);
-}
-
-.cards-hero-actions {
+.nfts-hero-actions {
+  margin-top: 20px;
   display: flex;
+  gap: 10px;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 14px;
-  margin-top: 26px;
 }
 
-.cards-section {
-  margin-top: 56px;
+.nfts-section {
+  margin-top: 40px;
 }
 
-.cards-section-head {
-  margin-bottom: 24px;
-  padding-bottom: 14px;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+.nfts-section-head {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.cards-section-head h2 {
-  margin: 0 0 8px;
-  font-size: clamp(1.7rem, 3vw, 2.5rem);
+.nfts-count {
+  color: #a89f8c;
 }
 
-.cards-count {
-  margin: 0;
-  color: rgba(255,255,255,0.68);
-  font-size: 0.98rem;
-}
-
-.cards-grid {
+.nfts-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 14px;
 }
 
-.card-tile {
-  appearance: none;
+.nft-card {
+  background: linear-gradient(180deg, #191613 0%, #12100d 100%);
   border: 1px solid rgba(255,255,255,0.08);
   border-radius: 16px;
-  background: #14171b;
   overflow: hidden;
-  padding: 0;
   cursor: pointer;
-  box-shadow: 0 14px 32px rgba(0,0,0,0.18);
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.card-tile:hover {
+.nft-card:hover {
   transform: translateY(-4px);
-  border-color: rgba(191,167,106,0.45);
-  box-shadow: 0 18px 38px rgba(0,0,0,0.3);
+  box-shadow: 0 16px 30px rgba(0,0,0,0.28);
 }
 
-.card-tile img {
+.nft-card img {
   width: 100%;
-  aspect-ratio: 2 / 3;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
   display: block;
 }
 
-.cards-lightbox {
+.nft-card-body {
+  padding: 12px;
+}
+
+.nft-card-title {
+  margin: 0;
+  color: #f1eadf;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.nft-card-meta {
+  margin: 6px 0 0;
+  color: #a89f8c;
+  font-size: 0.82rem;
+}
+
+/* Lightbox */
+.nfts-lightbox {
   position: fixed;
   inset: 0;
-  z-index: 2200;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transition: opacity 0.22s ease, visibility 0.22s ease;
+  display: none;
+  z-index: 2000;
 }
 
-.cards-lightbox.open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
-}
-
-.cards-lightbox-backdrop {
-  position: absolute;
-  inset: 0;
-  background: rgba(8, 10, 14, 0.82);
-  backdrop-filter: blur(6px);
-}
-
-.cards-lightbox-content {
-  position: relative;
-  width: min(540px, calc(100vw - 24px));
-  margin: 24px auto;
-  max-height: calc(100vh - 48px);
+.nfts-lightbox.open {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(180deg, #181b20 0%, #101215 100%);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 26px;
-  padding: 22px;
-  box-shadow: 0 28px 70px rgba(0,0,0,0.42);
+  padding: 20px;
 }
 
-.cards-lightbox-content img {
-  width: auto;
+.lightbox-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(4px);
+}
+
+.lightbox-content {
+  position: relative;
+  z-index: 2;
+  width: min(92vw, 900px);
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-content img {
   max-width: 100%;
-  max-height: calc(100vh - 110px);
+  max-height: 88vh;
+  width: auto;
   height: auto;
   object-fit: contain;
+  border-radius: 12px;
   display: block;
-  border-radius: 14px;
 }
 
-.cards-lightbox-close {
+.lightbox-close {
   position: absolute;
   top: 12px;
   right: 12px;
-  width: 42px;
-  height: 42px;
-  border: none;
-  border-radius: 999px;
-  background: rgba(255,255,255,0.08);
-  color: #f3efe7;
-  font-size: 1.5rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(20, 20, 20, 0.8);
+  color: white;
+  font-size: 28px;
   line-height: 1;
   cursor: pointer;
-  transition: 0.2s ease;
+  z-index: 3;
 }
 
-.cards-lightbox-close:hover {
-  background: rgba(255,255,255,0.15);
-}
-
-body.cards-lightbox-open {
-  overflow: hidden;
-}
-
-@media (max-width: 720px) {
-  .cards-page {
-    padding: 34px 16px 64px;
+@media (max-width: 640px) {
+  .nfts-lightbox.open {
+    padding: 12px;
   }
 
-  .cards-hero {
-    padding: 40px 18px;
-  }
-
-  .cards-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 10px;
-  }
-
-  .card-tile {
-    border-radius: 12px;
-  }
-
-  .cards-lightbox-content {
-    width: min(100vw - 18px, 540px);
-    margin: 9px auto;
-    max-height: calc(100vh - 18px);
-    padding: 16px;
-    border-radius: 20px;
-  }
-
-  .cards-lightbox-content img {
-    max-height: calc(100vh - 70px);
-  }
-}
-
-@media (max-width: 480px) {
-  .cards-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 8px;
-  }
-
-  .card-tile {
-    border-radius: 10px;
-  }
-
-  .cards-hero-actions {
-    flex-direction: column;
-  }
-
-  .cards-hero-actions .btn {
+  .lightbox-content {
     width: 100%;
-    text-align: center;
+    max-height: 92vh;
+  }
+
+  .lightbox-content img {
+    max-height: 84vh;
+  }
+
+  .lightbox-close {
+    top: 8px;
+    right: 8px;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
   }
 }
