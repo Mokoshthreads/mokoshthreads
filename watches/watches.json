@@ -689,5 +689,19 @@
     "condition": "Working, light scratches on crystal.",
     "description": "Minimalist Soviet vintage with a bold red dial & gold-plated case. By Penza Watch Factory.",
     "image": "../images/watches/IMG_3755.jpeg"
+  },
+   {
+     "id": "poljot-minimalist-dress-01",
+    "name": "Minimalist Dress",
+    "brand": "Poljot",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Poljot 2609/2609A",
+    "caseShape": "Cushion",
+    "condition": "Working, light scratches on crystal, gold plating wear.",
+    "description": "Built in the USSR, a quiet machine that has kept time for decades without ever needing attention.",
+    "image": "../images/watches/IMG_3757.jpeg"
   }
 ]
