@@ -647,5 +647,19 @@
     "condition": "Working, with heavy scratches on bottom side of acrylic.",
     "description": "A tribute to Moscow's timeless skyline, this Slava captures the spirit of a city etched in steel and memory.",
     "image": "../images/watches/IMG_3746.jpeg"
+  },
+   {
+   "id": "raketa-tv-case-02",
+    "name": "TV Case White",
+    "brand": "Raketa",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Raketa 2609.HA",
+    "caseShape": "TV Case",
+    "condition": "Working with light scratches on crystal, aging spots on dial.",
+    "description": "Gold plated casing with unique TV-case design. Dress watch with a flair & class.",
+    "image": "../images/watches/IMG_3749.jpeg"
   }
 ]
