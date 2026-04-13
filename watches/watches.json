@@ -731,5 +731,19 @@
     "condition": "Working, aged but great aesthetic condition.",
     "description": "A delicate piece of Soviet elegance - where time was worn as quiet gold.",
     "image": "../images/watches/IMG_3761.jpeg"
+  },
+      {
+     "id": "chaika-ladies-gold-oval-01",
+    "name": "Ladies Gold Oval",
+    "brand": "Chaika",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 35,
+    "priceRange": "$31-80",
+    "movement": "Manual",
+    "caseShape": "Small Oval",
+    "condition": "Working, worn but great aesthetic condition.",
+    "description": "A quiet Soviet ornament of time - where elegance was shaped in gold and worn with restraint.",
+    "image": "../images/watches/IMG_3763.jpeg"
   }
 ]
