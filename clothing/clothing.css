@@ -246,6 +246,27 @@
   text-align: center;
 }
 
+.modal-cta-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+
+.watch-modal-details .modal-cta-buttons .btn {
+  margin-top: 0;
+}
+
+.btn-whatsapp {
+  background: #25D366;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.btn-whatsapp:hover {
+  background: #1ebe5d;
+}
+
 .clothing-specs {
   margin-top: 18px;
   padding-left: 18px;
