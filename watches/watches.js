@@ -78,10 +78,18 @@ async function loadWatches() {
       modalMeta.textContent = `${watch.era} • ${watch.type}`;
       modalPrice.textContent = formatDualPrice(watch.price);
 
-      const modalBuyBtn = document.getElementById("modalBuyBtn");
-      if (modalBuyBtn) {
-        modalBuyBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(`Hi, I'm interested in ${watch.brand} ${watch.name}`)}`;
-      }
+  const modalTelegramBtn = document.getElementById("modalTelegramBtn");
+const modalWhatsappBtn = document.getElementById("modalWhatsappBtn");
+
+const enquiryMessage = `Hi, I'm interested in ${watch.brand} ${watch.name}`;
+
+if (modalTelegramBtn) {
+  modalTelegramBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(enquiryMessage)}`;
+}
+
+if (modalWhatsappBtn) {
+  modalWhatsappBtn.href = `https://wa.me/6591234567?text=${encodeURIComponent(enquiryMessage)}`;
+}
 
       document.getElementById("modalDescription").textContent = watch.description || "";
       document.getElementById("modalMovement").textContent = watch.movement || "-";
