@@ -619,5 +619,19 @@
     "condition": "Working, with only light scratches on the acrylic.",
     "description": "Classic Soviet Raketa - minimalist export design from the final years of the USSR.",
     "image": "../images/watches/IMG_3741.jpeg"
+  },
+   {
+   "id": "slava-export-dress-01",
+    "name": "Export Dress",
+    "brand": "Slava",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Slava 2414/2427",
+    "caseShape": "Round",
+    "condition": "Working, with scratched crystal and oxidation on dial.",
+    "description": "Slava - one of the few Soviet watches with a dual mainspring movement.",
+    "image": "../images/watches/IMG_3743.jpeg"
   }
 ]
