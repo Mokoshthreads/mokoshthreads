@@ -18,7 +18,8 @@ async function loadClothing() {
   const modalMaterial = document.getElementById("modalMaterial");
   const modalOrigin = document.getElementById("modalOrigin");
   const modalFit = document.getElementById("modalFit");
-  const modalBuyBtn = document.getElementById("modalBuyBtn");
+  const modalTelegramBtn = document.getElementById("modalTelegramBtn");
+const modalWhatsappBtn = document.getElementById("modalWhatsappBtn");
 
   const SGD_TO_MYR = 3.10;
 
@@ -86,9 +87,15 @@ async function loadClothing() {
       modalOrigin.textContent = item.origin || "-";
       modalFit.textContent = item.fit || "-";
 
-      if (modalBuyBtn) {
-        modalBuyBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(`Hi, I'm interested in ${item.name}`)}`;
-      }
+      const enquiryMessage = `Hi, I'm interested in ${item.name}`;
+
+if (modalTelegramBtn) {
+  modalTelegramBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(enquiryMessage)}`;
+}
+
+if (modalWhatsappBtn) {
+  modalWhatsappBtn.href = `https://wa.me/6591234567?text=${encodeURIComponent(enquiryMessage)}`;
+}
 
       modal.classList.add("open");
       modal.setAttribute("aria-hidden", "false");
