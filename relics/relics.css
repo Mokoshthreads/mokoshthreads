@@ -357,10 +357,6 @@
   box-shadow: 0 0 12px rgba(191, 167, 106, 0.22);
 }
 
-#modalBuyBtn {
-  margin-top: 0;
-}
-
 #modalDescription {
   margin: 22px 0 20px;
   line-height: 1.7;
