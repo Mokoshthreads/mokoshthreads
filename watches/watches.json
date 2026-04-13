@@ -605,5 +605,19 @@
     "condition": "Excellent Working, with light scratches on the acrylic.",
     "description": "A Soviet franken watch with center seconds Raketa movement housed within a ZiM dial.",
     "image": "../images/watches/IMG_3738.jpg"
+  },
+      {
+   "id": "raketa-simple-dress-01",
+    "name": "Simple Dress",
+    "brand": "Raketa",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Raketa 2609.HA",
+    "caseShape": "Round",
+    "condition": "Working, with only light scratches on the acrylic.",
+    "description": "Classic Soviet Raketa - minimalist export design from the final years of the USSR.",
+    "image": "../images/watches/IMG_3741.jpeg"
   }
 ]
