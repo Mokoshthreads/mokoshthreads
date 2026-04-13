@@ -1,74 +1,66 @@
-const slavicGrid = document.getElementById("slavicnftsGrid");
-const singaporeGrid = document.getElementById("singaporenftsGrid");
+const grid = document.getElementById("slavicMythsGrid");
+const countEl = document.getElementById("slavicMythsCount");
 
-const lightbox = document.getElementById("cardsLightbox");
-const lightboxImage = document.getElementById("cardsLightboxImage");
-const lightboxClose = document.getElementById("cardsLightboxClose");
-const lightboxBackdrop = document.getElementById("cardsLightboxBackdrop");
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightboxImage");
+const backdrop = document.getElementById("lightboxBackdrop");
+const closeBtn = document.getElementById("lightboxClose");
 
-function createCardTile(src, alt) {
-  const button = document.createElement("button");
-  button.className = "card-tile";
-  button.type = "button";
-  button.setAttribute("aria-label", alt);
+async function loadNFTs() {
+  try {
+    const response = await fetch("./nfts.json");
+    const data = await response.json();
 
-  const img = document.createElement("img");
-  img.src = src;
-  img.alt = alt;
-  img.loading = "lazy";
+    const collection = data.collections.find(
+      (item) => item.id === "slavic-myths"
+    );
 
-  button.appendChild(img);
+    if (!collection || !collection.items || !collection.items.length) {
+      grid.innerHTML = `<p class="nfts-empty">No NFTs available yet.</p>`;
+      return;
+    }
 
-  button.addEventListener("click", () => {
-    openLightbox(src, alt);
-  });
+    countEl.textContent = `${collection.items.length} NFTs`;
 
-  return button;
-}
+    collection.items.forEach((item) => {
+      const card = document.createElement("article");
+      card.className = "nft-card";
 
-function openLightbox(src, alt) {
-  lightboxImage.src = src;
-  lightboxImage.alt = alt;
-  lightbox.classList.add("open");
-  lightbox.setAttribute("aria-hidden", "false");
-  document.body.classList.add("cards-lightbox-open");
+      card.innerHTML = `
+        <img src="${item.image}" alt="${item.title}" />
+        <div class="nft-card-body">
+          <p class="nft-card-title">${item.title}</p>
+          <p class="nft-card-meta">${item.label || "Mokosh NFT"}</p>
+        </div>
+      `;
+
+      card.addEventListener("click", () => {
+        lightboxImg.src = item.image;
+        lightboxImg.alt = item.title;
+        lightbox.classList.add("open");
+        lightbox.setAttribute("aria-hidden", "false");
+      });
+
+      grid.appendChild(card);
+    });
+  } catch (error) {
+    console.error("Unable to load NFTs:", error);
+    grid.innerHTML = `<p class="nfts-empty">Unable to load NFTs right now.</p>`;
+  }
 }
 
 function closeLightbox() {
   lightbox.classList.remove("open");
   lightbox.setAttribute("aria-hidden", "true");
-  lightboxImage.src = "";
-  lightboxImage.alt = "";
-  document.body.classList.remove("cards-lightbox-open");
 }
 
-function buildCollection(grid, folder, count, altPrefix) {
-  for (let i = 1; i <= count; i++) {
-    const num = String(i).padStart(3, "0");
-    const src = `./${folder}/card${num}.png`;
-    const alt = `${altPrefix} ${i}`;
-    grid.appendChild(createCardTile(src, alt));
-  }
-}
+backdrop.addEventListener("click", closeLightbox);
+closeBtn.addEventListener("click", closeLightbox);
 
-if (slavicGrid) {
-  buildCollection(slavicnftsGrid, "slavicnfts", 9, "Slavic mythology card");
-}
-
-if (singaporeGrid) {
-  buildCollection(singaporenftsGrid, "singaporenfts", 9, "Singapore mythology card");
-}
-
-if (lightboxClose) {
-  lightboxClose.addEventListener("click", closeLightbox);
-}
-
-if (lightboxBackdrop) {
-  lightboxBackdrop.addEventListener("click", closeLightbox);
-}
-
-document.addEventListener("keydown", e => {
-  if (e.key === "Escape" && lightbox.classList.contains("open")) {
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") {
     closeLightbox();
   }
 });
+
+loadNFTs();
