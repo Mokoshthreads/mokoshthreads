@@ -78,7 +78,7 @@ async function loadWatches() {
       modalMeta.textContent = `${watch.era} • ${watch.type}`;
       modalPrice.textContent = formatDualPrice(watch.price);
 
-  const modalTelegramBtn = document.getElementById("modalTelegramBtn");
+const modalTelegramBtn = document.getElementById("modalTelegramBtn");
 const modalWhatsappBtn = document.getElementById("modalWhatsappBtn");
 
 const enquiryMessage = `Hi, I'm interested in ${watch.brand} ${watch.name}`;
