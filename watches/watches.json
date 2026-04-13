@@ -661,5 +661,19 @@
     "condition": "Working with light scratches on crystal, aging spots on dial.",
     "description": "Gold plated casing with unique TV-case design. Dress watch with a flair & class.",
     "image": "../images/watches/IMG_3749.jpeg"
+  },
+    {
+   "id": "chaika-automatic-daydate-01",
+    "name": "Automatic Day-Date",
+    "brand": "Chaika",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 110,
+    "priceRange": "$81-120",
+    "movement": "Automatic Chaika 1601/1614",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on crystal.",
+    "description": "This Soviet automatic watch do not only just tell time, it also tells the DAY too.",
+    "image": "../images/watches/IMG_3752.jpeg"
   }
 ]
