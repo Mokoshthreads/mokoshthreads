@@ -88,7 +88,7 @@ if (modalTelegramBtn) {
 }
 
 if (modalWhatsappBtn) {
-  modalWhatsappBtn.href = `https://wa.me/6591234567?text=${encodeURIComponent(enquiryMessage)}`;
+  modalWhatsappBtn.href = `https://wa.me/6589202646?text=${encodeURIComponent(enquiryMessage)}`;
 }
 
       document.getElementById("modalDescription").textContent = watch.description || "";
