@@ -17,7 +17,8 @@ const modalMaterial = document.getElementById("modalMaterial");
 const modalSymbol = document.getElementById("modalSymbol");
 const modalOrigin = document.getElementById("modalOrigin");
 
-const modalBuyBtn = document.getElementById("modalBuyBtn");
+const modalBuyBtn = const modalTelegramBtn = document.getElementById("modalTelegramBtn");
+const modalWhatsappBtn = document.getElementById("modalWhatsappBtn");
 const modalCollectionBtn = document.getElementById("modalCollectionBtn");
 
 const modalClose = document.getElementById("relicsModalClose");
@@ -167,10 +168,14 @@ function openModal(item) {
     }
   }
 
-  if (modalBuyBtn) {
-    modalBuyBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(
-      `Hi, I'm interested in ${item.name}`
-    )}`;
+    const enquiryMessage = `Hi, I'm interested in ${item.name}`;
+
+  if (modalTelegramBtn) {
+    modalTelegramBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(enquiryMessage)}`;
+  }
+
+  if (modalWhatsappBtn) {
+    modalWhatsappBtn.href = `https://wa.me/6591234567?text=${encodeURIComponent(enquiryMessage)}`;
   }
 
   modal.classList.add("open");
