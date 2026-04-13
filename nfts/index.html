@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mokosh Cards | Mokosh Threads</title>
-  <link rel="stylesheet" href=".../style.css" />
-  <link rel="stylesheet" href="../cards.css" />
+  <title>Mokosh NFTs | Mokosh Threads</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="./nfts.css" />
 </head>
 <body>
 
   <div class="topbar">
-    Mythic archives of Slavic gods, spirits, creatures, and Singapore legends
+    Digital mythic collectibles inspired by Slavic folklore, legend, and dark wonder
   </div>
 
   <header class="site-header">
@@ -21,55 +21,44 @@
       <a href="../clothing/">Clothing</a>
       <a href="../watches/">Watches</a>
       <a href="../relics/">Relics</a>
-      <a href="../cards/">Relics</a>
+      <a href="../cards/">Cards</a>
+      <a href="../stickers/">Stickers</a>
       <a href="../delivery/">Delivery</a>
       <a href="../contact/">Contact</a>
     </nav>
   </header>
 
-  <main class="cards-page">
-    <section class="cards-hero">
-      <p class="cards-label">Mokosh Archive</p>
-      <h1>Mokosh Cards NFTs</h1>
-      <p class="cards-intro">
-        A visual archive of Mokosh Cards NFTs
-        gathered into one cinematic collection.
+  <main class="nfts-page">
+    <section class="nfts-hero">
+      <p class="nfts-label">Mokosh NFTs</p>
+      <h1>NFT Collection</h1>
+      <p class="nfts-intro">
+        A digital archive of collectible artworks shaped by Slavic myths,
+        folklore, and cinematic dark fantasy.
       </p>
 
-      <div class="cards-hero-actions">
+      <div class="nfts-hero-actions">
+        <a href="#slavic-myths" class="btn btn-secondary">Slavic Myths NFTs</a>
         <a href="../relics/" class="btn btn-primary">Back to Relics</a>
       </div>
     </section>
 
-    <section class="cards-section" id="slavicnfts">
-      <div class="cards-section-head">
-        <p class="cards-label">Slavic Myths NFTs</p>
-        <h2>Slavic Myths NFT Collection</h2>
-        <p class="cards-count">Cards</p>
+    <section class="nfts-section" id="slavic-myths">
+      <div class="nfts-section-head">
+        <p class="nfts-label">Collection I</p>
+        <h2>Slavic Myths NFTs</h2>
+        <p class="nfts-count" id="slavicMythsCount">9 NFTs</p>
       </div>
 
-      <div class="cards-grid" id="slavicnftsGrid"></div>
-    </section>
-
-    <section class="cards-section" id="singaporenfts">
-      <div class="cards-section-head">
-        <p class="cards-label">Singapore Myths NFTs</p>
-        <h2>Singapore Myths NFT Collection</h2>
-        <p class="cards-count">Cards</p>
-      </div>
-
-      <div class="cards-grid" id="singaporenftsGrid"></div>
+      <div class="nfts-grid" id="slavicMythsGrid"></div>
     </section>
   </main>
 
-  <div class="cards-lightbox" id="cardsLightbox" aria-hidden="true">
-    <div class="cards-lightbox-backdrop" id="cardsLightboxBackdrop"></div>
-
-    <div class="cards-lightbox-content">
-      <button class="cards-lightbox-close" id="cardsLightboxClose" aria-label="Close image">
-        ×
-      </button>
-      <img id="cardsLightboxImage" src="" alt="" />
+  <div class="nfts-lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+      <img id="lightboxImage" src="" alt="" />
     </div>
   </div>
 
@@ -77,6 +66,6 @@
     <p>Mokosh Threads — Slavic heritage in cloth, time, and symbol.</p>
   </footer>
 
-  <script src="./cards.js"></script>
+  <script src="./nfts.js"></script>
 </body>
 </html>
