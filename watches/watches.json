@@ -759,5 +759,19 @@
     "condition": "Working, heavy plating wear across bracelet.",
     "description": "An exceptionally unique design - a statement piece, more ornament than instrument.",
     "image": "../images/watches/IMG_3765.jpeg"
+  },
+  {
+     "id": "zarya-ladies-silver-sunburst-01",
+    "name": "Ladies Silver Sunburst",
+    "brand": "Zarya",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 45,
+    "priceRange": "$31-80",
+    "movement": "Manual",
+    "caseShape": "Rounded",
+    "condition": "Working, minor plating wear across bracelet.",
+    "description": "An everyday vintage ladies piece in the Soviet era.",
+    "image": "../images/watches/IMG_3767.jpeg"
   }
 ]
