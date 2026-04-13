@@ -388,6 +388,29 @@ body.modal-open {
   overflow: hidden;
 }
 
+.modal-cta-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+
+.relics-modal-details .modal-cta-buttons .btn {
+  margin-top: 0;
+  width: auto;
+  flex: 1;
+}
+
+.btn-whatsapp {
+  background: #25D366;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.btn-whatsapp:hover {
+  background: #1ebe5d;
+}
+
 /* =========================
    EMPTY / ERROR STATES
 ========================= */
