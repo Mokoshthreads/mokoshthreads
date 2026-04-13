@@ -703,5 +703,19 @@
     "condition": "Working, light scratches on crystal, gold plating wear.",
     "description": "Built in the USSR, a quiet machine that has kept time for decades without ever needing attention.",
     "image": "../images/watches/IMG_3757.jpeg"
-  }
+  },
+   {
+     "id": "zarya-gold-linen-01",
+    "name": "Gold Linen",
+    "brand": "Zarya",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 55,
+    "priceRange": "$31-80",
+    "movement": "Manual",
+    "caseShape": "Cushion",
+    "condition": "Working, light scratches on crystal. Great aesthetic condition.",
+    "description": "A quiet piece of elegance - with original bracelet & forward-looking Soviet watch deisgn.",
+    "image": "../images/watches/IMG_3759.jpeg"
+  }  
 ]
