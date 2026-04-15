@@ -983,5 +983,19 @@
     "condition": "Excellent working condition - Recently professionally serviced.",
     "description": "Soviet Naval Patriotic Watch - A New Identity after the fall of the Soviet Union.",
      "image": "../images/watches/IMG_3811.jpeg"
+  },
+    {
+     "id": "vostok-komandirskie-300yearsrussiannavy-01",
+    "name": "Komandirskie '300 Years of the Russian Navy' Commemorative Watch",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently professionally serviced.",
+     "description": "Limited edition historical watch produced in 1996 commemorating 300 years since the founding of the Russian Navy in 1696.",
+     "image": "../images/watches/IMG_3813.jpeg"
   }
 ]
