@@ -1083,5 +1083,19 @@
     "condition": "Working, worn with light scratches on acrylic.",
     "description": "Great entry piece for collecting Vostok timepieces. Military-theme, simple, long-lasting.",
     "image": "../images/watches/IMG_3825.jpeg"
+  },
+   {
+     "id": "vostok-komandirskie-Black-Red-Star-02",
+    "name": "Komandirskie Black Red Star",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 75,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working - aged acrylic & brassing of case edges.",
+    "description": "When Vostok starts speaking loudly, this is what it looked like.",
+    "image": "../images/watches/IMG_3827.jpeg"
   }
 ]
