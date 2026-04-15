@@ -927,5 +927,19 @@
     "condition": "Excellent working condition - Recently professionally serviced.",
     "description": "Limited edition historical commemorative watch produced in 1995 to mark 50 years from the end of WW2 also known as The Great Patriotic War.",
     "image": "../images/watches/IMG_3803.jpeg"
+  },
+   {
+     "id": "vostok-komandirskie-Tank-Black-01",
+    "name": "Komandirskie Tank Black",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, worn with light scratches on acrylic.",
+    "description": "Great entry piece for collecting Vostok timepieces. Military-theme, simple, long-lasting.",
+    "image": "../images/watches/IMG_3805.jpeg"
   }
 ]
