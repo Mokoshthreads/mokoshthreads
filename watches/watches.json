@@ -801,5 +801,19 @@
     "condition": "Working, with slight cracks on the crystal and signs of patina on casing.",
     "description": "A relic of late-Soviet design, where black steel met red signals.",
     "image": "../images/watches/IMG_3772.jpeg"
-  }
+  },
+  {
+   "id": "vostok-komandirskie-tropical-brown-zakaz-01",
+    "name": "Komandirskie Zakaz Mo USSR Tropical Brown",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Cushion",
+    "condition": "Working, well-used with gold-plating wear & scratches on acrylic",
+    "description": "By order of the Soviet Military. A true historical vintage piece.",
+    "image": "../images/watches/IMG_3785.jpeg"
+  } 
 ]
