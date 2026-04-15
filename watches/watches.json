@@ -1182,5 +1182,19 @@
     "condition": "Good - with light scratches on acrylic, & normal wear.",
     "description": "A 50th anniversary Victory Day commemorative watch commissioned by the president of Tatarstan.",
     "image": "../images/watches/IMG_3839.jpeg"
-   }
+   },
+   {
+     "id": "vostok-komandirskie-Dolphinmarine-01",
+    "name": "Komandirskie Dolphin Marine Tropical",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Collector Classic",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working condition - light scratches on acrylic & brassing of case.",
+    "description": "A lesser-seen dolphin dial Komandirskie - made in the USSR for civilian market, now aged into a rich tropical brown.",
+    "image": "../images/watches/IMG_3841.jpeg"
+  }
 ]
