@@ -815,5 +815,19 @@
     "condition": "Working, well-used with gold-plating wear & scratches on acrylic",
     "description": "By order of the Soviet Military. A true historical vintage piece.",
     "image": "../images/watches/IMG_3785.jpeg"
-  } 
+  } ,
+   {
+     "id": "vostok-komandirskie-submarine-blue-01",
+    "name": "Komandirskie Submarine Blue",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 110,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently professionally serviced.",
+    "description": "Soviet Naval Military Watch in striking blue and built to last.",
+    "image": "../images/watches/IMG_3788.jpeg"
+  }  
 ]
