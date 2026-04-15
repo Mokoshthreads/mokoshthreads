@@ -941,5 +941,19 @@
     "condition": "Working, worn with light scratches on acrylic.",
     "description": "Great entry piece for collecting Vostok timepieces. Military-theme, simple, long-lasting.",
     "image": "../images/watches/IMG_3805.jpeg"
+  },
+   {
+     "id": "vostok-komandirskie-white-01",
+    "name": "Komandirskie White",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently professionally serviced.",
+    "description": "Soviet Minimalist Officer Watch - Not every Soviet watch needed to shout.",
+    "image": "../images/watches/IMG_3807.jpeg"
   }
 ]
