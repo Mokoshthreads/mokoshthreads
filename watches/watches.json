@@ -829,5 +829,19 @@
     "condition": "Excellent working condition - Recently professionally serviced.",
     "description": "Soviet Naval Military Watch in striking blue and built to last.",
     "image": "../images/watches/IMG_3788.jpeg"
+  }  ,
+    {
+     "id": "vostok-komandirskie-submarine-blue-01",
+    "name": "Komandirskie Airforce+Navy Cream Ivory",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently professionally serviced.",
+    "description": "Soviet Naval Military Multi-branch Watch from the sky to the sea, the watch that is built to last.",
+    "image": "../images/watches/IMG_3791.jpeg"
   }  
 ]
