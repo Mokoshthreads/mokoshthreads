@@ -1111,5 +1111,19 @@
     "condition": "Working - with heavy wear & cloudy acrylic.",
     "description": "90s Russian experimental design - when Soviet watchmaking broke the rules.",
     "image": "../images/watches/IMG_3829.jpeg"
-  } 
+  } ,
+  {
+     "id": "vostok-komandirskie-doubleheadeagle-01",
+    "name": "Komandirskie Russia Crest Black",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Military style",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working condition - scratched acrylic & brassing of case.",
+    "description": "Soviet Military Watch with Russian crest - Post-Soviet Patriotism",
+    "image": "../images/watches/IMG_3831.jpeg"
+  }
 ]
