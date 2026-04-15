@@ -1097,5 +1097,19 @@
     "condition": "Working - aged acrylic & brassing of case edges.",
     "description": "When Vostok starts speaking loudly, this is what it looked like.",
     "image": "../images/watches/IMG_3827.jpeg"
-  }
+  },
+    {
+     "id": "cardi-vostok-racingtime-01",
+    "name": "Capitan "Racingtime" Chronoscope",
+    "brand": "Cardi-Vostok",
+    "era": "1990s",
+    "type": "Vintage classic",
+    "price": 35,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working - with heavy wear & cloudy acrylic.",
+    "description": "90s Russian experimental design - when Soviet watchmaking broke the rules.",
+    "image": "../images/watches/IMG_3829.jpeg"
+  } 
 ]
