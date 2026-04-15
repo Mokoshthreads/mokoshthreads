@@ -997,5 +997,19 @@
     "condition": "Excellent working condition - Recently professionally serviced.",
      "description": "Limited edition historical watch produced in 1996 commemorating 300 years since the founding of the Russian Navy in 1696.",
      "image": "../images/watches/IMG_3813.jpeg"
+  },
+  {
+   "id": "vostok-komandirskie-black-zakaz-02",
+    "name": "Komandirskie Zakaz Mo USSR Black",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on acrylic",
+    "description": "A collector favorite. Specially ordered by the Soviet military. Serial no.: 089090.",
+    "image": "../images/watches/IMG_3815.jpeg"
   }
 ]
