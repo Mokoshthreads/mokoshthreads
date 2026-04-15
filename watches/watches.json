@@ -1011,5 +1011,19 @@
     "condition": "Working, with light scratches on acrylic",
     "description": "A collector favorite. Specially ordered by the Soviet military. Serial no.: 089090.",
     "image": "../images/watches/IMG_3815.jpeg"
+  },
+   {
+     "id": "vostok-komandirskie-Russian-Warship-02",
+    "name": "Komandirskie Russian Warship",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Case-wear with light acrylic scratches.",
+    "description": "Soviet Naval Patriotic Watch - A New Identity after the fall of the Soviet Union.",
+     "image": "../images/watches/IMG_3817.jpeg"
   }
 ]
