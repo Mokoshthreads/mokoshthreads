@@ -1054,5 +1054,20 @@
     "condition": "Good - with scratches on acrylic, & natural aging on bezel",
     "description": "An export market focused Vostok watch to meet Western aesthetics.",
     "image": "../images/watches/IMG_3821.jpeg"
+   },
+  {
+    "id": "vostok-komandirskie-azal-01",
+    "name": "Komandirskie Azerbaijan Airlines Commemorative Watch",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Collector classic",
+    "type": "Military style",
+    "price": 80,
+    "priceRange": "$31–80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Hexagon",
+    "condition": "Good - with scratches on acrylic, & natural aging on bezel",
+    "description": "A rare Azerbaijan Airlines (AZAL) commissioned commemorative watch - a unique crossover of Soviet watchmaking and modern aviation identity.",
+    "image": "../images/watches/IMG_3823.jpeg"
    }
 ]
