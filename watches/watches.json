@@ -1034,10 +1034,25 @@
     "type": "Military style",
     "price": 90,
     "priceRange": "$81–120",
-    "image": "../images/watches/IMG_3819jpeg",
+    "image": "../images/watches/IMG_3819.jpeg",
     "movement": "Manual Vostok 2414A",
     "caseShape": "Round",
     "condition": "Working with slight general wear.",
     "description": "A bold military-themed Soviet watch with strong wrist presence. A true Admiral's watch.",
-  }
+  },
+   {
+    "id": "vostok-komandirskie-commandos-01",
+    "name": "Komandirskie Commandos",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Collector classic",
+    "type": "Military style",
+    "price": 60,
+    "priceRange": "$31–80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Good - with scratches on acrylic, & natural aging on bezel",
+    "description": "An export market focused Vostok watch to meet Western aesthetics.",
+    "image": "../images/watches/IMG_3821.jpeg"
+   }
 ]
