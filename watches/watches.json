@@ -913,5 +913,19 @@
     "condition": "Excellent working condition - Recently professionally serviced.",
     "description": "Soviet Airforce Inspired Military Watch - Built for the Air.",
     "image": "../images/watches/IMG_3801.jpeg"
+  },
+   {
+     "id": "vostok-komandirskie-50yearsofvictory-01",
+    "name": "Komandirskie '50 Years Of Victory' Commemorative Watch",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently professionally serviced.",
+    "description": "Limited edition historical commemorative watch produced in 1995 to mark 50 years from the end of WW2 also known as The Great Patriotic War.",
+    "image": "../images/watches/IMG_3803.jpeg"
   }
 ]
