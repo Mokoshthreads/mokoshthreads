@@ -885,5 +885,19 @@
     "condition": "Excellent working condition - Recently professionally serviced.",
     "description": "Soviet Naval Command Watch - Built for the Sea.",
     "image": "../images/watches/IMG_3797.jpeg"
-  }
+  },
+   {
+     "id": "vostok-komandirskie-submarine-blue-02",
+    "name": "Komandirskie Submarine Blue",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, worn with light scratches on acrylic and slight fading on dial.",
+    "description": "Soviet Naval Military Watch in striking blue and built to last.",
+    "image": "../images/watches/IMG_3799.jpeg"
+  } 
 ]
