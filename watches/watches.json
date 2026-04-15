@@ -1167,5 +1167,20 @@
     "condition": "Working condition - scratched acrylic & brassing of case.",
     "description": "Custom Soviet Vostok diver - a franken watch model with the iconic Scuba Dude.",
     "image": "../images/watches/IMG_3837.jpeg"
-  }
+  },
+  {
+    "id": "vostok-komandirskie-tatarstanpresidential-01",
+    "name": "Komandirskie Tatarstan Presidential Victory Day Commemorative Watch",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Collector classic",
+    "type": "Military style",
+    "price": 85,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Good - with light scratches on acrylic, & normal wear.",
+    "description": "A 50th anniversary Victory Day commemorative watch commissioned by the president of Tatarstan.",
+    "image": "../images/watches/IMG_3839.jpeg"
+   }
 ]
