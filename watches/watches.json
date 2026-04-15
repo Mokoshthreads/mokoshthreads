@@ -969,5 +969,19 @@
     "condition": "Excellent working condition - Recently professionally serviced.",
     "description": "Soviet Naval Patriotic Watch - A New Identity after the fall of the Soviet Union.",
      "image": "../images/watches/IMG_3809.jpeg"
+  },
+   {
+     "id": "vostok-komandirskie-Cold-War-Navy-01",
+    "name": "Komandirskie Cold War Navy",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently professionally serviced.",
+    "description": "Soviet Naval Patriotic Watch - A New Identity after the fall of the Soviet Union.",
+     "image": "../images/watches/IMG_3811.jpeg"
   }
 ]
