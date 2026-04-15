@@ -1139,5 +1139,19 @@
     "condition": "Working condition - scratched acrylic & brassing of case.",
     "description": "Vintage Soviet-style franken Vostok watch.",
     "image": "../images/watches/IMG_3833.jpeg"
+  },
+      {
+     "id": "vostok-amphibia-submarine-01",
+    "name": "Amphibia Submarine",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Collector Classic",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Automatic Vostok 2416A",
+    "caseShape": "Round",
+    "condition": "Working condition - scratched acrylic & brassing of case.",
+    "description": "Soviet Amphibia submarine diver - built for real underwater use.",
+    "image": "../images/watches/IMG_3835.jpeg"
   }
 ]
