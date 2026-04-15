@@ -857,5 +857,19 @@
     "condition": "Excellent working condition - Recently professionally serviced.",
     "description": "Soviet Minimalist Officer Watch - Not every Soviet watch needed to shout.",
     "image": "../images/watches/IMG_3793.jpeg"
+  },
+   {
+     "id": "vostok-komandirskie-multibranch-white-01",
+    "name": "Komandirskie Airforce+Navy Cream Ivory",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 110,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently professionally serviced.",
+    "description": "Soviet Naval Military Multi-branch Watch from the sky to the sea, the watch that is built to last.",
+    "image": "../images/watches/IMG_3795.jpeg"
   }
 ]
