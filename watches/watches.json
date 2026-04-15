@@ -831,7 +831,7 @@
     "image": "../images/watches/IMG_3788.jpeg"
   }  ,
     {
-     "id": "vostok-komandirskie-submarine-blue-01",
+     "id": "vostok-komandirskie-multibranch-cream-ivory-01",
     "name": "Komandirskie Airforce+Navy Cream Ivory",
     "brand": "Vostok",
     "era": "1990s",
@@ -843,5 +843,19 @@
     "condition": "Excellent working condition - Recently professionally serviced.",
     "description": "Soviet Naval Military Multi-branch Watch from the sky to the sea, the watch that is built to last.",
     "image": "../images/watches/IMG_3791.jpeg"
-  }  
+  }  ,
+   {
+     "id": "vostok-komandirskie-black-01",
+    "name": "Komandirskie Black",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently professionally serviced.",
+    "description": "Soviet Minimalist Officer Watch - Not every Soviet watch needed to shout.",
+    "image": "../images/watches/IMG_3793.jpeg"
+  }
 ]
