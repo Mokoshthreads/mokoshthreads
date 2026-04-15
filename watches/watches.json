@@ -1125,5 +1125,19 @@
     "condition": "Working condition - scratched acrylic & brassing of case.",
     "description": "Soviet Military Watch with Russian crest - Post-Soviet Patriotism",
     "image": "../images/watches/IMG_3831.jpeg"
+  },
+    {
+     "id": "vostok-komandirskie-Legionnaire-01",
+    "name": "Komandirskie Legionnaire",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Vintage Classic",
+    "price": 35,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working condition - scratched acrylic & brassing of case.",
+    "description": "Vintage Soviet-style franken Vostok watch.",
+    "image": "../images/watches/IMG_3833.jpeg"
   }
 ]
