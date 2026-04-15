@@ -1025,5 +1025,19 @@
     "condition": "Case-wear with light acrylic scratches.",
     "description": "Soviet Naval Patriotic Watch - A New Identity after the fall of the Soviet Union.",
      "image": "../images/watches/IMG_3817.jpeg"
+  },
+  {
+    "id": "vostok-admiralskie-01",
+    "name": "Admiralskie",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Military style",
+    "price": 90,
+    "priceRange": "$81–120",
+    "image": "../images/watches/IMG_3819jpeg",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working with slight general wear.",
+    "description": "A bold military-themed Soviet watch with strong wrist presence. A true Admiral's watch.",
   }
 ]
