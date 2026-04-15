@@ -899,5 +899,19 @@
     "condition": "Working, worn with light scratches on acrylic and slight fading on dial.",
     "description": "Soviet Naval Military Watch in striking blue and built to last.",
     "image": "../images/watches/IMG_3799.jpeg"
-  } 
+  } ,
+    {
+     "id": "vostok-komandirskie-Aviation-01",
+    "name": "Komandirskie Aviation Light Blue",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently professionally serviced.",
+    "description": "Soviet Airforce Inspired Military Watch - Built for the Air.",
+    "image": "../images/watches/IMG_3801.jpeg"
+  }
 ]
