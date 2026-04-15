@@ -1153,5 +1153,19 @@
     "condition": "Working condition - scratched acrylic & brassing of case.",
     "description": "Soviet Amphibia submarine diver - built for real underwater use.",
     "image": "../images/watches/IMG_3835.jpeg"
+  },
+   {
+     "id": "vostok-komandirskie-scubadude-01",
+    "name": "Komandirskie Scuba Dude",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Collector Classic",
+    "price": 55,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working condition - scratched acrylic & brassing of case.",
+    "description": "Custom Soviet Vostok diver - a franken watch model with the iconic Scuba Dude.",
+    "image": "../images/watches/IMG_3837.jpeg"
   }
 ]
