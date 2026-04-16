@@ -1196,5 +1196,18 @@
     "condition": "Working condition - light scratches on acrylic & brassing of case.",
     "description": "A lesser-seen dolphin dial Komandirskie - made in the USSR for civilian market, now aged into a rich tropical brown.",
     "image": "../images/watches/IMG_3841.jpeg"
+  },
+     "id": "collectible-dials",
+    "name": "",
+    "brand": "Collectible Dials",
+    "era": "1980s",
+    "type": "Collector Classic",
+    "price": 15,
+    "priceRange": "$0-30",
+    "movement": "Various",
+    "caseShape": "Various",
+    "condition": "Various.",
+    "description": "",
+    "image": "../images/watches/IMG_3841.jpeg"
   }
 ]
