@@ -17,7 +17,7 @@ const modalMaterial = document.getElementById("modalMaterial");
 const modalSymbol = document.getElementById("modalSymbol");
 const modalOrigin = document.getElementById("modalOrigin");
 
-const modalBuyBtn = const modalTelegramBtn = document.getElementById("modalTelegramBtn");
+const modalTelegramBtn = document.getElementById("modalTelegramBtn");
 const modalWhatsappBtn = document.getElementById("modalWhatsappBtn");
 const modalCollectionBtn = document.getElementById("modalCollectionBtn");
 
