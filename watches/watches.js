@@ -79,6 +79,17 @@ async function loadWatches() {
       modalMeta.textContent = `${watch.era} • ${watch.type}`;
       modalPrice.textContent = formatDualPrice(watch.price);
 
+      if (modalCollectionBtn) {
+  if (watch.collectionLink) {
+    modalCollectionBtn.style.display = "inline-flex";
+    modalCollectionBtn.href = watch.collectionLink;
+    modalCollectionBtn.textContent = watch.collectionButtonText || "Browse Collection";
+  } else {
+    modalCollectionBtn.style.display = "none";
+    modalCollectionBtn.href = "#";
+    modalCollectionBtn.textContent = "Browse Collection";
+  }
+}
 const modalTelegramBtn = document.getElementById("modalTelegramBtn");
 const modalWhatsappBtn = document.getElementById("modalWhatsappBtn");
 
