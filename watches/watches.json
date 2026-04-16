@@ -1200,16 +1200,18 @@
      
   {
     "id": "collectible-dials",
-    "name": "",
+    "name": "Collectible Dials",
     "brand": "Collectible Dials",
-    "era": "1980s",
-    "type": "Collector Classic",
+    "era": "1980s-1990s",
+    "type": "Parts/ Collector",
     "price": 15,
     "priceRange": "$0-30",
     "movement": "Various",
     "caseShape": "Various",
     "condition": "Various.",
-    "description": "",
-    "image": "../images/watches/IMG_3841.jpeg"
+    "description": "A rotating stock of collectible vintage Vostok dials for restoration, modding, and collectors.",
+    "image": "../images/watches/IMG_3841.jpeg",
+    "collectionLink": "../dials/",
+    "collectionButtonText": "Browse Vintage Dials"
   }
 ]
