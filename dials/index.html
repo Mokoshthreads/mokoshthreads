@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vintage Vostok Dials | Mokosh Threads</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="./dials.css" />
+</head>
+<body>
+
+  <div class="topbar">
+    Vintage Vostok dials for collectors, modders, and restoration projects
+  </div>
+
+  <header class="site-header">
+    <div class="logo">Mokosh Threads</div>
+
+    <nav class="site-nav">
+      <a href="../">Home</a>
+      <a href="../clothing/">Clothing</a>
+      <a href="../watches/">Watches</a>
+      <a href="../relics/">Relics</a>
+      <a href="../cards/">Cards</a>
+      <a href="../stickers/">Stickers</a>
+      <a href="../delivery/">Delivery</a>
+      <a href="../contact/">Contact</a>
+    </nav>
+  </header>
+
+  <main class="dials-page">
+    <section class="dials-hero">
+      <p class="dials-label">Mokosh Archive</p>
+      <h1>Vintage Vostok Dials</h1>
+      <p class="dials-intro">
+        A collector’s archive of original vintage Vostok dials, grouped by value tier
+        for easy browsing and restoration sourcing.
+      </p>
+
+      <div class="dials-hero-actions">
+        <a href="#normal" class="btn btn-secondary">$10 Normal Dial Collection</a>
+        <a href="#premium" class="btn btn-secondary">$20 Premium Dial Collection</a>
+        <a href="../watches/" class="btn btn-primary">Back to Watches</a>
+      </div>
+    </section>
+
+    <section class="dials-section" id="normal">
+      <div class="dials-section-head">
+        <p class="dials-label">Collection I</p>
+        <h2>$10 Normal Dial Collection</h2>
+        <p class="dials-count">30 Dials</p>
+      </div>
+
+      <div class="dials-grid" id="normalDialGrid"></div>
+    </section>
+
+    <section class="dials-section" id="premium">
+      <div class="dials-section-head">
+        <p class="dials-label">Collection II</p>
+        <h2>$20 Premium Dial Collection</h2>
+        <p class="dials-count">30 Dials</p>
+      </div>
+
+      <div class="dials-grid" id="premiumDialGrid"></div>
+    </section>
+  </main>
+
+  <div class="dials-lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose">×</button>
+      <img id="lightboxImage" src="" alt="" />
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Mokosh Threads — Slavic heritage in cloth, time, and symbol.</p>
+  </footer>
+
+  <script src="./dials.js"></script>
+</body>
+</html>
