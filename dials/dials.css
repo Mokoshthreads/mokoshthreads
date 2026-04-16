@@ -1,0 +1,158 @@
+.dials-page {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+}
+
+.dials-hero {
+  text-align: center;
+  padding: 54px 28px;
+  margin-bottom: 46px;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at top, rgba(191,167,106,0.14), transparent 34%),
+    linear-gradient(180deg, rgba(23,19,16,0.98), rgba(14,12,10,0.98));
+}
+
+.dials-label {
+  color: #bfa76a;
+  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.dials-intro {
+  max-width: 620px;
+  margin: 16px auto 0;
+  color: #cfc6b6;
+  line-height: 1.7;
+}
+
+.dials-hero-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dials-section {
+  margin-top: 44px;
+}
+
+.dials-section-head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dials-count {
+  color: #a89f8c;
+}
+
+.dials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.dials-grid img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  background: #0f1114;
+  display: block;
+}
+
+.dials-grid img:hover {
+  transform: scale(1.05);
+}
+
+/* Lightbox */
+.dials-lightbox {
+  position: fixed;
+  inset: 0;
+  display: none;
+  z-index: 2000;
+}
+
+.dials-lightbox.open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.lightbox-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(4px);
+}
+
+.lightbox-content {
+  position: relative;
+  z-index: 2;
+  width: min(92vw, 900px);
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-content img {
+  max-width: 100%;
+  max-height: 88vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+  display: block;
+  background: #0f1114;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(20, 20, 20, 0.8);
+  color: white;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 3;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  .dials-lightbox.open {
+    padding: 12px;
+  }
+
+  .lightbox-content {
+    width: 100%;
+    max-height: 92vh;
+  }
+
+  .lightbox-content img {
+    max-height: 84vh;
+  }
+
+  .lightbox-close {
+    top: 8px;
+    right: 8px;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+  }
+}
