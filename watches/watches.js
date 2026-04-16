@@ -14,6 +14,7 @@ async function loadWatches() {
   const modalName = document.getElementById("modalName");
   const modalMeta = document.getElementById("modalMeta");
   const modalPrice = document.getElementById("modalPrice");
+  const modalCollectionBtn = document.getElementById("modalCollectionBtn");
 
   const SGD_TO_MYR = 3.10;
 
