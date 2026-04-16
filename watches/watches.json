@@ -1197,7 +1197,9 @@
     "description": "A lesser-seen dolphin dial Komandirskie - made in the USSR for civilian market, now aged into a rich tropical brown.",
     "image": "../images/watches/IMG_3841.jpeg"
   },
-     "id": "collectible-dials",
+     
+  {
+    "id": "collectible-dials",
     "name": "",
     "brand": "Collectible Dials",
     "era": "1980s",
