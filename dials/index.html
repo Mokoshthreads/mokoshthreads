@@ -33,43 +33,105 @@
       <p class="dials-label">Mokosh Archive</p>
       <h1>Vintage Vostok Dials</h1>
       <p class="dials-intro">
-        A collector’s archive of original vintage Vostok dials, grouped by value tier
-        for easy browsing and restoration sourcing.
+        A collector’s archive of original vintage Vostok dials, grouped by rarity tier
+        for easy browsing, collecting, and restoration sourcing.
       </p>
 
       <div class="dials-hero-actions">
-        <a href="#normal" class="btn btn-secondary">$10 Normal Dial Collection</a>
-        <a href="#premium" class="btn btn-secondary">$20 Premium Dial Collection</a>
+        <a href="#ur" class="btn btn-secondary">UR Collection</a>
+        <a href="#sr" class="btn btn-secondary">SR Collection</a>
+        <a href="#r" class="btn btn-secondary">R Collection</a>
+        <a href="#uc" class="btn btn-secondary">UC Collection</a>
+        <a href="#n" class="btn btn-secondary">N Collection</a>
         <a href="../watches/" class="btn btn-primary">Back to Watches</a>
       </div>
     </section>
 
-    <section class="dials-section" id="normal">
+    <section class="dials-section" id="ur">
       <div class="dials-section-head">
-        <p class="dials-label">Collection I</p>
-        <h2>$10 Normal Dial Collection</h2>
-        <p class="dials-count">30 Dials</p>
+        <p class="dials-label">UR Collection</p>
+        <h2>Ultimate Rare Dial Collection</h2>
+        <p class="dials-count">6 Dials</p>
       </div>
-
-      <div class="dials-grid" id="normalDialGrid"></div>
+      <div class="dials-grid" id="urDialGrid"></div>
     </section>
 
-    <section class="dials-section" id="premium">
+    <section class="dials-section" id="sr">
       <div class="dials-section-head">
-        <p class="dials-label">Collection II</p>
-        <h2>$20 Premium Dial Collection</h2>
-        <p class="dials-count">30 Dials</p>
+        <p class="dials-label">SR Collection</p>
+        <h2>Special Rare Dial Collection</h2>
+        <p class="dials-count">6 Dials</p>
       </div>
+      <div class="dials-grid" id="srDialGrid"></div>
+    </section>
 
-      <div class="dials-grid" id="premiumDialGrid"></div>
+    <section class="dials-section" id="r">
+      <div class="dials-section-head">
+        <p class="dials-label">R Collection</p>
+        <h2>Rare Dial Collection</h2>
+        <p class="dials-count">28 Dials</p>
+      </div>
+      <div class="dials-grid" id="rDialGrid"></div>
+    </section>
+
+    <section class="dials-section" id="uc">
+      <div class="dials-section-head">
+        <p class="dials-label">UC Collection</p>
+        <h2>Uncommon Dial Collection</h2>
+        <p class="dials-count">24 Dials</p>
+      </div>
+      <div class="dials-grid" id="ucDialGrid"></div>
+    </section>
+
+    <section class="dials-section" id="n">
+      <div class="dials-section-head">
+        <p class="dials-label">N Collection</p>
+        <h2>Normal Dial Collection</h2>
+        <p class="dials-count">17 Dials</p>
+      </div>
+      <div class="dials-grid" id="nDialGrid"></div>
     </section>
   </main>
 
   <div class="dials-lightbox" id="lightbox" aria-hidden="true">
     <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+
     <div class="lightbox-content">
-      <button class="lightbox-close" id="lightboxClose">×</button>
-      <img id="lightboxImage" src="" alt="" />
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close modal">×</button>
+
+      <div class="lightbox-inner">
+        <div class="lightbox-image-wrap">
+          <img id="lightboxImage" src="" alt="" />
+        </div>
+
+        <div class="lightbox-info">
+          <p class="lightbox-kicker" id="lightboxCollection">Collection</p>
+          <h3 id="lightboxTitle">Dial Title</h3>
+
+          <div class="lightbox-meta">
+            <div class="lightbox-meta-row">
+              <span class="meta-label">Type:</span>
+              <span id="lightboxType">—</span>
+            </div>
+            <div class="lightbox-meta-row">
+              <span class="meta-label">Rarity:</span>
+              <span id="lightboxRarity">—</span>
+            </div>
+            <div class="lightbox-meta-row">
+              <span class="meta-label">Made in:</span>
+              <span id="lightboxMadeIn">—</span>
+            </div>
+            <div class="lightbox-meta-row">
+              <span class="meta-label">Year of Manufacture:</span>
+              <span id="lightboxYear">—</span>
+            </div>
+            <div class="lightbox-meta-row">
+              <span class="meta-label">Estimated Value:</span>
+              <span id="lightboxValue">—</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -77,6 +139,7 @@
     <p>Mokosh Threads — Slavic heritage in cloth, time, and symbol.</p>
   </footer>
 
+  <script src="./dials-data.js"></script>
   <script src="./dials.js"></script>
 </body>
 </html>
