@@ -1,0 +1,162 @@
+{
+  "ur": [
+    {
+      "title": "UR Dial 01",
+      "src": "../images/dials/ur/dial01.png",
+      "alt": "Ultimate Rare Dial 01",
+      "type": "Military",
+      "rarity": "Ultimate Rare",
+      "madeIn": "USSR",
+      "yearOfManufacture": "1980s",
+      "estimatedValue": "S$150"
+    },
+    {
+      "title": "UR Dial 02",
+      "src": "../images/dials/ur/dial02.png",
+      "alt": "Ultimate Rare Dial 02",
+      "type": "Military",
+      "rarity": "Ultimate Rare",
+      "madeIn": "USSR",
+      "yearOfManufacture": "1980s",
+      "estimatedValue": "S$140"
+    },
+    {
+      "title": "UR Dial 03",
+      "src": "../images/dials/ur/dial03.png",
+      "alt": "Ultimate Rare Dial 03",
+      "type": "Dress",
+      "rarity": "Ultimate Rare",
+      "madeIn": "USSR",
+      "yearOfManufacture": "1970s",
+      "estimatedValue": "S$160"
+    },
+    {
+      "title": "UR Dial 04",
+      "src": "../images/dials/ur/dial04.png",
+      "alt": "Ultimate Rare Dial 04",
+      "type": "Collector",
+      "rarity": "Ultimate Rare",
+      "madeIn": "USSR",
+      "yearOfManufacture": "1980s",
+      "estimatedValue": "S$180"
+    },
+    {
+      "title": "UR Dial 05",
+      "src": "../images/dials/ur/dial05.png",
+      "alt": "Ultimate Rare Dial 05",
+      "type": "Military",
+      "rarity": "Ultimate Rare",
+      "madeIn": "USSR",
+      "yearOfManufacture": "1980s",
+      "estimatedValue": "S$170"
+    },
+    {
+      "title": "UR Dial 06",
+      "src": "../images/dials/ur/dial06.png",
+      "alt": "Ultimate Rare Dial 06",
+      "type": "Special Edition",
+      "rarity": "Ultimate Rare",
+      "madeIn": "USSR",
+      "yearOfManufacture": "Late 1980s",
+      "estimatedValue": "S$190"
+    }
+  ],
+  "sr": [
+    {
+      "title": "SR Dial 01",
+      "src": "../images/dials/sr/dial01.png",
+      "alt": "Special Rare Dial 01",
+      "type": "Military",
+      "rarity": "Special Rare",
+      "madeIn": "USSR",
+      "yearOfManufacture": "1980s",
+      "estimatedValue": "S$120"
+    },
+    {
+      "title": "SR Dial 02",
+      "src": "../images/dials/sr/dial02.png",
+      "alt": "Special Rare Dial 02",
+      "type": "Dress",
+      "rarity": "Special Rare",
+      "madeIn": "USSR",
+      "yearOfManufacture": "1980s",
+      "estimatedValue": "S$110"
+    },
+    {
+      "title": "SR Dial 03",
+      "src": "../images/dials/sr/dial03.png",
+      "alt": "Special Rare Dial 03",
+      "type": "Collector",
+      "rarity": "Special Rare",
+      "madeIn": "USSR",
+      "yearOfManufacture": "1970s",
+      "estimatedValue": "S$130"
+    },
+    {
+      "title": "SR Dial 04",
+      "src": "../images/dials/sr/dial04.png",
+      "alt": "Special Rare Dial 04",
+      "type": "Military",
+      "rarity": "Special Rare",
+      "madeIn": "USSR",
+      "yearOfManufacture": "1980s",
+      "estimatedValue": "S$125"
+    },
+    {
+      "title": "SR Dial 05",
+      "src": "../images/dials/sr/dial05.png",
+      "alt": "Special Rare Dial 05",
+      "type": "Sport",
+      "rarity": "Special Rare",
+      "madeIn": "USSR",
+      "yearOfManufacture": "1980s",
+      "estimatedValue": "S$115"
+    },
+    {
+      "title": "SR Dial 06",
+      "src": "../images/dials/sr/dial06.png",
+      "alt": "Special Rare Dial 06",
+      "type": "Collector",
+      "rarity": "Special Rare",
+      "madeIn": "USSR",
+      "yearOfManufacture": "Late 1980s",
+      "estimatedValue": "S$135"
+    }
+  ],
+  "r": [
+    {
+      "title": "R Dial 01",
+      "src": "../images/dials/r/dial01.png",
+      "alt": "Rare Dial 01",
+      "type": "Military",
+      "rarity": "Rare",
+      "madeIn": "USSR",
+      "yearOfManufacture": "1980s",
+      "estimatedValue": "S$90"
+    }
+  ],
+  "uc": [
+    {
+      "title": "UC Dial 01",
+      "src": "../images/dials/uc/dial01.png",
+      "alt": "Uncommon Dial 01",
+      "type": "Military",
+      "rarity": "Uncommon",
+      "madeIn": "USSR",
+      "yearOfManufacture": "1980s",
+      "estimatedValue": "S$60"
+    }
+  ],
+  "n": [
+    {
+      "title": "N Dial 01",
+      "src": "../images/dials/n/dial01.png",
+      "alt": "Normal Dial 01",
+      "type": "Standard",
+      "rarity": "Normal",
+      "madeIn": "USSR",
+      "yearOfManufacture": "1980s",
+      "estimatedValue": "S$40"
+    }
+  ]
+}
