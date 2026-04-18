@@ -1,7 +1,7 @@
 {
   "ur": [
     {
-      "title": "UR Dial 01",
+      "title": "UR-01",
       "src": "../images/dials/ur/dial01.jpg",
       "alt": "Ultimate Rare Dial 01",
       "description": "Military",
@@ -11,7 +11,7 @@
       "estimatedValue": "S$150"
     },
     {
-      "title": "UR Dial 02",
+      "title": "UR-02",
       "src": "../images/dials/ur/dial02.jpg",
       "alt": "Ultimate Rare Dial 02",
       "desccription": "Military",
@@ -21,7 +21,7 @@
       "estimatedValue": "S$140"
     },
     {
-      "title": "UR Dial 03",
+      "title": "UR-03",
       "src": "../images/dials/ur/dial03.jpg",
       "alt": "Ultimate Rare Dial 03",
       "description": "Dress",
@@ -31,7 +31,7 @@
       "estimatedValue": "S$160"
     },
     {
-      "title": "UR Dial 04",
+      "title": "UR-04",
       "src": "../images/dials/ur/dial04.jpg",
       "alt": "Ultimate Rare Dial 04",
       "description": "Collector",
@@ -41,7 +41,7 @@
       "estimatedValue": "S$180"
     },
     {
-      "title": "UR Dial 05",
+      "title": "UR-05",
       "src": "../images/dials/ur/dial05.jpg",
       "alt": "Ultimate Rare Dial 05",
       "description": "Military",
@@ -51,7 +51,7 @@
       "estimatedValue": "S$170"
     },
     {
-      "title": "UR Dial 06",
+      "title": "UR-06",
       "src": "../images/dials/ur/dial06.jpg",
       "alt": "Ultimate Rare Dial 06",
       "description": "Special Edition",
@@ -63,7 +63,7 @@
   ],
   "sr": [
     {
-      "title": "SR Dial 01",
+      "title": "SR-01",
       "src": "../images/dials/sr/dial01.jpg",
       "alt": "Special Rare Dial 01",
       "description": "Military",
@@ -73,7 +73,7 @@
       "estimatedValue": "S$120"
     },
     {
-      "title": "SR Dial 02",
+      "title": "SR-02",
       "src": "../images/dials/sr/dial02.jpg",
       "alt": "Special Rare Dial 02",
       "description": "Dress",
@@ -83,7 +83,7 @@
       "estimatedValue": "S$110"
     },
     {
-      "title": "SR Dial 03",
+      "title": "SR-03",
       "src": "../images/dials/sr/dial03.jpg",
       "alt": "Special Rare Dial 03",
       "description": "Collector",
@@ -93,7 +93,7 @@
       "estimatedValue": "S$130"
     },
     {
-      "title": "SR Dial 04",
+      "title": "SR-04",
       "src": "../images/dials/sr/dial04.jpg",
       "alt": "Special Rare Dial 04",
       "description": "Military",
@@ -103,7 +103,7 @@
       "estimatedValue": "S$125"
     },
     {
-      "title": "SR Dial 05",
+      "title": "SR-05",
       "src": "../images/dials/sr/dial05.jpg",
       "alt": "Special Rare Dial 05",
       "description": "Sport",
@@ -113,7 +113,7 @@
       "estimatedValue": "S$115"
     },
     {
-      "title": "SR Dial 06",
+      "title": "SR-06",
       "src": "../images/dials/sr/dial06.jpg",
       "alt": "Special Rare Dial 06",
       "description": "Collector",
@@ -125,7 +125,7 @@
   ],
   "r": [
     {
-      "title": "R Dial 01",
+      "title": "R-01",
       "src": "../images/dials/r/dial01.jpg",
       "alt": "Rare Dial 01",
       "description": "Military",
@@ -137,7 +137,7 @@
   ],
   "uc": [
     {
-      "title": "UC Dial 01",
+      "title": "UC-01",
       "src": "../images/dials/uc/dial01.jpg",
       "alt": "Uncommon Dial 01",
       "description": "Military",
@@ -149,7 +149,7 @@
   ],
   "n": [
     {
-      "title": "N Dial 01",
+      "title": "N-01",
       "src": "../images/dials/n/dial01.jpg",
       "alt": "Normal Dial 01",
       "description": "Standard",
