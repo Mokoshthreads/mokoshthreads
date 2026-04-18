@@ -1214,5 +1214,19 @@
     "image": "../images/watches/IMG_3841.jpeg",
     "collectionLink": "../dials/",
     "collectionButtonText": "Browse Dial Collection"
+  },
+      {
+   "id": "vostok-dress-01",
+    "name": "Dress",
+    "brand": "Vostok",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 55,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2409",
+    "caseShape": "Round",
+    "condition": "Working, with deep scratches on acrylic",
+    "description": "A rare simple Soviet dress watch with history of previous owner's name 'Vostanni KC' written on caseback.",
+    "image": "../images/watches/IMG_4040.jpeg"
   }
 ]
