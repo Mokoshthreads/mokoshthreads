@@ -50,7 +50,7 @@ function openLightbox(dial, collectionName) {
 
   lightboxCollection.textContent = collectionName;
   lightboxTitle.textContent = dial.title || "Untitled Dial";
-  lightboxType.textContent = dial.type || "—";
+  lightboxType.textContent = dial.description || "—";
   lightboxRarity.textContent = dial.rarity || "—";
   lightboxMadeIn.textContent = dial.madeIn || "—";
   lightboxYear.textContent = dial.yearOfManufacture || "—";
