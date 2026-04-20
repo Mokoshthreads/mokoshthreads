@@ -66,61 +66,61 @@
       "title": "SR-01",
       "src": "../images/dials/sr/dial01.jpg",
       "alt": "Special Rare Dial 01",
-      "description": "Military",
+      "description": "Amphibia: Submarine Fleet dial design with the word 'antimagnetic'.",
       "rarity": "Special Rare",
-      "madeIn": "USSR",
-      "yearOfManufacture": "1980s",
-      "estimatedValue": "S$120"
+      "madeIn": "Russia",
+      "yearOfManufacture": "1990s",
+      "estimatedValue": "S$25"
     },
     {
       "title": "SR-02",
       "src": "../images/dials/sr/dial02.jpg",
       "alt": "Special Rare Dial 02",
-      "description": "Dress",
+      "description": "Zakaz: Ordered by the Soviet Army. White plain minimalist design.",
       "rarity": "Special Rare",
       "madeIn": "USSR",
       "yearOfManufacture": "1980s",
-      "estimatedValue": "S$110"
+      "estimatedValue": "S$25"
     },
     {
       "title": "SR-03",
       "src": "../images/dials/sr/dial03.jpg",
       "alt": "Special Rare Dial 03",
-      "description": "Collector",
+      "description": "Zakaz: Ordered by the Soviet Army. Black plain minimalist design.",
       "rarity": "Special Rare",
       "madeIn": "USSR",
-      "yearOfManufacture": "1970s",
-      "estimatedValue": "S$130"
+      "yearOfManufacture": "1980s",
+      "estimatedValue": "S$25"
     },
     {
       "title": "SR-04",
       "src": "../images/dials/sr/dial04.jpg",
       "alt": "Special Rare Dial 04",
-      "description": "Military",
+      "description": "Zakaz: Ordered by the Soviet Army. Black plain minimalist design.",
       "rarity": "Special Rare",
       "madeIn": "USSR",
       "yearOfManufacture": "1980s",
-      "estimatedValue": "S$125"
+      "estimatedValue": "S$30"
     },
     {
       "title": "SR-05",
       "src": "../images/dials/sr/dial05.jpg",
       "alt": "Special Rare Dial 05",
-      "description": "Sport",
+      "description": "Zakaz: Ordered by the Soviet Army. Blue plain minimalist design.",
       "rarity": "Special Rare",
       "madeIn": "USSR",
       "yearOfManufacture": "1980s",
-      "estimatedValue": "S$115"
+      "estimatedValue": "S$25"
     },
     {
       "title": "SR-06",
       "src": "../images/dials/sr/dial06.jpg",
       "alt": "Special Rare Dial 06",
-      "description": "Collector",
+      "description": "Zakaz: Ordered by the Soviet Army. Blue plain minimalist design.",
       "rarity": "Special Rare",
       "madeIn": "USSR",
-      "yearOfManufacture": "Late 1980s",
-      "estimatedValue": "S$135"
+      "yearOfManufacture": "1980s",
+      "estimatedValue": "S$25"
     }
   ],
   "r": [
