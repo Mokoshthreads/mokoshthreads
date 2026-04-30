@@ -2,108 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Contact | Mokosh Threads</title>
+
+  <!-- Main global styles -->
   <link rel="stylesheet" href="../style.css" />
+
+  <!-- Page-specific styles -->
   <style>
-    .info-page {
-      width: min(1000px, calc(100% - 40px));
-      margin: 0 auto;
-      padding: 72px 0 88px;
+    /* WhatsApp Button */
+    .contact-links .btn-whatsapp {
+      background: #25D366;
+      color: white;
     }
 
-    .info-hero {
-      max-width: 760px;
-      margin-bottom: 36px;
+    .contact-links .btn-whatsapp:hover {
+      background: #1ebe5d;
+      transform: translateY(-1px);
     }
 
-    .info-hero h1 {
-      margin: 0 0 18px;
-      font-size: clamp(40px, 6vw, 68px);
-      line-height: 1;
-      color: var(--text);
+    /* Optional: Telegram (nice blue) */
+    .contact-links .btn-telegram {
+      background: #2AABEE;
+      color: white;
     }
 
-    .info-intro {
-      font-size: 19px;
-      line-height: 1.8;
-      color: var(--muted);
+    .contact-links .btn-telegram:hover {
+      background: #229ed9;
     }
 
-    .info-sections {
-      display: grid;
-      gap: 22px;
-    }
-
-    .info-card {
-      background: linear-gradient(180deg, #1b1714 0%, #14110f 100%);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 26px;
-      box-shadow: 0 14px 32px rgba(0, 0, 0, 0.18);
-    }
-
-    .info-card h2 {
-      margin: 0 0 14px;
-      font-size: 28px;
-      color: var(--linen);
-    }
-
-    .info-card p,
-    .info-card li {
-      color: var(--muted);
-      line-height: 1.8;
-      font-size: 17px;
-    }
-
-    .info-card ul {
-      margin: 0;
-      padding-left: 20px;
-    }
-
+    /* Layout spacing */
     .contact-links {
       display: flex;
+      gap: 10px;
       flex-wrap: wrap;
-      gap: 14px;
-      margin-top: 10px;
-    }
-
-    .contact-links a {
-      text-decoration: none;
-    }
-
-    @media (max-width: 640px) {
-      .info-page {
-        width: min(100% - 28px, 1000px);
-        padding: 48px 0 72px;
-      }
-
-      .info-card {
-        padding: 20px;
-      }
-
-      .info-card h2 {
-        font-size: 24px;
-      }
-
-      .info-card p,
-      .info-card li,
-      .info-intro {
-        font-size: 16px;
-      }
-
-      .btn-whatsapp {
-  background: #25D366;
-  color: #fff;
-  border: 1px solid transparent;
-}
-
-.btn-whatsapp:hover {
-  background: #1ebe5d;
-}
+      margin-top: 12px;
     }
   </style>
 </head>
+
 <body>
 
   <div class="topbar">
@@ -126,6 +63,7 @@
   </header>
 
   <main class="info-page">
+
     <section class="info-hero">
       <p class="section-label">Mokosh Threads</p>
       <h1>Contact</h1>
@@ -136,15 +74,28 @@
     </section>
 
     <section class="info-sections">
+
       <article class="info-card">
         <h2>Contact Us</h2>
         <p>You can reach us through the channels below:</p>
+
         <div class="contact-links">
-  <a class="btn btn-primary" href="https://t.me/Wantwotwee" target="_blank">Telegram</a>
-  <a class="btn btn-whatsapp" href="https://wa.me/6589202646" target="_blank">WhatsApp</a>
-  <a class="btn btn-secondary" href="https://instagram.com/mokoshthreads" target="_blank">Instagram</a>
-  <a class="btn btn-secondary" href="mailto:mokoshthreads@gmail.com">Email</a>
-</div>
+          <a class="btn btn-telegram" href="https://t.me/Wantwotwee" target="_blank">
+            Telegram
+          </a>
+
+          <a class="btn btn-whatsapp" href="https://wa.me/6589202646" target="_blank">
+            WhatsApp
+          </a>
+
+          <a class="btn btn-secondary" href="https://instagram.com/mokoshthreads" target="_blank">
+            Instagram
+          </a>
+
+          <a class="btn btn-secondary" href="mailto:mokoshthreads@gmail.com">
+            Email
+          </a>
+        </div>
       </article>
 
       <article class="info-card">
@@ -152,8 +103,8 @@
         <ul>
           <li>Item name</li>
           <li>Your country or location</li>
-          <li>Your size, if you are enquiring about clothing</li>
-          <li>Any questions about measurements, condition, or shipping</li>
+          <li>Your size (for clothing)</li>
+          <li>Questions about measurements, condition, or shipping</li>
         </ul>
       </article>
 
@@ -161,22 +112,22 @@
         <h2>Clothing Enquiries</h2>
         <p>
           Please include the item name, your preferred size, and any sizing questions.
-          If needed, we can clarify fit, fabric, and garment details before purchase.
+          We can clarify fit, fabric, and garment details before purchase.
         </p>
       </article>
 
       <article class="info-card">
         <h2>Watch Enquiries</h2>
         <p>
-          Please include the watch name and let us know if you would like more photos,
-          videos, or information about condition, movement, or dimensions.
+          Include the watch name and let us know if you need more photos, videos,
+          or details about condition, movement, or dimensions.
         </p>
       </article>
 
       <article class="info-card">
         <h2>Relics Enquiries</h2>
         <p>
-          Please include the item name and any questions about symbolism, materials,
+          Include the item name and any questions about symbolism, materials,
           or custom requests.
         </p>
       </article>
@@ -184,10 +135,11 @@
       <article class="info-card">
         <h2>Before Purchase</h2>
         <p>
-          We recommend confirming all important details before ordering, especially for
-          sizing, measurements, vintage condition, and special requests.
+          We recommend confirming all important details before ordering,
+          especially sizing, vintage condition, and special requests.
         </p>
       </article>
+
     </section>
   </main>
 
