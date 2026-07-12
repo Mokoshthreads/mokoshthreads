@@ -12,6 +12,7 @@
     "caseShape": "Hexagon",
     "condition": "Good",
     "description": "A bold military-themed Soviet watch with strong wrist presence. A true General's watch.",
+    "sold": true,
     "video": ""
   },
   {
@@ -577,6 +578,7 @@
     "caseShape": "Round",
     "condition": "Working - light scratches on acrylic",
     "description": "Transitional Soviet-Russian piece. This is what comes after the Soviets.",
+      "sold": true,
     "image": "../images/watches/IMG_3731.jpg"
   },
      {
@@ -927,6 +929,7 @@
     "caseShape": "Round",
     "condition": "Excellent working condition - Recently professionally serviced.",
     "description": "Limited edition historical commemorative watch produced in 1995 to mark 50 years from the end of WW2 also known as The Great Patriotic War.",
+     "sold": true,
     "image": "../images/watches/IMG_3803.jpeg"
   },
    {
@@ -1025,6 +1028,7 @@
     "caseShape": "Round",
     "condition": "Case-wear with light acrylic scratches.",
     "description": "Soviet Naval Patriotic Watch - A New Identity after the fall of the Soviet Union.",
+     "sold": true,
      "image": "../images/watches/IMG_3817.jpeg"
   },
   {
@@ -1139,6 +1143,7 @@
     "caseShape": "Round",
     "condition": "Working condition - scratched acrylic & brassing of case.",
     "description": "Vintage Soviet-style franken Vostok watch.",
+      "sold": true,
     "image": "../images/watches/IMG_3833.jpeg"
   },
       {
@@ -1227,6 +1232,7 @@
     "caseShape": "Round",
     "condition": "Working, with deep scratches on acrylic",
     "description": "A rare simple Soviet dress watch with history of previous owner's name 'Vostanni KC' written on caseback.",
+        "sold": true,
     "image": "../images/watches/IMG_4040.jpeg"
   }
 ]
