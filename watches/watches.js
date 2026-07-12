@@ -15,41 +15,87 @@ async function loadWatches() {
   const modalMeta = document.getElementById("modalMeta");
   const modalPrice = document.getElementById("modalPrice");
   const modalCollectionBtn = document.getElementById("modalCollectionBtn");
+  const modalTelegramBtn = document.getElementById("modalTelegramBtn");
+  const modalWhatsappBtn = document.getElementById("modalWhatsappBtn");
 
-  const SGD_TO_MYR = 3.10;
+  const modalDescription = document.getElementById("modalDescription");
+  const modalMovement = document.getElementById("modalMovement");
+  const modalCase = document.getElementById("modalCase");
+  const modalCondition = document.getElementById("modalCondition");
+
+  const SGD_TO_MYR = 3.1;
 
   function formatDualPrice(price) {
-    if (!price && price !== 0) return "Price on request";
-    const myrPrice = (price * SGD_TO_MYR).toFixed(2);
-    return `S$${price} / RM${myrPrice}`;
+    if (price === undefined || price === null || price === "") {
+      return "Price on request";
+    }
+
+    const numericPrice = Number(price);
+
+    if (Number.isNaN(numericPrice)) {
+      return "Price on request";
+    }
+
+    const myrPrice = (numericPrice * SGD_TO_MYR).toFixed(2);
+
+    return `S$${numericPrice} / RM${myrPrice}`;
+  }
+
+  function getWatchPriceText(watch) {
+    if (watch.sold === true) {
+      return "SOLD";
+    }
+
+    return formatDualPrice(watch.price);
   }
 
   try {
     const response = await fetch("./watches.json");
+
+    if (!response.ok) {
+      throw new Error(`Unable to load watches.json: ${response.status}`);
+    }
+
     const watches = await response.json();
+
+    if (!Array.isArray(watches)) {
+      throw new Error("watches.json must contain an array of watches.");
+    }
+
+    function getAvailableWatches(items) {
+      return items.filter((watch) => watch.sold !== true);
+    }
+
+    function getSoldWatches(items) {
+      return items.filter((watch) => watch.sold === true);
+    }
 
     function getBrandCounts(items) {
       const counts = {};
 
       items.forEach((watch) => {
-        const brand = watch.brand;
-        counts[brand] = (counts[brand] || 0) + 1;
+        if (!watch.brand) return;
+
+        counts[watch.brand] = (counts[watch.brand] || 0) + 1;
       });
 
       return counts;
     }
 
     function updateFilterCounts(items) {
-      const counts = getBrandCounts(items);
+      const availableWatches = getAvailableWatches(items);
+      const soldWatches = getSoldWatches(items);
+      const counts = getBrandCounts(availableWatches);
 
       filterButtons.forEach((button) => {
-        const brand = button.dataset.filter;
+        const filter = button.dataset.filter;
 
-        if (brand === "all") {
-          button.textContent = `All (${items.length})`;
+        if (filter === "all") {
+          button.textContent = `All (${availableWatches.length})`;
+        } else if (filter === "sold") {
+          button.textContent = `SOLD (${soldWatches.length})`;
         } else {
-          const count = counts[brand] || 0;
-          button.textContent = `${brand} (${count})`;
+          button.textContent = `${filter} (${counts[filter] || 0})`;
         }
       });
     }
@@ -64,49 +110,73 @@ async function loadWatches() {
 
     function eraToNumber(era) {
       if (!era) return 0;
-      const match = era.match(/\d{4}/);
-      if (match) return parseInt(match[0], 10);
-      const decadeMatch = era.match(/\d{4}s/);
-      if (decadeMatch) return parseInt(decadeMatch[0], 10);
+
+      const match = String(era).match(/\d{4}/);
+
+      if (match) {
+        return parseInt(match[0], 10);
+      }
+
       return 0;
     }
 
     function openModal(watch) {
-      modalImage.src = watch.image;
-      modalImage.alt = `${watch.brand} ${watch.name}`;
-      modalBrand.textContent = watch.brand;
-      modalName.textContent = watch.name;
-      modalMeta.textContent = `${watch.era} • ${watch.type}`;
-      modalPrice.textContent = formatDualPrice(watch.price);
+      modalImage.src = watch.image || "";
+      modalImage.alt = `${watch.brand || ""} ${watch.name || ""}`.trim();
+
+      modalBrand.textContent = watch.brand || "";
+      modalName.textContent = watch.name || "";
+      modalMeta.textContent = [watch.era, watch.type]
+        .filter(Boolean)
+        .join(" • ");
+
+      modalPrice.textContent = getWatchPriceText(watch);
+      modalPrice.classList.toggle("is-sold", watch.sold === true);
 
       if (modalCollectionBtn) {
-  if (watch.collectionLink) {
-    modalCollectionBtn.style.display = "inline-flex";
-    modalCollectionBtn.href = watch.collectionLink;
-    modalCollectionBtn.textContent = watch.collectionButtonText || "Browse Collection";
-  } else {
-    modalCollectionBtn.style.display = "none";
-    modalCollectionBtn.href = "#";
-    modalCollectionBtn.textContent = "Browse Collection";
-  }
-}
-const modalTelegramBtn = document.getElementById("modalTelegramBtn");
-const modalWhatsappBtn = document.getElementById("modalWhatsappBtn");
+        if (watch.collectionLink) {
+          modalCollectionBtn.style.display = "inline-flex";
+          modalCollectionBtn.href = watch.collectionLink;
+          modalCollectionBtn.textContent =
+            watch.collectionButtonText || "Browse Collection";
+        } else {
+          modalCollectionBtn.style.display = "none";
+          modalCollectionBtn.href = "#";
+          modalCollectionBtn.textContent = "Browse Collection";
+        }
+      }
 
-const enquiryMessage = `Hi, I'm interested in ${watch.brand} ${watch.name}`;
+      const enquiryMessage =
+        `Hi, I'm interested in ${watch.brand || ""} ${watch.name || ""}`.trim();
 
-if (modalTelegramBtn) {
-  modalTelegramBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(enquiryMessage)}`;
-}
+      if (watch.sold === true) {
+        if (modalTelegramBtn) {
+          modalTelegramBtn.style.display = "none";
+          modalTelegramBtn.removeAttribute("href");
+        }
 
-if (modalWhatsappBtn) {
-  modalWhatsappBtn.href = `https://wa.me/6589202646?text=${encodeURIComponent(enquiryMessage)}`;
-}
+        if (modalWhatsappBtn) {
+          modalWhatsappBtn.style.display = "none";
+          modalWhatsappBtn.removeAttribute("href");
+        }
+      } else {
+        if (modalTelegramBtn) {
+          modalTelegramBtn.style.display = "inline-flex";
+          modalTelegramBtn.href =
+            `https://t.me/Wantwotwee?text=${encodeURIComponent(enquiryMessage)}`;
+        }
 
-      document.getElementById("modalDescription").textContent = watch.description || "";
-      document.getElementById("modalMovement").textContent = watch.movement || "-";
-      document.getElementById("modalCase").textContent = watch.caseShape || "-";
-      document.getElementById("modalCondition").textContent = watch.condition || "-";
+        if (modalWhatsappBtn) {
+          modalWhatsappBtn.style.display = "inline-flex";
+          modalWhatsappBtn.href =
+            `https://wa.me/6589202646?text=${encodeURIComponent(enquiryMessage)}`;
+        }
+      }
+
+      modalDescription.textContent = watch.description || "";
+      modalMovement.textContent = watch.movement || "-";
+      modalCase.textContent = watch.caseShape || "-";
+      modalCondition.textContent = watch.condition || "-";
 
       modal.classList.add("open");
       modal.setAttribute("aria-hidden", "false");
@@ -125,24 +195,55 @@ if (modalWhatsappBtn) {
       const visibleItems = items.slice(0, visibleCount);
 
       if (visibleItems.length === 0) {
-        gallery.innerHTML = "<p>No watches found.</p>";
-        if (loadMoreBtn) loadMoreBtn.style.display = "none";
+        const emptyMessage =
+          activeFilter === "sold"
+            ? "No sold watches found."
+            : "No watches found.";
+
+        gallery.innerHTML = `<p>${emptyMessage}</p>`;
+
+        if (loadMoreBtn) {
+          loadMoreBtn.style.display = "none";
+        }
+
         return;
       }
 
       visibleItems.forEach((watch) => {
         const card = document.createElement("article");
-        card.className = "watch-card";
+
+        card.className = watch.sold === true
+          ? "watch-card is-sold"
+          : "watch-card";
 
         card.innerHTML = `
           <div class="watch-card-image">
-            <img src="${watch.image}" loading="lazy" alt="${watch.brand} ${watch.name}" />
+            <img
+              src="${watch.image || ""}"
+              loading="lazy"
+              alt="${watch.brand || ""} ${watch.name || ""}"
+            />
+
+            ${
+              watch.sold === true
+                ? '<span class="sold-badge">SOLD</span>'
+                : ""
+            }
           </div>
+
           <div class="watch-card-body">
-            <p class="watch-brand">${watch.brand}</p>
-            <h2>${watch.name}</h2>
-            <p class="watch-meta">${watch.era} • ${watch.type}</p>
-            <p class="watch-price">${formatDualPrice(watch.price)}</p>
+            <p class="watch-brand">${watch.brand || ""}</p>
+            <h2>${watch.name || ""}</h2>
+
+            <p class="watch-meta">
+              ${[watch.era, watch.type].filter(Boolean).join(" • ")}
+            </p>
+
+            <p class="watch-price ${
+              watch.sold === true ? "is-sold" : ""
+            }">
+              ${getWatchPriceText(watch)}
+            </p>
           </div>
         `;
 
@@ -151,37 +252,77 @@ if (modalWhatsappBtn) {
       });
 
       if (loadMoreBtn) {
-        loadMoreBtn.style.display = items.length > visibleCount ? "inline-block" : "none";
+        loadMoreBtn.style.display =
+          items.length > visibleCount ? "inline-block" : "none";
       }
+    }
+
+    function matchesWatchSearch(watch) {
+      const searchableText = [
+        watch.name,
+        watch.brand,
+        watch.era,
+        watch.type,
+        watch.description,
+        watch.movement,
+        watch.condition
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+
+      return searchableText.includes(searchTerm);
+    }
+
+    function matchesSelectedCategory(watch) {
+      if (activeFilter === "sold") {
+        return watch.sold === true;
+      }
+
+      if (watch.sold === true) {
+        return false;
+      }
+
+      if (activeFilter === "all") {
+        return true;
+      }
+
+      return watch.brand === activeFilter;
+    }
+
+    function matchesSelectedPriceRange(watch) {
+      if (activePriceRange === "all") {
+        return true;
+      }
+
+      return watch.priceRange === activePriceRange;
     }
 
     function getFilteredItems() {
       let filtered = watches.filter((watch) => {
-        const matchesSearch =
-          watch.name.toLowerCase().includes(searchTerm) ||
-          watch.brand.toLowerCase().includes(searchTerm) ||
-          watch.era.toLowerCase().includes(searchTerm) ||
-          watch.type.toLowerCase().includes(searchTerm);
-
-        const matchesBrand =
-          activeFilter === "all" || watch.brand === activeFilter;
-
-        const matchesPriceRange =
-          activePriceRange === "all" || watch.priceRange === activePriceRange;
-
-        return matchesSearch && matchesBrand && matchesPriceRange;
+        return (
+          matchesWatchSearch(watch) &&
+          matchesSelectedCategory(watch) &&
+          matchesSelectedPriceRange(watch)
+        );
       });
 
       if (activeSort === "price-low-high") {
-        filtered.sort((a, b) => a.price - b.price);
+        filtered.sort((a, b) => Number(a.price || 0) - Number(b.price || 0));
       } else if (activeSort === "price-high-low") {
-        filtered.sort((a, b) => b.price - a.price);
+        filtered.sort((a, b) => Number(b.price || 0) - Number(a.price || 0));
       } else if (activeSort === "brand-a-z") {
-        filtered.sort((a, b) => a.brand.localeCompare(b.brand));
+        filtered.sort((a, b) =>
+          String(a.brand || "").localeCompare(String(b.brand || ""))
+        );
       } else if (activeSort === "era-old-new") {
-        filtered.sort((a, b) => eraToNumber(a.era) - eraToNumber(b.era));
+        filtered.sort(
+          (a, b) => eraToNumber(a.era) - eraToNumber(b.era)
+        );
       } else if (activeSort === "era-new-old") {
-        filtered.sort((a, b) => eraToNumber(b.era) - eraToNumber(a.era));
+        filtered.sort(
+          (a, b) => eraToNumber(b.era) - eraToNumber(a.era)
+        );
       }
 
       return filtered;
@@ -192,21 +333,25 @@ if (modalWhatsappBtn) {
         visibleCount = itemsPerPage;
       }
 
-      const filtered = getFilteredItems();
-      render(filtered);
+      render(getFilteredItems());
     }
 
-    render(watches);
     updateFilterCounts(watches);
+    applyFilters(true);
 
-    searchInput.addEventListener("input", function () {
-      searchTerm = this.value.toLowerCase();
-      applyFilters(true);
-    });
+    if (searchInput) {
+      searchInput.addEventListener("input", function () {
+        searchTerm = this.value.trim().toLowerCase();
+        applyFilters(true);
+      });
+    }
 
     filterButtons.forEach((button) => {
       button.addEventListener("click", function () {
-        filterButtons.forEach((btn) => btn.classList.remove("active"));
+        filterButtons.forEach((btn) => {
+          btn.classList.remove("active");
+        });
+
         this.classList.add("active");
         activeFilter = this.dataset.filter;
         applyFilters(true);
@@ -234,17 +379,25 @@ if (modalWhatsappBtn) {
       });
     }
 
-    modalBackdrop.addEventListener("click", closeModal);
-    modalClose.addEventListener("click", closeModal);
+    if (modalBackdrop) {
+      modalBackdrop.addEventListener("click", closeModal);
+    }
+
+    if (modalClose) {
+      modalClose.addEventListener("click", closeModal);
+    }
 
     document.addEventListener("keydown", function (event) {
-      if (event.key === "Escape" && modal.classList.contains("open")) {
+      if (
+        event.key === "Escape" &&
+        modal.classList.contains("open")
+      ) {
         closeModal();
       }
     });
   } catch (error) {
     gallery.innerHTML = "<p>Unable to load watches right now.</p>";
-    console.error(error);
+    console.error("Watch loading error:", error);
   }
 }
 
