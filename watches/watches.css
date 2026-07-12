@@ -350,6 +350,103 @@ body.modal-open {
     padding: 32px 0 10px;
   }
 
+  /* ========================================
+   SOLD WATCH STYLING
+======================================== */
+
+/* SOLD filter button */
+.sold-filter-btn {
+  border-color: #8f2f2f;
+  color: #e7b4b4;
+}
+
+.sold-filter-btn:hover {
+  background: #6f2424;
+  border-color: #8f2f2f;
+  color: #ffffff;
+}
+
+.sold-filter-btn.active {
+  background: #8f2f2f;
+  border-color: #8f2f2f;
+  color: #ffffff;
+}
+
+/* Required so the SOLD badge stays inside the image */
+.watch-card-image {
+  position: relative;
+}
+
+/* SOLD badge displayed over the watch image */
+.sold-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 3;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 13px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+
+  background: rgba(143, 47, 47, 0.95);
+  color: #ffffff;
+
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(4px);
+}
+
+/* SOLD price text on both cards and modal */
+.watch-price.is-sold {
+  color: #d66c6c;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* Slightly mute sold watch cards */
+.watch-card.is-sold {
+  border-color: rgba(143, 47, 47, 0.55);
+}
+
+/* Make sold-watch images visually distinct */
+.watch-card.is-sold .watch-card-image img {
+  opacity: 0.72;
+  filter: grayscale(32%);
+}
+
+/* Keep a subtle hover effect without making sold items look available */
+.watch-card.is-sold:hover .watch-card-image img {
+  opacity: 0.82;
+  filter: grayscale(18%);
+}
+
+/* Optional red glow when hovering a sold card */
+.watch-card.is-sold:hover {
+  box-shadow:
+    0 18px 42px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(143, 47, 47, 0.2);
+}
+
+/* Mobile adjustments */
+@media (max-width: 560px) {
+  .sold-badge {
+    top: 10px;
+    right: 10px;
+    padding: 7px 11px;
+    font-size: 11px;
+  }
+}
+
   #loadMoreBtn {
     min-width: 180px;
   }
