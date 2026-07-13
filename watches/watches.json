@@ -1,4 +1,32 @@
 [
+   {
+   "id": "vostok-komandirskie-50-years",
+    "name": "Komandirskie '50 Years of Victory'",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Collector classic",
+    "price": 85,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on acrylic",
+    "description": "Produced in 1995, commemorating 50 years to the end of WW2. The Motherland Calls statue is emblematic to the sacrifice & history of the Soviet army.",
+    "image": "../images/watches/IMG_3609.jpg"
+  },
+  {
+     "id": "vostok-buran",
+    "name": "Buran",
+    "brand": "Vostok",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 180,
+    "priceRange": "$121+",
+    "movement": "Manual Vostok 2409A",
+    "caseShape": "Round",
+    "condition": "Working - excellent running condition",
+    "description": "A Soviet-made Vostok Buran — built to echo the ambition of Russia’s space shuttle era, where engineering met the cosmos.",
+    "image": "../images/watches/IMG_3577.jpg"
+  },
   {
     "id": "vostok-generalskie-01",
     "name": "Generalskie",
@@ -145,20 +173,6 @@
     "description": "Gold-plated with in-built alarm mechanism. Made in 1993 to commemorate the 125th anniversary of the birth of the last Russian Tsar.",
     "image": "../images/watches/IMG_3232.jpg"
   },
-   {
-     "id": "vostok-buran",
-    "name": "Buran",
-    "brand": "Vostok",
-    "era": "1970s",
-    "type": "Collector classic",
-    "price": 180,
-    "priceRange": "$121+",
-    "movement": "Manual Vostok 2409A",
-    "caseShape": "Round",
-    "condition": "Working - excellent running condition",
-    "description": "A Soviet-made Vostok Buran — built to echo the ambition of Russia’s space shuttle era, where engineering met the cosmos.",
-    "image": "../images/watches/IMG_3577.jpg"
-  },
      {
      "id": "cardi-vostok-capitan-01",
     "name": "Capitan Chronoscope 4-Star",
@@ -215,20 +229,6 @@
     "description": "Minimalist Soviet vintage with a simple everyday design. By Penza Watch Factory.",
     "image": "../images/watches/IMG_3604.jpg"
   } ,
-    {
-   "id": "vostok-komandirskie-50-years",
-    "name": "Komandirskie '50 Years of Victory'",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Collector classic",
-    "price": 85,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Working, with light scratches on acrylic",
-    "description": "Produced in 1995, commemorating 50 years to the end of WW2. The Motherland Calls statue is emblematic to the sacrifice & history of the Soviet army.",
-    "image": "../images/watches/IMG_3609.jpg"
-  },
   {
    "id": "vostok-Amphibia-purple-01",
     "name": "Amphibia Purple",
