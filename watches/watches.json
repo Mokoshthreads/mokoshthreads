@@ -1,19 +1,20 @@
 [
-   {
-   "id": "vostok-komandirskie-50-years",
-    "name": "Komandirskie '50 Years of Victory'",
+  {
+    "id": "vostok-komandirskie-desertshield",
+    "name": "Komandirskie 'Operation Desert Shield'",
     "brand": "Vostok",
     "era": "1990s",
+    "type": "Military style",
     "type": "Collector classic",
-    "price": 85,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2409/2414",
     "caseShape": "Round",
-    "condition": "Working, with light scratches on acrylic",
-    "description": "Produced in 1995, commemorating 50 years to the end of WW2. The Motherland Calls statue is emblematic to the sacrifice & history of the Soviet army.",
-    "image": "../images/watches/IMG_3609.jpg"
+    "condition": "Good - missing Bezel",
+    "description": "Historical time-piece. Made in 1990 to commemorate Operation Desert Shield, symbolizing Russia's support and allegiance to the USA.",
+    "image": "../images/watches/IMG_4593.jpg"
   },
-  {
+   {
      "id": "vostok-buran",
     "name": "Buran",
     "brand": "Vostok",
@@ -26,6 +27,20 @@
     "condition": "Working - excellent running condition",
     "description": "A Soviet-made Vostok Buran — built to echo the ambition of Russia’s space shuttle era, where engineering met the cosmos.",
     "image": "../images/watches/IMG_3577.jpg"
+  },
+    {
+   "id": "vostok-komandirskie-50-years",
+    "name": "Komandirskie '50 Years of Victory'",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Collector classic",
+    "price": 85,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on acrylic",
+    "description": "Produced in 1995, commemorating 50 years to the end of WW2. The Motherland Calls statue is emblematic to the sacrifice & history of the Soviet army.",
+    "image": "../images/watches/IMG_3609.jpg"
   },
   {
     "id": "vostok-generalskie-01",
@@ -113,21 +128,6 @@
     "condition": "Good",
     "description": "Simple and elegant. Showcases the simplicity and endurance of Russian-made product.",
     "image": "../images/watches/IMG_3227.jpeg"
-  },
-    {
-    "id": "vostok-komandirskie-desertshield",
-    "name": "Komandirskie 'Operation Desert Shield'",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "type": "Collector classic",
-    "price": 80,
-    "priceRange": "$31-80",
-    "movement": "Manual Vostok 2409/2414",
-    "caseShape": "Round",
-    "condition": "Good - missing Bezel",
-    "description": "Historical time-piece. Made in 1990 to commemorate Operation Desert Shield, symbolizing Russia's support and allegiance to the USA.",
-    "image": "../images/watches/IMG_4593.jpg"
   },
       {
     "id": "vostok-komandirskie-desertshieldcadet",
