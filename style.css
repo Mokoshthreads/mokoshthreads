@@ -315,6 +315,11 @@ main {
   background-image: url('./images/relics/IMG_3297.jpeg');
 }
 
+/* FILM CAMERAS */
+.filmcameras-card {
+  background-image: url('./images/zenitefilmcamera.png');
+}
+
 /* Overlay for readability */
 .card-overlay {
   position: absolute;
