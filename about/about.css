@@ -333,7 +333,7 @@ a {
 
 .timeline-image {
   width: 100%;
-  height: clamp(230px, 25vw, 320px);
+  height: clamp(280px, 25vw, 320px);
   min-height: 0;
   overflow: hidden;
   background: #0e0c09;
