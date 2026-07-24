@@ -401,75 +401,114 @@ a {
 }
 
 /* =========================================================
-   CATEGORY CARDS
+   WHAT WE CURATE
    ========================================================= */
 
-.category-grid,
-.values-grid,
-.reviews-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 16px;
+.categories-section{
+    padding:120px 0;
+    text-align:center;
 }
 
-.category-card {
-  overflow: hidden;
-  border: 1px solid var(--gold-soft);
-  background: var(--panel);
-  text-decoration: none;
-  transition:
-    transform 0.2s ease,
-    border-color 0.2s ease;
+.category-buttons{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:22px;
+
+    margin-top:60px;
 }
 
-.category-card:hover {
-  border-color: var(--gold);
-  transform: translateY(-5px);
+.category-button{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:18px 34px;
+
+    border-radius:999px;
+
+    border:1px solid rgba(183,139,68,.45);
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255,255,255,.02),
+            rgba(255,255,255,.01)
+        );
+
+    color:var(--ivory);
+
+    text-decoration:none;
+
+    font-family:"Cormorant Garamond",serif;
+    font-size:28px;
+    letter-spacing:.03em;
+
+    transition:
+        background .3s,
+        color .3s,
+        transform .3s,
+        border-color .3s,
+        box-shadow .3s;
 }
 
-.category-image {
-  height: 280px;
-  min-height: 280px;
-  overflow: hidden;
-  background:
-    linear-gradient(
-      180deg,
-      transparent,
-      rgba(8, 7, 5, 0.35)
-    ),
-    radial-gradient(
-      circle at 30% 30%,
-      rgba(183, 139, 68, 0.19),
-      transparent 38%
-    ),
-    #17130f;
+.category-button:hover{
+
+    transform:translateY(-5px);
+
+    background:var(--gold);
+
+    color:#080705;
+
+    border-color:var(--gold);
+
+    box-shadow:
+        0 18px 35px rgba(183,139,68,.25);
 }
 
-.category-image img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  transition: transform 0.45s ease;
+@media(max-width:920px){
+
+    .category-buttons{
+        gap:18px;
+    }
+
+    .category-button{
+
+        font-size:24px;
+
+        padding:16px 30px;
+    }
+
 }
 
-.category-card:hover .category-image img {
-  transform: scale(1.05);
-}
+@media(max-width:680px){
 
-.category-copy {
-  padding: 28px;
-}
+    .categories-section{
 
-.category-copy span {
-  color: var(--gold);
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
+        padding:90px 0;
+    }
 
+    .category-buttons{
+
+        flex-direction:column;
+
+        gap:14px;
+    }
+
+    .category-button{
+
+        width:100%;
+
+        max-width:320px;
+
+        font-size:22px;
+
+        padding:16px 24px;
+    }
+
+}
 /* =========================================================
    VALUES
    ========================================================= */
