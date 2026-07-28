@@ -1,0 +1,38 @@
+[
+  {
+    "id": "soviet-film-camera-workshop",
+    "title": "Vintage Soviet Film Camera Workshop",
+    "category": "Film Photography",
+    "status": "Registration Interest Open",
+    "summary": "Discover Soviet film camera history before heading outdoors for a guided photography walk using your own Smena film camera.",
+    "description": [
+      "Begin with an accessible introduction to the history of Soviet photography and the development of widely used cameras such as the Smena, Zenit, FED, Zorki, Kiev and Chaika.",
+      "Participants will learn about the differences between Soviet camera types, how basic manual film cameras operate, and why these cameras became such recognisable objects of twentieth-century photographic culture.",
+      "After the introduction, the group will head to a predetermined area in Singapore for a guided photography walk. The location may change depending on the workshop date, accessibility, weather considerations and the photographic theme of the session."
+    ],
+    "duration": "3.5 hours",
+    "price": "$150 per participant",
+    "location": "Selected location in Singapore",
+    "level": "Beginner-friendly",
+    "image": "assets/soviet-camera-workshop.webp",
+    "imageAlt": "A vintage Smena film camera prepared for a guided photography workshop",
+    "programme": [
+      "Welcome and introduction to the workshop.",
+      "Brief history of Soviet photography and camera production.",
+      "Introduction to different Soviet camera types and manufacturers.",
+      "Basic camera controls, film handling, focusing and exposure guidance.",
+      "Hands-on preparation using a Smena or equivalent film camera.",
+      "Guided photography walk around a predetermined area in Singapore.",
+      "Closing discussion, questions and practical advice for continuing with film photography."
+    ],
+    "inclusions": [
+      "One Smena film camera or an equivalent Soviet film camera for each participant.",
+      "One roll of photographic film.",
+      "Historical and practical introduction to Soviet film cameras.",
+      "Guided assistance with basic camera operation.",
+      "A guided photography walk in Singapore.",
+      "The camera and film may be brought home after the workshop."
+    ],
+    "signupUrl": "https://forms.gle/mwSNCWR1f6kzjoSS9"
+  }
+]
