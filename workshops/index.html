@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Explore hands-on workshops by Mokosh Threads, including our Vintage Soviet Film Camera Workshop in Singapore."
+  >
+
+  <title>Workshops | Mokosh Threads</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="workshops.css">
+</head>
+
+<body>
+
+  <!-- =====================================================
+       HEADER
+       ===================================================== -->
+
+  <header class="site-header">
+
+    <a class="brand" href="../">
+      <span class="brand-symbol">✦</span>
+      <span>Mokosh Threads</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="mainNav"
+    >
+      Menu
+    </button>
+
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="../">Home</a>
+      <a href="../clothing/">Clothing</a>
+      <a href="../watches/">Watches</a>
+      <a href="../filmcameras/">Film Cameras</a>
+      <a href="../relics/">Relics</a>
+      <a href="./" aria-current="page">Workshops</a>
+      <a href="../about/">About</a>
+    </nav>
+
+  </header>
+
+
+  <main>
+
+    <!-- =====================================================
+         HERO
+         ===================================================== -->
+
+    <section class="workshops-hero">
+
+      <div class="hero-decoration" aria-hidden="true"></div>
+
+      <div class="hero-content reveal">
+
+        <p class="eyebrow">Learn • Explore • Create</p>
+
+        <h1>
+          Mokosh Threads
+          <span>Workshops</span>
+        </h1>
+
+        <p class="hero-intro">
+          Hands-on cultural and creative experiences built around the objects,
+          stories, and traditions we collect.
+        </p>
+
+        <a class="hero-link" href="#availableWorkshops">
+          View Workshops
+          <span aria-hidden="true">↓</span>
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         INTRODUCTION
+         ===================================================== -->
+
+    <section class="workshops-introduction page-section">
+
+      <div class="intro-heading reveal">
+        <p class="eyebrow">More Than a Collection</p>
+
+        <h2>Discover the Stories Behind the Objects</h2>
+      </div>
+
+      <div class="intro-copy reveal">
+        <p>
+          Mokosh Threads workshops are designed for curious beginners,
+          collectors, creatives, and anyone interested in experiencing
+          cultural objects beyond a display shelf.
+        </p>
+
+        <p>
+          Each workshop combines storytelling, practical demonstrations,
+          guided activities, and carefully selected materials that
+          participants can use during the session.
+        </p>
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         WORKSHOP LIST
+         Loaded from workshops.json
+         ===================================================== -->
+
+    <section
+      class="workshops-section page-section"
+      id="availableWorkshops"
+    >
+
+      <div class="section-heading reveal">
+        <p class="eyebrow">Upcoming Experiences</p>
+        <h2>Available Workshops</h2>
+
+        <p>
+          Select a workshop to explore the programme, inclusions,
+          pricing, and registration details.
+        </p>
+      </div>
+
+      <div
+        class="workshop-grid"
+        id="workshopGrid"
+        aria-live="polite"
+      >
+        <div class="loading-state">
+          Loading workshops…
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         WORKSHOP APPROACH
+         ===================================================== -->
+
+    <section class="approach-section page-section">
+
+      <div class="approach-heading reveal">
+        <p class="eyebrow">The Mokosh Approach</p>
+        <h2>Small Groups. Meaningful Experiences.</h2>
+      </div>
+
+      <div class="approach-grid">
+
+        <article class="approach-card reveal">
+          <span class="approach-number">01</span>
+          <h3>Accessible Learning</h3>
+          <p>
+            Workshops are designed to welcome complete beginners while
+            still providing meaningful historical and technical context.
+          </p>
+        </article>
+
+        <article class="approach-card reveal">
+          <span class="approach-number">02</span>
+          <h3>Hands-On Practice</h3>
+          <p>
+            Participants learn through direct experience, guided
+            demonstrations, and practical activities.
+          </p>
+        </article>
+
+        <article class="approach-card reveal">
+          <span class="approach-number">03</span>
+          <h3>Objects With Stories</h3>
+          <p>
+            Every workshop is built around objects with history,
+            craftsmanship, and cultural character.
+          </p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FUTURE WORKSHOPS
+         ===================================================== -->
+
+    <section class="future-section">
+
+      <div class="future-panel reveal">
+
+        <div>
+          <p class="eyebrow">More to Come</p>
+
+          <h2>Future Workshop Experiences</h2>
+
+          <p>
+            We plan to introduce more sessions involving traditional
+            crafts, mechanical watches, film photography, cultural
+            storytelling, and other objects from the Mokosh Threads
+            collection.
+          </p>
+        </div>
+
+        <a class="button button-secondary" href="../about/#contact">
+          Enquire About Workshops
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =====================================================
+       WORKSHOP DETAILS MODAL
+       ===================================================== -->
+
+  <div
+    class="workshop-modal"
+    id="workshopModal"
+    aria-hidden="true"
+  >
+
+    <div class="modal-backdrop" data-close-modal></div>
+
+    <article
+      class="modal-panel"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitle"
+    >
+
+      <button
+        class="modal-close"
+        type="button"
+        aria-label="Close workshop details"
+        data-close-modal
+      >
+        ×
+      </button>
+
+      <div class="modal-image-wrap">
+        <img
+          id="modalImage"
+          src=""
+          alt=""
+        >
+
+        <div class="modal-image-overlay"></div>
+
+        <div class="modal-image-label">
+          <span id="modalCategory"></span>
+        </div>
+      </div>
+
+      <div class="modal-content">
+
+        <p class="modal-status" id="modalStatus"></p>
+
+        <h2 id="modalTitle"></h2>
+
+        <p class="modal-summary" id="modalSummary"></p>
+
+        <div class="modal-facts">
+
+          <div class="modal-fact">
+            <span>Duration</span>
+            <strong id="modalDuration"></strong>
+          </div>
+
+          <div class="modal-fact">
+            <span>Price</span>
+            <strong id="modalPrice"></strong>
+          </div>
+
+          <div class="modal-fact">
+            <span>Location</span>
+            <strong id="modalLocation"></strong>
+          </div>
+
+          <div class="modal-fact">
+            <span>Experience Level</span>
+            <strong id="modalLevel"></strong>
+          </div>
+
+        </div>
+
+        <div class="modal-section">
+          <p class="modal-section-label">About the Workshop</p>
+          <div id="modalDescription"></div>
+        </div>
+
+        <div class="modal-section">
+          <p class="modal-section-label">Workshop Programme</p>
+          <ol class="programme-list" id="modalProgramme"></ol>
+        </div>
+
+        <div class="modal-section">
+          <p class="modal-section-label">What Is Included</p>
+          <ul class="inclusion-list" id="modalInclusions"></ul>
+        </div>
+
+        <div class="modal-highlight">
+          <p>
+            Every participant receives their own Smena film camera,
+            or an equivalent Soviet film camera, together with a roll
+            of film to use and bring home after the workshop.
+          </p>
+        </div>
+
+        <div class="modal-actions">
+
+          <a
+            class="button button-primary"
+            id="modalSignupButton"
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Sign Up Through Google Forms
+          </a>
+
+          <button
+            class="button button-secondary"
+            type="button"
+            data-close-modal
+          >
+            Close
+          </button>
+
+        </div>
+
+        <p class="registration-note">
+          Registration is confirmed only after completion of the sign-up
+          form and any payment instructions provided by the organiser.
+        </p>
+
+      </div>
+
+    </article>
+
+  </div>
+
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+
+  <footer class="site-footer">
+
+    <div>
+      <a class="footer-logo" href="../">
+        Mokosh Threads
+      </a>
+
+      <p>
+        Slavic clothing, vintage watches, film cameras,
+        cultural objects, and workshops in Singapore.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <strong>Explore</strong>
+      <a href="../clothing/">Clothing</a>
+      <a href="../watches/">Watches</a>
+      <a href="../filmcameras/">Film Cameras</a>
+      <a href="../relics/">Relics</a>
+      <a href="./">Workshops</a>
+    </div>
+
+    <div class="footer-contact">
+      <strong>Contact</strong>
+      <a
+        href="https://t.me/wantwotwee"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Telegram: @wantwotwee
+      </a>
+    </div>
+
+    <p class="copyright">
+      © <span id="currentYear"></span> Mokosh Threads.
+      All rights reserved.
+    </p>
+
+  </footer>
+
+
+  <script src="workshops.js"></script>
+
+</body>
+</html>
