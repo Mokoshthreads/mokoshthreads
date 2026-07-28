@@ -320,6 +320,11 @@ main {
   background-image: url('./images/zenitefilmcamera.png');
 }
 
+/* WORKSHOPS */
+.workshops-card {
+  background-image: url('./workshops/assets/soviet-camera-workshop.webp');
+}
+
 /* Overlay for readability */
 .card-overlay {
   position: absolute;
