@@ -66,6 +66,32 @@
       font-weight: bold;
     }
 
+    .policy-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  margin-top: 10px;
+
+  color: var(--linen);
+
+  text-decoration: none;
+
+  font-weight: 600;
+
+  transition: color .25s ease,
+              transform .25s ease;
+}
+
+.policy-link:hover {
+
+  color: #ffffff;
+
+  transform: translateX(4px);
+
+  text-decoration: underline;
+}
+    
     @media (max-width: 640px) {
       .info-page {
         width: min(100% - 28px, 1000px);
@@ -161,6 +187,27 @@
         </ul>
       </article>
 
+      <article class="info-card">
+  <h2>Returns & Exchanges</h2>
+
+  <p>
+    Mokosh Threads does <strong>not accept returns</strong> for change of mind.
+    However, we are happy to offer exchanges for eligible items that meet our
+    exchange conditions.
+  </p>
+
+  <p>
+    If you receive an incorrect, damaged or defective item, please contact us
+    within 7 days of delivery so we can arrange an appropriate resolution.
+  </p>
+
+  <p>
+    <a href="../returns/" class="policy-link">
+      View our full Returns & Exchanges Policy →
+    </a>
+  </p>
+</article>
+      
       <article class="info-card">
         <h2>Questions Before Ordering</h2>
         <p>
