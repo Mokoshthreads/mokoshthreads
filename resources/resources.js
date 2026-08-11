@@ -1,0 +1,30 @@
+const state={resources:[],category:'All',search:'',sort:'newest'};
+const ICONS={'Guides':'✦','Watch History':'◷','Camera History':'◉','Slavic Culture':'✣','Renfaire':'⚑','Buying Guides':'◇'};
+const grid=document.getElementById('resourceGrid');
+const featuredWrap=document.getElementById('featuredWrap');
+const featuredResource=document.getElementById('featuredResource');
+const emptyState=document.getElementById('emptyState');
+const resultsSummary=document.getElementById('resultsSummary');
+const resourceSearch=document.getElementById('resourceSearch');
+const resourceSort=document.getElementById('resourceSort');
+const menuToggle=document.getElementById('menuToggle');
+const mainNav=document.getElementById('mainNav');
+document.getElementById('currentYear').textContent=new Date().getFullYear();
+menuToggle.addEventListener('click',()=>{const open=mainNav.classList.toggle('open');menuToggle.setAttribute('aria-expanded',String(open));});
+const norm=(v='')=>String(v).toLowerCase().trim();
+function fmtDate(s){if(!s)return'';const d=new Date(`${s}T00:00:00`);return Number.isNaN(d.getTime())?'':new Intl.DateTimeFormat('en-SG',{day:'numeric',month:'short',year:'numeric'}).format(d)}
+function imageHTML(r,cls='resource-image'){if(r.image)return `<div class="${cls}"><img src="${r.image}" alt="${r.imageAlt||r.title}" loading="lazy"></div>`;return `<div class="${cls}"><div class="image-fallback" aria-hidden="true"><span>${ICONS[r.category]||'✣'}</span></div></div>`}
+function metaHTML(r){const arr=[`<span class="resource-category">${r.category}</span>`,r.date?`<span>${fmtDate(r.date)}</span>`:'',r.readingTime?`<span>${r.readingTime} min read</span>`:''].filter(Boolean);return `<div class="resource-meta">${arr.join('<span>•</span>')}</div>`}
+function cardHTML(r){const inside=`${imageHTML(r)}<div class="resource-card-copy">${metaHTML(r)}<h3>${r.title}</h3><p>${r.excerpt}</p>${r.published&&r.url?'<span class="read-link">Read article <span aria-hidden="true">→</span></span>':'<span class="status-pill">Coming soon</span>'}</div>`;return r.published&&r.url?`<article class="resource-card"><a class="resource-card-link" href="${r.url}">${inside}</a></article>`:`<article class="resource-card"><div class="resource-card-disabled">${inside}</div></article>`}
+function featuredHTML(r){const inside=`${imageHTML(r,'featured-image')}<div class="featured-copy">${metaHTML(r)}<h3>${r.title}</h3><p>${r.excerpt}</p>${r.published&&r.url?'<span class="read-link">Read featured article <span aria-hidden="true">→</span></span>':'<span class="status-pill">Coming soon</span>'}</div>`;return r.published&&r.url?`<a class="featured-card" href="${r.url}">${inside}</a>`:`<div class="featured-card">${inside}</div>`}
+function filtered(){const q=norm(state.search);return state.resources.filter(r=>{const cat=state.category==='All'||r.category===state.category;const hay=[r.title,r.excerpt,r.category,...(r.tags||[])].map(norm).join(' ');return cat&&(!q||hay.includes(q))}).sort((a,b)=>{if(state.sort==='title')return a.title.localeCompare(b.title);const ad=a.date?new Date(a.date).getTime():0,bd=b.date?new Date(b.date).getTime():0;return state.sort==='oldest'?ad-bd:bd-ad})}
+function dynamicLD(items){document.getElementById('resourceItemListJsonLd')?.remove();if(!items.length)return;const data={'@context':'https://schema.org','@type':'ItemList','@id':'https://mokoshthreads.com/resources/#articles','name':'Mokosh Threads Resource Articles','numberOfItems':items.length,'itemListElement':items.map((r,i)=>({'@type':'ListItem','position':i+1,'item':{'@type':'Article','@id':new URL(r.url,window.location.href).href,'url':new URL(r.url,window.location.href).href,'headline':r.title,'description':r.excerpt,'datePublished':r.date||undefined,'image':r.image?new URL(r.image,window.location.href).href:undefined,'publisher':{'@id':'https://mokoshthreads.com/#organization'},'inLanguage':'en'}}))};const s=document.createElement('script');s.type='application/ld+json';s.id='resourceItemListJsonLd';s.textContent=JSON.stringify(data);document.head.appendChild(s)}
+function render(){const items=filtered();const feature=(state.category==='All'&&!state.search)?items.find(r=>r.featured):null;const regular=feature?items.filter(r=>r!==feature):items;if(feature){featuredWrap.hidden=false;featuredResource.innerHTML=featuredHTML(feature)}else{featuredWrap.hidden=true;featuredResource.innerHTML=''}grid.innerHTML=regular.map(cardHTML).join('');const published=items.filter(r=>r.published).length;resultsSummary.textContent=`${items.length} resource${items.length===1?'':'s'} · ${published} published`;emptyState.hidden=items.length!==0;dynamicLD(items.filter(r=>r.published&&r.url))}
+function setCategory(cat){state.category=cat;document.querySelectorAll('.filter-button').forEach(b=>b.classList.toggle('active',b.dataset.filter===cat));render()}
+document.getElementById('categoryFilters').addEventListener('click',e=>{const b=e.target.closest('[data-filter]');if(b)setCategory(b.dataset.filter)});
+document.querySelectorAll('[data-category-jump]').forEach(b=>b.addEventListener('click',()=>{setCategory(b.dataset.categoryJump);document.getElementById('library').scrollIntoView({behavior:'smooth',block:'start'})}));
+resourceSearch.addEventListener('input',e=>{state.search=e.target.value;render()});
+resourceSort.addEventListener('change',e=>{state.sort=e.target.value;render()});
+document.getElementById('resetFilters').addEventListener('click',()=>{state.category='All';state.search='';state.sort='newest';resourceSearch.value='';resourceSort.value='newest';setCategory('All')});
+async function load(){try{const res=await fetch('resources.json',{cache:'no-store'});if(!res.ok)throw new Error(`resources.json ${res.status}`);const data=await res.json();state.resources=Array.isArray(data.resources)?data.resources:[];render()}catch(err){console.error(err);resultsSummary.textContent='Resources unavailable';grid.innerHTML='<div class="load-error"><span>✣</span><h3>Unable to load the library</h3><p>Check that resources.json is uploaded beside index.html.</p></div>'}}
+load();

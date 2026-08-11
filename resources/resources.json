@@ -1,0 +1,88 @@
+{
+  "resources": [
+    {
+      "id": "what-is-vyshyvanka",
+      "title": "What Is a Vyshyvanka?",
+      "category": "Guides",
+      "excerpt": "An introduction to embroidered Ukrainian shirts, their cultural context, regional traditions and the details to notice when choosing one.",
+      "url": "./what-is-a-vyshyvanka/",
+      "image": "",
+      "imageAlt": "Traditional embroidered Slavic clothing",
+      "date": "2026-08-10",
+      "readingTime": 6,
+      "tags": ["vyshyvanka", "Ukrainian clothing", "embroidery", "Slavic clothing"],
+      "featured": true,
+      "published": false
+    },
+    {
+      "id": "history-vostok-watches",
+      "title": "A Brief History of Vostok Watches",
+      "category": "Watch History",
+      "excerpt": "From Chistopol wartime production to the Komandirskie and Amphibia: a concise history of one of the Soviet Union's best-known watchmakers.",
+      "url": "./history-of-vostok-watches/",
+      "image": "",
+      "imageAlt": "Vintage Soviet Vostok mechanical watch",
+      "date": "2026-08-09",
+      "readingTime": 8,
+      "tags": ["Vostok", "Soviet watches", "Komandirskie", "Amphibia"],
+      "featured": false,
+      "published": false
+    },
+    {
+      "id": "zenit-soviet-camera-history",
+      "title": "Zenit: The Soviet SLR That Went Everywhere",
+      "category": "Camera History",
+      "excerpt": "A look at the Zenit camera family, the factories behind it and why these mechanical SLRs remain approachable entry points into Soviet photography.",
+      "url": "./history-of-zenit-cameras/",
+      "image": "",
+      "imageAlt": "Vintage Soviet Zenit film camera",
+      "date": "2026-08-08",
+      "readingTime": 7,
+      "tags": ["Zenit", "Soviet cameras", "35mm", "SLR", "film photography"],
+      "featured": false,
+      "published": false
+    },
+    {
+      "id": "slavic-embroidery-symbols",
+      "title": "Reading Slavic Embroidery: Symbols, Colour and Memory",
+      "category": "Slavic Culture",
+      "excerpt": "A beginner-friendly introduction to the way motifs, colour, region and family traditions can shape the meaning of embroidered clothing.",
+      "url": "./slavic-embroidery-symbols/",
+      "image": "",
+      "imageAlt": "Traditional Slavic embroidery patterns",
+      "date": "2026-08-07",
+      "readingTime": 9,
+      "tags": ["Slavic culture", "embroidery", "symbols", "folk clothing"],
+      "featured": false,
+      "published": false
+    },
+    {
+      "id": "slavic-costume-renfaire",
+      "title": "Building a Slavic-Inspired Renfaire Outfit",
+      "category": "Renfaire",
+      "excerpt": "A practical starting point for assembling a layered Slavic-inspired outfit for a Renaissance fair without losing the character of the clothing.",
+      "url": "./slavic-renfaire-outfit-guide/",
+      "image": "",
+      "imageAlt": "Slavic-inspired traditional clothing for Renfaire",
+      "date": "2026-08-06",
+      "readingTime": 6,
+      "tags": ["Renfaire", "costume", "Slavic clothing", "outfit guide"],
+      "featured": false,
+      "published": false
+    },
+    {
+      "id": "first-soviet-camera",
+      "title": "Which Soviet Film Camera Should You Buy First?",
+      "category": "Buying Guides",
+      "excerpt": "Zenit, Smena, Zorki, FED or Kiev? A practical comparison for beginners choosing a first Soviet film camera.",
+      "url": "./best-soviet-camera-for-beginners/",
+      "image": "",
+      "imageAlt": "Selection of vintage Soviet film cameras",
+      "date": "2026-08-05",
+      "readingTime": 10,
+      "tags": ["buying guide", "Soviet cameras", "Zenit", "Smena", "Zorki", "FED", "Kiev"],
+      "featured": false,
+      "published": false
+    }
+  ]
+}
