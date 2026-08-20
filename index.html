@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
 
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1.0"
-  />
+  >
 
   <meta
     name="google-site-verification"
     content="fP9MeLD51O6it03RAIcqfptrj-YV0Ow79SjJf_V8glU"
-  />
+  >
 
   <title>
     Mokosh Threads | Slavic Traditional Clothing, Soviet Watches & Film Cameras
@@ -21,17 +21,37 @@
   <meta
     name="description"
     content="Mokosh Threads is a Singapore-based Slavic heritage store offering traditional Russian and Ukrainian clothing, vintage Soviet watches, Soviet film cameras, cultural relics and workshops."
-  />
+  >
 
-  <link rel="canonical" href="https://mokoshthreads.com/" />
+  <meta name="theme-color" content="#0b0a08">
 
-  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="canonical"
+    href="https://mokoshthreads.com/"
+  >
+
+  <!-- Fonts -->
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
 
 
   <!-- =========================================
        STRUCTURED DATA / JSON-LD
-       Helps search engines and AI systems
-       understand Mokosh Threads and its website.
        ========================================= -->
 
   <script type="application/ld+json">
@@ -81,7 +101,6 @@
         ]
       },
 
-
       {
         "@type": "WebSite",
         "@id": "https://mokoshthreads.com/#website",
@@ -98,7 +117,6 @@
 
         "inLanguage": "en"
       },
-
 
       {
         "@type": "WebPage",
@@ -130,21 +148,41 @@
 
 <body>
 
+  <a class="skip-link" href="#main-content">
+    Skip to content
+  </a>
+
+
+  <!-- TOP BAR -->
+
   <div class="topbar">
     Slavic heritage in cloth, time, and symbol
   </div>
 
 
+  <!-- HEADER -->
+
   <header class="site-header">
 
-    <div class="logo">
-      Mokosh Threads
-    </div>
+    <a
+      class="brand"
+      href="./"
+      aria-label="Mokosh Threads home"
+    >
+      <span class="brand-mark" aria-hidden="true">✣</span>
+      <span>Mokosh Threads</span>
+    </a>
 
 
-    <nav class="site-nav">
+    <nav
+      class="site-nav"
+      aria-label="Primary navigation"
+    >
 
-      <a href="./">
+      <a
+        href="./"
+        aria-current="page"
+      >
         Home
       </a>
 
@@ -164,10 +202,10 @@
         Workshops
       </a>
 
-          <a href="./resources/">
+      <a href="./resources/">
         Resources
       </a>
-      
+
       <a href="./delivery/">
         Delivery
       </a>
@@ -185,72 +223,174 @@
   </header>
 
 
-  <main>
+  <main id="main-content">
 
 
-    <!-- HERO -->
+    <!-- =========================================
+         HERO
+         ========================================= -->
 
-    <section class="hero folk-frame">
+    <section class="hero">
 
-      <div class="hero-content">
+      <div class="hero-copy">
 
         <p class="eyebrow">
-          Mokosh Threads
+          Singapore · Slavic Heritage
         </p>
 
         <h1>
-          Slavic clothing shaped by heritage.
+          Objects shaped by
+          <em>heritage.</em>
         </h1>
 
         <p class="hero-text">
-          Traditional garments inspired by Slavic embroidery,
-          natural fabrics, and ancestral craft.
+          Traditional Slavic clothing, mechanical watches,
+          Soviet film cameras and cultural objects selected for
+          craftsmanship, history and the stories they carry.
         </p>
 
-        <div class="hero-buttons">
+
+        <div class="hero-actions">
 
           <a
-            class="btn btn-primary"
+            class="button button-primary"
             href="./clothing/"
           >
             Explore Clothing
           </a>
+
+          <a
+            class="button button-secondary"
+            href="./resources/"
+          >
+            Enter the Library
+          </a>
+
+        </div>
+
+
+        <div class="hero-meta">
+
+          <div>
+            <span class="meta-number">01</span>
+            <span>Traditional Clothing</span>
+          </div>
+
+          <div>
+            <span class="meta-number">02</span>
+            <span>Vintage Objects</span>
+          </div>
+
+          <div>
+            <span class="meta-number">03</span>
+            <span>Cultural Stories</span>
+          </div>
 
         </div>
 
       </div>
 
 
-      <div class="hero-image"></div>
+      <div class="hero-visual">
+
+        <div
+          class="hero-image"
+          role="img"
+          aria-label="Traditional Slavic clothing from Mokosh Threads"
+        ></div>
+
+        <div class="hero-image-caption">
+          <span>Selected garments</span>
+          <span>Russia · Ukraine · Singapore</span>
+        </div>
+
+      </div>
 
     </section>
 
 
-    <div class="embroidery-divider"></div>
+    <!-- ORNAMENT DIVIDER -->
+
+    <div class="ornament-divider" aria-hidden="true">
+
+      <span></span>
+
+      <div>✣</div>
+
+      <span></span>
+
+    </div>
 
 
-    <!-- CATEGORIES -->
+    <!-- =========================================
+         COLLECTION INTRODUCTION
+         ========================================= -->
 
-    <section class="categories">
+    <section class="collection-heading">
+
+      <div>
+
+        <p class="eyebrow">
+          The Collections
+        </p>
+
+        <h2>
+          Cloth. Time.<br>
+          Memory.
+        </h2>
+
+      </div>
+
+
+      <p class="collection-intro">
+        Mokosh Threads brings together garments, mechanical objects
+        and cultural artefacts from across the Slavic world. Each
+        collection explores a different way history survives:
+        through what we wear, what we use, and what we preserve.
+      </p>
+
+    </section>
+
+
+    <!-- =========================================
+         COLLECTION CARDS
+         ========================================= -->
+
+    <section
+      class="categories"
+      aria-label="Mokosh Threads collections"
+    >
 
 
       <!-- CLOTHING -->
 
       <a
-        class="category-card clothing-card"
+        class="category-card category-large clothing-card"
         href="./clothing/"
       >
 
-        <div class="card-overlay">
+        <div class="category-number">
+          01
+        </div>
 
-          <h2>
-            Slavic Traditional Clothes
-          </h2>
+        <div class="category-overlay">
+
+          <p class="category-kicker">
+            Cloth
+          </p>
+
+          <h3>
+            Slavic Traditional Clothing
+          </h3>
 
           <p>
-            Traditional shirts and dresses inspired by folk embroidery
-            and ancestral craft.
+            Embroidered shirts, blouses and dresses shaped by
+            regional craft and cultural tradition.
           </p>
+
+          <span class="category-link">
+            Explore clothing →
+          </span>
 
         </div>
 
@@ -264,39 +404,28 @@
         href="./watches/"
       >
 
-        <div class="card-overlay">
-
-          <h2>
-            Vintage Soviet Watches
-          </h2>
-
-          <p>
-            Mechanical timepieces from the USSR and post-Soviet era,
-            collected for history and character.
-          </p>
-
+        <div class="category-number">
+          02
         </div>
 
-      </a>
+        <div class="category-overlay">
 
+          <p class="category-kicker">
+            Time
+          </p>
 
-      <!-- RELICS -->
-
-      <a
-        class="category-card relics-card"
-        href="./relics/"
-      >
-
-        <div class="card-overlay">
-
-          <h2>
-            Slavic Relics
-          </h2>
+          <h3>
+            Vintage Soviet Watches
+          </h3>
 
           <p>
-            Runes, necklaces, charms, and cultural items rooted in
-            symbol, myth, and memory.
+            Vostok, Raketa, Poljot and other mechanical watches
+            from the USSR and post-Soviet era.
           </p>
+
+          <span class="category-link">
+            Browse watches →
+          </span>
 
         </div>
 
@@ -310,17 +439,63 @@
         href="./filmcameras/"
       >
 
-        <div class="card-overlay">
+        <div class="category-number">
+          03
+        </div>
 
-          <h2>
-            Vintage Soviet Film Cameras
-          </h2>
+        <div class="category-overlay">
+
+          <p class="category-kicker">
+            Image
+          </p>
+
+          <h3>
+            Soviet Film Cameras
+          </h3>
 
           <p>
-            Zenit, Kiev, Smena and Zorki film cameras —
-            iconic Soviet cameras offering a unique blend of history
-            and analogue craftsmanship.
+            Zenit, Smena, Zorki, FED and Kiev cameras made for
+            another generation of photographers.
           </p>
+
+          <span class="category-link">
+            Explore cameras →
+          </span>
+
+        </div>
+
+      </a>
+
+
+      <!-- RELICS -->
+
+      <a
+        class="category-card relics-card"
+        href="./relics/"
+      >
+
+        <div class="category-number">
+          04
+        </div>
+
+        <div class="category-overlay">
+
+          <p class="category-kicker">
+            Symbol
+          </p>
+
+          <h3>
+            Slavic Relics
+          </h3>
+
+          <p>
+            Charms, necklaces, runes and cultural objects
+            rooted in myth and symbolism.
+          </p>
+
+          <span class="category-link">
+            Discover relics →
+          </span>
 
         </div>
 
@@ -334,16 +509,63 @@
         href="./workshops/"
       >
 
-        <div class="card-overlay">
+        <div class="category-number">
+          05
+        </div>
 
-          <h2>
+        <div class="category-overlay">
+
+          <p class="category-kicker">
+            Experience
+          </p>
+
+          <h3>
             Workshops
-          </h2>
+          </h3>
 
           <p>
-            Hands-on cultural and creative experiences built around
-            the objects, stories, and traditions we collect.
+            Hands-on cultural experiences exploring analogue cameras,
+            craft, history and collecting.
           </p>
+
+          <span class="category-link">
+            View workshops →
+          </span>
+
+        </div>
+
+      </a>
+
+
+      <!-- RESOURCES -->
+
+      <a
+        class="category-card resources-card"
+        href="./resources/"
+      >
+
+        <div class="category-number">
+          06
+        </div>
+
+        <div class="category-overlay">
+
+          <p class="category-kicker">
+            Knowledge
+          </p>
+
+          <h3>
+            Resources & Stories
+          </h3>
+
+          <p>
+            Guides and articles on Slavic culture, Soviet watches,
+            cameras, Renfaire and collecting.
+          </p>
+
+          <span class="category-link">
+            Enter the library →
+          </span>
 
         </div>
 
@@ -353,25 +575,79 @@
     </section>
 
 
-    <!-- BRAND STORY -->
+    <!-- =========================================
+         BRAND STATEMENT
+         ========================================= -->
 
     <section class="brand-story">
 
-      <p class="section-label">
-        About the Brand
+      <div class="brand-story-symbol" aria-hidden="true">
+        ✣
+      </div>
+
+
+      <p class="eyebrow">
+        Mokosh Threads
       </p>
 
       <h2>
-        A house of Slavic craft and memory
+        A house of Slavic craft and memory.
       </h2>
 
       <p>
-        Mokosh Threads is a curated world of garments,
-        timepieces, and relics.
-
-        Each collection carries a different expression of heritage —
-        what we wear, what we keep, and what we remember.
+        Mokosh Threads is not a mass-market catalogue. We curate objects
+        that carry context: garments made by small workshops, watches
+        with decades of mechanical history, cameras built for another
+        era, and cultural pieces shaped by tradition.
       </p>
+
+
+      <a
+        class="story-link"
+        href="./about/"
+      >
+        Discover our story →
+      </a>
+
+    </section>
+
+
+    <!-- =========================================
+         KNOWLEDGE TEASER
+         ========================================= -->
+
+    <section class="knowledge-section">
+
+      <div class="knowledge-heading">
+
+        <p class="eyebrow">
+          The Knowledge Library
+        </p>
+
+        <h2>
+          The story behind<br>
+          what we collect.
+        </h2>
+
+      </div>
+
+
+      <div class="knowledge-copy">
+
+        <p>
+          Our Resources library explores Slavic clothing,
+          Soviet watches, film cameras, cultural traditions,
+          Renfaire and collecting.
+        </p>
+
+        <a
+          href="./resources/"
+          class="knowledge-link"
+        >
+          Explore Resources →
+        </a>
+
+      </div>
 
     </section>
 
@@ -379,10 +655,108 @@
   </main>
 
 
+  <!-- =========================================
+       FOOTER
+       ========================================= -->
+
   <footer class="site-footer">
 
-    <p>
-      Mokosh Threads — Slavic heritage in cloth, time, and symbol.
+    <div class="footer-brand">
+
+      <span class="brand-mark" aria-hidden="true">
+        ✣
+      </span>
+
+      <div>
+
+        <strong>
+          Mokosh Threads
+        </strong>
+
+        <p>
+          Slavic heritage in cloth, time, and symbol.
+        </p>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <strong>
+        Collections
+      </strong>
+
+      <a href="./clothing/">
+        Clothing
+      </a>
+
+      <a href="./watches/">
+        Watches
+      </a>
+
+      <a href="./filmcameras/">
+        Film Cameras
+      </a>
+
+      <a href="./relics/">
+        Relics
+      </a>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <strong>
+        Explore
+      </strong>
+
+      <a href="./workshops/">
+        Workshops
+      </a>
+
+      <a href="./resources/">
+        Resources
+      </a>
+
+      <a href="./about/">
+        About
+      </a>
+
+      <a href="./contact/">
+        Contact
+      </a>
+
+    </div>
+
+
+    <div class="footer-column">
+
+      <strong>
+        Information
+      </strong>
+
+      <a href="./delivery/">
+        Delivery
+      </a>
+
+      <a href="./returns/">
+        Returns & Exchanges
+      </a>
+
+      <a
+        href="mailto:mokoshthreads@gmail.com"
+      >
+        Email
+      </a>
+
+    </div>
+
+
+    <p class="footer-bottom">
+      © 2026 Mokosh Threads · Singapore · Delivering to Singapore & Malaysia
     </p>
 
   </footer>
