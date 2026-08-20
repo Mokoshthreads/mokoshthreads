@@ -1095,27 +1095,14 @@ main {
 .workshops-card {
 
   background-image:
-    url("./workshops/assets/soviet-camera-workshop.webp");
+    url("./images/IMG_0734.jpeg");
 }
 
 
 .resources-card {
 
-  background:
-
-    linear-gradient(
-      135deg,
-      rgba(169, 123, 72, .16),
-      rgba(9, 8, 6, .2)
-    ),
-
-    radial-gradient(
-      circle at 70% 30%,
-      rgba(119, 46, 44, .3),
-      transparent 45%
-    ),
-
-    #17130f;
+  background-image:
+    url("./workshops/assets/soviet-camera-workshop.webp");
 }
 
 
