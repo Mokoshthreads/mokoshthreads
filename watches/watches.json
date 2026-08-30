@@ -88,6 +88,20 @@
       "sold": true,
     "image": "../images/watches/IMG_3589.jpg"
   },
+      {
+     "id": "vostok-hovercraft",
+    "name": "Hovercraft Blue",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Mulitary style",
+    "price": 70,
+    "priceRange": "$31-70",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Secondhand of watch is slightly bent but does not affect movement. In good working condition.",
+    "description": "A unique patriotic showmanship of Russia's latest military arsenal in the midst of changes during the dissolution of the Soviet Union.",
+    "image": "../images/watches/IMG_6925.jpg"
+  },
   {
     "id": "vostok-komandirskie-01",
     "name": "Komandirskie Paratrooper Gold",
