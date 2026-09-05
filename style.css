@@ -332,80 +332,32 @@ main {
    ========================================================= */
 
 .hero {
-
-  min-height:
-    calc(100svh - 115px);
+  min-height: calc(100svh - 115px);
 
   padding:
     clamp(4rem, 8vw, 8rem)
     0
     clamp(4rem, 7vw, 6rem);
 
-  display: grid;
-
-  grid-template-columns:
-    minmax(0, 1fr)
-    minmax(360px, .78fr);
-
-  gap:
-    clamp(3rem, 7vw, 8rem);
-
-  align-items: center;
+  display: block;
 }
-
 
 .hero-copy {
-
-  max-width:
-    780px;
+  width: 100%;
+  max-width: none;
 }
-
-
-.eyebrow {
-
-  margin:
-    0 0 1rem;
-
-  color:
-    var(--bronze-light);
-
-  font-size:
-    .65rem;
-
-  font-weight:
-    700;
-
-  letter-spacing:
-    .22em;
-
-  text-transform:
-    uppercase;
-}
-
 
 .hero h1 {
-
   margin: 0;
 
-  font-family:
-    var(--serif);
+  font-family: var(--serif);
+  font-size: clamp(4.5rem, 8.3vw, 8.8rem);
+  font-weight: 500;
+  line-height: .82;
+  letter-spacing: -.055em;
 
-  font-size:
-    clamp(4.5rem, 8.3vw, 8.8rem);
-
-  font-weight:
-    500;
-
-  line-height:
-    .82;
-
-  letter-spacing:
-    -.055em;
-
-  max-width:
-    8.3ch;
+  max-width: 12ch;
 }
-
 
 .hero h1 em {
 
