@@ -750,6 +750,7 @@
     "caseShape": "Round",
     "condition": "Working, with light scratches on crystal.",
     "description": "This Soviet automatic watch do not only just tell time, it also tells the DAY too.",
+       "sold": true,
     "image": "../images/watches/IMG_3752.jpeg"
   },
     {
@@ -764,6 +765,7 @@
     "caseShape": "Small Rectangular",
     "condition": "Working, light scratches on crystal.",
     "description": "Minimalist Soviet vintage with a bold red dial & gold-plated case. By Penza Watch Factory.",
+       "sold": true,
     "image": "../images/watches/IMG_3755.jpeg"
   },
    {
@@ -806,6 +808,7 @@
     "caseShape": "Small Rectangle",
     "condition": "Working, aged but great aesthetic condition.",
     "description": "A delicate piece of Soviet elegance - where time was worn as quiet gold.",
+       "sold": true,
     "image": "../images/watches/IMG_3761.jpeg"
   },
       {
@@ -1033,6 +1036,7 @@
     "caseShape": "Round",
     "condition": "Excellent working condition - Recently professionally serviced.",
     "description": "Soviet Minimalist Officer Watch - Not every Soviet watch needed to shout.",
+      "sold": true,
     "image": "../images/watches/IMG_3807.jpeg"
   },
     {
