@@ -719,20 +719,6 @@
     "image": "../images/watches/IMG_3791.jpeg"
   }  ,
    {
-     "id": "vostok-komandirskie-black-01",
-    "name": "Komandirskie Black",
-    "brand": "Vostok",
-    "era": "1980s",
-    "type": "Military style",
-    "price": 100,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Excellent working condition - Recently professionally serviced.",
-    "description": "Soviet Minimalist Officer Watch - Not every Soviet watch needed to shout.",
-    "image": "../images/watches/IMG_3793.jpeg"
-  },
-   {
      "id": "vostok-komandirskie-multibranch-white-01",
     "name": "Komandirskie Airforce+Navy White",
     "brand": "Vostok",
@@ -1325,5 +1311,20 @@
     "description": "Soviet Military Watch with Russian crest - Post-Soviet Patriotism",
     "sold": true,
     "image": "../images/watches/IMG_3831.jpeg"
+  },
+  {
+     "id": "vostok-komandirskie-black-01",
+    "name": "Komandirskie Black",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently professionally serviced.",
+    "description": "Soviet Minimalist Officer Watch - Not every Soviet watch needed to shout.",
+    "sold": true,
+    "image": "../images/watches/IMG_3793.jpeg"
   }
 ]
