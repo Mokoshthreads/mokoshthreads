@@ -99,20 +99,6 @@
     "image": "../images/vostok-komandirskie-gold-paratrooper-01.jpeg"
   },
     {
-    "id": "vostok-komandirskie-VVS-02",
-    "name": "Komandirskie Airforce (VVS) Black",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 90,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Good",
-    "description": "Forged for the airborne, worn by those who never follow the ground.",
-    "image": "../images/watches/IMG_3304.jpeg"
-  },
-    {
     "id": "vostok-komandirskie-plain-gold",
     "name": "Komandirskie Gold",
     "brand": "Vostok",
@@ -393,20 +379,6 @@
     "condition": "Working, with cracked bottom acrylic.",
     "description": "Vintage Soviet sport watch with military-style bezel - affordable entry piece.",
     "image": "../images/watches/IMG_3700.jpg"
-  },
-   {
-   "id": "vostok-Komandirskie-Russia-White-01",
-    "name": "Komandirskie Russia White",
-    "brand": "Vostok",
-    "era": "2000s",
-    "type": "Military style",
-    "price": 80,
-    "priceRange": "$31-80",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Working, with case wear and light scratches on acrylic",
-    "description": "A soldier's symbol of a fallen empire - reborn in steel, worn through time.",
-    "image": "../images/watches/IMG_3705.jpg"
   },
      {
    "id": "vostok-Komandirskie-Naval-01",
@@ -1321,5 +1293,35 @@
     "description": "Soviet Amphibia submarine diver - built for real underwater use.",
          "sold": true,
     "image": "../images/watches/IMG_3835.jpeg"
+  },
+  {
+    "id": "vostok-komandirskie-VVS-02",
+    "name": "Komandirskie Airforce (VVS) Black",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Good",
+    "description": "Forged for the airborne, worn by those who never follow the ground.",
+      "sold": true,
+    "image": "../images/watches/IMG_3304.jpeg"
+  },
+  {
+   "id": "vostok-Komandirskie-Russia-White-01",
+    "name": "Komandirskie Russia White",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Military style",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with case wear and light scratches on acrylic",
+    "description": "A soldier's symbol of a fallen empire - reborn in steel, worn through time.",
+     "sold": true,
+    "image": "../images/watches/IMG_3705.jpg"
   }
 ]
