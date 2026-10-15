@@ -1,4 +1,18 @@
 [
+                 {
+   "id": "vostok-Komandirskie-Submarine-Fleet-01",
+    "name": "Komandirskie Submarine Fleet",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on the acrylic ",
+    "description": "A Soviet submarine breaking the surface - captured on a dial for the Cold War.",
+    "image": "../images/watches/IMG_3727.jpg"
+  },
     {
    "id": "vostok-komandirskie-50-years",
     "name": "Komandirskie '50 Years of Victory'",
@@ -975,20 +989,6 @@
     "description": "Soviet Military Watch with Russian crest - Post-Soviet Patriotism",
     "image": "../images/watches/IMG_3831.jpeg"
   },
-      {
-     "id": "vostok-amphibia-submarine-01",
-    "name": "Amphibia Submarine",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Collector Classic",
-    "price": 120,
-    "priceRange": "$81-120",
-    "movement": "Automatic Vostok 2416A",
-    "caseShape": "Round",
-    "condition": "Working condition - scratched acrylic & brassing of case.",
-    "description": "Soviet Amphibia submarine diver - built for real underwater use.",
-    "image": "../images/watches/IMG_3835.jpeg"
-  },
    {
      "id": "vostok-komandirskie-scubadude-01",
     "name": "Komandirskie Scuba Dude",
@@ -1307,19 +1307,19 @@
    "sold": true,
          "image": "../images/watches/Amphibia.jpg"
   },
-             {
-   "id": "vostok-Komandirskie-Submarine-Fleet-01",
-    "name": "Komandirskie Submarine Fleet",
+     {
+     "id": "vostok-amphibia-submarine-01",
+    "name": "Amphibia Submarine",
     "brand": "Vostok",
     "era": "1990s",
-    "type": "Military style",
+    "type": "Collector Classic",
     "price": 120,
     "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
+    "movement": "Automatic Vostok 2416A",
     "caseShape": "Round",
-    "condition": "Working, with light scratches on the acrylic ",
-    "description": "A Soviet submarine breaking the surface - captured on a dial for the Cold War.",
-                 "sold": true,
-    "image": "../images/watches/IMG_3727.jpg"
+    "condition": "Working condition - scratched acrylic & brassing of case.",
+    "description": "Soviet Amphibia submarine diver - built for real underwater use.",
+         "sold": true,
+    "image": "../images/watches/IMG_3835.jpeg"
   }
 ]
