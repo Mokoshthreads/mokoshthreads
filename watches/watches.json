@@ -268,20 +268,6 @@
     "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
     "image": "../images/watches/IMG_3675.jpg"
   } ,
-      {
-   "id": "vostok-Amphibia-gold-01",
-    "name": "Amphibia Gold",
-    "brand": "Vostok",
-    "era": "1970s",
-    "type": "Collector classic",
-    "price": 100,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2209/2409",
-    "caseShape": "Cushion",
-    "condition": "Working, with visible scratches on acrylic & worn bezel",
-    "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
-    "image": "../images/watches/IMG_3684.jpg"
-  } ,
    {
    "id": "raketa-tv-case-01",
     "name": "TV Case White",
@@ -393,20 +379,6 @@
     "condition": "Working, with cracked bottom acrylic.",
     "description": "Vintage Soviet sport watch with military-style bezel - affordable entry piece.",
     "image": "../images/watches/IMG_3700.jpg"
-  },
-      {
-   "id": "vostok-Amphibia-antimagnetic-01",
-    "name": "Amphibia Antimagnetic",
-    "brand": "Vostok",
-    "era": "1970s",
-    "type": "Collector classic",
-    "price": 100,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2209/2409",
-    "caseShape": "Tonneau",
-    "condition": "Working, with visible scratches on acrylic & worn bezel",
-    "description": "A battle-worn Soviet diver - its scarred bezel and aged dial carrying decades of underwater history.",
-    "image": "../images/watches/Amphibia.jpg"
   },
    {
    "id": "vostok-Komandirskie-Russia-White-01",
@@ -1318,5 +1290,34 @@
     "description": "Interesting navy design that pops out, incorporating modern designs into military concept.",
           "sold": true,    
     "image": "../images/watches/IMG_6927.jpg"
+  },
+     {
+   "id": "vostok-Amphibia-gold-01",
+    "name": "Amphibia Gold",
+    "brand": "Vostok",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2209/2409",
+    "caseShape": "Cushion",
+    "condition": "Working, with visible scratches on acrylic & worn bezel",
+    "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
+   "sold": true,
+          "image": "../images/watches/IMG_3684.jpg"
+  } ,
+     {
+   "id": "vostok-Amphibia-antimagnetic-01",
+    "name": "Amphibia Antimagnetic",
+    "brand": "Vostok",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2209/2409",
+    "caseShape": "Tonneau",
+    "condition": "Working, with visible scratches on acrylic & worn bezel",
+    "description": "A battle-worn Soviet diver - its scarred bezel and aged dial carrying decades of underwater history.",
+    "image": "../images/watches/Amphibia.jpg"
   }
 ]
