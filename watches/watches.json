@@ -324,20 +324,6 @@
     "description": "A relic of 1970s Soviet design, where brutal simplicity meets quiet elegance in aged steel and fading gold.",
     "image": "../images/watches/IMG_3693.jpg"
   },
-       {
-   "id": "chaika-brown_sunburst-01",
-    "name": "Brown Sunburst Push Corrector",
-    "brand": "Chaika",
-    "era": "1970s",
-    "type": "Collector classic",
-    "price": 80,
-    "priceRange": "$31-80",
-    "movement": "Manual Chaika 2627",
-    "caseShape": "Round",
-    "condition": "Working, with light crack on bottom side of acrylic.",
-    "description": "A warm Soviet sunburst dial hides a clever mechanical calendar - quietly ticking with everyday ingenuity, with a novel date push corrector.",
-    "image": "../images/watches/IMG_3695.jpg"
-  },
     {
    "id": "chaika-orange_sunburst-01",
     "name": "Two-Tone Orange Sunburst Center",
@@ -1331,5 +1317,20 @@
     "description": "A tribute to Moscow's timeless skyline, this Slava captures the spirit of a city etched in steel and memory.",
          "sold": true,
     "image": "../images/watches/IMG_3746.jpeg"
+  },
+   {
+   "id": "chaika-brown_sunburst-01",
+    "name": "Brown Sunburst Push Corrector",
+    "brand": "Chaika",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Chaika 2627",
+    "caseShape": "Round",
+    "condition": "Working, with light crack on bottom side of acrylic.",
+    "description": "A warm Soviet sunburst dial hides a clever mechanical calendar - quietly ticking with everyday ingenuity, with a novel date push corrector.",
+         "sold": true,
+    "image": "../images/watches/IMG_3695.jpg"
   }
 ]
