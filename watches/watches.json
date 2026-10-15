@@ -128,20 +128,6 @@
     "description": "Historical time-piece. Made in 1990-1991 to commemorate Operation Desert Shield, symbolizing Russia's support and allegiance to the USA. Mini 34mm cadet version.",
     "image": "../images/watches/IMG_3246.jpeg"
   },
-    {
-     "id": "poljot-tv-case-01",
-    "name": "TV Case",
-    "brand": "Poljot",
-    "era": "1970s",
-    "type": "Collector classic",
-    "price": 85,
-    "priceRange": "$81-120",
-    "movement": "Manual Poljot 2628.H",
-    "caseShape": "TV Case",
-    "condition": "Working in excellent condition.",
-    "description": "Refined Soviet dress watch from the flagship Poljot factory.",
-    "image": "../images/watches/IMG_3687.jpg"
-  },
   {
      "id": "poljot-russianimperator",
     "name": "Russian Imperator",
@@ -422,20 +408,6 @@
     "description": "Built for function with a rare striking green dial.",
     "image": "../images/watches/IMG_3713.jpg"
   },
-       {
-     "id": "cardi-vostok-chronoscope-01",
-    "name": "Chronoscope/ Racing Time",
-    "brand": "Cardi-Vostok",
-    "era": "1990s",
-    "type": "Vintage classic",
-    "price": 80,
-    "priceRange": "$31-80",
-    "movement": "Manual Vostok 2409/2414",
-    "caseShape": "Round",
-    "condition": "Excellent working condition with no front watch scratches or embeleshment. Back has slight ageing",
-    "description": "Built for daily use, not a relic, meant to be worn.",
-    "image": "../images/watches/IMG_3716.jpg"
-  },
       {
    "id": "raketa-date-black-01",
     "name": "Date Black",
@@ -519,34 +491,6 @@
     "condition": "Working, with scratched crystal and oxidation on dial.",
     "description": "Slava - one of the few Soviet watches with a dual mainspring movement.",
     "image": "../images/watches/IMG_3743.jpeg"
-  },
-       {
-   "id": "slava-moscow-02",
-    "name": "Moscow",
-    "brand": "Slava",
-    "era": "1980s",
-    "type": "Collector classic",
-    "price": 100,
-    "priceRange": "$81-$120",
-    "movement": "Manual Slava 2414/2427",
-    "caseShape": "Round",
-    "condition": "Working, with heavy scratches on bottom side of acrylic.",
-    "description": "A tribute to Moscow's timeless skyline, this Slava captures the spirit of a city etched in steel and memory.",
-    "image": "../images/watches/IMG_3746.jpeg"
-  },
-   {
-   "id": "raketa-tv-case-02",
-    "name": "TV Case White",
-    "brand": "Raketa",
-    "era": "1970s",
-    "type": "Collector classic",
-    "price": 90,
-    "priceRange": "$81-120",
-    "movement": "Manual Raketa 2609.HA",
-    "caseShape": "TV Case",
-    "condition": "Working with light scratches on crystal, aging spots on dial.",
-    "description": "Gold plated casing with unique TV-case design. Dress watch with a flair & class.",
-    "image": "../images/watches/IMG_3749.jpeg"
   },
     {
      "id": "zarya-rectangle-dress-01",
@@ -788,21 +732,6 @@
     "condition": "Excellent working condition - Recently professionally serviced.",
     "description": "Soviet Naval Patriotic Watch - A New Identity after the fall of the Soviet Union.",
      "image": "../images/watches/IMG_3809.jpeg"
-  },
-   {
-     "id": "vostok-komandirskie-Cold-War-Navy-01",
-    "name": "Komandirskie Cold War Navy",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 90,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Excellent working condition - Recently professionally serviced.",
-    "description": "Soviet Naval Patriotic Watch - A New Identity after the fall of the Soviet Union.",
-     "sold": true,
-     "image": "../images/watches/IMG_3811.jpeg"
   },
     {
      "id": "vostok-komandirskie-300yearsrussiannavy-01",
@@ -1327,5 +1256,80 @@
     "description": "A Soviet world time travel watch that knew the time in every capital in the world.",
     "sold": true,
     "image": "../images/watches/IMG_3735.jpg"
+  },
+  {
+     "id": "vostok-komandirskie-Cold-War-Navy-01",
+    "name": "Komandirskie Cold War Navy",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently professionally serviced.",
+    "description": "Soviet Naval Patriotic Watch - A New Identity after the fall of the Soviet Union.",
+     "sold": true,
+     "image": "../images/watches/IMG_3811.jpeg"
+  },
+   {
+   "id": "raketa-tv-case-02",
+    "name": "TV Case White",
+    "brand": "Raketa",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Raketa 2609.HA",
+    "caseShape": "TV Case",
+    "condition": "Working with light scratches on crystal, aging spots on dial.",
+    "description": "Gold plated casing with unique TV-case design. Dress watch with a flair & class.",
+     "sold": true,
+    "image": "../images/watches/IMG_3749.jpeg"
+  },
+   {
+     "id": "poljot-tv-case-01",
+    "name": "TV Case",
+    "brand": "Poljot",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 85,
+    "priceRange": "$81-120",
+    "movement": "Manual Poljot 2628.H",
+    "caseShape": "TV Case",
+    "condition": "Working in excellent condition.",
+    "description": "Refined Soviet dress watch from the flagship Poljot factory.",
+      "sold": true,
+    "image": "../images/watches/IMG_3687.jpg"
+  },
+  {
+     "id": "cardi-vostok-chronoscope-01",
+    "name": "Chronoscope/ Racing Time",
+    "brand": "Cardi-Vostok",
+    "era": "1990s",
+    "type": "Vintage classic",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2409/2414",
+    "caseShape": "Round",
+    "condition": "Excellent working condition with no front watch scratches or embeleshment. Back has slight ageing",
+    "description": "Built for daily use, not a relic, meant to be worn.",
+    "sold": true,
+    "image": "../images/watches/IMG_3716.jpg"
+  },
+  {
+   "id": "slava-moscow-02",
+    "name": "Moscow",
+    "brand": "Slava",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 100,
+    "priceRange": "$81-$120",
+    "movement": "Manual Slava 2414/2427",
+    "caseShape": "Round",
+    "condition": "Working, with heavy scratches on bottom side of acrylic.",
+    "description": "A tribute to Moscow's timeless skyline, this Slava captures the spirit of a city etched in steel and memory.",
+         "sold": true,
+    "image": "../images/watches/IMG_3746.jpeg"
   }
 ]
