@@ -947,20 +947,6 @@
     "description": "90s Russian experimental design - when Soviet watchmaking broke the rules.",
     "image": "../images/watches/IMG_3829.jpeg"
   } ,
-  {
-     "id": "vostok-komandirskie-doubleheadeagle-01",
-    "name": "Komandirskie Russia Crest Black",
-    "brand": "Vostok",
-    "era": "2000s",
-    "type": "Military style",
-    "price": 80,
-    "priceRange": "$31-80",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Working condition - scratched acrylic & brassing of case.",
-    "description": "Soviet Military Watch with Russian crest - Post-Soviet Patriotism",
-    "image": "../images/watches/IMG_3831.jpeg"
-  },
    {
      "id": "vostok-komandirskie-scubadude-01",
     "name": "Komandirskie Scuba Dude",
@@ -975,21 +961,6 @@
     "description": "Custom Soviet Vostok diver - a franken watch model with the iconic Scuba Dude.",
     "image": "../images/watches/IMG_3837.jpeg"
   },
-  {
-    "id": "vostok-komandirskie-tatarstanpresidential-01",
-    "name": "Komandirskie Tatarstan Presidential Victory Day Commemorative Watch",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Collector classic",
-    "type": "Military style",
-    "price": 90,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Good - with light scratches on acrylic, & normal wear.",
-    "description": "A 50th anniversary Victory Day commemorative watch commissioned by the president of Tatarstan.",
-    "image": "../images/watches/IMG_3839.jpeg"
-   },
    {
      "id": "vostok-komandirskie-Dolphinmarine-01",
     "name": "Komandirskie Dolphin Marine Tropical",
@@ -1323,5 +1294,36 @@
     "description": "A soldier's symbol of a fallen empire - reborn in steel, worn through time.",
      "sold": true,
     "image": "../images/watches/IMG_3705.jpg"
+  },
+  {
+    "id": "vostok-komandirskie-tatarstanpresidential-01",
+    "name": "Komandirskie Tatarstan Presidential Victory Day Commemorative Watch",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Collector classic",
+    "type": "Military style",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Good - with light scratches on acrylic, & normal wear.",
+    "description": "A 50th anniversary Victory Day commemorative watch commissioned by the president of Tatarstan.",
+    "sold": true,
+    "image": "../images/watches/IMG_3839.jpeg"
+   },
+  {
+     "id": "vostok-komandirskie-doubleheadeagle-01",
+    "name": "Komandirskie Russia Crest Black",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Military style",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working condition - scratched acrylic & brassing of case.",
+    "description": "Soviet Military Watch with Russian crest - Post-Soviet Patriotism",
+    "sold": true,
+    "image": "../images/watches/IMG_3831.jpeg"
   }
 ]
