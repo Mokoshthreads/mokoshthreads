@@ -492,20 +492,6 @@
     "description": "When Vostok starts speaking loudly, this is what it looked like.",
     "image": "../images/watches/IMG_3725.jpg"
   },
-         {
-   "id": "vostok-Komandirskie-Submarine-Fleet-01",
-    "name": "Komandirskie Submarine Fleet",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 120,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Working, with light scratches on the acrylic ",
-    "description": "A Soviet submarine breaking the surface - captured on a dial for the Cold War.",
-    "image": "../images/watches/IMG_3727.jpg"
-  },
      {
    "id": "raketa-world-time-01",
     "name": "World Time",
@@ -1318,6 +1304,22 @@
     "caseShape": "Tonneau",
     "condition": "Working, with visible scratches on acrylic & worn bezel",
     "description": "A battle-worn Soviet diver - its scarred bezel and aged dial carrying decades of underwater history.",
-    "image": "../images/watches/Amphibia.jpg"
+   "sold": true,
+         "image": "../images/watches/Amphibia.jpg"
+  },
+             {
+   "id": "vostok-Komandirskie-Submarine-Fleet-01",
+    "name": "Komandirskie Submarine Fleet",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on the acrylic ",
+    "description": "A Soviet submarine breaking the surface - captured on a dial for the Cold War.",
+                 "sold": true,
+    "image": "../images/watches/IMG_3727.jpg"
   }
 ]
