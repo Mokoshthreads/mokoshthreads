@@ -71,7 +71,7 @@
   },
   {
    "id": "vostok-Komandirskie-Submarine-Fleet-01",
-    "name": "Komandirskie Submarine Fleet",
+    "name": "Komandirskie Submarine Classic",
     "brand": "Vostok",
     "era": "1990s",
     "type": "Military style",
@@ -110,6 +110,20 @@
     "condition": "Good working condition.",
     "description": "Soviet Naval Military Watch in striking blue and built to last.",
     "image": "../images/watches/submarine_blue.jpg"
+  }  ,
+  {
+     "id": "vostok-komandirskie-ussr-blue-01",
+    "name": "Komandirskie Submarine Blue",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Military style",
+    "price": 70,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working - but needs to be serviced/lubricated.",
+    "description": "Soviet export model. Striking Blue built to last.",
+    "image": "../images/watches/submarine_blueussr.jpg"
   }  ,
     {
    "id": "vostok-komandirskie-50-years",
@@ -226,20 +240,6 @@
     "description": "90s Russian experimental design - when Soviet watchmaking broke the rules.",
     "image": "../images/watches/IMG_3591.jpg"
   } ,
-     {
-     "id": "vostok-komandirskie-ussr-blue-01",
-    "name": "Komandirskie Submarine Blue",
-    "brand": "Vostok",
-    "era": "1980s",
-    "type": "Military style",
-    "price": 80,
-    "priceRange": "$31-80",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Working - no crack on acrylic but patina on dial and casing.",
-    "description": "Soviet export model for Vostok Komandirskie. Blue with Soviet navy logo.",
-    "image": "../images/watches/IMG_3593.jpg"
-  }  ,
      {
      "id": "zarya-red-gold-01",
     "name": "Red Gold",
