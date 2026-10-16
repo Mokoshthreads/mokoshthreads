@@ -139,6 +139,62 @@
     "description": "Soviet Naval Military Watch in striking blue and built to last.",
     "image": "../images/watches/submarine_blue1.jpg"
   } ,
+  {
+   "id": "vostok-Amphibia-sector-01",
+    "name": "Amphibia 'Sector'",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2209/2409",
+    "caseShape": "Cushion",
+    "condition": "In working condition",
+    "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
+    "image": "../images/watches/amphibia_sector.jpg"
+  } ,
+  {
+   "id": "vostok-Amphibia-purple-01",
+    "name": "Amphibia Purple",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2209/2409",
+    "caseShape": "Cushion",
+    "condition": "In working condition.",
+    "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
+    "image": "../images/watches/amphibia_purple.jpg"
+  } ,
+    {
+   "id": "vostok-Amphibia-darkblue-01",
+    "name": "Amphibia Dark Blue",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2209/2409",
+    "caseShape": "Cushion",
+    "condition": "In working condition.",
+    "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
+    "image": "../images/watches/amphibia_blue.jpg"
+  } ,
+  {
+   "id": "vostok-Amphibia-Airforce",
+    "name": "Amphibia Russian Airforce",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Collector classic",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Automatic 2416b",
+    "caseShape": "Round",
+    "condition": "In great working condition.",
+    "description": "Famous Amphibia with automatic 2416 movement. Engineered to last.",
+    "image": "../images/watches/amphibia_airforce.jpg"
+  } ,
     {
    "id": "vostok-komandirskie-50-years",
     "name": "Komandirskie '50 Years of Victory'",
@@ -282,34 +338,6 @@
     "description": "Minimalist Soviet vintage with a simple everyday design. By Penza Watch Factory.",
     "image": "../images/watches/IMG_3604.jpg"
   } ,
-  {
-   "id": "vostok-Amphibia-purple-01",
-    "name": "Amphibia Purple",
-    "brand": "Vostok",
-    "era": "1980s",
-    "type": "Collector classic",
-    "price": 100,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2209/2409",
-    "caseShape": "Cushion",
-    "condition": "Working, with light scratches on acrylic & case",
-    "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
-    "image": "../images/watches/IMG_3613.jpg"
-  } ,
-    {
-   "id": "vostok-Amphibia-darkblue-01",
-    "name": "Amphibia Dark Blue",
-    "brand": "Vostok",
-    "era": "1980s",
-    "type": "Collector classic",
-    "price": 100,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2209/2409",
-    "caseShape": "Cushion",
-    "condition": "Working, with light scratches on acrylic & case",
-    "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
-    "image": "../images/watches/IMG_3617.jpg"
-  } ,
      {
    "id": "slava-moscow-01",
     "name": "Moscow",
@@ -323,20 +351,6 @@
     "condition": "Working, with light scratches on acrylic.",
     "description": "A tribute to Moscow's timeless skyline, this Slava captures the spirit of a city etched in steel and memory.",
     "image": "../images/watches/IMG_3690.jpg"
-  } ,
-     {
-   "id": "vostok-Amphibia-light-blue-01",
-    "name": "Amphibia Light Blue",
-    "brand": "Vostok",
-    "era": "1980s",
-    "type": "Collector classic",
-    "price": 100,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2209/2409",
-    "caseShape": "Cushion",
-    "condition": "Working, with visible scratches on acrylic & worn bezel",
-    "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
-    "image": "../images/watches/IMG_3675.jpg"
   } ,
    {
    "id": "raketa-tv-case-01",
