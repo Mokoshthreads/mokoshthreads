@@ -41,6 +41,34 @@
     "description": "Shiny, sharp, blue. Unexpectedly striking in the skies.",
     "image": "../images/watches/airforce_shiny.jpg"
   },
+ {
+    "id": "vostok-admiralskie-01",
+    "name": "Admiralskie",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Military style",
+    "price": 90,
+    "priceRange": "$81–120",
+    "image": "../images/watches/IMG_3819.jpeg",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working with slight general wear.",
+    "description": "A bold military-themed Soviet watch with strong wrist presence. A true Admiral's watch."
+  },
+  {
+     "id": "vostok-airforce-dark-blue",
+    "name": "Fighter Jets Dark Blue",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Mulitary style",
+    "price": 95,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition. Lume on one of the hand have fallen off.",
+    "description": "Dark blue strong airforce theme, showcasing the Russian 3 fighter jets taking off into the skies.",
+    "image": "../images/watches/IMG_6929.jpg"
+  },
   {
    "id": "vostok-Komandirskie-Submarine-Fleet-01",
     "name": "Komandirskie Submarine Fleet",
@@ -68,20 +96,6 @@
     "condition": "Working, with light scratches on acrylic",
     "description": "Produced in 1995, commemorating 50 years to the end of WW2. The Motherland Calls statue is emblematic to the sacrifice & history of the Soviet army.",
     "image": "../images/watches/IMG_3609.jpg"
-  },
-          {
-     "id": "vostok-airforce-dark-blue",
-    "name": "Fighter Jets Dark Blue",
-    "brand": "Vostok",
-    "era": "2000s",
-    "type": "Mulitary style",
-    "price": 95,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Great working condition. Lume on one of the hand have fallen off.",
-    "description": "Dark blue strong airforce theme, showcasing the Russian 3 fighter jets taking off into the skies.",
-    "image": "../images/watches/IMG_6929.jpg"
   },
             {
      "id": "vostok-quirky-white",
@@ -761,20 +775,6 @@
     "description": "A collector favorite. Specially ordered by the Soviet military. Serial no.: 089090.",
     "sold": true,
     "image": "../images/watches/IMG_3815.jpeg"
-  },
-  {
-    "id": "vostok-admiralskie-01",
-    "name": "Admiralskie",
-    "brand": "Vostok",
-    "era": "2000s",
-    "type": "Military style",
-    "price": 90,
-    "priceRange": "$81–120",
-    "image": "../images/watches/IMG_3819.jpeg",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Working with slight general wear.",
-    "description": "A bold military-themed Soviet watch with strong wrist presence. A true Admiral's watch."
   },
    {
     "id": "vostok-komandirskie-commandos-01",
