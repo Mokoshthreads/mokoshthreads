@@ -27,6 +27,20 @@
     "description": "Soviet Naval Command Watch - Built for the Sea.",
     "image": "../images/watches/IMG_3797.jpeg"
   },
+   {
+     "id": "vostok-komandirskie-shiny_blue-01",
+    "name": "Komandirskie Airforce Shiny Blue",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition.",
+    "description": "Shiny, sharp, blue. Unexpectedly striking in the skies.",
+    "image": "../images/watches/airforce_shiny.jpg"
+  },
   {
    "id": "vostok-Komandirskie-Submarine-Fleet-01",
     "name": "Komandirskie Submarine Fleet",
