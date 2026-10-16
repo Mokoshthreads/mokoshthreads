@@ -83,6 +83,20 @@
     "description": "A Soviet submarine breaking the surface. A classic Vostok design.",
     "image": "../images/watches/submarine_classic.jpg"
   },
+  {
+     "id": "vostok-komandirskie-submarine-blue-01",
+    "name": "Komandirskie Submarine Blue",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently serviced.",
+    "description": "Soviet Naval Military Watch in striking blue and built to last.",
+    "image": "../images/watches/IMG_3788.jpeg"
+  }  ,
     {
    "id": "vostok-komandirskie-50-years",
     "name": "Komandirskie '50 Years of Victory'",
@@ -647,20 +661,6 @@
     "description": "By order of the Soviet Military. A true historical vintage piece.",
     "image": "../images/watches/IMG_3785.jpeg"
   } ,
-   {
-     "id": "vostok-komandirskie-submarine-blue-01",
-    "name": "Komandirskie Submarine Blue",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 110,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Excellent working condition - Recently professionally serviced.",
-    "description": "Soviet Naval Military Watch in striking blue and built to last.",
-    "image": "../images/watches/IMG_3788.jpeg"
-  }  ,
     {
      "id": "vostok-komandirskie-multibranch-cream-ivory-01",
     "name": "Komandirskie Airforce+Navy Cream Ivory",
@@ -704,21 +704,6 @@
     "description": "Soviet Naval Military Watch in striking blue and built to last.",
     "image": "../images/watches/IMG_3799.jpeg"
   } ,
-    {
-     "id": "vostok-komandirskie-Aviation-01",
-    "name": "Komandirskie Aviation Light Blue",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 90,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Excellent working condition - Recently professionally serviced.",
-    "description": "Soviet Airforce Inspired Military Watch - Built for the Air.",
-      "sold": true,
-    "image": "../images/watches/IMG_3801.jpeg"
-  },
    {
      "id": "vostok-komandirskie-Tank-Black-01",
     "name": "Komandirskie Tank Black",
@@ -760,21 +745,6 @@
     "condition": "Excellent working condition - Recently professionally serviced.",
      "description": "Limited edition historical watch produced in 1996 commemorating 300 years since the founding of the Russian Navy in 1696.",
      "image": "../images/watches/IMG_3813.jpeg"
-  },
-  {
-   "id": "vostok-komandirskie-black-zakaz-02",
-    "name": "Komandirskie Zakaz Mo USSR Black",
-    "brand": "Vostok",
-    "era": "1980s",
-    "type": "Collector classic",
-    "price": 110,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Working, with light scratches on acrylic",
-    "description": "A collector favorite. Specially ordered by the Soviet military. Serial no.: 089090.",
-    "sold": true,
-    "image": "../images/watches/IMG_3815.jpeg"
   },
    {
     "id": "vostok-komandirskie-commandos-01",
@@ -1028,6 +998,21 @@
     "description": "A collector favorite. Specially ordered by the Soviet military. Serial no.: 635829.",
     "sold": true,
     "image": "../images/watches/IMG_3723.jpg"
+  },
+  {
+     "id": "vostok-komandirskie-Aviation-01",
+    "name": "Komandirskie Aviation Light Blue",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently professionally serviced.",
+    "description": "Soviet Airforce Inspired Military Watch - Built for the Air.",
+      "sold": true,
+    "image": "../images/watches/IMG_3801.jpeg"
   },
    {
      "id": "luch-ladies-gold-01",
@@ -1346,5 +1331,20 @@
     "description": "A warm Soviet sunburst dial hides a clever mechanical calendar - quietly ticking with everyday ingenuity, with a novel date push corrector.",
          "sold": true,
     "image": "../images/watches/IMG_3695.jpg"
+  },
+ {
+   "id": "vostok-komandirskie-black-zakaz-02",
+    "name": "Komandirskie Zakaz Mo USSR Black",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 110,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on acrylic",
+    "description": "A collector favorite. Specially ordered by the Soviet military. Serial no.: 089090.",
+    "sold": true,
+    "image": "../images/watches/IMG_3815.jpeg"
   }
 ]
