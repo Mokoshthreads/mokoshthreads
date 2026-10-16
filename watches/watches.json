@@ -1,5 +1,33 @@
 [
-                 {
+ {
+     "id": "vostok-hovercraft-blue",
+    "name": "Hovercraft Blue",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Mulitary style",
+    "price": 110,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "In good working condition. New acrylic glass.",
+    "description": "A unique patriotic showmanship of Russia's latest military arsenal in the midst of changes during the dissolution of the Soviet Union.",
+    "image": "../images/watches/hovercraft_blue.jpg"
+  },
+  {
+     "id": "vostok-komandirskie-Navy-lightblue-01",
+    "name": "Komandirskie Navy Light Blue",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently serviced.",
+    "description": "Soviet Naval Command Watch - Built for the Sea.",
+    "image": "../images/watches/IMG_3797.jpeg"
+  },
+  {
    "id": "vostok-Komandirskie-Submarine-Fleet-01",
     "name": "Komandirskie Submarine Fleet",
     "brand": "Vostok",
@@ -26,20 +54,6 @@
     "condition": "Working, with light scratches on acrylic",
     "description": "Produced in 1995, commemorating 50 years to the end of WW2. The Motherland Calls statue is emblematic to the sacrifice & history of the Soviet army.",
     "image": "../images/watches/IMG_3609.jpg"
-  },
-      {
-     "id": "vostok-hovercraft-blue",
-    "name": "Hovercraft Blue",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Mulitary style",
-    "price": 110,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "In good working condition. New acrylic glass.",
-    "description": "A unique patriotic showmanship of Russia's latest military arsenal in the midst of changes during the dissolution of the Soviet Union.",
-    "image": "../images/watches/hovercraft_blue.jpg"
   },
           {
      "id": "vostok-airforce-dark-blue",
@@ -647,20 +661,6 @@
     "condition": "Excellent working condition - Recently professionally serviced.",
     "description": "Soviet Naval Military Multi-branch Watch from the sky to the sea, the watch that is built to last.",
     "image": "../images/watches/IMG_3795.jpeg"
-  },
-     {
-     "id": "vostok-komandirskie-Navy-lightblue-01",
-    "name": "Komandirskie Navy Light Blue",
-    "brand": "Vostok",
-    "era": "2000s",
-    "type": "Military style",
-    "price": 110,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Excellent working condition - Recently professionally serviced.",
-    "description": "Soviet Naval Command Watch - Built for the Sea.",
-    "image": "../images/watches/IMG_3797.jpeg"
   },
    {
      "id": "vostok-komandirskie-submarine-blue-02",
