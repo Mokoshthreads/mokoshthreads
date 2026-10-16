@@ -75,13 +75,13 @@
     "brand": "Vostok",
     "era": "1990s",
     "type": "Military style",
-    "price": 120,
+    "price": 110,
     "priceRange": "$81-120",
     "movement": "Manual Vostok 2414A",
     "caseShape": "Round",
-    "condition": "Working, with light scratches on the acrylic ",
-    "description": "A Soviet submarine breaking the surface - captured on a dial for the Cold War.",
-    "image": "../images/watches/IMG_3727.jpg"
+    "condition": "In good working condition.",
+    "description": "A Soviet submarine breaking the surface. A classic Vostok design.",
+    "image": "../images/watches/submarine_classic.jpg"
   },
     {
    "id": "vostok-komandirskie-50-years",
