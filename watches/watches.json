@@ -84,6 +84,20 @@
     "image": "../images/watches/submarine_classic1.jpg"
   },
   {
+   "id": "vostok-Komandirskie-Airplane-Radar",
+    "name": "Komandirskie Airplane Radar",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "In good working condition.",
+    "description": "A fighter jet flying over radar pattern.",
+    "image": "../images/watches/airplane_radar.jpg"
+  },
+  {
      "id": "vostok-komandirskie-submarine-blue-01",
     "name": "Komandirskie Submarine Blue",
     "brand": "Vostok",
