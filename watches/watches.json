@@ -126,20 +126,6 @@
     "image": "../images/watches/submarine_blueussr.jpg"
   }  ,
   {
-     "id": "vostok-komandirskie-submarine-blue-02",
-    "name": "Komandirskie Submarine Blue",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 90,
-    "priceRange": "$31-80",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Good working condition.",
-    "description": "Soviet Naval Military Watch in striking blue and built to last.",
-    "image": "../images/watches/submarine_blue1.jpg"
-  } ,
-  {
    "id": "vostok-Amphibia-sector-01",
     "name": "Amphibia 'Sector'",
     "brand": "Vostok",
@@ -1389,5 +1375,20 @@
     "description": "A Soviet submarine breaking the surface. A classic Vostok design.",
     "sold": true,
     "image": "../images/watches/submarine_classic.jpg"
+  },
+  {
+     "id": "vostok-komandirskie-submarine-blue-02",
+    "name": "Komandirskie Submarine Blue",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 90,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Good working condition.",
+    "description": "Soviet Naval Military Watch in striking blue and built to last.",
+   "sold": true,
+    "image": "../images/watches/submarine_blue1.jpg"
   }
 ]
