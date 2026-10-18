@@ -181,6 +181,20 @@
     "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
     "image": "../images/watches/amphibia_blue.jpg"
   } ,
+  {
+   "id": "vostok-Amphibia-albatross",
+    "name": "Amphibia Albatross",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2409",
+    "caseShape": "Cushion",
+    "condition": "In working condition.",
+    "description": "Named after Project 1124 'Albatross' small anti-submarine ships built in the 1970s.",
+    "image": "../images/watches/amphibia_albatross.jpg"
+  } ,
     {
    "id": "vostok-komandirskie-50-years",
     "name": "Komandirskie '50 Years of Victory'",
