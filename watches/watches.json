@@ -294,6 +294,78 @@
     "description": "A rare Azerbaijan Airlines (AZAL) commissioned commemorative watch - a unique crossover of Soviet watchmaking and modern aviation identity.",
     "image": "../images/watches/IMG_3823.jpeg"
    },
+        {
+     "id": "vostok-borderguards",
+    "name": "Pogranichniye Border Guards",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 110,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition.",
+    "description": "An interesting upgrade to the Komandirskie watch with the Russian Vorder Guards emblem on it.",
+    "image": "../images/watches/borderguards.jpg"
+  },
+   {
+     "id": "vostok-airforce-navy-white",
+    "name": "Airforce Navy White",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition.",
+    "description": "The airforce and navy combined, protecting the motherland.",
+    "image": "../images/watches/airforcenavy.jpg"
+  },
+   {
+     "id": "vostok-ship",
+    "name": "Ship Illustrated",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Classic style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition.",
+    "description": "Sailing across the vast ocean, in search for water.",
+    "image": "../images/watches/ship.jpg"
+  },
+ {
+     "id": "vostok-ship",
+    "name": "Ship Illustrated",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Classic style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition.",
+    "description": "Sailing across the vast ocean, in search for water.",
+      "description": "Ships bringing the world to your doorsteps."
+    "image": "../images/watches/ship.jpg"
+  },
+  {
+     "id": "vostok-ship",
+    "name": "Ship Illustrated",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Classic style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition.",
+    "description": "Sailing across the vast ocean, in search for water.",
+      "description": "Ships bringing the world to your doorsteps."
+    "image": "../images/watches/ship2.jpg"
+  },
             {
      "id": "vostok-quirky-white",
     "name": "Quirky White",
