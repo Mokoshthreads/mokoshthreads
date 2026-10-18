@@ -75,13 +75,13 @@
     "brand": "Vostok",
     "era": "1990s",
     "type": "Military style",
-    "price": 110,
+    "price": 100,
     "priceRange": "$81-120",
     "movement": "Manual Vostok 2414A",
     "caseShape": "Round",
     "condition": "In good working condition.",
     "description": "A Soviet submarine breaking the surface. A classic Vostok design.",
-    "image": "../images/watches/submarine_classic.jpg"
+    "image": "../images/watches/submarine_classic1.jpg"
   },
   {
      "id": "vostok-komandirskie-submarine-blue-01",
@@ -1374,5 +1374,20 @@
     "description": "A collector favorite. Specially ordered by the Soviet military. Serial no.: 089090.",
     "sold": true,
     "image": "../images/watches/IMG_3815.jpeg"
+  },
+   {
+   "id": "vostok-Komandirskie-Submarine-Fleet-01",
+    "name": "Komandirskie Submarine Classic",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 110,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "In good working condition.",
+    "description": "A Soviet submarine breaking the surface. A classic Vostok design.",
+    "sold": true,
+    "image": "../images/watches/submarine_classic.jpg"
   }
 ]
