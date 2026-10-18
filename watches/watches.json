@@ -205,9 +205,23 @@
     "priceRange": "$81-120",
     "movement": "Manual Vostok 2414A",
     "caseShape": "Round",
-    "condition": "Working, with light scratches on acrylic",
+    "condition": "In working condition.",
     "description": "Produced in 1995, commemorating 50 years to the end of WW2. The Motherland Calls statue is emblematic to the sacrifice & history of the Soviet army.",
     "image": "../images/watches/IMG_3609.jpg"
+  },
+  {
+     "id": "vostok-komandirskie-300yearsrussiannavy-01",
+    "name": "Komandirskie '300 Years of the Russian Navy' Commemorative Watch",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 130,
+    "priceRange": "$120+",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently serviced.",
+     "description": "Limited edition historical watch produced in 1996 commemorating 300 years since the founding of the Russian Navy in 1696.",
+     "image": "../images/watches/IMG_3813.jpeg"
   },
             {
      "id": "vostok-quirky-white",
@@ -759,20 +773,6 @@
     "condition": "Excellent working condition - Recently professionally serviced.",
     "description": "Soviet Naval Patriotic Watch - A New Identity after the fall of the Soviet Union.",
      "image": "../images/watches/IMG_3809.jpeg"
-  },
-    {
-     "id": "vostok-komandirskie-300yearsrussiannavy-01",
-    "name": "Komandirskie '300 Years of the Russian Navy' Commemorative Watch",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 120,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Excellent working condition - Recently professionally serviced.",
-     "description": "Limited edition historical watch produced in 1996 commemorating 300 years since the founding of the Russian Navy in 1696.",
-     "image": "../images/watches/IMG_3813.jpeg"
   },
    {
     "id": "vostok-komandirskie-commandos-01",
