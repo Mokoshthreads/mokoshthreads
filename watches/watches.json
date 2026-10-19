@@ -405,6 +405,20 @@
     "description": "Soviet Naval Military Multi-branch Watch from the sky to the sea, the watch that is built to last.",
     "image": "../images/watches/IMG_3795.jpeg"
   },
+  {
+     "id": "vostok-komandirskie-tankgoldstar",
+    "name": "Komandirskie Tank White Gold Star",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 110,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently serviced.",
+    "description": "Soviet Tank with Russian emblem. Stunning mesmerizing design.",
+    "image": "../images/watches/tank_goldstar.jpg"
+  },
               {
      "id": "vostok-commandos-gold",
     "name": "Commandos Gold",
