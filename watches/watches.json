@@ -364,18 +364,18 @@
      "image": "../images/watches/IMG_3809.jpeg"
   },
   {
-     "id": "vostok-ship",
-    "name": "Ship Illustrated",
+     "id": "vostok-russia-white",
+    "name": "Komandirskie Russia White",
     "brand": "Vostok",
-    "era": "2000s",
+    "era": "1990s",
     "type": "Classic style",
     "price": 100,
     "priceRange": "$81-120",
     "movement": "Manual Vostok 2414A",
     "caseShape": "Round",
     "condition": "Great working condition.",
-    "description": "Sailing across the vast ocean, in search for water.",
-    "image": "../images/watches/ship2.jpg"
+    "description": "Simple Patriotic Russian estate crest and flag.",
+    "image": "../images/watches/russia_white.jpg"
   },
             {
      "id": "vostok-quirky-white",
