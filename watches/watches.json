@@ -336,7 +336,7 @@
     "image": "../images/watches/ship.jpg"
   },
  {
-     "id": "vostok-ship",
+     "id": "vostok-ship1",
     "name": "Ship Illustrated",
     "brand": "Vostok",
     "era": "2000s",
@@ -347,7 +347,7 @@
     "caseShape": "Round",
     "condition": "Great working condition.",
       "description": "Ships bringing the world to your doorsteps.",
-    "image": "../images/watches/ship.jpg"
+    "image": "../images/watches/ship2.jpg"
   },
   {
      "id": "vostok-ship",
