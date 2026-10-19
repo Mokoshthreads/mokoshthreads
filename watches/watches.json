@@ -462,6 +462,34 @@
     "description": "An export market focused Vostok watch to meet Western aesthetics.",
     "image": "../images/watches/IMG_3821.jpeg"
    },
+ {
+     "id": "vostok-komandirskie-Tank-Gold-01",
+    "name": "Komandirskie Tank Classic",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on acrylic.",
+    "description": "Great entry piece for collecting Vostok timepieces. Military-theme, simple, long-lasting.",
+    "image": "../images/watches/tank_classic1.jpg"
+  },
+ {
+     "id": "vostok-komandirskie-Tank-Gold-02",
+    "name": "Komandirskie Tank Classic",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition.",
+    "description": "Great entry piece for collecting Vostok timepieces. Military-theme, simple, long-lasting.",
+    "image": "../images/watches/tank_classic.jpg"
+  },
               {
      "id": "vostok-commandos-gold",
     "name": "Commandos Gold",
@@ -925,20 +953,6 @@
     "condition": "Working, worn with light scratches on acrylic.",
     "description": "Great entry piece for collecting Vostok timepieces. Military-theme, simple, long-lasting.",
     "image": "../images/watches/IMG_3805.jpeg"
-  },
-   {
-     "id": "vostok-komandirskie-Tank-Gold-01",
-    "name": "Komandirskie Tank Gold",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 80,
-    "priceRange": "$31-80",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Working, worn with light scratches on acrylic.",
-    "description": "Great entry piece for collecting Vostok timepieces. Military-theme, simple, long-lasting.",
-    "image": "../images/watches/IMG_3825.jpeg"
   },
    {
      "id": "vostok-komandirskie-Black-Red-Star-02",
