@@ -447,6 +447,21 @@
     "description": "90s Russian experimental design - when Soviet watchmaking broke the rules.",
     "image": "../images/watches/cardivostok_4stars.jpg"
   } ,
+  {
+    "id": "vostok-komandirskie-commandos-01",
+    "name": "Komandirskie Commandos",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Collector classic",
+    "type": "Military style",
+    "price": 75,
+    "priceRange": "$31–80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Good - with scratches on acrylic, & natural aging on bezel",
+    "description": "An export market focused Vostok watch to meet Western aesthetics.",
+    "image": "../images/watches/IMG_3821.jpeg"
+   },
               {
      "id": "vostok-commandos-gold",
     "name": "Commandos Gold",
@@ -911,21 +926,6 @@
     "description": "Great entry piece for collecting Vostok timepieces. Military-theme, simple, long-lasting.",
     "image": "../images/watches/IMG_3805.jpeg"
   },
-   {
-    "id": "vostok-komandirskie-commandos-01",
-    "name": "Komandirskie Commandos",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Collector classic",
-    "type": "Military style",
-    "price": 60,
-    "priceRange": "$31–80",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Good - with scratches on acrylic, & natural aging on bezel",
-    "description": "An export market focused Vostok watch to meet Western aesthetics.",
-    "image": "../images/watches/IMG_3821.jpeg"
-   },
    {
      "id": "vostok-komandirskie-Tank-Gold-01",
     "name": "Komandirskie Tank Gold",
