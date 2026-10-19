@@ -391,6 +391,20 @@
     "description": "A quirky modern design ahead of its time, released during the transition period era, aiming to cater to an increasingly stylish audience more integrated with the West.",
     "image": "../images/watches/IMG_6922.jpg"
   },
+ {
+     "id": "vostok-komandirskie-multibranch-white-01",
+    "name": "Komandirskie Airforce+Navy White",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently serviced.",
+    "description": "Soviet Naval Military Multi-branch Watch from the sky to the sea, the watch that is built to last.",
+    "image": "../images/watches/IMG_3795.jpeg"
+  },
               {
      "id": "vostok-commandos-gold",
     "name": "Commandos Gold",
@@ -869,35 +883,6 @@
     "description": "By order of the Soviet Military. A true historical vintage piece.",
     "image": "../images/watches/IMG_3785.jpeg"
   } ,
-    {
-     "id": "vostok-komandirskie-multibranch-cream-ivory-01",
-    "name": "Komandirskie Airforce+Navy Cream Ivory",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 110,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Excellent working condition - Recently professionally serviced.",
-    "description": "Soviet Naval Military Multi-branch Watch from the sky to the sea, the watch that is built to last.",
-      "sold": true,
-    "image": "../images/watches/IMG_3791.jpeg"
-  }  ,
-   {
-     "id": "vostok-komandirskie-multibranch-white-01",
-    "name": "Komandirskie Airforce+Navy White",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 110,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Excellent working condition - Recently professionally serviced.",
-    "description": "Soviet Naval Military Multi-branch Watch from the sky to the sea, the watch that is built to last.",
-    "image": "../images/watches/IMG_3795.jpeg"
-  },
    {
      "id": "vostok-komandirskie-Tank-Black-01",
     "name": "Komandirskie Tank Black",
@@ -1468,6 +1453,21 @@
          "sold": true,
     "image": "../images/watches/IMG_3746.jpeg"
   },
+  {
+     "id": "vostok-komandirskie-multibranch-cream-ivory-01",
+    "name": "Komandirskie Airforce+Navy Cream Ivory",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 110,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently professionally serviced.",
+    "description": "Soviet Naval Military Multi-branch Watch from the sky to the sea, the watch that is built to last.",
+      "sold": true,
+    "image": "../images/watches/IMG_3791.jpeg"
+  }  ,
    {
    "id": "chaika-brown_sunburst-01",
     "name": "Brown Sunburst Push Corrector",
