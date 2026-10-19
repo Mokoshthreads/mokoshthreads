@@ -238,6 +238,20 @@
      "image": "../images/watches/50yearsgold.jpg"
   },
   {
+     "id": "vostok-komandirskie-50years-gold",
+    "name": "Komandirskie '50 Years Victory' Gold Commemorative Watch",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Limited edition",
+    "price": 130,
+    "priceRange": "$121+",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition.",
+     "description": "Limited edition historical watch produced in 1995 commemorating the Soviet Army's victory against Nazi Germany during WW2 or The Great Patriotic War.",
+     "image": "../images/watches/50years_gold1.jpg"
+  },
+  {
      "id": "vostok-komandirskie-50years-white",
     "name": "Komandirskie '50 Years Victory' White Commemorative Watch",
     "brand": "Vostok",
@@ -616,6 +630,20 @@
     "description": "Soviet navy identity on the wrist.",
     "image": "../images/watches/navy_gold.jpg"
   },
+ {
+     "id": "vostok-komandirskie-Tank-Gold",
+    "name": "Komandirskie Tank Gold",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 95,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition.",
+    "description": "Striking gold tank, perfect military representation.",
+    "image": "../images/watches/tank_gold.jpg"
+  },
     {
     "id": "vostok-komandirskie-plain-gold",
     "name": "Komandirskie Gold",
@@ -628,7 +656,7 @@
     "caseShape": "Round",
     "condition": "Good",
     "description": "Simple and elegant. Showcases the simplicity and endurance of Russian-made product.",
-    "image": "../images/watches/IMG_3227.jpeg"
+    "image": "../images/watches/plain_gold.jpg"
   },
       {
     "id": "vostok-komandirskie-desertshieldcadet",
@@ -995,20 +1023,6 @@
     "description": "By order of the Soviet Military. A true historical vintage piece.",
     "image": "../images/watches/IMG_3785.jpeg"
   } ,
-   {
-     "id": "vostok-komandirskie-Tank-Black-01",
-    "name": "Komandirskie Tank Black",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 80,
-    "priceRange": "$31-80",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Working, worn with light scratches on acrylic.",
-    "description": "Great entry piece for collecting Vostok timepieces. Military-theme, simple, long-lasting.",
-    "image": "../images/watches/IMG_3805.jpeg"
-  },
     {
      "id": "cardi-vostok-racingtime-01",
     "name": "Capitan 'Racingtime' Chronoscope",
