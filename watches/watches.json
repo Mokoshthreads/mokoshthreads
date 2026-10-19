@@ -1,7 +1,7 @@
 [
  {
      "id": "vostok-hovercraft-blue",
-    "name": "Hovercraft Blue",
+    "name": "Komandirskie Hovercraft Blue",
     "brand": "Vostok",
     "era": "1990s",
     "type": "Military style",
@@ -57,7 +57,7 @@
   },
   {
      "id": "vostok-airforce-dark-blue",
-    "name": "Fighter Jets Dark Blue",
+    "name": "Komandirskie Fighter Jets Dark Blue",
     "brand": "Vostok",
     "era": "2000s",
     "type": "Military style",
@@ -141,7 +141,7 @@
   }  ,
   {
    "id": "vostok-Amphibia-sector-01",
-    "name": "Amphibia 'Sector'",
+    "name": "Amphibia Sector",
     "brand": "Vostok",
     "era": "1980s",
     "type": "Collector classic",
@@ -309,7 +309,7 @@
   },
    {
      "id": "vostok-airforce-navy-white",
-    "name": "Airforce Navy White",
+    "name": "Komandirskie Airforce Navy White",
     "brand": "Vostok",
     "era": "1990s",
     "type": "Military style",
@@ -337,7 +337,7 @@
   },
  {
      "id": "vostok-ship1",
-    "name": "Ship Illustrated",
+    "name": "Komandirskie Ship Illustrated",
     "brand": "Vostok",
     "era": "2000s",
     "type": "Classic style",
@@ -348,6 +348,20 @@
     "condition": "Great working condition.",
       "description": "Ships bringing the world to your doorsteps.",
     "image": "../images/watches/ship2.jpg"
+  },
+ {
+     "id": "vostok-komandirskie-Russian-Warship-01",
+    "name": "Komandirskie Russian Warship",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 110,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently serviced.",
+    "description": "Soviet Naval Patriotic Watch - A New Identity after the fall of the Soviet Union.",
+     "image": "../images/watches/IMG_3809.jpeg"
   },
   {
      "id": "vostok-ship",
@@ -897,20 +911,6 @@
     "condition": "Working, worn with light scratches on acrylic.",
     "description": "Great entry piece for collecting Vostok timepieces. Military-theme, simple, long-lasting.",
     "image": "../images/watches/IMG_3805.jpeg"
-  },
-    {
-     "id": "vostok-komandirskie-Russian-Warship-01",
-    "name": "Komandirskie Russian Warship",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 90,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Excellent working condition - Recently professionally serviced.",
-    "description": "Soviet Naval Patriotic Watch - A New Identity after the fall of the Soviet Union.",
-     "image": "../images/watches/IMG_3809.jpeg"
   },
    {
     "id": "vostok-komandirskie-commandos-01",
