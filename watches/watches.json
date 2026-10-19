@@ -307,6 +307,20 @@
     "description": "A rare Azerbaijan Airlines (AZAL) commissioned commemorative watch - a unique crossover of Soviet watchmaking and modern aviation identity.",
     "image": "../images/watches/IMG_3823.jpeg"
    },
+  {
+    "id": "vostok-komandirskie-chuvash",
+    "name": "Komandirskie Honoured Doctor Award Chuvash Republic Watch",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Limited edition",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition.",
+    "description": "Ordered by the Chuvash Republic and awarded to doctors for their honourable service.",
+    "image": "../images/watches/special.jpg"
+   },
         {
      "id": "vostok-borderguards",
     "name": "Pogranichniye Border Guards",
