@@ -1141,7 +1141,7 @@
     "image": "../images/watches/sold2.jpg"
   },
  {
-   "id": "sold",
+   "id": "sold2",
     "name": "Komandirskie USSR Victory",
     "brand": "Vostok",
     "era": "1990s",
@@ -1156,7 +1156,7 @@
     "image": "../images/watches/sold3.jpg"
   },
  {
-   "id": "sold",
+   "id": "sold3",
     "name": "Komandirskie 50 Years of Victory",
     "brand": "Vostok",
     "era": "1990s",
