@@ -518,6 +518,48 @@
     "description": "When Vostok starts speaking loudly, this is what it looked like.",
     "image": "../images/watches/black_star.jpg"
   },
+  {
+     "id": "vostok-komandirskie-Zakaz",
+    "name": "Komandirskie Zakaz Mo USSR Black",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Military style",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition.",
+    "description": "Ordered by the Soviet Military.",
+    "image": "../images/watches/zakaz_black.jpg"
+  },
+   {
+   "id": "vostok-Komandirskie-Naval-01",
+    "name": "Komandirskie Naval Army",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition.",
+    "description": "Forged for the naval fleet, worn through storms - this is a sailor's time that never stood still.",
+    "image": "../images/watches/navy_nice1.jpg"
+  },
+       {
+   "id": "vostok-Komandirskie-Naval-02",
+    "name": "Komandirskie Naval Army",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition.",
+    "description": "Forged for the naval fleet, worn through storms - this is a sailor's time that never stood still.",
+    "image": "../images/watches/navy_nice.jpg"
+  },
               {
      "id": "vostok-commandos-gold",
     "name": "Commandos Gold",
@@ -728,34 +770,6 @@
     "condition": "Working, with cracked bottom acrylic.",
     "description": "Vintage Soviet sport watch with military-style bezel - affordable entry piece.",
     "image": "../images/watches/IMG_3700.jpg"
-  },
-     {
-   "id": "vostok-Komandirskie-Naval-01",
-    "name": "Komandirskie Naval Army",
-    "brand": "Vostok",
-    "era": "2000s",
-    "type": "Military style",
-    "price": 90,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Working, with light case wear",
-    "description": "Forged for the naval fleet, worn through storms - this is a sailor's time that never stood still.",
-    "image": "../images/watches/IMG_3710.jpg"
-  },
-       {
-   "id": "vostok-Komandirskie-Naval-02",
-    "name": "Komandirskie Naval Army",
-    "brand": "Vostok",
-    "era": "2000s",
-    "type": "Military style",
-    "price": 90,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Working, with signs of case wear",
-    "description": "Forged for the naval fleet, worn through storms - this is a sailor's time that never stood still.",
-    "image": "../images/watches/IMG_3711.jpg"
   },
       {
    "id": "raketa-date-black-01",
