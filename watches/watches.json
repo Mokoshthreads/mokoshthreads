@@ -419,6 +419,34 @@
     "description": "Soviet Tank with Russian emblem. Stunning mesmerizing design.",
     "image": "../images/watches/tank_goldstar.jpg"
   },
+ {
+   "id": "vostok-Komandirskie-Green-01",
+    "name": "Komandirskie Green",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 80,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working, with light scratches on acrylic",
+    "description": "Built for function with a rare striking green dial.",
+    "image": "../images/watches/IMG_3713.jpg"
+  },
+  {
+     "id": "cardi-vostok-capitan-01",
+    "name": "Capitan Chronoscope 4-Star",
+    "brand": "Cardi-Vostok",
+    "era": "1990s",
+    "type": "Collector classic",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition. Repurposed in a vintage Vostok case.",
+    "description": "90s Russian experimental design - when Soviet watchmaking broke the rules.",
+    "image": "../images/watches/cardivostok_4stars.jpg"
+  } ,
               {
      "id": "vostok-commandos-gold",
     "name": "Commandos Gold",
@@ -490,20 +518,6 @@
     "description": "Gold-plated with in-built alarm mechanism. Made in 1993 to commemorate the 125th anniversary of the birth of the last Russian Tsar.",
     "image": "../images/watches/IMG_3232.jpg"
   },
-     {
-     "id": "cardi-vostok-capitan-01",
-    "name": "Capitan Chronoscope 4-Star",
-    "brand": "Cardi-Vostok",
-    "era": "1990s",
-    "type": "Collector classic",
-    "price": 80,
-    "priceRange": "$31-80",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Working - slight crack in the acrylic, not hindering time visual.",
-    "description": "90s Russian experimental design - when Soviet watchmaking broke the rules.",
-    "image": "../images/watches/IMG_3591.jpg"
-  } ,
      {
      "id": "zarya-red-gold-01",
     "name": "Red Gold",
@@ -671,20 +685,6 @@
     "condition": "Working, with signs of case wear",
     "description": "Forged for the naval fleet, worn through storms - this is a sailor's time that never stood still.",
     "image": "../images/watches/IMG_3711.jpg"
-  },
-         {
-   "id": "vostok-Komandirskie-Green-01",
-    "name": "Komandirskie Green",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 80,
-    "priceRange": "$31-80",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Working, with light scratches on acrylic",
-    "description": "Built for function with a rare striking green dial.",
-    "image": "../images/watches/IMG_3713.jpg"
   },
       {
    "id": "raketa-date-black-01",
