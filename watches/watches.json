@@ -911,21 +911,6 @@
    "sold": true,
     "image": "../images/watches/tank_classic1.jpg"
   },
-    {
-     "id": "zarya-rectangle-dress-01",
-    "name": "Rectangle Dress",
-    "brand": "Zarya",
-    "era": "1970s",
-    "type": "Vintage classic",
-    "price": 70,
-    "priceRange": "$31-80",
-    "movement": "Manual Zarya 2009/2014",
-    "caseShape": "Small Rectangular",
-    "condition": "Working, light scratches on crystal.",
-    "description": "Minimalist Soviet vintage with a bold red dial & gold-plated case. By Penza Watch Factory.",
-       "sold": true,
-    "image": "../images/watches/IMG_3755.jpeg"
-  },
    {
      "id": "poljot-minimalist-dress-01",
     "name": "Minimalist Dress",
@@ -1058,12 +1043,12 @@
     "brand": "Vostok",
     "era": "1990s",
     "type": "Collector Classic",
-    "price": 70,
-    "priceRange": "$31-80",
+    "price": 100,
+    "priceRange": "$91-120",
     "movement": "Manual Vostok 2414A",
     "caseShape": "Round",
-    "condition": "Working condition - scratched acrylic & brassing of case.",
-    "description": "Custom Soviet Vostok diver - a franken watch model with the iconic Scuba Dude.",
+    "condition": "Working condition.",
+    "description": "The iconic Scuba Dude in gold. A definite conversation starter.",
     "image": "../images/watches/IMG_3837.jpeg"
   },
    {
@@ -1095,6 +1080,21 @@
     "image": "../images/watches/IMG_4042.jpeg",
     "collectionLink": "../dials/",
     "collectionButtonText": "Browse Dial Collection"
+  },
+  {
+     "id": "zarya-rectangle-dress-01",
+    "name": "Rectangle Dress",
+    "brand": "Zarya",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 70,
+    "priceRange": "$31-80",
+    "movement": "Manual Zarya 2009/2014",
+    "caseShape": "Small Rectangular",
+    "condition": "Working, light scratches on crystal.",
+    "description": "Minimalist Soviet vintage with a bold red dial & gold-plated case. By Penza Watch Factory.",
+       "sold": true,
+    "image": "../images/watches/IMG_3755.jpeg"
   },
   {
    "id": "vostok-Amphibia-Airforce",
