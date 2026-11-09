@@ -182,7 +182,7 @@ function openDialog(slug) {
   document.querySelector("#dialog-price").innerHTML = camera.available
     ? `<strong>${money(camera.priceSGD, "SGD")}</strong><span>Approx. ${money(rmPrice(camera), "MYR").replace("MYR", "RM")}</span>`
     : `<strong>Currently unavailable</strong><span>Enquire for restock</span>`;
-  document.querySelector("#dialog-whatsapp").href = `https://wa.me/6589202646?text=${encodeURIComponent(`Hello Mokosh Threads, I am interested in the ${camera.model}. Is it currently available?`)}`;
+  document.querySelector("#dialog-whatsapp").href = `https://wa.me/6580106614?text=${encodeURIComponent(`Hello Mokosh Threads, I am interested in the ${camera.model}. Is it currently available?`)}`;
   dialog.showModal();
   document.body.classList.add("dialog-open");
 }
