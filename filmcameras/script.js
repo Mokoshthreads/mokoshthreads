@@ -218,10 +218,10 @@ function buildSchema() {
       {
         "@type": "Organization", "@id": "https://mokoshthreads.com/#organization",
         "name": "Mokosh Threads", "url": "https://mokoshthreads.com/",
-        "email": "mokoshthreads@gmail.com", "telephone": "+6589202646",
+        "email": "mokoshthreads@gmail.com", "telephone": "+6580106614",
         "description": "A Singapore-based Slavic heritage store specialising in traditional Slavic clothing, vintage Soviet and Russian watches, vintage Soviet film cameras, cultural objects and workshops.",
         "areaServed": [{ "@type": "Country", "name": "Singapore" }, { "@type": "Country", "name": "Malaysia" }],
-        "sameAs": ["https://www.instagram.com/mokoshthreads", "https://t.me/wantwotwee"]
+        "sameAs": ["https://www.instagram.com/mokoshthreads", "https://t.me/sleepy_bois_inc"]
       },
       {
         "@type": "CollectionPage", "@id": "https://mokoshthreads.com/filmcameras/#collection",
