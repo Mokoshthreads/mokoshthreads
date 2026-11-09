@@ -90,11 +90,11 @@ const modalWhatsappBtn = document.getElementById("modalWhatsappBtn");
       const enquiryMessage = `Hi, I'm interested in ${item.name}`;
 
 if (modalTelegramBtn) {
-  modalTelegramBtn.href = `https://t.me/Wantwotwee?text=${encodeURIComponent(enquiryMessage)}`;
+  modalTelegramBtn.href = `https://t.me/sleepy_bois_inc?text=${encodeURIComponent(enquiryMessage)}`;
 }
 
 if (modalWhatsappBtn) {
-  modalWhatsappBtn.href = `https://wa.me/6589202646?text=${encodeURIComponent(enquiryMessage)}`;
+  modalWhatsappBtn.href = `https://wa.me/6580106614?text=${encodeURIComponent(enquiryMessage)}`;
 }
 
       modal.classList.add("open");
