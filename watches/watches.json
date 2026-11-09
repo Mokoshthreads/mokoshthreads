@@ -83,20 +83,6 @@
     "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
     "image": "../images/watches/amphibia_sector.jpg"
   } ,
-  {
-   "id": "vostok-Amphibia-purple-01",
-    "name": "Amphibia Purple",
-    "brand": "Vostok",
-    "era": "1980s",
-    "type": "Collector classic",
-    "price": 120,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2209/2409",
-    "caseShape": "Cushion",
-    "condition": "In working condition.",
-    "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
-    "image": "../images/watches/amphibia_purple.jpg"
-  } ,
     {
    "id": "vostok-Amphibia-darkblue-01",
     "name": "Amphibia Dark Blue",
@@ -222,20 +208,6 @@
     "condition": "Great working condition.",
     "description": "Sailing across the vast ocean, in search for water.",
     "image": "../images/watches/ship.jpg"
-  },
- {
-     "id": "vostok-ship1",
-    "name": "Komandirskie Ship Illustrated",
-    "brand": "Vostok",
-    "era": "2000s",
-    "type": "Classic style",
-    "price": 100,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Great working condition.",
-      "description": "Ships bringing the world to your doorsteps.",
-    "image": "../images/watches/ship2.jpg"
   },
  {
      "id": "vostok-komandirskie-Russian-Warship-01",
@@ -505,20 +477,6 @@
     "image": "../images/watches/IMG_3601.jpg"
   } ,
      {
-     "id": "zarya-dress-watch-01",
-    "name": "Dress Watch - USSR Export Dial",
-    "brand": "Zarya",
-    "era": "1970s",
-    "type": "Vintage classic",
-    "price": 45,
-    "priceRange": "$31-80",
-    "movement": "Manual",
-    "caseShape": "Round",
-    "condition": "Working - original bracelet signs of worn.",
-    "description": "Minimalist Soviet vintage with a simple everyday design. By Penza Watch Factory.",
-    "image": "../images/watches/IMG_3604.jpg"
-  } ,
-     {
    "id": "slava-moscow-01",
     "name": "Moscow",
     "brand": "Slava",
@@ -587,20 +545,6 @@
     "condition": "Working, with patina on dial and light scratches on acrylic.",
     "description": "Built in the shadows of the Cold War, this Pobeda ticks with quiet Soviet resilience-simple, worn, enduring.",
     "image": "../images/watches/IMG_3691.jpg"
-  },
-      {
-   "id": "raketa-cushion-tvcase-01",
-    "name": "TV Case Gold",
-    "brand": "Raketa",
-    "era": "1970s",
-    "type": "Collector classic",
-    "price": 90,
-    "priceRange": "$81-120",
-    "movement": "Manual Raketa 2609.HA",
-    "caseShape": "Cushion TV",
-    "condition": "Working, with patina on dial and light scratches on acrylic.",
-    "description": "A relic of 1970s Soviet design, where brutal simplicity meets quiet elegance in aged steel and fading gold.",
-    "image": "../images/watches/IMG_3693.jpg"
   },
    {
    "id": "vympel-diver-style-dress-01",
@@ -687,20 +631,6 @@
    "sold": true,
     "image": "../images/watches/tank_classic1.jpg"
   },
-      {
-     "id": "chaika-ladies-gold-oval-01",
-    "name": "Ladies Gold Oval",
-    "brand": "Chaika",
-    "era": "1970s",
-    "type": "Vintage classic",
-    "price": 20,
-    "priceRange": "$0-30",
-    "movement": "Manual",
-    "caseShape": "Small Oval",
-    "condition": "Working, worn but great aesthetic condition.",
-    "description": "A quiet Soviet ornament of time - where elegance was shaped in gold and worn with restraint.",
-    "image": "../images/watches/IMG_3763.jpeg"
-  },
     {
      "id": "slava-ladies-ornamental-01",
     "name": "Ladies Ornamental",
@@ -714,20 +644,6 @@
     "condition": "Working, heavy plating wear across bracelet.",
     "description": "An exceptionally unique design - a statement piece, more ornament than instrument.",
     "image": "../images/watches/IMG_3765.jpeg"
-  },
-  {
-     "id": "zarya-ladies-silver-sunburst-01",
-    "name": "Ladies Silver Sunburst",
-    "brand": "Zarya",
-    "era": "1970s",
-    "type": "Vintage classic",
-    "price": 20,
-    "priceRange": "$0-30",
-    "movement": "Manual",
-    "caseShape": "Rounded",
-    "condition": "Working, minor plating wear across bracelet.",
-    "description": "An everyday vintage ladies piece in the Soviet era.",
-    "image": "../images/watches/IMG_3767.jpeg"
   },
       {
      "id": "chaika-Black-Red-01",
@@ -1719,5 +1635,95 @@
     "description": "Dark blue strong airforce theme, showcasing the Russian 3 fighter jets taking off into the skies.",
    "sold": true,
     "image": "../images/watches/IMG_6929.jpg"
+  },
+  {
+     "id": "chaika-ladies-gold-oval-01",
+    "name": "Ladies Gold Oval",
+    "brand": "Chaika",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 20,
+    "priceRange": "$0-30",
+    "movement": "Manual",
+    "caseShape": "Small Oval",
+    "condition": "Working, worn but great aesthetic condition.",
+    "description": "A quiet Soviet ornament of time - where elegance was shaped in gold and worn with restraint.",
+     "sold": true,
+    "image": "../images/watches/IMG_3763.jpeg"
+  },
+  {
+   "id": "raketa-cushion-tvcase-01",
+    "name": "TV Case Gold",
+    "brand": "Raketa",
+    "era": "1970s",
+    "type": "Collector classic",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Raketa 2609.HA",
+    "caseShape": "Cushion TV",
+    "condition": "Working, with patina on dial and light scratches on acrylic.",
+    "description": "A relic of 1970s Soviet design, where brutal simplicity meets quiet elegance in aged steel and fading gold.",
+    "sold": true,
+    "image": "../images/watches/IMG_3693.jpg"
+  },
+  {
+     "id": "vostok-ship1",
+    "name": "Komandirskie Ship Illustrated",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Classic style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition.",
+      "description": "Ships bringing the world to your doorsteps.",
+   "sold": true,
+    "image": "../images/watches/ship2.jpg"
+  },
+ {
+     "id": "zarya-ladies-silver-sunburst-01",
+    "name": "Ladies Silver Sunburst",
+    "brand": "Zarya",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 20,
+    "priceRange": "$0-30",
+    "movement": "Manual",
+    "caseShape": "Rounded",
+    "condition": "Working, minor plating wear across bracelet.",
+    "description": "An everyday vintage ladies piece in the Soviet era.",
+   "sold": true,
+    "image": "../images/watches/IMG_3767.jpeg"
+  },
+ {
+   "id": "vostok-Amphibia-purple-01",
+    "name": "Amphibia Purple",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2209/2409",
+    "caseShape": "Cushion",
+    "condition": "In working condition.",
+    "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
+   "sold": true,
+    "image": "../images/watches/amphibia_purple.jpg"
+  },
+  {
+     "id": "zarya-dress-watch-01",
+    "name": "Dress Watch - USSR Export Dial",
+    "brand": "Zarya",
+    "era": "1970s",
+    "type": "Vintage classic",
+    "price": 45,
+    "priceRange": "$31-80",
+    "movement": "Manual",
+    "caseShape": "Round",
+    "condition": "Working - original bracelet signs of worn.",
+    "description": "Minimalist Soviet vintage with a simple everyday design. By Penza Watch Factory.",
+   "sold": true,
+    "image": "../images/watches/IMG_3604.jpg"
   }
 ]
