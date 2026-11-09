@@ -163,13 +163,13 @@ async function loadWatches() {
         if (modalTelegramBtn) {
           modalTelegramBtn.style.display = "inline-flex";
           modalTelegramBtn.href =
-            `https://t.me/Wantwotwee?text=${encodeURIComponent(enquiryMessage)}`;
+            `https://t.me/sleepy_bois_inc?text=${encodeURIComponent(enquiryMessage)}`;
         }
 
         if (modalWhatsappBtn) {
           modalWhatsappBtn.style.display = "inline-flex";
           modalWhatsappBtn.href =
-            `https://wa.me/6589202646?text=${encodeURIComponent(enquiryMessage)}`;
+            `https://wa.me/6580106614?text=${encodeURIComponent(enquiryMessage)}`;
         }
       }
 
