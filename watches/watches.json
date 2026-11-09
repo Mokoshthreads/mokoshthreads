@@ -83,20 +83,6 @@
     "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
     "image": "../images/watches/amphibia_sector.jpg"
   } ,
-    {
-   "id": "vostok-Amphibia-darkblue-01",
-    "name": "Amphibia Dark Blue",
-    "brand": "Vostok",
-    "era": "1980s",
-    "type": "Collector classic",
-    "price": 120,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2209/2409",
-    "caseShape": "Cushion",
-    "condition": "In working condition.",
-    "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
-    "image": "../images/watches/amphibia_blue.jpg"
-  } ,
   {
    "id": "vostok-Amphibia-albatross",
     "name": "Amphibia Albatross",
@@ -194,20 +180,6 @@
     "condition": "Great working condition.",
     "description": "An interesting upgrade to the Komandirskie watch with the Russian Vorder Guards emblem on it.",
     "image": "../images/watches/borderguards.jpg"
-  },
-   {
-     "id": "vostok-ship",
-    "name": "Komandirskie Ship Illustrated",
-    "brand": "Vostok",
-    "era": "2000s",
-    "type": "Classic style",
-    "price": 100,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Great working condition.",
-    "description": "Sailing across the vast ocean, in search for water.",
-    "image": "../images/watches/ship.jpg"
   },
  {
      "id": "vostok-komandirskie-Russian-Warship-01",
@@ -433,20 +405,6 @@
     "condition": "Good",
     "description": "Simple and elegant. Showcases the simplicity and endurance of Russian-made product.",
     "image": "../images/watches/plain_gold.jpg"
-  },
-      {
-    "id": "vostok-komandirskie-desertshieldcadet",
-    "name": "Komandirskie 'Operation Desert Shield' cadet version",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Collector classic",
-    "price": 90,
-    "priceRange": "$31-80",
-    "movement": "Manual Vostok 2409A",
-    "caseShape": "Round",
-    "condition": "Good",
-    "description": "Historical time-piece. Made in 1990-1991 to commemorate Operation Desert Shield, symbolizing Russia's support and allegiance to the USA. Mini 34mm cadet version.",
-    "image": "../images/watches/IMG_3246.jpeg"
   },
   {
      "id": "poljot-russianimperator",
@@ -1725,5 +1683,50 @@
     "description": "Minimalist Soviet vintage with a simple everyday design. By Penza Watch Factory.",
    "sold": true,
     "image": "../images/watches/IMG_3604.jpg"
+  },
+  {
+     "id": "vostok-ship",
+    "name": "Komandirskie Ship Illustrated",
+    "brand": "Vostok",
+    "era": "2000s",
+    "type": "Classic style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition.",
+    "description": "Sailing across the vast ocean, in search for water.",
+   "sold": true,
+    "image": "../images/watches/ship.jpg"
+  },
+ {
+    "id": "vostok-komandirskie-desertshieldcadet",
+    "name": "Komandirskie 'Operation Desert Shield' cadet version",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Collector classic",
+    "price": 90,
+    "priceRange": "$31-80",
+    "movement": "Manual Vostok 2409A",
+    "caseShape": "Round",
+    "condition": "Good",
+    "description": "Historical time-piece. Made in 1990-1991 to commemorate Operation Desert Shield, symbolizing Russia's support and allegiance to the USA. Mini 34mm cadet version.",
+   "sold": true,
+    "image": "../images/watches/IMG_3246.jpeg"
+  },
+ {
+   "id": "vostok-Amphibia-darkblue-01",
+    "name": "Amphibia Dark Blue",
+    "brand": "Vostok",
+    "era": "1980s",
+    "type": "Collector classic",
+    "price": 120,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2209/2409",
+    "caseShape": "Cushion",
+    "condition": "In working condition.",
+    "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
+  "sold": true,
+    "image": "../images/watches/amphibia_blue.jpg"
   }
 ]
