@@ -42,34 +42,6 @@
     "description": "A bold military-themed Soviet watch with strong wrist presence. A true Admiral's watch."
   },
   {
-     "id": "vostok-komandirskie-submarine-blue-01",
-    "name": "Komandirskie Submarine Blue",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 100,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Excellent working condition - Recently serviced.",
-    "description": "Soviet Naval Military Watch in striking blue and built to last.",
-    "image": "../images/watches/IMG_3788.jpeg"
-  }  ,
-   {
-     "id": "vostok-komandirskie-submarine-blue-03",
-    "name": "Komandirskie Submarine Blue with Gold",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 100,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Good working condition.",
-    "description": "Soviet Naval Military Watch in striking blue and built to last.",
-    "image": "../images/watches/submarine_blue.jpg"
-  }  ,
-  {
    "id": "vostok-Amphibia-sector-01",
     "name": "Amphibia Sector",
     "brand": "Vostok",
@@ -631,20 +603,6 @@
     "description": "By order of the Soviet Military. A true historical vintage piece.",
     "image": "../images/watches/IMG_3785.jpeg"
   } ,
-   {
-     "id": "vostok-komandirskie-scubadude-01",
-    "name": "Komandirskie Scuba Dude",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Collector Classic",
-    "price": 100,
-    "priceRange": "$91-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Working condition.",
-    "description": "The iconic Scuba Dude in gold. A definite conversation starter.",
-    "image": "../images/watches/IMG_3837.jpeg"
-  },
    {
      "id": "vostok-komandirskie-Dolphinmarine-01",
     "name": "Komandirskie Dolphin Marine Tropical",
@@ -1728,5 +1686,50 @@
     "description": "Soviet-era Vostok Amphibia, built for depths, worn with decades of patina, and the spirit of rugged engineering.",
   "sold": true,
     "image": "../images/watches/amphibia_blue.jpg"
+  },
+ {
+     "id": "vostok-komandirskie-submarine-blue-01",
+    "name": "Komandirskie Submarine Blue",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition - Recently serviced.",
+    "description": "Soviet Naval Military Watch in striking blue and built to last.",
+  "sold": true,
+    "image": "../images/watches/IMG_3788.jpeg"
+  }  ,
+   {
+     "id": "vostok-komandirskie-submarine-blue-03",
+    "name": "Komandirskie Submarine Blue with Gold",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Good working condition.",
+    "description": "Soviet Naval Military Watch in striking blue and built to last.",
+    "sold": true,
+    "image": "../images/watches/submarine_blue.jpg"
+  },
+ {
+     "id": "vostok-komandirskie-scubadude-01",
+    "name": "Komandirskie Scuba Dude",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Collector Classic",
+    "price": 100,
+    "priceRange": "$91-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Working condition.",
+    "description": "The iconic Scuba Dude in gold. A definite conversation starter.",
+   "sold": true,
+    "image": "../images/watches/IMG_3837.jpeg"
   }
 ]
