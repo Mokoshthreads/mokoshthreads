@@ -181,6 +181,20 @@
     "description": "Simple Patriotic Russian estate crest and flag.",
     "image": "../images/watches/russia_white.jpg"
   },
+  {
+     "id": "vostok-komandandirskie-gilette",
+    "name": "Komandirskie Gillette Blue 2 Limited Edition",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Limited Edition",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Excellent working condition.",
+    "description": "A limited time collab with Gillette in 2004. Comes with certificate.",
+    "image": "../images/watches/gilette.jpg"
+  },
  {
      "id": "vostok-komandirskie-multibranch-white-01",
     "name": "Komandirskie Airforce+Navy White",
