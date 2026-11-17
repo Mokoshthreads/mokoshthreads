@@ -462,20 +462,6 @@
     "description": "Built in the shadows of the Cold War, this Pobeda ticks with quiet Soviet resilience-simple, worn, enduring.",
     "image": "../images/watches/IMG_3691.jpg"
   },
-   {
-   "id": "vympel-diver-style-dress-01",
-    "name": "Diver-Style Dress",
-    "brand": "Vympel",
-    "era": "1980s",
-    "type": "Vintage classic",
-    "price": 20,
-    "priceRange": "$-80",
-    "movement": "Manual Penza",
-    "caseShape": "Sport",
-    "condition": "Not in working condition.",
-    "description": "Vintage Soviet sport watch with military-style bezel - affordable entry piece.",
-    "image": "../images/watches/IMG_3700.jpg"
-  },
       {
    "id": "raketa-date-black-01",
     "name": "Date Black",
