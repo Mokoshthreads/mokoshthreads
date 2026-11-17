@@ -448,20 +448,6 @@
     "description": "A quiet relic of Soviet engineering - where simplicity, steel, and time itself were built to endure.",
     "image": "../images/watches/IMG_3680.jpg"
   },
-  {
-   "id": "poljot-classic-dress-02",
-    "name": "Classic Dress",
-    "brand": "Poljot",
-    "era": "1960s",
-    "type": "Collector classic",
-    "price": 100,
-    "priceRange": "$81-120",
-    "movement": "Manual Poljot 2409",
-    "caseShape": "Round",
-    "condition": "Excellent working condition with light scratches on the acrylic, natural patina on the dial.",
-    "description": "Softened by time, this Poljot carries the quiet dignity of a Soviet era long past.",
-    "image": "../images/watches/IMG_3688.jpg"
-  },
     {
    "id": "pobeda-export-classic-01",
     "name": "Export Classic",
@@ -1731,5 +1717,20 @@
     "description": "Striking gold tank, perfect military representation.",
    "sold": true,
     "image": "../images/watches/tank_gold.jpg"
+  },
+  {
+   "id": "poljot-classic-dress-02",
+    "name": "Classic Dress",
+    "brand": "Poljot",
+    "era": "1960s",
+    "type": "Collector classic",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Poljot 2409",
+    "caseShape": "Round",
+    "condition": "Excellent working condition with light scratches on the acrylic, natural patina on the dial.",
+    "description": "Softened by time, this Poljot carries the quiet dignity of a Soviet era long past.",
+    "sold": true,
+    "image": "../images/watches/IMG_3688.jpg"
   }
 ]
