@@ -350,20 +350,6 @@
     "description": "Soviet airborne identity on the wrist.",
     "image": "../images/watches/paratrooper_gold.jpg"
   },
- {
-    "id": "vostok-komandirskie-navy_gold",
-    "name": "Komandirskie Navy Gold",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Collector classic",
-    "price": 90,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Great working condition.",
-    "description": "Soviet navy identity on the wrist.",
-    "image": "../images/watches/navy_gold.jpg"
-  },
     {
     "id": "vostok-komandirskie-plain-gold",
     "name": "Komandirskie Gold",
@@ -1718,5 +1704,20 @@
     "description": "Softened by time, this Poljot carries the quiet dignity of a Soviet era long past.",
     "sold": true,
     "image": "../images/watches/IMG_3688.jpg"
+  },
+  {
+    "id": "vostok-komandirskie-navy_gold",
+    "name": "Komandirskie Navy Gold",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Collector classic",
+    "price": 90,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition.",
+    "description": "Soviet navy identity on the wrist.",
+     "sold": true,
+    "image": "../images/watches/navy_gold.jpg"
   }
 ]
