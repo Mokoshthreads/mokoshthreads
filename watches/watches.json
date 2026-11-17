@@ -196,8 +196,8 @@
     "image": "../images/watches/IMG_3795.jpeg"
   },
   {
-     "id": "vostok-komandirskie-tankgoldstar",
-    "name": "Komandirskie Tank White Gold Star",
+     "id": "vostok-komandirskie-goldstar",
+    "name": "Komandirskie  White Gold Star",
     "brand": "Vostok",
     "era": "1990s",
     "type": "Military style",
@@ -206,8 +206,8 @@
     "movement": "Manual Vostok 2414A",
     "caseShape": "Round",
     "condition": "Excellent working condition - Recently serviced.",
-    "description": "Soviet Tank with Russian emblem. Stunning mesmerizing design.",
-    "image": "../images/watches/tank_goldstar.jpg"
+    "description": "Soviet  with Russian emblem. Stunning mesmerizing design.",
+    "image": "../images/watches/_goldstar.jpg"
   },
  {
    "id": "vostok-Komandirskie-Green-01",
@@ -363,20 +363,6 @@
     "condition": "Great working condition.",
     "description": "Soviet navy identity on the wrist.",
     "image": "../images/watches/navy_gold.jpg"
-  },
- {
-     "id": "vostok-komandirskie-Tank-Gold",
-    "name": "Komandirskie Tank Gold",
-    "brand": "Vostok",
-    "era": "1990s",
-    "type": "Military style",
-    "price": 100,
-    "priceRange": "$81-120",
-    "movement": "Manual Vostok 2414A",
-    "caseShape": "Round",
-    "condition": "Great working condition.",
-    "description": "Striking gold tank, perfect military representation.",
-    "image": "../images/watches/tank_gold.jpg"
   },
     {
     "id": "vostok-komandirskie-plain-gold",
@@ -1730,5 +1716,20 @@
     "description": "The iconic Scuba Dude in gold. A definite conversation starter.",
    "sold": true,
     "image": "../images/watches/IMG_3837.jpeg"
+  },
+ {
+     "id": "vostok-komandirskie-Tank-Gold",
+    "name": "Komandirskie Tank Gold",
+    "brand": "Vostok",
+    "era": "1990s",
+    "type": "Military style",
+    "price": 100,
+    "priceRange": "$81-120",
+    "movement": "Manual Vostok 2414A",
+    "caseShape": "Round",
+    "condition": "Great working condition.",
+    "description": "Striking gold tank, perfect military representation.",
+   "sold": true,
+    "image": "../images/watches/tank_gold.jpg"
   }
 ]
