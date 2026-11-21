@@ -121,10 +121,10 @@ class GroundedSchemaTests(DraftingTests):
         paragraphs = sections['items']['properties']['paragraphs']
         self.assertEqual((sections['minItems'], sections['maxItems']), (5, 5))
         self.assertEqual((paragraphs['minItems'], paragraphs['maxItems']), (2, 2))
-        for variant in paragraphs['items']['properties']['evidence']['items']['anyOf']:
-            sid = variant['properties']['source_id']['enum'][0]
-            for quote in variant['properties']['quote']['enum']:
-                self.assertIn(quote, self.sources[sid]['text'])
+        evidence = paragraphs['items']['properties']['evidence']['items']['properties']
+        self.assertEqual(set(evidence['source_id']['enum']), set(self.sources))
+        for quote in evidence['quote']['enum']:
+            self.assertTrue(any(quote in source['text'] for source in self.sources.values()))
         import re
         pattern = paragraphs['items']['properties']['text']['pattern']
         self.assertIsNone(re.fullmatch(pattern, ' '.join(['word'] * 49)))

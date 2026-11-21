@@ -67,7 +67,21 @@ def api(prompt, schema=None, research=False):
         with urllib.request.urlopen(request, timeout=240) as response:
             result = json.load(response)
     except urllib.error.HTTPError as error:
-        raise PipelineError(f'OpenAI API returned HTTP {error.code}. Check API billing, model/tool access and the saved key. No automatic paid retry was attempted.') from None
+        # Keep non-secret request diagnostics available to repository maintainers.
+        diagnostic = {'http_status': error.code}
+        try:
+            detail = json.loads(error.read()).get('error', {})
+            for key in ('code', 'param'):
+                value = detail.get(key)
+                if isinstance(value, str) and re.fullmatch(r'[A-Za-z0-9_.\[\]-]{1,150}', value):
+                    diagnostic[key] = value
+            message = detail.get('message', '')
+            if diagnostic.get('code') == 'invalid_json_schema' or message.startswith('Invalid schema'):
+                diagnostic['schema_error'] = message.replace(token, '[redacted]')[:2000]
+        except (ValueError, OSError):
+            pass
+        save_json(Path(__file__).resolve().parents[1] / '_editorial/drafts/last-api-error.json', diagnostic)
+        raise PipelineError(f'OpenAI API returned HTTP {error.code}. See the redacted request diagnostic in _editorial/drafts/last-api-error.json. No automatic paid retry was attempted.') from None
     except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
         raise PipelineError('OpenAI request could not be confirmed; no automatic paid retry was attempted.') from None
     text = response_text(result)
@@ -251,15 +265,15 @@ def grounded_schema(sources, title):
     props['text']['pattern'] = r'^\S+(?:\s+\S+){49,79}$'
     props['source_ids'].update(minItems=1, maxItems=2)
     props['source_ids']['items']['enum'] = list(sources)
-    variants = []
+    all_quotes = []
     terms = set(re.findall(r'\w+', title.lower())) | {'history', 'factory', 'reflex', 'meter', '1952', '1965', 'krasnogorsk', 'belomo', 'export', 'selenium'}
     for sid, source in sources.items():
         sentences = [part.strip()[:350] for part in re.split(r'(?<=[.!?])\s+', source['text']) if len(part.strip()) >= 20]
         sentences = list(dict.fromkeys(sentences))
         sentences.sort(key=lambda part: sum(term in part.lower() for term in terms), reverse=True)
         choices = sentences[:16] or [source['text'][:350]]
-        variants.append(obj({'source_id': {'type': 'string', 'enum': [sid]}, 'quote': {'type': 'string', 'enum': choices}}))
-    props['evidence']['items'] = {'anyOf': variants}
+        all_quotes.extend(choices)
+    props['evidence']['items'] = obj({'source_id': {'type': 'string', 'enum': list(sources)}, 'quote': {'type': 'string', 'enum': list(dict.fromkeys(all_quotes))}})
     props['evidence'].update(minItems=1, maxItems=2)
     return schema
 
