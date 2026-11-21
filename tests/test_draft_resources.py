@@ -148,3 +148,15 @@ class GroundedSchemaTests(DraftingTests):
             self.assertEqual(api.call_count, 2)
             self.assertEqual(issues, [])
             self.assertTrue(all(not call.kwargs.get('research') for call in api.call_args_list))
+
+
+class CanonicalCitationTests(unittest.TestCase):
+    def test_citation_comes_from_the_real_selected_passage(self):
+        draft = {'sections': [{'paragraphs': [{'text': 'Example', 'source_ids': ['s2'],
+            'evidence': [{'source_id': 's2', 'quote': 's1-p1'}]}]}]}
+        passages = {'s1-p1': {'source_id': 's1', 'quote': 'Actual retrieved source passage.'}}
+        drafting.resolve_evidence(draft, passages)
+        paragraph = draft['sections'][0]['paragraphs'][0]
+        self.assertEqual(paragraph['source_ids'], ['s1'])
+        self.assertEqual(paragraph['evidence'][0]['source_id'], 's1')
+        self.assertEqual(paragraph['evidence'][0]['quote'], 'Actual retrieved source passage.')
