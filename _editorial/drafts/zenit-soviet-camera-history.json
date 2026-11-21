@@ -1,24 +1,38 @@
 {
   "draft": {
     "title": "Zenit: The Soviet SLR That Went Everywhere",
-    "description": "A factual overview of Zenit cameras, from their origins in Soviet engineering to their global reach among serious amateurs.",
+    "description": "A factual overview of Zenit single-lens reflex cameras, tracing their origins, development, features, and widespread use in the Soviet Union and beyond.",
     "sections": [
       {
-        "heading": "Origins and Development",
+        "heading": "Origins of the Zenit Camera",
         "paragraphs": [
           {
-            "text": "Zenit cameras originated in the Soviet Union and have been manufactured since 1952 by KMZ in Krasnogorsk, near Moscow, and later by BelOMO in Belarus. The brand is known primarily for its 35mm single-lens reflex (SLR) cameras. Early Zenit models were directly based on Zorki rangefinder cameras, themselves copies of the German Leica II, with the addition of a mirror mechanism to convert them into SLRs. The fundamental design—removing the rangefinder, adding a ground-glass screen and prism, and pushing the lens mount forward—set the technical foundation for decades of Zenit production.",
+            "text": "Zenit cameras trace their beginnings to 1952, produced by KMZ in Krasnogorsk, near Moscow. The Zenit trademark is historically linked with 35 mm single-lens reflex (SLR) cameras and has been an integral part of Soviet photographic manufacturing for decades, later involving BelOMO in Belarus from the 1970s onward. Early Zenit cameras were based on the Zorki rangefinder, itself derived from the German Leica II.",
             "source_ids": [
+              "s1",
+              "s2"
+            ]
+          },
+          {
+            "text": "The first Zenit models, including the original Zenit and Zenit-C, were direct adaptations of Leica-based designs, accomplished by adding a reflex mirror mechanism to the Zorki. Modifications included replacing the rangefinder with a ground-glass screen and a pentaprism, resulting in a basic yet functional SLR built on established technology. This practical conversion shaped the early years of Zenit’s development.",
+            "source_ids": [
+              "s2",
               "s1"
             ]
           }
         ]
       },
       {
-        "heading": "Model Evolution and Features",
+        "heading": "Design and Technical Evolution",
         "paragraphs": [
           {
-            "text": "Zenit cameras developed incrementally. The original Zenit and Zenit-C models largely retained the design and features of the Zorki, adding a reflex mirror system. Over time, Zenit cameras evolved, with each new version bringing minor refinements. For example, the Zenit-3 introduced a lever-type shutter cocking mechanism, and the Zenit-3M adopted a hinged back for easier film loading. The Zenit-E, launched in the late 1960s, was a milestone. It included a return mirror, selenium exposure meter, and adopted the M42 screw-mount, making lens interchangeability more convenient. Later Zenits such as the EM, TTL, and 12XP featured automatic diaphragm actuation and through-the-lens (TTL) exposure metering systems.",
+            "text": "The initial Zenit models saw incremental improvements instead of radical overhauls. These changes, such as the addition of flash synchronization in the Zenit-S and a lever-type shutter cocking mechanism in the Zenit-3, were enough to prompt new model numbers. The Zenit-3M’s hinged back door simplified film loading, while other later models revised the mirror mechanisms to enhance usability.",
+            "source_ids": [
+              "s2"
+            ]
+          },
+          {
+            "text": "A significant step forward came with the Zenit-E, which introduced a return mirror and a built-in selenium exposure meter, along with the more universal M42 lens mount. These elements, combined with general refinements, positioned the Zenit-E as a robust and practical camera for the masses. The Zenit-E’s design highlighted the Soviet preference for sturdy, mechanical devices with only the most necessary features.",
             "source_ids": [
               "s2"
             ]
@@ -26,21 +40,16 @@
         ]
       },
       {
-        "heading": "Export and Global Reach",
+        "heading": "Key Features and Model Variants",
         "paragraphs": [
           {
-            "text": "Zenit SLRs were produced in very high quantities and widely exported. In the 1960s and 1970s, Soviet export policy saw Zenit cameras sent to 74 countries. Their durability and simplicity led to reputation for being exceptionally robust, while their affordability earned them a broad following among amateurs worldwide. In particular, the Zenit-E and its successors were heavily marketed in the United Kingdom and later distributed through mass retailers in Germany.",
+            "text": "Over time, the Zenit-E and its successors were released in a variety of configurations, offering options such as different exposure meters and more accessible shutter and rewind controls. Additional models like the Zenit-TTL brought a through-the-lens (TTL) exposure meter into the established Zenit-E design, further modernizing the line for amateur and more advanced users alike.",
             "source_ids": [
-              "s1"
+              "s2"
             ]
-          }
-        ]
-      },
-      {
-        "heading": "Target Audience and Usage",
-        "paragraphs": [
+          },
           {
-            "text": "Zenit cameras were predominantly aimed at serious amateurs, rather than absolute beginners or professionals. The typical features covered most photographic needs, with common models offering a basic range of shutter speeds and fully manual controls. Some Zenit cameras—even early models—served professional photographers within the Soviet Union, and the cameras became a symbol of Soviet photographic technology for decades. Most Zenits were equipped with standard Helios or Industar lenses, and the system’s broad selection of compatible optics remains notable.",
+            "text": "Other versions included the Zenit-B, a Zenit-E simplification without the exposure meter, and the Zenit-EM, which added automatic diaphragm actuation. As the lineup expanded, some models focused on additional electronic and automatic features, like the Zenit-Automat. However, the vast majority of Zenits favored manual operation and incremental improvements rather than sweeping technical changes.",
             "source_ids": [
               "s2"
             ]
@@ -48,10 +57,34 @@
         ]
       },
       {
-        "heading": "Legacy and Later Models",
+        "heading": "Widespread Use and Symbolic Impact",
         "paragraphs": [
           {
-            "text": "Zenit SLRs continued to be produced into the early 21st century, with models adapting to newer lens mounts and incorporating limited automation. The last SLR models were made until 2005. While later electronic and automatic models like the Zenit-AM2 introduced aperture-priority automation, most Zenits remained simple, robust mechanical cameras. Today, classic Zenit cameras and their lenses are accessible options for those interested in film photography, valued for their mechanical design and the extensive range of available lenses.",
+            "text": "Throughout the Soviet era, Zenit cameras became an essential tool for amateur photographers, offering a practical route to serious image-making. Their straightforward manual controls and acceptable quality made them widely popular among enthusiasts, aspiring photographers, and some professionals. By maintaining a balance of functionality and cost, Zenit established itself as a symbol of the Soviet photographic industry.",
+            "source_ids": [
+              "s2"
+            ]
+          },
+          {
+            "text": "Zenit models were produced for many years and attracted attention for their accessibility and durability. Most Zenit cameras targeted the serious amateur, filling a niche between entry-level Smena cameras and more advanced Kiev SLRs. Their design philosophy emphasized providing what was needed for effective film photography, without excessive features or automation.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Decline and Legacy",
+        "paragraphs": [
+          {
+            "text": "Production of Zenit cameras continued through the end of the Soviet Union and into the early 2000s. Manufacturing remained active at KMZ until 2005, when competition from Asian point-and-shoot cameras and advanced professional systems overtook the market share once held by Zenit. The last major model produced was the Zenit-KM Plus.",
+            "source_ids": [
+              "s2",
+              "s1"
+            ]
+          },
+          {
+            "text": "Despite no longer being manufactured, Zenit cameras maintain a legacy as one of the most recognizable icons of Soviet technology. The wide range of available lenses and the distinctive mechanical construction continue to draw interest from photographers and collectors, keeping the Zenit’s story alive in the context of analog photography history.",
             "source_ids": [
               "s2"
             ]
@@ -64,16 +97,7 @@
   "issues": [
     {
       "claim": "Article source checks",
-      "reason": "A supporting quotation could not be matched to the retrieved page.",
-      "evidence_needed": "Supply evidence or revise the unsupported passage.",
-      "source_urls": [
-        "https://en.wikipedia.org/wiki/Zenit_%28camera%29?utm_source=openai",
-        "https://sovietcameras.org/zenit-cameras/?utm_source=openai"
-      ]
-    },
-    {
-      "claim": "Article source checks",
-      "reason": "Article body must be between 450 and 950 words.",
+      "reason": "A citation lacks a matched evidence passage.",
       "evidence_needed": "Supply evidence or revise the unsupported passage.",
       "source_urls": [
         "https://en.wikipedia.org/wiki/Zenit_%28camera%29?utm_source=openai",
@@ -84,11 +108,11 @@
   "sources": {
     "s1": {
       "url": "https://en.wikipedia.org/wiki/Zenit_%28camera%29?utm_source=openai",
-      "sha256": "ab1f64a4662d8699c21a94134b944630e69c22795b2cb51276f1cdf82deef2d4"
+      "sha256": "a0b2b2234681db1e0f44e5c95afdfa51eede26ffdd1baedf99af0d83f3411837"
     },
     "s2": {
       "url": "https://sovietcameras.org/zenit-cameras/?utm_source=openai",
-      "sha256": "4bda2bb714554ab151b91a251a2534b564e4fdb4f70c53494e23dd06ea0713da"
+      "sha256": "32895e16ab2ad18ddf22480bea8725cdaaaebfa05c659dbeb15dab3c42f6dd3f"
     }
   }
 }
