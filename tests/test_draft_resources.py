@@ -127,12 +127,7 @@ class GroundedSchemaTests(DraftingTests):
         for passage_id in evidence['quote']['enum']:
             passage = passages[passage_id]
             self.assertIn(passage['quote'], self.sources[passage['source_id']]['text'])
-        import re
-        pattern = paragraphs['items']['properties']['text']['pattern']
-        self.assertIsNone(re.fullmatch(pattern, ' '.join(['word'] * 49)))
-        self.assertIsNotNone(re.fullmatch(pattern, ' '.join(['word'] * 50)))
-        self.assertIsNotNone(re.fullmatch(pattern, ' '.join(['word'] * 80)))
-        self.assertIsNone(re.fullmatch(pattern, ' '.join(['word'] * 81)))
+        self.assertNotIn('pattern', paragraphs['items']['properties']['text'])
 
     def test_retry_refetches_cached_urls_without_another_search_call(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -160,3 +155,30 @@ class CanonicalCitationTests(unittest.TestCase):
         self.assertEqual(paragraph['source_ids'], ['s1'])
         self.assertEqual(paragraph['evidence'][0]['source_id'], 's1')
         self.assertEqual(paragraph['evidence'][0]['quote'], 'Actual retrieved source passage.')
+
+class PreparedReviewTests(unittest.TestCase):
+    def fixture(self):
+        fixture = DraftingTests()
+        fixture.setUp()
+        passages = drafting.evidence_passages(fixture.sources, 'Example')
+        support = [{'paragraph_id': f'p{i}', 'passage_ids': ['s1-p1' if i % 2 else 's2-p1']} for i in range(1, 7)]
+        return fixture, passages, support
+
+    def test_prepared_article_needs_source_review_approval(self):
+        fixture, passages, support = self.fixture()
+        review = {'approved': False, 'issues': [{'claim': 'Date', 'reason': 'Conflicting evidence', 'evidence_needed': 'Manual', 'source_urls': []}], 'support': support}
+        with patch.object(drafting, 'api', return_value=(review, {})):
+            _, _, issues = drafting.review_prepared(fixture.draft, fixture.sources, passages)
+        self.assertEqual(issues[0]['reason'], 'Conflicting evidence')
+
+    def test_prepared_article_gets_citations_from_checked_passages(self):
+        fixture, passages, support = self.fixture()
+        with patch.object(drafting, 'api', return_value=({'approved': True, 'issues': [], 'support': support}, {})):
+            draft, _, issues = drafting.review_prepared(fixture.draft, fixture.sources, passages)
+        self.assertEqual(issues, [])
+        self.assertEqual(draft['sections'][0]['paragraphs'][0]['source_ids'], ['s1'])
+
+    def test_invisible_padding_does_not_pass_validation(self):
+        fixture, _, _ = self.fixture()
+        fixture.draft['sections'][0]['paragraphs'][0]['text'] += '\ufeff'
+        self.assertTrue(any('invisible' in issue for issue in drafting.validate_draft(fixture.draft, fixture.sources)))
