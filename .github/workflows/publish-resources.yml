@@ -1,0 +1,52 @@
+name: Publish scheduled Resources articles
+
+on:
+  schedule:
+    # Monday, 12:00 noon Malaysia/Singapore time (UTC+8).
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: scheduled-resources-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Test publishing rules
+        run: python3 -m unittest discover -s tests -p 'test_publish_resources.py'
+      - name: Release ready articles due by the latest Monday cutoff
+        id: release
+        run: |
+          python3 scripts/publish_resources.py --write
+          if git diff --quiet -- resources/resources.json; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Commit publication metadata
+        if: steps.release.outputs.changed == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add resources/resources.json
+          git commit -m 'Publish scheduled Resources articles'
+          git push origin HEAD:main
+      # A GITHUB_TOKEN commit does not automatically trigger a Pages build.
+      # Explicitly request one using the existing branch-based Pages setup.
+      # Also run on no-op/manual retries, so a failed build request can be retried
+      # after its publication metadata has already been committed.
+      - name: Request GitHub Pages build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"
