@@ -1,0 +1,16 @@
+{
+  "draft": null,
+  "issues": [
+    {
+      "claim": "Insufficient accessible sources for Zenit: The Soviet SLR That Went Everywhere",
+      "reason": "Fewer than two source domains could be retrieved as full text.",
+      "evidence_needed": "Provide reliable full source text, catalogue scans/transcriptions or accessible museum/factory references.",
+      "source_urls": [
+        "https://www.zenitcamera.com/mans/index-eng.html?utm_source=openai",
+        "https://www.zenitcamera.com/archive/zenit-1/index.html?utm_source=openai",
+        "https://www.zenitcamera.com/archive/history/marks.html?utm_source=openai"
+      ]
+    }
+  ],
+  "sources": {}
+}

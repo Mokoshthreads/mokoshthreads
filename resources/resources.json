@@ -76,7 +76,10 @@
         "film photography"
       ],
       "featured": false,
-      "published": false
+      "published": false,
+      "readyToPublish": false,
+      "series": "weekly-editorial",
+      "seriesOrder": 4
     },
     {
       "id": "slavic-embroidery-symbols",
