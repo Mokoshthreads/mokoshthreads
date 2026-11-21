@@ -50,6 +50,14 @@ class ResolutionTests(unittest.TestCase):
         self.assertIn('2026-11-30', message.call_args.args[0])
         self.assertIn('remains unpublished', message.call_args.args[0])
 
+    def test_immediately_published_article_reports_publication_not_a_future_slot(self):
+        self.topic['status'] = 'published'
+        self.topic['slug'] = 'example-article'
+        commands, message = self.run_case()
+        self.assertEqual(commands.call_count, 2)
+        self.assertIn('/resources/example-article/', message.call_args.args[0])
+        self.assertNotIn('remains unpublished', message.call_args.args[0])
+
     def test_unresolved_draft_cannot_close(self):
         self.record['issues'] = [{'reason': 'Still missing evidence'}]
         with self.assertRaises(RuntimeError):

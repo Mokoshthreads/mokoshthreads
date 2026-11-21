@@ -13,7 +13,7 @@ def main():
     repo = os.environ['GITHUB_REPOSITORY']
     for topic in queue['topics']:
         number = topic.get('issue_number')
-        if topic.get('status') != 'ready' or not isinstance(number, int):
+        if topic.get('status') not in ('ready', 'published') or not isinstance(number, int):
             continue
         result = subprocess.run(['gh', 'issue', 'view', str(number), '--repo', repo, '--json', 'state'], capture_output=True, text=True)
         if result.returncode:
@@ -24,15 +24,20 @@ def main():
         if record.get('issues'):
             raise RuntimeError('Refusing to close an issue with unresolved draft checks.')
         notes = record.get('editorial_review', {}).get('corrections', [])
-        comment = ('The article has been revised and is staged for its weekly publication slot: '
-                   + topic['publishAt'] + '. It has not been published early.\n\n'
-                   + '\n'.join('- ' + note for note in notes))
+        if topic['status'] == 'published':
+            article_url = 'https://mokoshthreads.com/resources/' + topic.get('slug', topic['id']) + '/'
+            comment = 'The source checks and article review are complete. The article has been published at the user’s request: ' + article_url
+            notification = 'Published after source checking: ' + article_url
+        else:
+            comment = ('The article has been revised and is staged for its weekly publication slot: '
+                       + topic['publishAt'] + '. It has not been published early.\n\n'
+                       + '\n'.join('- ' + note for note in notes))
+            notification = 'Queued for ' + topic['publishAt'] + '\nThe revised article is ready and remains unpublished until its slot.'
         result = subprocess.run(['gh', 'issue', 'close', str(number), '--repo', repo, '--comment', comment], capture_output=True, text=True)
         if result.returncode:
             raise RuntimeError('Could not close the resolved fact-check issue.')
         url = f'https://github.com/{repo}/issues/{number}'
-        send('Mokosh Threads — fact-check resolved\n\n' + topic['title'] + '\nQueued for ' + topic['publishAt']
-             + '\nThe revised article is ready and remains unpublished until its slot.\n' + url,
+        send('Mokosh Threads — fact-check resolved\n\n' + topic['title'] + '\n' + notification + '\n' + url,
              os.environ.get('TELEGRAM_BOT_TOKEN'), os.environ.get('TELEGRAM_CHAT_ID'))
         print(f'Resolved fact-check issue #{number}.')
 

@@ -33,9 +33,11 @@
       "publishAt": "2026-12-21T12:00:00+08:00",
       "image": "../../filmcameras/assets/01-zenit-e.webp",
       "imageAlt": "Zenit-E camera from the Mokosh Threads collection",
-      "status": "ready",
+      "status": "published",
       "issue_number": 2,
-      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/2"
+      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/2",
+      "publishedAt": "2026-11-22",
+      "publicationMode": "immediate at user request"
     },
     {
       "id": "slava-everyday-watches",

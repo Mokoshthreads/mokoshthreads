@@ -17,7 +17,7 @@
         "Constructivism",
         "Socialist Realism"
       ],
-      "featured": true,
+      "featured": false,
       "published": true
     },
     {
@@ -66,17 +66,14 @@
       "url": "./history-of-zenit-cameras/",
       "image": "../filmcameras/assets/01-zenit-e.webp",
       "imageAlt": "Zenit-E camera from the Mokosh Threads collection",
-      "date": "2026-12-21",
-      "readingTime": 4,
+      "date": "2026-11-22",
+      "readingTime": 3,
       "tags": [
         "Camera History"
       ],
-      "featured": false,
-      "published": false,
-      "readyToPublish": true,
-      "series": "weekly-editorial",
-      "seriesOrder": 4,
-      "publishAt": "2026-12-21T12:00:00+08:00"
+      "featured": true,
+      "published": true,
+      "readyToPublish": false
     },
     {
       "id": "slavic-embroidery-symbols",

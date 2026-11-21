@@ -57,3 +57,7 @@ The second command is a dry run. Do not invoke the drafting script locally witho
 ## Editorial resolution of supplied evidence
 
 When source excerpts are reviewed in the development chat, the corrected draft and its review decisions can be recorded in `_editorial/drafts/` and `_editorial/evidence/`, then the topic marked ready with staged HTML. A push updating the queue or evidence triggers **Resolve completed editorial fact checks**, which closes open issues only for ready topics whose draft record contains no unresolved issues, and sends a Telegram confirmation with the scheduled date. This does not publish the page early or weaken the automated checks for other topics.
+
+## Requested immediate articles
+
+`Research a requested Resources article` reads `_editorial/research-request.json` and targets one topic; it does not draft unrelated queue entries. An editor-prepared text in `_editorial/prepared/<id>.json` is reviewed against freshly retrieved source pages and actual evidence passages before it can become ready. Citation IDs are derived from the selected source passages. Invisible padding is rejected, and source-check failures do not become publication approval. Immediate publication is a separate explicit editorial action: the topic is then marked `published` so it is not drafted again by the weekly workflow.
