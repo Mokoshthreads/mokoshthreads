@@ -113,3 +113,36 @@ class RequestedTopicTests(unittest.TestCase):
             saved = json.loads((root / '_editorial/queue.json').read_text())
             self.assertNotIn('status', saved['topics'][0])
             self.assertEqual(saved['topics'][1]['status'], 'ready')
+
+class GroundedSchemaTests(DraftingTests):
+    def test_evidence_choices_are_real_source_substrings(self):
+        schema = drafting.grounded_schema(self.sources, 'Camera history')
+        sections = schema['properties']['sections']
+        paragraphs = sections['items']['properties']['paragraphs']
+        self.assertEqual((sections['minItems'], sections['maxItems']), (5, 5))
+        self.assertEqual((paragraphs['minItems'], paragraphs['maxItems']), (2, 2))
+        for variant in paragraphs['items']['properties']['evidence']['items']['anyOf']:
+            sid = variant['properties']['source_id']['enum'][0]
+            for quote in variant['properties']['quote']['enum']:
+                self.assertIn(quote, self.sources[sid]['text'])
+        import re
+        pattern = paragraphs['items']['properties']['text']['pattern']
+        self.assertIsNone(re.fullmatch(pattern, ' '.join(['word'] * 49)))
+        self.assertIsNotNone(re.fullmatch(pattern, ' '.join(['word'] * 50)))
+        self.assertIsNotNone(re.fullmatch(pattern, ' '.join(['word'] * 80)))
+        self.assertIsNone(re.fullmatch(pattern, ' '.join(['word'] * 81)))
+
+    def test_retry_refetches_cached_urls_without_another_search_call(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            path = root / '_editorial/drafts/example.json'
+            path.parent.mkdir(parents=True)
+            path.write_text(json.dumps({'sources': self.sources}))
+            review = {'approved': True, 'issues': []}
+            with patch.object(drafting, 'api', side_effect=[(self.draft, {}), (review, {})]) as api, \
+                 patch.object(drafting, 'fetch_source', side_effect=[self.sources['s1'], self.sources['s2']]) as fetch:
+                _, _, issues = drafting.process(root, {'id': 'example', 'title': 'Example'})
+            self.assertEqual(fetch.call_count, 2)
+            self.assertEqual(api.call_count, 2)
+            self.assertEqual(issues, [])
+            self.assertTrue(all(not call.kwargs.get('research') for call in api.call_args_list))
