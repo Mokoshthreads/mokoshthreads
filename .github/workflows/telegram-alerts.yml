@@ -1,0 +1,36 @@
+name: Telegram editorial alerts
+
+on:
+  workflow_dispatch:
+  issues:
+    types: [labeled]
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    if: github.event_name == 'workflow_dispatch' || github.event.label.name == 'fact-check'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Send connection test
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_MESSAGE: >-
+            Mokosh Threads — Telegram connection test.
+            Your bot can now send alerts from GitHub Actions.
+            Fact-check alerts can include the claim, sources and evidence needed.
+            This confirms messaging only; automatic article drafting is not enabled yet.
+        run: python3 scripts/telegram_notify.py
+      - name: Send fact-check alert
+        if: github.event_name == 'issues'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 scripts/telegram_notify.py --issue
