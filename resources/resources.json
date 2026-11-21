@@ -24,20 +24,21 @@
       "id": "what-is-vyshyvanka",
       "title": "What Is a Vyshyvanka?",
       "category": "Guides",
-      "excerpt": "An introduction to embroidered Ukrainian shirts, their cultural context, regional traditions and the details to notice when choosing one.",
+      "excerpt": "A simple introduction to Ukrainian embroidered shirts: their fabrics, stitching, regional variety and place in cultural life.",
       "url": "./what-is-a-vyshyvanka/",
-      "image": "",
-      "imageAlt": "Traditional embroidered Slavic clothing",
-      "date": "2026-08-10",
-      "readingTime": 6,
+      "image": "../images/blouse-podilska-red-02.jpeg",
+      "imageAlt": "Red embroidered blouse from the Mokosh Threads clothing catalogue",
+      "date": "2027-01-18",
+      "readingTime": 4,
       "tags": [
-        "vyshyvanka",
-        "Ukrainian clothing",
-        "embroidery",
-        "Slavic clothing"
+        "Guides"
       ],
       "featured": false,
-      "published": false
+      "published": false,
+      "readyToPublish": true,
+      "publishAt": "2027-01-18T12:00:00+08:00",
+      "series": "weekly-editorial",
+      "seriesOrder": 8
     },
     {
       "id": "history-vostok-watches",

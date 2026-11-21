@@ -1,0 +1,121 @@
+{
+  "draft": {
+    "title": "What Is a Vyshyvanka?",
+    "description": "A simple introduction to Ukrainian embroidered shirts: their fabrics, stitching, regional variety and place in cultural life.",
+    "sections": [
+      {
+        "heading": "An embroidered Ukrainian shirt",
+        "paragraphs": [
+          {
+            "text": "A vyshyvanka is an embroidered shirt or blouse associated with Ukrainian dress. Examples are worn by men, women and children, and their appearance can vary greatly. The word is useful as an introduction to the garment, but it does not describe one single pattern, colour scheme or cut shared by every Ukrainian community.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "The shirt is also only one part of a wider clothing tradition. Historically, it could be worn with other garments and accessories that differed by place and occasion. Looking at an embroidered shirt in isolation can therefore miss part of its context: how it was made, who wore it and how it fitted into a complete outfit.",
+            "source_ids": [
+              "s4"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Fabric, stitches and placement",
+        "paragraphs": [
+          {
+            "text": "Traditional embroidered shirts were made from fabrics such as linen or hemp cloth, with materials varying across places and periods. Embroidery often appeared around the neck opening, sleeves and cuffs. The relationship between the decoration and the construction of the shirt is part of its design, rather than the embroidery being a separate image added without reference to the garment.",
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
+          },
+          {
+            "text": "Cross-stitch is familiar to many people, but Ukrainian embroidery includes other techniques as well. Different stitches, thread colours and ways of arranging the work create different surfaces and patterns. A shirt with restrained embroidery and a shirt with densely decorated sleeves can both belong within this broader tradition; one visual formula does not cover every example.",
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Regional variety and motifs",
+        "paragraphs": [
+          {
+            "text": "Geometric forms and plant-inspired designs appear in Ukrainian embroidery, with considerable regional and local variation. The combination of technique, fabric, colour and placement can be as important as the motif itself. This is why a museum record or a documented regional example can tell us more about a shirt than identifying a flower or diamond shape alone.",
+            "source_ids": [
+              "s3"
+            ]
+          },
+          {
+            "text": "Symbolic interpretations should be read in their particular context. A general chart assigning one fixed meaning to each colour or shape cannot, by itself, establish the history of an individual garment. When a particular meaning is claimed, it is useful to ask which region, period, community or source that interpretation comes from.",
+            "source_ids": [
+              "s1",
+              "s4"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "A living clothing tradition",
+        "paragraphs": [
+          {
+            "text": "Embroidered shirts have formed part of festive and ceremonial dress, while the tradition has also changed over time. A garment’s use depends on its wearer and setting. It is therefore helpful to distinguish a historical shirt documented in a collection from a contemporary design inspired by older embroidery, rather than assuming that both represent exactly the same practice.",
+            "source_ids": [
+              "s3",
+              "s5"
+            ]
+          },
+          {
+            "text": "Today the vyshyvanka is widely associated with Ukrainian cultural identity. It can be worn for public celebrations and family occasions, as well as incorporated into contemporary clothing. Ukrainian communities outside Ukraine also participate in this tradition. Its significance extends beyond the appearance of the stitching to the cultural connections expressed through wearing it.",
+            "source_ids": [
+              "s4"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Understanding a modern example",
+        "paragraphs": [
+          {
+            "text": "For a modern shirt, the name alone does not establish its age, material or method of manufacture. Those details should come from the maker, a reliable label or a documented history. Asking about the fabric, embroidery technique and inspiration for the pattern is a practical way to understand the particular garment rather than relying only on a broad category name.",
+            "source_ids": [
+              "s5"
+            ]
+          },
+          {
+            "text": "The photographs in this article show clothing from the Mokosh Threads catalogue. They illustrate contemporary embroidered garments, rather than dated museum objects or a complete survey of Ukrainian regional dress. To learn more about a historical style, compare documented examples from collections and regional studies alongside the modern garment that first caught your attention.",
+            "source_ids": [
+              "s4"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": []
+  },
+  "issues": [],
+  "sources": {
+    "s1": {
+      "url": "https://honchar.org.ua/en/collections/detail/3187?utm_source=openai",
+      "sha256": "108c27fb579985b0850b91119920b55f285ab9d5b2dd02c16e54a47a18869927"
+    },
+    "s2": {
+      "url": "https://honchar.org.ua/en/collections/detail/2565?utm_source=openai",
+      "sha256": "fd2faac5159f478af549660b21614eef500b9f90199286ed6b7b15cb2792c67d"
+    },
+    "s3": {
+      "url": "https://honchar.org.ua/en/collections/detail/2667?utm_source=openai",
+      "sha256": "dbcfe4c63b8b5288ab35a1824c6c432818aea4104d17016d3ca992511fc8809a"
+    },
+    "s4": {
+      "url": "https://vyshyvankadaily.live/en/regions/cherkaska-oblast/?utm_source=openai",
+      "sha256": "ad260f3676820accf2d03d5e8d5629381d50193ad64197f9e978e2f11ac49494"
+    },
+    "s5": {
+      "url": "https://vyshyvankadaily.live/en/regions/kirovohradska-oblast/?utm_source=openai",
+      "sha256": "6a5f3a6ed190b8deb36cfe28e7811745dfb18a5f68bad609aec9286a0e743069"
+    }
+  }
+}
