@@ -53,3 +53,7 @@ python3 scripts/publish_resources.py --now 2026-11-30T04:00:00Z
 ```
 
 The second command is a dry run. Do not invoke the drafting script locally without knowingly configuring paid API access; its calls are real.
+
+## Editorial resolution of supplied evidence
+
+When source excerpts are reviewed in the development chat, the corrected draft and its review decisions can be recorded in `_editorial/drafts/` and `_editorial/evidence/`, then the topic marked ready with staged HTML. A push updating the queue or evidence triggers **Resolve completed editorial fact checks**, which closes open issues only for ready topics whose draft record contains no unresolved issues, and sends a Telegram confirmation with the scheduled date. This does not publish the page early or weaken the automated checks for other topics.

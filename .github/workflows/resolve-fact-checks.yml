@@ -1,0 +1,34 @@
+name: Resolve completed editorial fact checks
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_editorial/queue.json'
+      - '_editorial/evidence/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: editorial-fact-check-resolutions
+  cancel-in-progress: false
+
+jobs:
+  resolve:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Close resolved checks and notify Telegram
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python3 scripts/resolve_fact_checks.py

@@ -1,0 +1,28 @@
+# Evidence review: Komandirskie vs Amphibia
+
+User supplied ScubaDude and Mostra source excerpts in the development chat, to be compared with previously supplied Amphibia and Watches of the USSR histories. No remote retrieval is claimed.
+
+s1: https://scubadudestore.com/blogs/top-news-stories/vostok-amphibia-vs-komandirskie-whats-the-difference-and-which-one-should-you-get
+Type: Commercial comparison; user-supplied excerpt
+Relevant supplied passage: Both lines come from the same factory — Vostok in Chistopol. The Amphibia was introduced in 1967. The Komandirskie line is older, dating back to 1965. Its water resistance is usually limited to splash protection or shallow depths (think 20–30 meters unless stated otherwise).
+
+s2: https://www.mostra-store.com/en/magazine/vostok-the-soviet-watchmaking-legacy-from-propaganda-to-collectibles
+Type: Commercial history; user-supplied excerpt
+Relevant supplied passage: In 1965, at the height of the Cold War, Vostok released the Komandirskie ("Commander") model.
+
+s3: https://vostokamphibia.com/articles/amphibia-watch-history/
+Type: Specialist commercial history; source text previously supplied
+Relevant supplied passage: The history of Vostok goes back to 1941, when equipment and workers from the Second Moscow Watch Factory were evacuated east during the Second World War. According to the factory’s own historical account, the Amphibia was introduced in 1967 with water resistance up to 200 meters. The Amphibia’s water resistance was not the result of a single “magic” component. It came from the interaction between the crystal, gasket, case, crown and case back.
+
+s4: https://mroatman.wixsite.com/watches-of-the-ussr/komandirskie
+Type: Collector reference; source text previously supplied
+Relevant supplied passage: In 1965, the Vostok Watch Factory was appointed as the official supplier of watches for the Ministry of Defence of the Soviet Union. It was at this time that the Komandirskie line of watches were developed and manufactured. As the watches sold through Voentorg were not specifically military-issued, these pieces were often bought as souvenirs.
+
+Review decisions:
+- Second Moscow Watch Factory replaces erroneous First Moscow attribution in the blocked AI draft.
+- Removed current factory output, internal structure and current military/civilian certification claims as unnecessary to the comparison.
+- Removed unverified calibre/crown claims and avoided blanket crystal-material/shape rules.
+- Used Mostra only to corroborate its 1965 Komandirskie date; did not adopt its medal, exclusivity, market-growth or wartime automatic-production claims.
+- Depth figures are attributed or model-specific, not promises of the condition of a vintage watch.
+
+Approved for its existing Monday 30 November 2026, 12:00 UTC+8 slot. This review replaces the unsupported AI draft; it does not disable checks for future articles.

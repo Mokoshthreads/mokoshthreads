@@ -142,18 +142,21 @@
       "id": "komandirskie-vs-amphibia",
       "title": "Komandirskie vs Amphibia: Understanding Vostok’s Two Famous Watch Families",
       "category": "Watch History",
-      "excerpt": "Article in preparation.",
+      "excerpt": "Compare Vostok’s Komandirskie and Amphibia families: their 1965 and 1967 origins, design purposes, military associations and model-specific specifications.",
       "url": "./komandirskie-vs-amphibia/",
-      "image": "",
-      "imageAlt": "",
+      "image": "../images/watches/hovercraft_blue.jpg",
+      "imageAlt": "Vostok Komandirskie Hovercraft Blue from the Mokosh Threads collection",
       "date": "2026-11-30",
       "readingTime": 4,
-      "tags": [],
+      "tags": [
+        "Watch History"
+      ],
       "featured": false,
       "published": false,
-      "readyToPublish": false,
+      "readyToPublish": true,
       "series": "weekly-editorial",
-      "seriesOrder": 1
+      "seriesOrder": 1,
+      "publishAt": "2026-11-30T12:00:00+08:00"
     }
   ]
 }
