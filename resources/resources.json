@@ -62,24 +62,21 @@
       "id": "zenit-soviet-camera-history",
       "title": "Zenit: The Soviet SLR That Went Everywhere",
       "category": "Camera History",
-      "excerpt": "A look at the Zenit camera family, the factories behind it and why these mechanical SLRs remain approachable entry points into Soviet photography.",
+      "excerpt": "From the early Krasnogorsk cameras to the Zenit-E and TTL: a short history of a widely exported Soviet 35mm SLR family.",
       "url": "./history-of-zenit-cameras/",
-      "image": "",
-      "imageAlt": "Vintage Soviet Zenit film camera",
-      "date": "2026-08-08",
-      "readingTime": 7,
+      "image": "../filmcameras/assets/01-zenit-e.webp",
+      "imageAlt": "Zenit-E camera from the Mokosh Threads collection",
+      "date": "2026-12-21",
+      "readingTime": 4,
       "tags": [
-        "Zenit",
-        "Soviet cameras",
-        "35mm",
-        "SLR",
-        "film photography"
+        "Camera History"
       ],
       "featured": false,
       "published": false,
-      "readyToPublish": false,
+      "readyToPublish": true,
       "series": "weekly-editorial",
-      "seriesOrder": 4
+      "seriesOrder": 4,
+      "publishAt": "2026-12-21T12:00:00+08:00"
     },
     {
       "id": "slavic-embroidery-symbols",
