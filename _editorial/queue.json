@@ -1,20 +1,108 @@
 {
   "topics": [
-    {"id":"komandirskie-vs-amphibia","title":"Komandirskie vs Amphibia: Understanding Vostok’s Two Famous Watch Families","category":"Watch History","publishAt":"2026-11-30T12:00:00+08:00","image":"../../images/watches/hovercraft_blue.jpg","imageAlt":"Vostok Komandirskie Hovercraft Blue from the Mokosh Threads collection"},
-    {"id":"raketa-petrodvorets","title":"Raketa: The Watchmaker of Petrodvorets","category":"Watch History","publishAt":"2026-12-07T12:00:00+08:00"},
-    {"id":"poljot-first-moscow","title":"Poljot and the First Moscow Watch Factory","category":"Watch History","publishAt":"2026-12-14T12:00:00+08:00"},
-    {"id":"zenit-soviet-camera-history","slug":"history-of-zenit-cameras","title":"Zenit: A Short History of the Soviet SLR Camera","category":"Camera History","publishAt":"2026-12-21T12:00:00+08:00"},
-    {"id":"slava-everyday-watches","title":"Slava Watches: Everyday Soviet Timekeeping","category":"Watch History","publishAt":"2026-12-28T12:00:00+08:00"},
-    {"id":"pobeda-victory","title":"Pobeda: The Watch Named Victory","category":"Watch History","publishAt":"2027-01-04T12:00:00+08:00"},
-    {"id":"molnija-pocket-watches","title":"Molnija: From Pocket Watches to Collectors’ Favourites","category":"Watch History","publishAt":"2027-01-11T12:00:00+08:00"},
-    {"id":"what-is-vyshyvanka","slug":"what-is-a-vyshyvanka","title":"What Is a Vyshyvanka? A Simple Guide to Ukrainian Embroidery","category":"Guides","publishAt":"2027-01-18T12:00:00+08:00"},
-    {"id":"soviet-watches-space","title":"Soviet Watches and the Space Programme: Documented History and Popular Stories","category":"Watch History","publishAt":"2027-01-25T12:00:00+08:00"},
-    {"id":"soviet-alarm-watches","title":"Soviet Alarm Watches: How a Mechanical Watch Rings","category":"Watch History","publishAt":"2027-02-01T12:00:00+08:00"},
-    {"id":"elektronika-digital-watches","title":"Elektronika: The Soviet Union’s Digital Watches","category":"Watch History","publishAt":"2027-02-08T12:00:00+08:00"},
-    {"id":"slavic-embroidery-symbols","slug":"slavic-embroidery-symbols","title":"Flowers, Birds and Geometric Patterns in Slavic Embroidery","category":"Slavic Culture","publishAt":"2027-02-15T12:00:00+08:00"},
-    {"id":"imperial-russia-timekeeping","title":"Timekeeping in Imperial Russia: Before the Soviet Watch Factories","category":"Watch History","publishAt":"2027-02-22T12:00:00+08:00"},
-    {"id":"imperial-russian-pocket-watches","title":"Pocket Watches in Imperial Russia: Makers, Imports and Retailers","category":"Watch History","publishAt":"2027-03-01T12:00:00+08:00"},
-    {"id":"soviet-watch-calibres","title":"Inside a Soviet Watch: Movements, Jewels and Calibre Numbers Explained","category":"Guides","publishAt":"2027-03-08T12:00:00+08:00"},
-    {"id":"russian-enamel-imperial","title":"Russian Enamel: Colour and Craft in the Imperial Era","category":"Slavic Culture","publishAt":"2027-03-15T12:00:00+08:00"}
+    {
+      "id": "komandirskie-vs-amphibia",
+      "title": "Komandirskie vs Amphibia: Understanding Vostok’s Two Famous Watch Families",
+      "category": "Watch History",
+      "publishAt": "2026-11-30T12:00:00+08:00",
+      "image": "../../images/watches/hovercraft_blue.jpg",
+      "imageAlt": "Vostok Komandirskie Hovercraft Blue from the Mokosh Threads collection",
+      "status": "needs_verification",
+      "issue_number": 1,
+      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/1"
+    },
+    {
+      "id": "raketa-petrodvorets",
+      "title": "Raketa: The Watchmaker of Petrodvorets",
+      "category": "Watch History",
+      "publishAt": "2026-12-07T12:00:00+08:00"
+    },
+    {
+      "id": "poljot-first-moscow",
+      "title": "Poljot and the First Moscow Watch Factory",
+      "category": "Watch History",
+      "publishAt": "2026-12-14T12:00:00+08:00"
+    },
+    {
+      "id": "zenit-soviet-camera-history",
+      "slug": "history-of-zenit-cameras",
+      "title": "Zenit: A Short History of the Soviet SLR Camera",
+      "category": "Camera History",
+      "publishAt": "2026-12-21T12:00:00+08:00"
+    },
+    {
+      "id": "slava-everyday-watches",
+      "title": "Slava Watches: Everyday Soviet Timekeeping",
+      "category": "Watch History",
+      "publishAt": "2026-12-28T12:00:00+08:00"
+    },
+    {
+      "id": "pobeda-victory",
+      "title": "Pobeda: The Watch Named Victory",
+      "category": "Watch History",
+      "publishAt": "2027-01-04T12:00:00+08:00"
+    },
+    {
+      "id": "molnija-pocket-watches",
+      "title": "Molnija: From Pocket Watches to Collectors’ Favourites",
+      "category": "Watch History",
+      "publishAt": "2027-01-11T12:00:00+08:00"
+    },
+    {
+      "id": "what-is-vyshyvanka",
+      "slug": "what-is-a-vyshyvanka",
+      "title": "What Is a Vyshyvanka? A Simple Guide to Ukrainian Embroidery",
+      "category": "Guides",
+      "publishAt": "2027-01-18T12:00:00+08:00"
+    },
+    {
+      "id": "soviet-watches-space",
+      "title": "Soviet Watches and the Space Programme: Documented History and Popular Stories",
+      "category": "Watch History",
+      "publishAt": "2027-01-25T12:00:00+08:00"
+    },
+    {
+      "id": "soviet-alarm-watches",
+      "title": "Soviet Alarm Watches: How a Mechanical Watch Rings",
+      "category": "Watch History",
+      "publishAt": "2027-02-01T12:00:00+08:00"
+    },
+    {
+      "id": "elektronika-digital-watches",
+      "title": "Elektronika: The Soviet Union’s Digital Watches",
+      "category": "Watch History",
+      "publishAt": "2027-02-08T12:00:00+08:00"
+    },
+    {
+      "id": "slavic-embroidery-symbols",
+      "slug": "slavic-embroidery-symbols",
+      "title": "Flowers, Birds and Geometric Patterns in Slavic Embroidery",
+      "category": "Slavic Culture",
+      "publishAt": "2027-02-15T12:00:00+08:00"
+    },
+    {
+      "id": "imperial-russia-timekeeping",
+      "title": "Timekeeping in Imperial Russia: Before the Soviet Watch Factories",
+      "category": "Watch History",
+      "publishAt": "2027-02-22T12:00:00+08:00"
+    },
+    {
+      "id": "imperial-russian-pocket-watches",
+      "title": "Pocket Watches in Imperial Russia: Makers, Imports and Retailers",
+      "category": "Watch History",
+      "publishAt": "2027-03-01T12:00:00+08:00"
+    },
+    {
+      "id": "soviet-watch-calibres",
+      "title": "Inside a Soviet Watch: Movements, Jewels and Calibre Numbers Explained",
+      "category": "Guides",
+      "publishAt": "2027-03-08T12:00:00+08:00"
+    },
+    {
+      "id": "russian-enamel-imperial",
+      "title": "Russian Enamel: Colour and Craft in the Imperial Era",
+      "category": "Slavic Culture",
+      "publishAt": "2027-03-15T12:00:00+08:00"
+    }
   ]
 }

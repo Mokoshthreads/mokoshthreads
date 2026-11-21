@@ -30,7 +30,12 @@
       "imageAlt": "Traditional embroidered Slavic clothing",
       "date": "2026-08-10",
       "readingTime": 6,
-      "tags": ["vyshyvanka", "Ukrainian clothing", "embroidery", "Slavic clothing"],
+      "tags": [
+        "vyshyvanka",
+        "Ukrainian clothing",
+        "embroidery",
+        "Slavic clothing"
+      ],
       "featured": false,
       "published": false
     },
@@ -44,7 +49,12 @@
       "imageAlt": "Vostok Komandirskie Hovercraft Blue from the Mokosh Threads collection",
       "date": "2026-11-22",
       "readingTime": 6,
-      "tags": ["Vostok", "Soviet watches", "Komandirskie", "Amphibia"],
+      "tags": [
+        "Vostok",
+        "Soviet watches",
+        "Komandirskie",
+        "Amphibia"
+      ],
       "featured": false,
       "published": true
     },
@@ -58,7 +68,13 @@
       "imageAlt": "Vintage Soviet Zenit film camera",
       "date": "2026-08-08",
       "readingTime": 7,
-      "tags": ["Zenit", "Soviet cameras", "35mm", "SLR", "film photography"],
+      "tags": [
+        "Zenit",
+        "Soviet cameras",
+        "35mm",
+        "SLR",
+        "film photography"
+      ],
       "featured": false,
       "published": false
     },
@@ -72,7 +88,12 @@
       "imageAlt": "Traditional Slavic embroidery patterns",
       "date": "2026-08-07",
       "readingTime": 9,
-      "tags": ["Slavic culture", "embroidery", "symbols", "folk clothing"],
+      "tags": [
+        "Slavic culture",
+        "embroidery",
+        "symbols",
+        "folk clothing"
+      ],
       "featured": false,
       "published": false
     },
@@ -86,7 +107,12 @@
       "imageAlt": "Slavic-inspired traditional clothing for Renfaire",
       "date": "2026-08-06",
       "readingTime": 6,
-      "tags": ["Renfaire", "costume", "Slavic clothing", "outfit guide"],
+      "tags": [
+        "Renfaire",
+        "costume",
+        "Slavic clothing",
+        "outfit guide"
+      ],
       "featured": false,
       "published": false
     },
@@ -100,9 +126,34 @@
       "imageAlt": "Selection of vintage Soviet film cameras",
       "date": "2026-08-05",
       "readingTime": 10,
-      "tags": ["buying guide", "Soviet cameras", "Zenit", "Smena", "Zorki", "FED", "Kiev"],
+      "tags": [
+        "buying guide",
+        "Soviet cameras",
+        "Zenit",
+        "Smena",
+        "Zorki",
+        "FED",
+        "Kiev"
+      ],
       "featured": false,
       "published": false
+    },
+    {
+      "id": "komandirskie-vs-amphibia",
+      "title": "Komandirskie vs Amphibia: Understanding Vostok’s Two Famous Watch Families",
+      "category": "Watch History",
+      "excerpt": "Article in preparation.",
+      "url": "./komandirskie-vs-amphibia/",
+      "image": "",
+      "imageAlt": "",
+      "date": "2026-11-30",
+      "readingTime": 4,
+      "tags": [],
+      "featured": false,
+      "published": false,
+      "readyToPublish": false,
+      "series": "weekly-editorial",
+      "seriesOrder": 1
     }
   ]
 }

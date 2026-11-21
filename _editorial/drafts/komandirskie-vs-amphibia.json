@@ -1,0 +1,169 @@
+{
+  "draft": {
+    "title": "Komandirskie vs Amphibia: Understanding Vostok’s Two Famous Watch Families",
+    "description": "A factual overview of Vostok’s iconic Komandirskie and Amphibia lines, their historical roles, technical traits and their continuing production in Russia.",
+    "sections": [
+      {
+        "heading": "Vostok: From Factory Origins to Watch Icon",
+        "paragraphs": [
+          {
+            "text": "Vostok is one of Russia’s best-known watch manufacturers, based in Chistopol, Tatarstan. Its origins trace back to 1941 when the First Moscow Watch Factory was evacuated to Chistopol during World War II. Initially focused on military production, the factory began making wristwatches for the Red Army commanders in 1943, with civilian and military timepieces following after the war. In the 1960s, the factory adopted the name Vostok, under which it still operates in Chistopol, producing rugged mechanical watches for both military and civilian purposes.",
+            "source_ids": [
+              "s2",
+              "s3",
+              "s4"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Komandirskie: The Soviet Field Watch Classic",
+        "paragraphs": [
+          {
+            "text": "The Komandirskie was introduced in 1965 after the Chistopol factory became an official supplier to the USSR Ministry of Defence. Designed as a robust field watch for Soviet officers, the Komandirskie name means 'commander’s.' Over time, its reputation grew for being tough, affordable, and reliable, making it popular with both military personnel and civilians. Komandirskie watches have been produced in various mechanical configurations, including both manual and automatic movements.",
+            "source_ids": [
+              "s2",
+              "s3",
+              "s4"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Amphibia: Designed for Depth",
+        "paragraphs": [
+          {
+            "text": "The Amphibia joined Vostok’s lineup in 1967 as a purpose-built diver’s watch and quickly became an icon. Its most distinctive technical feature is a pressure-assisted sealing system using a unique two-part crown and case design, allowing it to withstand substantial underwater pressure. This double-seal system was developed to avoid dependence on Western patents, strengthening waterproofing as water pressure increases. Amphibia watches are offered in a variety of case and dial designs and are rated for significant water resistance, typically 200 meters.",
+            "source_ids": [
+              "s2",
+              "s3",
+              "s4",
+              "s1"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Movements and Mechanical Details",
+        "paragraphs": [
+          {
+            "text": "Both Komandirskie and Amphibia ranges have used a variety of movements. Notably, reference and catalog material cite the 2416B automatic/manual-wind movement as being present in modern examples of both lines. This calibre offers shock protection and can be wound automatically or manually. The 2416B has no quick-set date function; the date advances by moving the hands around midnight. A notable trait of Vostok crowns, especially in Amphibia models, is their intentional 'wobbly' feel when unscrewed—this is designed to help absorb impacts and protect the winding stem.",
+            "source_ids": [
+              "s4",
+              "s1",
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Current Production and Availability",
+        "paragraphs": [
+          {
+            "text": "After the collapse of the Soviet Union, Vostok continued to manufacture both Komandirskie and Amphibia watches in Chistopol. The factory remains known for producing a range of reliable mechanical watches, mostly for military and civilian use. Today, customers can choose models featuring various styles, movements, and levels of water resistance, with the Amphibia generally offering greater depth ratings. Both product lines are available through official and third-party retailers, with specifications including automatic winding, different dial layouts, and diverse case shapes.",
+            "source_ids": [
+              "s2",
+              "s3",
+              "s1"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": [
+      {
+        "claim": "Exact distinction between military and civilian models in current production.",
+        "reason": "Sources indicate both lines are available for civilian purchase and mention historical military use, but do not provide exact details on differences or certification for current models.",
+        "evidence_needed": "Confirmation from factory or official documents detailing military/civilian distinction in recent years.",
+        "source_urls": [
+          "https://vostokamphibia.com/catalog/?utm_source=openai",
+          "https://chronosearchpro.com/chronopedia/en/vostok/index.html?utm_source=openai",
+          "https://en.wikipedia.org/wiki/Vostok_%28watches%29?utm_source=openai",
+          "https://www.siabuildsandrestores.com/vostok-2416b?utm_source=openai"
+        ]
+      },
+      {
+        "claim": "Precise recent factory output numbers and internal structure.",
+        "reason": "Sources mention the company claims almost all parts are made in-house and refer to privatization, but acknowledge public information is fragmented and not always current.",
+        "evidence_needed": "Updated production reports or official statements.",
+        "source_urls": [
+          "https://chronosearchpro.com/chronopedia/en/vostok/index.html?utm_source=openai",
+          "https://en.wikipedia.org/wiki/Vostok_%28watches%29?utm_source=openai"
+        ]
+      }
+    ]
+  },
+  "issues": [
+    {
+      "claim": "Exact distinction between military and civilian models in current production.",
+      "reason": "Sources indicate both lines are available for civilian purchase and mention historical military use, but do not provide exact details on differences or certification for current models.",
+      "evidence_needed": "Confirmation from factory or official documents detailing military/civilian distinction in recent years.",
+      "source_urls": [
+        "https://vostokamphibia.com/catalog/?utm_source=openai",
+        "https://chronosearchpro.com/chronopedia/en/vostok/index.html?utm_source=openai",
+        "https://en.wikipedia.org/wiki/Vostok_%28watches%29?utm_source=openai",
+        "https://www.siabuildsandrestores.com/vostok-2416b?utm_source=openai"
+      ]
+    },
+    {
+      "claim": "Precise recent factory output numbers and internal structure.",
+      "reason": "Sources mention the company claims almost all parts are made in-house and refer to privatization, but acknowledge public information is fragmented and not always current.",
+      "evidence_needed": "Updated production reports or official statements.",
+      "source_urls": [
+        "https://chronosearchpro.com/chronopedia/en/vostok/index.html?utm_source=openai",
+        "https://en.wikipedia.org/wiki/Vostok_%28watches%29?utm_source=openai"
+      ]
+    },
+    {
+      "claim": "Article source checks",
+      "reason": "A citation lacks a matched evidence passage.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
+      "source_urls": [
+        "https://vostokamphibia.com/catalog/?utm_source=openai",
+        "https://chronosearchpro.com/chronopedia/en/vostok/index.html?utm_source=openai",
+        "https://en.wikipedia.org/wiki/Vostok_%28watches%29?utm_source=openai",
+        "https://www.siabuildsandrestores.com/vostok-2416b?utm_source=openai"
+      ]
+    },
+    {
+      "claim": "Article source checks",
+      "reason": "A supporting quotation could not be matched to the retrieved page.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
+      "source_urls": [
+        "https://vostokamphibia.com/catalog/?utm_source=openai",
+        "https://chronosearchpro.com/chronopedia/en/vostok/index.html?utm_source=openai",
+        "https://en.wikipedia.org/wiki/Vostok_%28watches%29?utm_source=openai",
+        "https://www.siabuildsandrestores.com/vostok-2416b?utm_source=openai"
+      ]
+    },
+    {
+      "claim": "Article source checks",
+      "reason": "Article body must be between 450 and 950 words.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
+      "source_urls": [
+        "https://vostokamphibia.com/catalog/?utm_source=openai",
+        "https://chronosearchpro.com/chronopedia/en/vostok/index.html?utm_source=openai",
+        "https://en.wikipedia.org/wiki/Vostok_%28watches%29?utm_source=openai",
+        "https://www.siabuildsandrestores.com/vostok-2416b?utm_source=openai"
+      ]
+    }
+  ],
+  "sources": {
+    "s1": {
+      "url": "https://vostokamphibia.com/catalog/?utm_source=openai",
+      "sha256": "83dc46f7520ba3accc496dc2917316c8bb13f4001fed9999639fff17d3900e5f"
+    },
+    "s2": {
+      "url": "https://chronosearchpro.com/chronopedia/en/vostok/index.html?utm_source=openai",
+      "sha256": "2c97181014b92bce90d41931c7813c575b5bebdd05071fc72e2741fcdcfd4a3e"
+    },
+    "s3": {
+      "url": "https://en.wikipedia.org/wiki/Vostok_%28watches%29?utm_source=openai",
+      "sha256": "6878e97e38ffd3a25a2fc41ce297dbd2bec7c6c071cd1fb9d407256a69902a6c"
+    },
+    "s4": {
+      "url": "https://www.siabuildsandrestores.com/vostok-2416b?utm_source=openai",
+      "sha256": "e7393af58252fc97845107e3f3be2809ba36f6a7c0456807af2dbe273e53b362"
+    }
+  }
+}
