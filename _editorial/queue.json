@@ -65,7 +65,9 @@
       "publishAt": "2027-01-18T12:00:00+08:00",
       "image": "../../images/blouse-podilska-red-02.jpeg",
       "imageAlt": "Red embroidered blouse from the Mokosh Threads clothing catalogue",
-      "status": "ready"
+      "status": "published",
+      "publishedAt": "2026-11-22",
+      "publicationMode": "immediate at user request"
     },
     {
       "id": "soviet-watches-space",
