@@ -11,7 +11,7 @@
       "date": "2026-08-10",
       "readingTime": 6,
       "tags": ["vyshyvanka", "Ukrainian clothing", "embroidery", "Slavic clothing"],
-      "featured": true,
+      "featured": false,
       "published": false
     },
     {
@@ -20,13 +20,13 @@
       "category": "Watch History",
       "excerpt": "From Chistopol wartime production to the Komandirskie and Amphibia: a concise history of one of the Soviet Union's best-known watchmakers.",
       "url": "./history-of-vostok-watches/",
-      "image": "",
-      "imageAlt": "Vintage Soviet Vostok mechanical watch",
-      "date": "2026-08-09",
-      "readingTime": 8,
+      "image": "./assets/vostok-history.jpg",
+      "imageAlt": "Vostok Komandirskie Hovercraft Blue from the Mokosh Threads collection",
+      "date": "2026-11-22",
+      "readingTime": 6,
       "tags": ["Vostok", "Soviet watches", "Komandirskie", "Amphibia"],
-      "featured": false,
-      "published": false
+      "featured": true,
+      "published": true
     },
     {
       "id": "zenit-soviet-camera-history",
