@@ -123,8 +123,10 @@ class GroundedSchemaTests(DraftingTests):
         self.assertEqual((paragraphs['minItems'], paragraphs['maxItems']), (2, 2))
         evidence = paragraphs['items']['properties']['evidence']['items']['properties']
         self.assertEqual(set(evidence['source_id']['enum']), set(self.sources))
-        for quote in evidence['quote']['enum']:
-            self.assertTrue(any(quote in source['text'] for source in self.sources.values()))
+        passages = drafting.evidence_passages(self.sources, 'Camera history')
+        for passage_id in evidence['quote']['enum']:
+            passage = passages[passage_id]
+            self.assertIn(passage['quote'], self.sources[passage['source_id']]['text'])
         import re
         pattern = paragraphs['items']['properties']['text']['pattern']
         self.assertIsNone(re.fullmatch(pattern, ' '.join(['word'] * 49)))
