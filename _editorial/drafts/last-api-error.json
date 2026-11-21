@@ -1,0 +1,6 @@
+{
+  "http_status": 400,
+  "code": "invalid_json_schema",
+  "param": "text.format.schema",
+  "schema_error": "Invalid schema for response_format 'editorial_result': In context=('properties', 'sections', 'items', 'properties', 'paragraphs', 'items', 'properties', 'evidence', 'items', 'properties', 'quote'), \" is not allowed in string literals for structured outputs (strict=true)."
+}
