@@ -60,9 +60,11 @@
     {
       "id": "what-is-vyshyvanka",
       "slug": "what-is-a-vyshyvanka",
-      "title": "What Is a Vyshyvanka? A Simple Guide to Ukrainian Embroidery",
+      "title": "What Is a Vyshyvanka?",
       "category": "Guides",
-      "publishAt": "2027-01-18T12:00:00+08:00"
+      "publishAt": "2027-01-18T12:00:00+08:00",
+      "image": "../../images/blouse-podilska-red-02.jpeg",
+      "imageAlt": "Red embroidered blouse from the Mokosh Threads clothing catalogue"
     },
     {
       "id": "soviet-watches-space",

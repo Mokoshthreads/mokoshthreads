@@ -258,7 +258,12 @@ def needs_evidence(topic, issues):
 
 
 def evidence_passages(sources, title):
-    terms = set(re.findall(r'\w+', title.lower())) | {'history', 'factory', 'reflex', 'meter', '1952', '1965', 'krasnogorsk', 'belomo', 'export', 'selenium'}
+    terms = set(re.findall(r'\w+', title.lower())) - {'a', 'an', 'the', 'of', 'is', 'what', 'and', 'in', 'to', 'how'}
+    terms |= {'history', 'collection', 'traditional'}
+    if 'zenit' in terms:
+        terms |= {'reflex', 'meter', '1952', '1965', 'krasnogorsk', 'belomo', 'export', 'selenium'}
+    if 'vyshyvanka' in terms or 'embroidery' in terms:
+        terms |= {'embroidery', 'shirt', 'linen', 'hemp', 'regional', 'stitch', 'cotton', 'festive', 'identity', 'dress', 'museum'}
     passages = {}
     for sid, source in sources.items():
         sentences = [part.strip()[:350] for part in re.split(r'(?<=[.!?])\s+', source['text']) if len(part.strip()) >= 20]
