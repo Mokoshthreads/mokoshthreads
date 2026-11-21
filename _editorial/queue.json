@@ -28,9 +28,11 @@
     {
       "id": "zenit-soviet-camera-history",
       "slug": "history-of-zenit-cameras",
-      "title": "Zenit: A Short History of the Soviet SLR Camera",
+      "title": "Zenit: The Soviet SLR That Went Everywhere",
       "category": "Camera History",
-      "publishAt": "2026-12-21T12:00:00+08:00"
+      "publishAt": "2026-12-21T12:00:00+08:00",
+      "image": "../../filmcameras/assets/01-zenit-e.webp",
+      "imageAlt": "Zenit-E camera from the Mokosh Threads collection"
     },
     {
       "id": "slava-everyday-watches",

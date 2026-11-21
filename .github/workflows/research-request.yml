@@ -1,0 +1,86 @@
+name: Research a requested Resources article
+
+on:
+  push:
+    branches: [main]
+    paths: ['_editorial/research-request.json']
+  workflow_dispatch:
+    inputs:
+      topic_id:
+        description: 'Queue topic ID (leave blank to use the saved request)'
+        type: string
+        default: ''
+      retry_blocked:
+        description: 'Retry after additional evidence'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: resources-editorial-updates
+  cancel-in-progress: false
+
+jobs:
+  research:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Test the editorial scripts
+        env:
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Research the selected topic only
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_DRAFT_MODEL: ${{ vars.OPENAI_DRAFT_MODEL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GH_TOKEN: ${{ github.token }}
+          REQUESTED_TOPIC: ${{ inputs.topic_id }}
+          RETRY_BLOCKED: ${{ inputs.retry_blocked || 'false' }}
+          PYTHONDONTWRITEBYTECODE: '1'
+        run: |
+          if [ -z "$REQUESTED_TOPIC" ]; then
+            REQUESTED_TOPIC=$(python3 -c 'import json; print(json.load(open("_editorial/research-request.json"))["topic_id"])')
+          fi
+          if [ "$RETRY_BLOCKED" = 'true' ]; then
+            python3 scripts/draft_resources.py --limit 1 --topic "$REQUESTED_TOPIC" --retry-blocked
+          else
+            python3 scripts/draft_resources.py --limit 1 --topic "$REQUESTED_TOPIC"
+          fi
+      - name: Save research and draft results
+        if: always()
+        run: |
+          git add _editorial/ resources/
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Save requested article research and verification results'
+            git push origin HEAD:main
+          fi
+      - name: Retain work if the run fails
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: requested-article-recovery
+          path: |
+            _editorial/
+            resources/
+          retention-days: 7
+      - name: Notify Telegram if research fails
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_MESSAGE: >-
+            Mokosh Threads — requested article research needs attention.
+            See the run log; publication has not been authorised by this failed run:
+            ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: python3 scripts/telegram_notify.py

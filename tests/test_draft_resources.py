@@ -91,3 +91,25 @@ class DraftingTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+class RequestedTopicTests(unittest.TestCase):
+    def test_requested_topic_does_not_draft_the_next_queued_article(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / '_editorial').mkdir()
+            queue = {'topics': [
+                {'id': 'first', 'title': 'First', 'category': 'Guides', 'publishAt': '2026-11-30T12:00:00+08:00'},
+                {'id': 'requested', 'title': 'Requested', 'category': 'Guides', 'publishAt': '2026-12-07T12:00:00+08:00'}]}
+            (root / '_editorial/queue.json').write_text(json.dumps(queue))
+            draft = {'title': 'Requested', 'description': 'Summary', 'sections': [], 'concerns': []}
+            with patch.object(drafting, '__file__', str(root / 'scripts/draft_resources.py')), \
+                 patch.object(sys, 'argv', ['draft_resources.py', '--limit', '1', '--topic', 'requested']), \
+                 patch.object(drafting, 'process', return_value=(draft, {}, [])) as process, \
+                 patch.object(drafting, 'render_article', return_value='<h1>Requested</h1>'), \
+                 patch.object(drafting, 'update_catalogue'):
+                self.assertEqual(drafting.main(), 0)
+            self.assertEqual(process.call_count, 1)
+            self.assertEqual(process.call_args.args[1]['id'], 'requested')
+            saved = json.loads((root / '_editorial/queue.json').read_text())
+            self.assertNotIn('status', saved['topics'][0])
+            self.assertEqual(saved['topics'][1]['status'], 'ready')
