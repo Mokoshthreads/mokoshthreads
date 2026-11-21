@@ -1,16 +1,94 @@
 {
-  "draft": null,
+  "draft": {
+    "title": "Zenit: The Soviet SLR That Went Everywhere",
+    "description": "A factual overview of Zenit cameras, from their origins in Soviet engineering to their global reach among serious amateurs.",
+    "sections": [
+      {
+        "heading": "Origins and Development",
+        "paragraphs": [
+          {
+            "text": "Zenit cameras originated in the Soviet Union and have been manufactured since 1952 by KMZ in Krasnogorsk, near Moscow, and later by BelOMO in Belarus. The brand is known primarily for its 35mm single-lens reflex (SLR) cameras. Early Zenit models were directly based on Zorki rangefinder cameras, themselves copies of the German Leica II, with the addition of a mirror mechanism to convert them into SLRs. The fundamental design—removing the rangefinder, adding a ground-glass screen and prism, and pushing the lens mount forward—set the technical foundation for decades of Zenit production.",
+            "source_ids": [
+              "s1"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Model Evolution and Features",
+        "paragraphs": [
+          {
+            "text": "Zenit cameras developed incrementally. The original Zenit and Zenit-C models largely retained the design and features of the Zorki, adding a reflex mirror system. Over time, Zenit cameras evolved, with each new version bringing minor refinements. For example, the Zenit-3 introduced a lever-type shutter cocking mechanism, and the Zenit-3M adopted a hinged back for easier film loading. The Zenit-E, launched in the late 1960s, was a milestone. It included a return mirror, selenium exposure meter, and adopted the M42 screw-mount, making lens interchangeability more convenient. Later Zenits such as the EM, TTL, and 12XP featured automatic diaphragm actuation and through-the-lens (TTL) exposure metering systems.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Export and Global Reach",
+        "paragraphs": [
+          {
+            "text": "Zenit SLRs were produced in very high quantities and widely exported. In the 1960s and 1970s, Soviet export policy saw Zenit cameras sent to 74 countries. Their durability and simplicity led to reputation for being exceptionally robust, while their affordability earned them a broad following among amateurs worldwide. In particular, the Zenit-E and its successors were heavily marketed in the United Kingdom and later distributed through mass retailers in Germany.",
+            "source_ids": [
+              "s1"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Target Audience and Usage",
+        "paragraphs": [
+          {
+            "text": "Zenit cameras were predominantly aimed at serious amateurs, rather than absolute beginners or professionals. The typical features covered most photographic needs, with common models offering a basic range of shutter speeds and fully manual controls. Some Zenit cameras—even early models—served professional photographers within the Soviet Union, and the cameras became a symbol of Soviet photographic technology for decades. Most Zenits were equipped with standard Helios or Industar lenses, and the system’s broad selection of compatible optics remains notable.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Legacy and Later Models",
+        "paragraphs": [
+          {
+            "text": "Zenit SLRs continued to be produced into the early 21st century, with models adapting to newer lens mounts and incorporating limited automation. The last SLR models were made until 2005. While later electronic and automatic models like the Zenit-AM2 introduced aperture-priority automation, most Zenits remained simple, robust mechanical cameras. Today, classic Zenit cameras and their lenses are accessible options for those interested in film photography, valued for their mechanical design and the extensive range of available lenses.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": []
+  },
   "issues": [
     {
-      "claim": "Insufficient accessible sources for Zenit: The Soviet SLR That Went Everywhere",
-      "reason": "Fewer than two source domains could be retrieved as full text.",
-      "evidence_needed": "Provide reliable full source text, catalogue scans/transcriptions or accessible museum/factory references.",
+      "claim": "Article source checks",
+      "reason": "A supporting quotation could not be matched to the retrieved page.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
       "source_urls": [
-        "https://www.zenitcamera.com/mans/index-eng.html?utm_source=openai",
-        "https://www.zenitcamera.com/archive/zenit-1/index.html?utm_source=openai",
-        "https://www.zenitcamera.com/archive/history/marks.html?utm_source=openai"
+        "https://en.wikipedia.org/wiki/Zenit_%28camera%29?utm_source=openai",
+        "https://sovietcameras.org/zenit-cameras/?utm_source=openai"
+      ]
+    },
+    {
+      "claim": "Article source checks",
+      "reason": "Article body must be between 450 and 950 words.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Zenit_%28camera%29?utm_source=openai",
+        "https://sovietcameras.org/zenit-cameras/?utm_source=openai"
       ]
     }
   ],
-  "sources": {}
+  "sources": {
+    "s1": {
+      "url": "https://en.wikipedia.org/wiki/Zenit_%28camera%29?utm_source=openai",
+      "sha256": "ab1f64a4662d8699c21a94134b944630e69c22795b2cb51276f1cdf82deef2d4"
+    },
+    "s2": {
+      "url": "https://sovietcameras.org/zenit-cameras/?utm_source=openai",
+      "sha256": "4bda2bb714554ab151b91a251a2534b564e4fdb4f70c53494e23dd06ea0713da"
+    }
+  }
 }
