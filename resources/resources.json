@@ -1,6 +1,26 @@
 {
   "resources": [
     {
+      "id": "timeline-soviet-posters",
+      "title": "A Timeline History of Soviet Posters",
+      "category": "Guides",
+      "excerpt": "A plain-language timeline of Soviet poster subjects and visual styles, from the revolution and wartime appeals to space exploration and reform.",
+      "url": "./timeline-history-of-soviet-posters/",
+      "image": "./assets/soviet-posters/timeline-cover.jpg",
+      "imageAlt": "Poster reproductions showing geometric design, a wartime appeal and space exploration",
+      "date": "2026-11-22",
+      "readingTime": 4,
+      "tags": [
+        "Soviet posters",
+        "art history",
+        "graphic design",
+        "Constructivism",
+        "Socialist Realism"
+      ],
+      "featured": true,
+      "published": true
+    },
+    {
       "id": "what-is-vyshyvanka",
       "title": "What Is a Vyshyvanka?",
       "category": "Guides",
@@ -25,7 +45,7 @@
       "date": "2026-11-22",
       "readingTime": 6,
       "tags": ["Vostok", "Soviet watches", "Komandirskie", "Amphibia"],
-      "featured": true,
+      "featured": false,
       "published": true
     },
     {
