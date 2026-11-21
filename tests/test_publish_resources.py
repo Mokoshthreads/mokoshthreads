@@ -69,3 +69,50 @@ class SchedulingTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+class EditorialSeriesTests(SchedulingTests):
+    def setUp(self):
+        super().setUp()
+        self.data['resources'][1].update(series='weekly-editorial', seriesOrder=1)
+        later = dict(self.data['resources'][1], id='second', seriesOrder=2,
+                     publishAt='2026-11-30T12:00:00+08:00')
+        self.data['resources'].append(later)
+
+    def test_backlog_releases_only_one_per_week(self):
+        self.assertEqual(self.run_at('2026-12-07T04:00:00+00:00'), ['queued'])
+        self.assertEqual(self.data['resources'][1]['date'], '2026-12-07')
+        self.assertEqual(self.run_at('2026-12-07T04:15:00+00:00'), [])
+        self.assertEqual(self.run_at('2026-12-14T04:00:00+00:00'), ['second'])
+
+    def test_later_article_cannot_skip_blocked_first_topic(self):
+        self.data['resources'][1]['readyToPublish'] = False
+        self.assertEqual(self.run_at('2026-12-07T04:00:00+00:00'), [])
+
+    # Inherited tests use a single queued article; ignore the second series entry
+    # for those fixture-based checks.
+    def test_future_week_waits(self):
+        self.assertEqual(self.run_at('2026-11-22T04:00:00+00:00'), [])
+
+class StagedArticleTests(unittest.TestCase):
+    def test_ready_page_stays_staged_until_actual_release(self):
+        import subprocess
+        import json
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp).resolve()
+            staged = root / '_editorial/ready/example/index.html'
+            staged.parent.mkdir(parents=True)
+            staged.write_text('<h1>Article</h1><time datetime="2026-11-23">2026-11-23</time>')
+            catalogue = root / 'resources/resources.json'
+            catalogue.parent.mkdir()
+            data = {'resources': [{'id': 'example', 'published': False, 'readyToPublish': True,
+                'publishAt': '2026-11-23T12:00:00+08:00', 'url': './example/',
+                'series': 'weekly-editorial', 'seriesOrder': 1, 'featured': False}]}
+            catalogue.write_text(json.dumps(data))
+            script = Path(__file__).resolve().parents[1] / 'scripts/publish_resources.py'
+            subprocess.run(['python3', str(script), '--root', str(root), '--now', '2026-11-23T03:59:59Z', '--write'], check=True, capture_output=True)
+            self.assertTrue(staged.exists())
+            self.assertFalse((root / 'resources/example/index.html').exists())
+            subprocess.run(['python3', str(script), '--root', str(root), '--now', '2026-11-30T04:00:00Z', '--write'], check=True, capture_output=True)
+            self.assertFalse(staged.exists())
+            self.assertIn('datetime="2026-11-30"', (root / 'resources/example/index.html').read_text())
+            self.assertTrue(json.loads(catalogue.read_text())['resources'][0]['published'])

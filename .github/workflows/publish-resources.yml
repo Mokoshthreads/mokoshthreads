@@ -11,7 +11,7 @@ permissions:
   pages: write
 
 concurrency:
-  group: scheduled-resources-publication
+  group: resources-editorial-updates
   cancel-in-progress: false
 
 jobs:
@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add resources/resources.json
+          git add resources/ _editorial/
           git commit -m 'Publish scheduled Resources articles'
           git push origin HEAD:main
       # A GITHUB_TOKEN commit does not automatically trigger a Pages build.

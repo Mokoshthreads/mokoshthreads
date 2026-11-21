@@ -31,6 +31,6 @@ Weekly publishing failures also attempt a Telegram alert containing a link to th
 
 ## Scope
 
-This connection sends messages from GitHub Actions. It does not yet generate articles, research sources, monitor Telegram replies, or attach supplied evidence back to drafts. Unattended drafting still requires a configured AI API connection and a drafting workflow. Reply handling would need separate setup; for now evidence can be provided in the linked GitHub issue or in the development chat.
+This connection sends messages from GitHub Actions. The **Research and draft Resources articles** workflow now uses it directly when source checking needs evidence or drafting fails. See `_editorial/README.md` for the sixteen-topic queue and checking rules. Telegram reply monitoring is not configured; supply evidence in the linked GitHub issue or the development chat. Saving an API key does not by itself prove API billing, tool access or hosted drafting are working: check the first drafting run.
 
 If a test fails, inspect the Actions run. Confirm both repository secret names, the token, recipient ID, and that the recipient pressed Start. Error output deliberately excludes token-bearing URLs and Telegram response bodies.

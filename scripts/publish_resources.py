@@ -39,17 +39,36 @@ def publish(data, root, now):
             raise ValueError(f"{item['id']}: article URL escapes Resources")
         if target.suffix != '.html':
             target /= 'index.html'
-        if not target.is_file():
+        staged = root / '_editorial/ready' / target.relative_to((root / 'resources').resolve())
+        if not target.is_file() and not (item.get('series') and staged.is_file()):
             raise ValueError(f"{item['id']}: article page is missing: {target}")
         if when <= cutoff:
             due.append((when, item))
     if not due:
         return []
     due.sort(key=lambda pair: (pair[0], pair[1]['id']))
+    # The managed editorial series publishes in order and at most once per slot.
+    selected = []
+    claimed_series = set()
+    for when, item in due:
+        series = item.get('series')
+        if series:
+            if series in claimed_series:
+                continue
+            members = [other for other in data['resources'] if other.get('series') == series]
+            if any(other.get('published') and other.get('date') == cutoff.date().isoformat() for other in members):
+                continue
+            if any(not other.get('published') and other.get('seriesOrder', 0) < item.get('seriesOrder', 0) for other in members):
+                continue
+            claimed_series.add(series)
+        selected.append((when, item))
+    due = selected
+    if not due:
+        return []
     for when, item in due:
         item['published'] = True
         item['readyToPublish'] = False
-        item['date'] = when.astimezone(LOCAL).date().isoformat()
+        item['date'] = (cutoff if item.get('series') else when.astimezone(LOCAL)).date().isoformat()
     newest = due[-1][1]
     for item in data['resources']:
         item['featured'] = item is newest
@@ -69,6 +88,24 @@ def main():
     data = json.loads(path.read_text())
     released = publish(data, args.root.resolve(), now)
     if released and args.write:
+        # Generated article metadata follows the actual slot if a fact-check delay
+        # pushes publication later than its original requested Monday.
+        for item in data['resources']:
+            if item['id'] not in released or not item.get('series'):
+                continue
+            target = (args.root / 'resources' / urlsplit(item['url']).path).resolve()
+            if target.suffix != '.html':
+                target /= 'index.html'
+            staged = args.root / '_editorial/ready' / target.relative_to((args.root / 'resources').resolve())
+            if not target.exists() and staged.exists():
+                target.parent.mkdir(parents=True, exist_ok=True)
+                staged.replace(target)
+            content = target.read_text()
+            planned = item['publishAt'][:10]
+            actual = item['date']
+            content = content.replace(f'<time datetime="{planned}">{planned}</time>', f'<time datetime="{actual}">{actual}</time>')
+            content = content.replace('"datePublished": "' + planned + '"', '"datePublished": "' + actual + '"')
+            target.write_text(content)
         temp = path.with_suffix('.json.tmp')
         temp.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
         temp.replace(path)
