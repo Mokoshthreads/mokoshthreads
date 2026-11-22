@@ -51,7 +51,8 @@ jobs:
             REQUESTED_TOPIC=$(python3 -c 'import json; print(json.load(open("_editorial/research-request.json"))["topic_id"])')
           fi
           REQUEST_MODE=$(python3 -c 'import json; print(json.load(open("_editorial/research-request.json")).get("mode", "new"))')
-          if [ "$REQUEST_MODE" = 'revision' ]; then
+          SAVED_TOPIC=$(python3 -c 'import json; print(json.load(open("_editorial/research-request.json"))["topic_id"])')
+          if [ "$REQUEST_MODE" = 'revision' ] && [ "$REQUESTED_TOPIC" = "$SAVED_TOPIC" ]; then
             REVISION_TITLE=$(python3 -c 'import json; print(json.load(open("_editorial/research-request.json"))["title"])')
             python3 scripts/review_article_revision.py --topic "$REQUESTED_TOPIC" --title "$REVISION_TITLE"
           elif [ "$RETRY_BLOCKED" = 'true' ]; then
