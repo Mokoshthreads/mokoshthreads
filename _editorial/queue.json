@@ -17,13 +17,19 @@
       "id": "raketa-petrodvorets",
       "title": "Raketa: The Watchmaker of Petrodvorets",
       "category": "Watch History",
-      "publishAt": "2026-11-30T12:00:00+08:00"
+      "publishAt": "2026-11-30T12:00:00+08:00",
+      "status": "needs_verification",
+      "issue_number": 5,
+      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/5"
     },
     {
       "id": "poljot-first-moscow",
       "title": "Poljot and the First Moscow Watch Factory",
       "category": "Watch History",
-      "publishAt": "2026-12-07T12:00:00+08:00"
+      "publishAt": "2026-12-07T12:00:00+08:00",
+      "status": "needs_verification",
+      "issue_number": 6,
+      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/6"
     },
     {
       "id": "zenit-soviet-camera-history",
@@ -43,7 +49,10 @@
       "id": "slava-everyday-watches",
       "title": "Slava Watches: Everyday Soviet Timekeeping",
       "category": "Watch History",
-      "publishAt": "2026-12-14T12:00:00+08:00"
+      "publishAt": "2026-12-14T12:00:00+08:00",
+      "status": "needs_verification",
+      "issue_number": 7,
+      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/7"
     },
     {
       "id": "pobeda-victory",

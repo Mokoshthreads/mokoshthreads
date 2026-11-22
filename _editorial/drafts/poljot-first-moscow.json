@@ -1,0 +1,143 @@
+{
+  "draft": {
+    "title": "Poljot and the First Moscow Watch Factory",
+    "description": "A historical overview of the First Moscow Watch Factory and its Poljot brand, covering origins, industrial growth, technical advances, space program connections, and legacy.",
+    "sections": [
+      {
+        "heading": "Origins and Establishment",
+        "paragraphs": [
+          {
+            "text": "The First Moscow Watch Factory was established in 1930 as part of the Soviet Union’s first Five-Year Plan. Its founding was largely based on the purchase of machinery, tooling, and technical designs from the bankrupt Dueber-Hampden Watch Company of Canton, Ohio, with American technicians helping to train the first Soviet workforce.",
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
+          },
+          {
+            "text": "This move marked the beginning of large-scale watch and mechanical movement manufacturing in the Soviet Union. The factory was the first of its kind in the region, laying the foundation for what would become a state-scale industry under the Poljot name.",
+            "source_ids": [
+              "s2",
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Early Production and Evolution",
+        "paragraphs": [
+          {
+            "text": "In its early years, the First Moscow Watch Factory produced both pocket and wristwatches, using names such as 'Kirovskie' in honor of Soviet official Sergei Kirov. Watches from this period sometimes featured movement parts marked with 'Dueber-Hampden, Canton, Ohio, USA,' reflecting their origins.",
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
+          },
+          {
+            "text": "By 1941, the factory was highly productive, reportedly producing nearly three million timepieces and supplying watches to government employees, including the army. The facility was supported by American equipment from its inception.",
+            "source_ids": [
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Wartime and Postwar Developments",
+        "paragraphs": [
+          {
+            "text": "During World War II, the factory was evacuated to Zlatoust as German forces neared Moscow. Following the receding threat, it returned to Moscow in 1943 and continued large-scale production, including marine chronometers and wristwatches.",
+            "source_ids": [
+              "s2"
+            ]
+          },
+          {
+            "text": "After the war, notable products included the 'Pobeda' wristwatch first released in 1947, and watches for military and civilian use. The 'Victory' model of 1946 was reportedly approved by Stalin, showing the political importance of these watches.",
+            "source_ids": [
+              "s2",
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Technical Achievements and Space Exploration",
+        "paragraphs": [
+          {
+            "text": "The factory released its first automatic movement in 1956 and the Soviet Union's first alarm wristwatch in 1959. These developments enhanced the reputation of the factory and extended its technical capabilities.",
+            "source_ids": [
+              "s3"
+            ]
+          },
+          {
+            "text": "One of the factory’s most renowned contributions was the Sturmanskie watch worn by Yuri Gagarin in 1961, the first human spaceflight, and the Strela chronograph reportedly worn by Alexei Leonov during the 1965 spacewalk. These achievements gave the factory a lasting place in the history of space exploration.",
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Poljot Brand and Legacy",
+        "paragraphs": [
+          {
+            "text": "The brand name 'Poljot', meaning 'flight', was adopted in 1964 and soon gained international recognition for its mechanical chronographs. Throughout the later Soviet decades, Poljot was a flagship representative of Soviet watch engineering.",
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
+          },
+          {
+            "text": "After the dissolution of the Soviet Union, the factory and its successor entities experienced restructuring. Today, the Poljot name is used by several unrelated companies, but original Soviet-era watches remain significant for collectors and enthusiasts around the world.",
+            "source_ids": [
+              "s1"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": [
+      {
+        "claim": "The 'Victory' model was personally approved by Stalin.",
+        "reason": "This detail is stated in a commercial/collector account and lacks independent primary documentation.",
+        "evidence_needed": "Direct archival or state documentation confirming Stalin’s direct approval.",
+        "source_urls": [
+          "https://www.coronet.org/new-1minute-reads/what-is-the-first-moscow-watch-factory?utm_source=openai"
+        ]
+      }
+    ]
+  },
+  "issues": [
+    {
+      "claim": "The 'Victory' model was personally approved by Stalin.",
+      "reason": "This detail is stated in a commercial/collector account and lacks independent primary documentation.",
+      "evidence_needed": "Direct archival or state documentation confirming Stalin’s direct approval.",
+      "source_urls": [
+        "https://www.coronet.org/new-1minute-reads/what-is-the-first-moscow-watch-factory?utm_source=openai"
+      ]
+    },
+    {
+      "claim": "Article source checks",
+      "reason": "Article body must be between 450 and 950 words.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
+      "source_urls": [
+        "https://horologyatlas.com/watchmakers/first-moscow-watch-factory?utm_source=openai",
+        "https://en.wikipedia.org/wiki/Poljot?utm_source=openai",
+        "https://www.coronet.org/new-1minute-reads/what-is-the-first-moscow-watch-factory?utm_source=openai"
+      ]
+    }
+  ],
+  "sources": {
+    "s1": {
+      "url": "https://horologyatlas.com/watchmakers/first-moscow-watch-factory?utm_source=openai",
+      "sha256": "f51d23634e7c7017f2c1779c409853bfc790223f25bedc0738512a213c4daa40"
+    },
+    "s2": {
+      "url": "https://en.wikipedia.org/wiki/Poljot?utm_source=openai",
+      "sha256": "2ee82c3943693a0bf6bdaf967c5c187f6b8c6f5239c4573ffb5b7d048661b04a"
+    },
+    "s3": {
+      "url": "https://www.coronet.org/new-1minute-reads/what-is-the-first-moscow-watch-factory?utm_source=openai",
+      "sha256": "d1ae049aaccea7fcde61a87a2747e333e594132c5aa96050a1ac464c3dfd6e4e"
+    }
+  }
+}

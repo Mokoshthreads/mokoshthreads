@@ -1,0 +1,152 @@
+{
+  "draft": {
+    "title": "Slava Watches: Everyday Soviet Timekeeping",
+    "description": "An overview of Slava watches' origins, innovations, technical features, and their significance in everyday Soviet and Russian life.",
+    "sections": [
+      {
+        "heading": "Origins of Slava Watches",
+        "paragraphs": [
+          {
+            "text": "The history of Slava watches closely follows the story of the Second Moscow Watch Factory, which was established in 1924. This factory was among the earliest non-military watch manufacturers in the Soviet Union. Its initial products included wall clocks, alarm clocks, and automotive timers before producing pocket watches in 1937.",
+            "source_ids": [
+              "s2",
+              "s4"
+            ]
+          },
+          {
+            "text": "Slava watches were introduced as a brand in the second half of the 1950s and rapidly became the factory's main line. The name \"Slava,\" which means \"glory\" in Russian, was soon adopted officially by the factory. These watches were designed exclusively for civilian use and not intended for military or aerospace purposes.",
+            "source_ids": [
+              "s3",
+              "s4"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Design and Technical Features",
+        "paragraphs": [
+          {
+            "text": "Slava wristwatches were offered in many designs, including chromed, gold-plated, and variously shaped bracelet cases. Dials often featured calm tones, large Arabic numerals, and either applied or cut hour markers, prioritizing clarity and ease of use. Women's versions were produced with 17 ruby stones, highlighting their mechanical sophistication.",
+            "source_ids": [
+              "s1",
+              "s5"
+            ]
+          },
+          {
+            "text": "Men's mechanical Slava watches featured 24 mm caliber mechanisms, 21 to 27 ruby stones, shock-proof devices, central second hands, and variations with automatic or manual winding. Many models included single or double calendar complications to display both the date and days of the week.",
+            "source_ids": [
+              "s5"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Innovation and Quality",
+        "paragraphs": [
+          {
+            "text": "Slava was an innovator within the Soviet watchmaking industry. In the 1960s, the factory released the \"Slava Transistor,\" an electronic movement timepiece which received international recognition. The 24 mm caliber watches earned multiple gold medals throughout the 1960s and 1970s at prestigious fairs in Leipzig and Brno, demonstrating consistent quality.",
+            "source_ids": [
+              "s2",
+              "s4"
+            ]
+          },
+          {
+            "text": "International watch companies in Switzerland, France, and Germany purchased Slava mechanisms for their own products. The technical parameters of Slava mechanisms were developed to meet international standards, reflecting the brand's commitment to reliability and precision.",
+            "source_ids": [
+              "s4"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Exports and Popularity",
+        "paragraphs": [
+          {
+            "text": "From the late 1950s to the end of the 1970s, Slava exported up to 50% of its production to dozens of countries. Production continued through partnerships, including a joint venture for producing Slava watches in Besançon, France. These exports helped spread Slava’s reputation far beyond the Soviet Union.",
+            "source_ids": [
+              "s2",
+              "s4"
+            ]
+          },
+          {
+            "text": "Slava watches were made to be reliable everyday items, with many variations available for different tastes and needs. Their broad international distribution evidenced the models’ adaptability and persistence in both domestic and foreign markets.",
+            "source_ids": [
+              "s4"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Legacy and Continuing Tradition",
+        "paragraphs": [
+          {
+            "text": "After the fall of the USSR, Slava faced the same difficulties as many other Russian manufacturers, challenged by increased competition from imported timepieces. However, the Second Moscow Watch Factory retained production longer than most, aided by its substantial asset base.",
+            "source_ids": [
+              "s4"
+            ]
+          },
+          {
+            "text": "In subsequent decades, brand management changes led to new model development, but traditional Slava design and technical characteristics were retained and recognized. Today, Slava is positioned as both an accessible and collectable watch brand, continuing its heritage from Soviet times.",
+            "source_ids": [
+              "s4"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": [
+      {
+        "claim": "Slava watches were produced exclusively for civilian use.",
+        "reason": "While multiple sources state this civilian orientation, direct factory-museum publications for the earliest decades could bolster this.",
+        "evidence_needed": "Original factory catalogs or museum statements specifying exclusion from military contracts.",
+        "source_urls": [
+          "https://sovietaly.it/en/history-of-slava-the-second-moscow-watch-factory/?utm_source=openai"
+        ]
+      }
+    ]
+  },
+  "issues": [
+    {
+      "claim": "Slava watches were produced exclusively for civilian use.",
+      "reason": "While multiple sources state this civilian orientation, direct factory-museum publications for the earliest decades could bolster this.",
+      "evidence_needed": "Original factory catalogs or museum statements specifying exclusion from military contracts.",
+      "source_urls": [
+        "https://sovietaly.it/en/history-of-slava-the-second-moscow-watch-factory/?utm_source=openai"
+      ]
+    },
+    {
+      "claim": "Article source checks",
+      "reason": "Article body must be between 450 and 950 words.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
+      "source_urls": [
+        "https://slava.su/spravochnaja-informatsija-en/en-istoricheskie-katalogi-chasov-slava/catalog-watches-slava-1977/?utm_source=openai",
+        "https://en.wikipedia.org/wiki/Slava_watches?utm_source=openai",
+        "https://sovietaly.it/en/history-of-slava-the-second-moscow-watch-factory/?utm_source=openai",
+        "https://www.slavawatch.com/istoriya-torgovoj-marki-slava?utm_source=openai",
+        "https://slava.su/spravochnaja-informatsija-en/en-istoricheskie-katalogi-chasov-slava/catalog-of-mechanical-watches-slava-1990-en/?utm_source=openai"
+      ]
+    }
+  ],
+  "sources": {
+    "s1": {
+      "url": "https://slava.su/spravochnaja-informatsija-en/en-istoricheskie-katalogi-chasov-slava/catalog-watches-slava-1977/?utm_source=openai",
+      "sha256": "3b5a577e8686484ccf52520e3fb315ffc8ccb20b9424580a67f24607907b955a"
+    },
+    "s2": {
+      "url": "https://en.wikipedia.org/wiki/Slava_watches?utm_source=openai",
+      "sha256": "5a297a6184b53dbd293c50624e3baa5aef076f652e1c0295154028b609f812b6"
+    },
+    "s3": {
+      "url": "https://sovietaly.it/en/history-of-slava-the-second-moscow-watch-factory/?utm_source=openai",
+      "sha256": "e859c1b1ebe13337fa0dac5441ed8c43f27675f346c68c0eb21616c7ad3ebe73"
+    },
+    "s4": {
+      "url": "https://www.slavawatch.com/istoriya-torgovoj-marki-slava?utm_source=openai",
+      "sha256": "d753976a04c843db3b08a2ca1830855ff02c4d1758adc4c5153a6fc43750dffa"
+    },
+    "s5": {
+      "url": "https://slava.su/spravochnaja-informatsija-en/en-istoricheskie-katalogi-chasov-slava/catalog-of-mechanical-watches-slava-1990-en/?utm_source=openai",
+      "sha256": "caa97d5493a1c60f477eca59cc2dc947b514941998079e90da738df4ff383094"
+    }
+  }
+}

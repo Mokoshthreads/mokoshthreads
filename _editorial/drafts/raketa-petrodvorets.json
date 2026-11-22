@@ -1,0 +1,130 @@
+{
+  "draft": {
+    "title": "Raketa: The Watchmaker of Petrodvorets",
+    "description": "A detailed look at the origins, evolution, and legacy of the Raketa brand and the historic Petrodvorets Watch Factory in Russia.",
+    "sections": [
+      {
+        "heading": "Founding and Early Years",
+        "paragraphs": [
+          {
+            "text": "The Petrodvorets Watch Factory, located in Peterhof near Saint Petersburg, is one of Russia's oldest factories, having been established in 1721 by Peter the Great. Originally, it was known as the Peterhof Lapidary Works and was dedicated to crafting hardstone carvings for the Russian imperial family.",
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
+          },
+          {
+            "text": "The factory initially focused on producing luxury objects made from semi-precious and precious stones. For over two centuries, its artisans provided decorative items for royal palaces, serving the Tsars and contributing to Russia's material culture.",
+            "source_ids": [
+              "s1",
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Transition to Watchmaking",
+        "paragraphs": [
+          {
+            "text": "In 1945, after World War II, the Soviet government ordered the Petrodvorets factory to begin producing watches. The first models released were named Pobeda and Zvezda, marking the factory's shift from stonework to horology and beginning a new chapter in its history.",
+            "source_ids": [
+              "s1",
+              "s3"
+            ]
+          },
+          {
+            "text": "During its peak post-war years, the Petrodvorets Watch Factory was a large-scale operation. Employment reached about 8,000 people, and annual watch production climbed to around 4.5 million units, serving both the Soviet populace and specialized demands.",
+            "source_ids": [
+              "s3",
+              "s1"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "The Birth of Raketa",
+        "paragraphs": [
+          {
+            "text": "In 1961, the factory introduced the Raketa brand, named in honor of Yuri Gagarin’s spaceflight, with 'Raketa' translating to 'rocket' in Russian. This brand quickly became associated with innovation, drawing inspiration from the Soviet space program.",
+            "source_ids": [
+              "s1",
+              "s3"
+            ]
+          },
+          {
+            "text": "Raketa watches soon expanded their reputation by creating timepieces for polar explorers, cosmonauts, and military personnel. Some models, such as the 24-hour dials, were designed for use in extreme environments where distinguishing day from night is challenging.",
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Manufacturing and Innovations",
+        "paragraphs": [
+          {
+            "text": "Raketa stands out in the watchmaking industry for producing its movements entirely in-house, including the challenging components like hairsprings and escapements. This level of vertical integration remains rare, even among the most prestigious global watch brands.",
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
+          },
+          {
+            "text": "Throughout the 1970s and 1980s, Raketa’s workhorse was the hand-wound 2609.HA calibre, notable for being robust and easily serviced. Raketa’s range also included distinctive models such as the 'Big Zero' and specialized watches for unique professional requirements.",
+            "source_ids": [
+              "s2",
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Post-Soviet Era and Legacy",
+        "paragraphs": [
+          {
+            "text": "Following the collapse of the Soviet Union in 1991, the factory experienced a steep decline in production. The challenging period of privatization led to major restructuring and a reduced workforce, reflecting the broader changes in Russia's industry at the time.",
+            "source_ids": [
+              "s3",
+              "s1"
+            ]
+          },
+          {
+            "text": "Despite these challenges, the Petrodvorets Watch Factory continues to produce Raketa watches today, maintaining its tradition of in-house manufacturing. Raketa remains notable as one of the few global watch brands capable of producing entire mechanical movements under a single roof.",
+            "source_ids": [
+              "s2",
+              "s1"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": []
+  },
+  "issues": [
+    {
+      "claim": "Article source checks",
+      "reason": "Article body must be between 450 and 950 words.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/Petrodvorets_Watch_Factory?utm_source=openai",
+        "https://sovietwatchstore.com/raketa-watch-factory-history/?utm_source=openai",
+        "https://dumarko.com/blogs/news/raketa-watches-from-creation-to-the-fall-of-the-ussr?utm_source=openai"
+      ]
+    }
+  ],
+  "sources": {
+    "s1": {
+      "url": "https://en.wikipedia.org/wiki/Petrodvorets_Watch_Factory?utm_source=openai",
+      "sha256": "28d4fc2e523dba3209c1c3603215f34c2586070c233dc095ef3279900d46384b"
+    },
+    "s2": {
+      "url": "https://sovietwatchstore.com/raketa-watch-factory-history/?utm_source=openai",
+      "sha256": "ad580aba184eac53ba7726acd1b2197b5ec65b6532a2f08fbaae0415921fdaba"
+    },
+    "s3": {
+      "url": "https://dumarko.com/blogs/news/raketa-watches-from-creation-to-the-fall-of-the-ussr?utm_source=openai",
+      "sha256": "6524f3479a3349493f014549c280c04343151c5393af713ad4fe716d2956ac2b"
+    }
+  }
+}
