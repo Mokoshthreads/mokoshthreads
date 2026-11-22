@@ -96,7 +96,7 @@
         "Zmijanje",
         "rushnyk"
       ],
-      "featured": true,
+      "featured": false,
       "published": true,
       "readyToPublish": false
     },
@@ -108,17 +108,18 @@
       "url": "./slavic-renfaire-outfit-guide/",
       "image": "../images/dress-waterfall-01.webp",
       "imageAlt": "Contemporary white Waterfall dress with blue embroidery from the Mokosh Threads catalogue",
-      "date": "2027-03-22",
-      "readingTime": 4,
+      "date": "2026-11-22",
+      "readingTime": 3,
       "tags": [
-        "Renfaire"
+        "Renfaire",
+        "embroidered clothing",
+        "outfit guide",
+        "Slavic-inspired",
+        "layers"
       ],
-      "featured": false,
-      "published": false,
-      "readyToPublish": true,
-      "series": "weekly-editorial",
-      "seriesOrder": 17,
-      "publishAt": "2027-03-22T12:00:00+08:00"
+      "featured": true,
+      "published": true,
+      "readyToPublish": false
     },
     {
       "id": "first-soviet-camera",
