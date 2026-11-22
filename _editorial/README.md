@@ -61,3 +61,7 @@ When source excerpts are reviewed in the development chat, the corrected draft a
 ## Requested immediate articles
 
 `Research a requested Resources article` reads `_editorial/research-request.json` and targets one topic; it does not draft unrelated queue entries. An editor-prepared text in `_editorial/prepared/<id>.json` is reviewed against freshly retrieved source pages and actual evidence passages before it can become ready. Citation IDs are derived from the selected source passages. Invisible padding is rejected, and source-check failures do not become publication approval. Immediate publication is a separate explicit editorial action: the topic is then marked `published` so it is not drafted again by the weekly workflow.
+
+## Revisions of published articles
+
+An explicitly requested rewrite can use `"mode": "revision"` with `topic_id` and `title` in `_editorial/research-request.json`. The review copies optional `_editorial/prepared-revisions/<id>.json` and `_editorial/revision-evidence/<id>.txt` into isolated research storage, refetches source texts and saves only the review outcome to `_editorial/revisions/<id>.json`. It leaves the published page, catalogue and queue untouched on both success and failure. The reviewed rewrite is published separately after inspection; the review workflow never overwrites a live article.
