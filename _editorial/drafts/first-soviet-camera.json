@@ -9,15 +9,14 @@
           {
             "text": "For a first Soviet film camera, a tested Zenit-TTL or Zenit-12XP is a practical starting point if you want to focus through the taking lens and use a built-in meter. Choose a Smena 8M if you would rather use a fixed-lens camera and learn to estimate distance. These are recommendations based on the different ways the cameras work, rather than a claim that one model suits every beginner.",
             "source_ids": [
-              "s1",
-              "s2"
+              "s1"
             ]
           },
           {
             "text": "A FED-2 or Zorki-4 offers another route: a coupled rangefinder, where you align images in the finder to focus. Kiev cameras need a closer look at the model name because the range includes both 35mm rangefinders and medium-format SLRs. Start with the kind of shooting you want to learn, then compare the condition, controls and equipment supplied with the actual camera.",
             "source_ids": [
-              "s1",
-              "s2"
+              "s4",
+              "s3"
             ]
           }
         ]
@@ -28,13 +27,13 @@
           {
             "text": "The Zenit-TTL and 12XP are manual 35mm SLRs with through-the-lens exposure metering. Looking through the taking lens lets you judge focus and framing directly. The meter helps you choose exposure settings; it does not make the camera autofocus or choose all the settings for you. These models are useful options for someone who wants to learn the relationship between aperture, shutter speed and focus.",
             "source_ids": [
-              "s2"
+              "s1"
             ]
           },
           {
             "text": "The familiar Zenit-E works differently: its selenium meter measures light separately from the taking lens. Do not assume that every Zenit has the same meter or controls. Before buying, ask whether the meter on that particular body works, which battery its manual specifies where relevant, and which lens is included. If you plan to use a separate meter, make that a deliberate choice when comparing listings.",
             "source_ids": [
-              "s2"
+              "s1"
             ]
           }
         ]
@@ -62,7 +61,7 @@
           {
             "text": "The FED-2 and Zorki-4 are manual 35mm cameras with coupled rangefinders and interchangeable lenses. Their focusing system is different from an SLR: the rangefinder helps establish focus, while the finder provides a separate view for composition. Neither of these two models provides a built-in exposure meter. Allow for an external meter and time to learn the focusing patch and the camera’s loading procedure.",
             "source_ids": [
-              "s2",
+              "s4",
               "s3"
             ]
           },
@@ -78,15 +77,17 @@
         "heading": "Kiev: identify the format before deciding",
         "paragraphs": [
           {
-            "text": "A Kiev-4A is a 35mm rangefinder camera. A Kiev-60 or Kiev-88 is a different proposition: these are medium-format SLRs associated with 6×6 photographs on 120 roll film. The shared Kiev name does not describe one film format or one set of controls. Check the complete model designation before ordering film, a lens, a finder or any other accessory.",
+            "text": "A Kiev-4A is a 35mm rangefinder camera. A Kiev-60 is a different proposition: it is a medium-format SLR associated with 6×6 photographs on 120 roll film. The shared Kiev name does not describe one film format or one set of controls. Check the complete model designation before ordering film, a lens, a finder or any other accessory.",
             "source_ids": [
-              "s3"
+              "s5",
+              "s6"
             ]
           },
           {
             "text": "For a first camera, choose a Kiev rangefinder only if its particular controls and focusing system appeal to you and the example can be demonstrated working. Consider a medium-format Kiev when you specifically want that format and are ready to learn its loading procedure. There is no need to begin with the most elaborate system; a complete, tested camera is a more useful learning tool than an incomplete kit.",
             "source_ids": [
-              "s3"
+              "s5",
+              "s6"
             ]
           }
         ]
@@ -111,39 +112,31 @@
     ],
     "concerns": []
   },
-  "issues": [
-    {
-      "claim": "Model-specific source review",
-      "reason": "Editorial check: manual indexes are leads, not technical evidence. Re-fetch actual model-specific references. The replacement URLs are unverified research leads until retrieved.",
-      "evidence_needed": "Read the model-specific pages and match each technical assertion to actual instructions or specialist descriptions.",
-      "source_urls": [
-        "https://sovietcameras.org/zenit-cameras/",
-        "https://sovietcameras.org/smena-8m/",
-        "https://sovietcameras.org/zorki-4/",
-        "https://sovietcameras.org/fed-2/",
-        "https://kiev4.narod.ru/manuals/man_kiev4_e.html",
-        "https://www.geocities.ws/kiev60slr/manual/instructions1.html"
-      ]
-    }
-  ],
+  "issues": [],
   "sources": {
     "s1": {
-      "url": "https://sovietcameras.org/zenit-cameras/"
+      "url": "https://sovietcameras.org/zenit-cameras/",
+      "sha256": "c6381ba355a0fbd03b6ebdb82d5a3afd909e1eaeacbaedc644abded2508a9cec"
     },
     "s2": {
-      "url": "https://sovietcameras.org/smena-8m/"
+      "url": "https://sovietcameras.org/smena-8m/",
+      "sha256": "36ec7882855be794a72d4e3bb6591c36c569767f4f1409f492ad056fce60ac06"
     },
     "s3": {
-      "url": "https://sovietcameras.org/zorki-4/"
+      "url": "https://sovietcameras.org/zorki-4/",
+      "sha256": "cf423118b87d54b4516e46c56d62c1f7d1256b0d4555df3e833c897502fb0000"
     },
     "s4": {
-      "url": "https://sovietcameras.org/fed-2/"
+      "url": "https://sovietcameras.org/fed-2/",
+      "sha256": "b83970b10b693ba19b6055d6e83af8e85d724aac36cbb9709b20f1343b30efd5"
     },
     "s5": {
-      "url": "https://kiev4.narod.ru/manuals/man_kiev4_e.html"
+      "url": "https://kiev4.narod.ru/manuals/man_kiev4_e.html",
+      "sha256": "8c9dedcd2b1bb1246d81bc854eae14808e96992a6bf443b109718533d70cd787"
     },
     "s6": {
-      "url": "https://www.geocities.ws/kiev60slr/manual/instructions1.html"
+      "url": "https://www.geocities.ws/kiev60slr/manual/instructions1.html",
+      "sha256": "83bc72c3d2d4fc37ca79e8f7de3225ab31d60bca9363d68bb99056dd21c5eb72"
     }
   }
 }
