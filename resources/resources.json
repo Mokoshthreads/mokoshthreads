@@ -125,23 +125,21 @@
       "id": "first-soviet-camera",
       "title": "Which Soviet Film Camera Should You Buy First?",
       "category": "Buying Guides",
-      "excerpt": "Zenit, Smena, Zorki, FED or Kiev? A practical comparison for beginners choosing a first Soviet film camera.",
+      "excerpt": "A practical comparison of Zenit, Smena, FED, Zorki and Kiev cameras, with focusing systems, film formats and the checks to make before buying.",
       "url": "./best-soviet-camera-for-beginners/",
-      "image": "",
-      "imageAlt": "Selection of vintage Soviet film cameras",
-      "date": "2026-08-05",
-      "readingTime": 10,
+      "image": "../filmcameras/assets/06-zenit-ttl.webp",
+      "imageAlt": "Zenit-TTL camera from the Mokosh Threads catalogue",
+      "date": "2027-03-29",
+      "readingTime": 4,
       "tags": [
-        "buying guide",
-        "Soviet cameras",
-        "Zenit",
-        "Smena",
-        "Zorki",
-        "FED",
-        "Kiev"
+        "Buying Guides"
       ],
       "featured": false,
-      "published": false
+      "published": false,
+      "readyToPublish": true,
+      "publishAt": "2027-03-29T12:00:00+08:00",
+      "series": "weekly-editorial",
+      "seriesOrder": 18
     },
     {
       "id": "komandirskie-vs-amphibia",
