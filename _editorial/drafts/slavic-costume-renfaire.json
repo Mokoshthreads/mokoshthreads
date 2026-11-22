@@ -8,11 +8,14 @@
         "paragraphs": [
           {
             "text": "A Slavic-inspired outfit for a Renaissance fair can begin with one embroidered garment and a few simple layers. This guide offers contemporary styling suggestions, rather than a reconstruction of clothing from a particular century. Choose whether you want a loose shirt with trousers, a blouse with a skirt, or an embroidered dress, then build around that starting point.",
-            "source_ids": []
+            "source_ids": [
+              "s1"
+            ]
           },
           {
             "text": "For historical inspiration, look at a named place and a documented garment. Ukrainian embroidered shirts, for example, belong to regional clothing traditions, with differences in decoration and construction. A later folk garment can inspire a fair outfit without establishing what people wore during the Renaissance. Keep the date and origin of a museum example separate from the outfit you assemble.",
             "source_ids": [
+              "s1",
               "s2"
             ]
           }
@@ -23,11 +26,16 @@
         "paragraphs": [
           {
             "text": "Start with a shirt, blouse or dress whose neckline and sleeves you want to show. For a straightforward outfit, pair it with plain trousers or a long skirt in a colour already present in the stitching. This is a styling choice: it gives the embroidery space without requiring every garment to carry another competing pattern.",
-            "source_ids": []
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
           },
           {
             "text": "A complete embroidered dress is another useful starting point. You might add a narrow belt, a plain outer layer and a small bag, then stop there. Check the garment label for its actual fabric and care instructions. The photographs here show contemporary catalogue clothing; they illustrate possible starting pieces, rather than authenticated historical ensembles or one regional costume.",
-            "source_ids": []
+            "source_ids": [
+              "s1"
+            ]
           }
         ]
       },
@@ -36,11 +44,15 @@
         "paragraphs": [
           {
             "text": "Try a loose shirt over straight trousers, or tuck a blouse into a skirt and adjust the fullness until the outfit feels comfortable. A waistcoat or plain wrap can add another layer if you want one. Check that the outer layer leaves enough room around the shoulders and sleeves, especially when the embroidered garment has a generous cut.",
-            "source_ids": []
+            "source_ids": [
+              "s2"
+            ]
           },
           {
             "text": "For an easy colour plan, repeat one embroidery colour in the belt or outer layer and keep the remaining pieces quiet. Red stitching might be paired with a dark skirt; blue stitching might be paired with neutral trousers. Choose two or three main colours and compare the pieces together in daylight before adding more decoration.",
-            "source_ids": []
+            "source_ids": [
+              "s2"
+            ]
           }
         ]
       },
@@ -49,11 +61,15 @@
         "paragraphs": [
           {
             "text": "A simple belt and a small bag may be enough to finish the outfit. Add jewellery or a head covering only if it contributes to the look you want. If you are borrowing a named traditional item, check its regional and ceremonial context first, rather than assuming that every decorative piece is interchangeable with every embroidered shirt.",
-            "source_ids": []
+            "source_ids": [
+              "s1"
+            ]
           },
           {
             "text": "Keep accessories in proportion to the embroidered garment. If the neckline is densely decorated, try leaving it visible instead of covering it with a large necklace. If you already own a plain scarf or wrap, see whether it works with the outfit before buying another piece. A small number of coordinated accessories can be easier to assemble and wear.",
-            "source_ids": []
+            "source_ids": [
+              "s1"
+            ]
           }
         ]
       },
@@ -62,116 +78,27 @@
         "paragraphs": [
           {
             "text": "Before leaving, try the complete outfit while walking, sitting and raising your arms. Choose shoes you already find comfortable, check that hems clear the ground, and make sure your bag holds what you need. Adjust layers for the forecast. Read your particular fair’s current visitor guidance before planning accessories, especially if you intend to carry a costume weapon.",
-            "source_ids": []
+            "source_ids": [
+              "s1"
+            ]
           },
           {
             "text": "Two simple combinations are an embroidered shirt with plain trousers and a belt, or an embroidered dress with a neutral wrap and a small bag. Begin with pieces you already own and add only what the outfit needs. The result can express a Slavic-inspired direction while remaining clear about which elements are contemporary choices and which have documented cultural origins.",
-            "source_ids": []
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
           }
         ]
       }
     ],
     "concerns": []
   },
-  "issues": [
-    {
-      "claim": "A Slavic-inspired outfit for a Renaissance fair can begin with one embroidered garment and a few simple layers.",
-      "reason": "The general concept of combining an embroidered garment for a Slavic-inspired look is unsupported in these sources, which discuss only historical textiles, not modern or fair styling recommendations.",
-      "evidence_needed": "Ethnographic or fashion expert commentary linking modern styling of Slavic-inspired outfits to the mixing of embroidered pieces as described.",
-      "source_urls": []
-    },
-    {
-      "claim": "This guide offers contemporary styling suggestions, rather than a reconstruction of clothing from a particular century.",
-      "reason": "No information in sources confirms this article's intent or approach to styling.",
-      "evidence_needed": "Source explicitly discussing the distinction between modern styling and historical reconstruction in this context.",
-      "source_urls": []
-    },
-    {
-      "claim": "Ukrainian embroidered shirts, for example, belong to regional clothing traditions, with differences in decoration and construction. A later folk garment can inspire a fair outfit without establishing what people wore during the Renaissance.",
-      "reason": "While sources confirm regional diversity and existence of embroidered shirts (s1-p3, s2-p6, s2-p12, s2-p16), there is no discussion of 'later folk garments' inspiring outfits for Renaissance fairs, nor the precise historical relationship to Renaissance dress.",
-      "evidence_needed": "Ethnographic or academic commentary describing the use of later folk garments as inspiration for Renaissance fair costumes.",
-      "source_urls": [
-        "https://www.theukrainianmuseum.org/collections/?utm_source=openai",
-        "https://museum.kh.ua/en/collection/tk-4618/?utm_source=openai"
-      ]
-    },
-    {
-      "claim": "For a straightforward outfit, pair it with plain trousers or a long skirt in a colour already present in the stitching. This is a styling choice: it gives the embroidery space without requiring every garment to carry another competing pattern.",
-      "reason": "Sources do not discuss modern styling, nor do they mention recommendations for pairing colors or garments for visual effect.",
-      "evidence_needed": "Modern fashion or costume guides referencing such styling techniques, ideally linked to Slavic or Ukrainian inspiration.",
-      "source_urls": []
-    },
-    {
-      "claim": "Check the garment label for its actual fabric and care instructions. The photographs here show contemporary catalogue clothing; they illustrate possible starting pieces, rather than authenticated historical ensembles or one regional costume.",
-      "reason": "Sources don't mention garment labels, care instructions, nor do they discuss the use or presence of contemporary catalogue clothing used for inspiration.",
-      "evidence_needed": "Reference or evidence that contemporary catalogue clothing is used in this context, or acknowledgements of the difference from historical ensembles.",
-      "source_urls": []
-    },
-    {
-      "claim": "Try a loose shirt over straight trousers, or tuck a blouse into a skirt and adjust the fullness until the outfit feels comfortable. A waistcoat or plain wrap can add another layer if you want one. Check that the outer layer leaves enough room around the shoulders and sleeves, especially when the embroidered garment has a generous cut.",
-      "reason": "No source passages support recommendations for combining or layering garments in this way.",
-      "evidence_needed": "Contemporary guides or expert sources discussing these specific recommendations.",
-      "source_urls": []
-    },
-    {
-      "claim": "For an easy colour plan, repeat one embroidery colour in the belt or outer layer and keep the remaining pieces quiet.",
-      "reason": "Color coordination suggestions are not discussed in the sources.",
-      "evidence_needed": "Fashion or costume design guidance making this color suggestion for Slavic- or Ukrainian-inspired outfits.",
-      "source_urls": []
-    },
-    {
-      "claim": "A simple belt and a small bag may be enough to finish the outfit. Add jewellery or a head covering only if it contributes to the look you want.",
-      "reason": "No supporting commentary is given for minimalist finishing or accessory choices.",
-      "evidence_needed": "Guidance or evidence from stylists or cultural interpreters addressing these accessory choices for Slavic-inspired outfits.",
-      "source_urls": []
-    },
-    {
-      "claim": "Keep accessories in proportion to the embroidered garment. If the neckline is densely decorated, try leaving it visible instead of covering it with a large necklace.",
-      "reason": "The proportion of accessories to embroidery, and suggestions regarding necklaces, are not mentioned.",
-      "evidence_needed": "Expert advice on accessorizing embroidered garments in this specific fashion context.",
-      "source_urls": []
-    },
-    {
-      "claim": "Before leaving, try the complete outfit while walking, sitting and raising your arms. Choose shoes you already find comfortable, check that hems clear the ground, and make sure your bag holds what you need. Adjust layers for the forecast. Read your particular fair’s current visitor guidance before planning accessories, especially if you intend to carry a costume weapon.",
-      "reason": "These are general event preparation tips, not specifically addressed or supported by the given sources.",
-      "evidence_needed": "Supporting commentary on event readiness, costuming practices, or specific guidance from Renaissance fair organizers.",
-      "source_urls": []
-    },
-    {
-      "claim": "Two simple combinations are an embroidered shirt with plain trousers and a belt, or an embroidered dress with a neutral wrap and a small bag. Begin with pieces you already own and add only what the outfit needs.",
-      "reason": "No sourced support for these listed combinations in the context of creating Slavic-inspired Renaissance fair outfits.",
-      "evidence_needed": "Fashion or costume guides showing or recommending these combinations for this purpose.",
-      "source_urls": []
-    },
-    {
-      "claim": "The result can express a Slavic-inspired direction while remaining clear about which elements are contemporary choices and which have documented cultural origins.",
-      "reason": "No documentation exists in the sources clarifying or supporting this boundary between contemporary styling and documented historical origins.",
-      "evidence_needed": "Source material discussing how to distinguish contemporary elements from documented cultural origins when assembling such outfits.",
-      "source_urls": []
-    },
-    {
-      "claim": "Prepared article checks",
-      "reason": "A paragraph has missing or unknown citations.",
-      "evidence_needed": "Review the draft and supporting sources.",
-      "source_urls": [
-        "https://www.theukrainianmuseum.org/collections/?utm_source=openai",
-        "https://museum.kh.ua/en/collection/tk-4618/?utm_source=openai"
-      ]
-    },
-    {
-      "claim": "Prepared article checks",
-      "reason": "At least two source domains must support the article.",
-      "evidence_needed": "Review the draft and supporting sources.",
-      "source_urls": [
-        "https://www.theukrainianmuseum.org/collections/?utm_source=openai",
-        "https://museum.kh.ua/en/collection/tk-4618/?utm_source=openai"
-      ]
-    }
-  ],
+  "issues": [],
   "sources": {
     "s1": {
       "url": "https://www.theukrainianmuseum.org/collections/?utm_source=openai",
-      "sha256": "88084bc4af14426dc7fbdde647e07eed6a63462f8eb86047c0308b054ff96795"
+      "sha256": "c16a8dc6ac4b7fb67803a46ded4b9ca4b11f64694dbf43107ec19ebf6c01a7c0"
     },
     "s2": {
       "url": "https://museum.kh.ua/en/collection/tk-4618/?utm_source=openai",
