@@ -79,11 +79,11 @@ class DraftingTests(unittest.TestCase):
             self.assertNotIn('<script>alert', rendered)
             self.assertIn('source-1', rendered)
 
-    def test_queue_has_sixteen_sequential_monday_slots(self):
+    def test_queue_keeps_sequential_monday_slots_as_topics_are_added(self):
         root = Path(__file__).resolve().parents[1]
         topics = json.loads((root / '_editorial/queue.json').read_text())['topics']
-        self.assertEqual(len(topics), 16)
-        self.assertEqual(len({t['id'] for t in topics}), 16)
+        self.assertGreaterEqual(len(topics), 16)
+        self.assertEqual(len({t['id'] for t in topics}), len(topics))
         dates = [datetime.fromisoformat(t['publishAt']) for t in topics]
         self.assertTrue(all(d.weekday() == 0 and d.hour == 12 and d.utcoffset().total_seconds() == 8 * 3600 for d in dates))
         self.assertTrue(all((b - a).days == 7 for a, b in zip(dates, dates[1:])))
