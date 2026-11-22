@@ -90,16 +90,17 @@
     {
       "id": "slavic-embroidery-symbols",
       "slug": "slavic-embroidery-symbols",
-      "title": "Reading Slavic Embroidery: Symbols, Colour and Memory",
+      "title": "An introduction to Slavic Embroidery: Symbols, Colour and Memory",
       "category": "Slavic Culture",
       "publishAt": "2027-02-15T12:00:00+08:00",
-      "image": "../../images/podilska-black-01.webp",
-      "imageAlt": "Contemporary black blouse with colourful embroidery from the Mokosh Threads catalogue",
+      "image": "../../resources/assets/slavic-embroidery-card.jpg",
+      "imageAlt": "AI-generated illustration of red and black geometric embroidery on ivory linen",
       "status": "published",
       "issue_number": 3,
       "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/3",
       "publishedAt": "2026-11-22",
-      "publicationMode": "immediate at user request"
+      "publicationMode": "immediate at user request",
+      "revisionPublishedAt": "2026-11-22"
     },
     {
       "id": "imperial-russia-timekeeping",

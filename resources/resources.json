@@ -78,25 +78,25 @@
     },
     {
       "id": "slavic-embroidery-symbols",
-      "title": "Reading Slavic Embroidery: Symbols, Colour and Memory",
+      "title": "An introduction to Slavic Embroidery: Symbols, Colour and Memory",
       "category": "Slavic Culture",
-      "excerpt": "How to read motifs and colour through regional traditions, ceremonial use and the knowledge passed between generations.",
+      "excerpt": "An introduction to embroidered clothing and ceremonial cloths, regional patterns and colour, and the knowledge passed between generations.",
       "url": "./slavic-embroidery-symbols/",
       "image": "./assets/slavic-embroidery-card.jpg",
-      "imageAlt": "AI-generated close-up of red and black geometric embroidery on ivory linen",
+      "imageAlt": "AI-generated illustration of red and black geometric embroidery on ivory linen",
       "date": "2026-11-22",
-      "readingTime": 3,
+      "readingTime": 4,
       "tags": [
         "Slavic culture",
         "embroidery",
         "symbols",
         "colour",
         "textiles",
-        "folk clothing",
         "Zmijanje",
-        "rushnyk"
+        "rushnyky",
+        "cultural heritage"
       ],
-      "featured": false,
+      "featured": true,
       "published": true,
       "readyToPublish": false
     },
@@ -141,7 +141,7 @@
         "Kiev",
         "film photography"
       ],
-      "featured": true,
+      "featured": false,
       "published": true,
       "readyToPublish": false
     },
