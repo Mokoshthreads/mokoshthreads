@@ -90,9 +90,11 @@
     {
       "id": "slavic-embroidery-symbols",
       "slug": "slavic-embroidery-symbols",
-      "title": "Flowers, Birds and Geometric Patterns in Slavic Embroidery",
+      "title": "Reading Slavic Embroidery: Symbols, Colour and Memory",
       "category": "Slavic Culture",
-      "publishAt": "2027-02-15T12:00:00+08:00"
+      "publishAt": "2027-02-15T12:00:00+08:00",
+      "image": "../../images/podilska-black-01.webp",
+      "imageAlt": "Contemporary black blouse with colourful embroidery from the Mokosh Threads catalogue"
     },
     {
       "id": "imperial-russia-timekeeping",

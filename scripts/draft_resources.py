@@ -263,7 +263,7 @@ def evidence_passages(sources, title):
     if 'zenit' in terms:
         terms |= {'reflex', 'meter', '1952', '1965', 'krasnogorsk', 'belomo', 'export', 'selenium'}
     if 'vyshyvanka' in terms or 'embroidery' in terms:
-        terms |= {'embroidery', 'shirt', 'linen', 'hemp', 'regional', 'stitch', 'cotton', 'festive', 'identity', 'dress', 'museum'}
+        terms |= {'embroidery', 'shirt', 'linen', 'hemp', 'regional', 'stitch', 'cotton', 'festive', 'identity', 'dress', 'museum', 'colour', 'color', 'motif', 'zmijanje', 'blue', 'rushnyk', 'towel', 'wedding', 'ritual', 'transmission', 'community'}
     passages = {}
     for sid, source in sources.items():
         sentences = [part.strip()[:350] for part in re.split(r'(?<=[.!?])\s+', source['text']) if len(part.strip()) >= 20]
