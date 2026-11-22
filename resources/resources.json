@@ -93,7 +93,10 @@
         "folk clothing"
       ],
       "featured": false,
-      "published": false
+      "published": false,
+      "readyToPublish": false,
+      "series": "weekly-editorial",
+      "seriesOrder": 12
     },
     {
       "id": "slavic-costume-renfaire",

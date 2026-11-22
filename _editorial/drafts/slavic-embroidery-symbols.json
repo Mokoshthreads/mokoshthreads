@@ -1,0 +1,123 @@
+{
+  "draft": {
+    "title": "Reading Slavic Embroidery: Symbols, Colour and Memory",
+    "description": "How to read motifs and colour through regional traditions, ceremonial use and the knowledge passed between generations.",
+    "sections": [
+      {
+        "heading": "Begin with the textile, not a symbol chart",
+        "paragraphs": [
+          {
+            "text": "Slavic embroidery is a broad description, not the name of one uniform tradition. An embroidered Ukrainian shirt, a ceremonial cloth and work from the Zmijanje area of Bosnia and Herzegovina belong to particular settings. Reading them well begins with the object and its documented context, rather than assuming that every repeated shape has one translation.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "A useful first question is what the embroidery was made for. Clothing, household textiles and ceremonial objects can carry different associations even when their decoration looks similar. A museum description that identifies a place, use and approximate date provides a starting point. The pattern becomes more informative when those details are considered together.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Look at arrangement as well as motifs",
+        "paragraphs": [
+          {
+            "text": "Flowers, birds and geometric shapes appear in embroidered textiles, but the individual motif is only part of the design. Repetition, symmetry, the scale of a pattern and its position on the cloth also matter. On a garment, decoration around the opening or sleeves has a different physical setting from a large design arranged across a towel.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "It helps to separate observation from interpretation. Identifying a diamond, a plant form or a pair of birds describes what is visible. Calling it a sign of fertility, protection or family happiness is a further claim. That claim should be linked to a documented community or tradition, rather than presented as a rule for all Slavic embroidery.",
+            "source_ids": [
+              "s1"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Colour belongs to a particular tradition",
+        "paragraphs": [
+          {
+            "text": "Red and white are familiar in many embroidered textiles, but they do not define the whole subject. UNESCO’s account of Zmijanje embroidery identifies its distinctive use of deep blue thread. This example is a useful reminder that the colour of a tradition needs to be understood locally, alongside its technique and characteristic patterns.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "The same approach applies to darker colours or a richly coloured floral design. A colour by itself does not establish when a textile was made or what its wearer believed. Read it together with the cloth, stitches, pattern and available history. A documented regional example is more informative than treating an isolated colour as a universal message.",
+            "source_ids": [
+              "s1"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Cloth can carry memories of an occasion",
+        "paragraphs": [
+          {
+            "text": "Ukrainian rushnyky, often described in English as ritual or ceremonial towels, show why use matters. Such textiles have associations with occasions including weddings and with domestic ceremonial settings. Their significance comes from the role of the cloth as well as its decoration. A design should therefore be read alongside the occasion and the people connected with it.",
+            "source_ids": [
+              "s2"
+            ]
+          },
+          {
+            "text": "For a particular family textile, the history of making, giving, wearing or keeping it can add meaning that a photograph alone cannot supply. A surviving cloth might have a documented connection with a celebration or a household. Where that connection is unknown, it is better to preserve the uncertainty than to supply an attractive but unsupported story.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Memory is also in the making",
+        "paragraphs": [
+          {
+            "text": "Embroidery knowledge is passed on through practice as well as through finished objects. UNESCO’s description of Zmijanje embroidery discusses learning and transmission within the community. The tradition includes skills and shared knowledge, not only a pattern that can be copied. Watching, practising and teaching help explain how embroidery can connect different generations.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "To read a textile, ask a small set of questions: what is it, where did it come from, when was it made, and how was it used? Then consider who made or preserved it, if that information survives. This approach keeps symbols and colour connected to evidence, while leaving room for the particular memories a community or family attaches to its work.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": []
+  },
+  "issues": [
+    {
+      "claim": "Slavic embroidery is a broad description, not the name of one uniform tradition. An embroidered Ukrainian shirt, a ceremonial cloth and work from the Zmijanje area of Bosnia and Herzegovina belong to particular settings.",
+      "reason": "The sources discuss Zmijanje embroidery in detail and reference Ukrainian rushnyky as museum objects, but do not provide direct evidence for the broad comparative statement that 'Slavic embroidery is a broad description, not the name of one uniform tradition', nor do they directly link Ukrainian shirts, ceremonial cloth, and Zmijanje together for this comparison.",
+      "evidence_needed": "An explicit source discussing Slavic embroidery as a broad descriptor, comparing Ukrainian, Bosnian, and other traditions, and emphasizing the importance of documented context for each object.",
+      "source_urls": [
+        "https://ich.unesco.org/en/RL/zmijanje-embroidery-00990?utm_source=openai",
+        "https://honchar.org.ua/en/collections/view/rushnyky?utm_source=openai"
+      ]
+    }
+  ],
+  "sources": {
+    "s1": {
+      "url": "https://ich.unesco.org/en/RL/zmijanje-embroidery-00990?utm_source=openai",
+      "sha256": "3a080469d28edd0b5bbbbb5fdca97401dfe3d3170e9ac599ed55f52d28955a4a"
+    },
+    "s2": {
+      "url": "https://honchar.org.ua/en/collections/view/rushnyky?utm_source=openai",
+      "sha256": "c495e81c2dbe0db747043192d970013f206bbf2621edda24a9d25f0624f165c9"
+    },
+    "s3": {
+      "url": "https://zmijanje.design/shop/book-zmijanje-embroidery-patterns/?utm_source=openai",
+      "sha256": "9725dc9d6a8ea4c1d0a92cacba79bfcb1183d5cdf311ab0ea61d08b8117674b5"
+    },
+    "s4": {
+      "url": "https://www.unesco.org/archives/multimedia/document-3675?utm_source=openai",
+      "sha256": "05d6cd47fd54709e17552d0d83fa29a3a57763cd2f9d85ce4b316491015fe512"
+    }
+  }
+}

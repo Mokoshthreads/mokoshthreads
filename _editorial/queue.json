@@ -94,7 +94,10 @@
       "category": "Slavic Culture",
       "publishAt": "2027-02-15T12:00:00+08:00",
       "image": "../../images/podilska-black-01.webp",
-      "imageAlt": "Contemporary black blouse with colourful embroidery from the Mokosh Threads catalogue"
+      "imageAlt": "Contemporary black blouse with colourful embroidery from the Mokosh Threads catalogue",
+      "status": "needs_verification",
+      "issue_number": 3,
+      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/3"
     },
     {
       "id": "imperial-russia-timekeeping",
