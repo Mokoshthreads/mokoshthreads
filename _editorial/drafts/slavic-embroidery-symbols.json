@@ -4,17 +4,19 @@
     "description": "How to read motifs and colour through regional traditions, ceremonial use and the knowledge passed between generations.",
     "sections": [
       {
-        "heading": "Begin with the textile, not a symbol chart",
+        "heading": "Begin with the textile",
         "paragraphs": [
           {
-            "text": "Slavic embroidery is a broad description, not the name of one uniform tradition. An embroidered Ukrainian shirt, a ceremonial cloth and work from the Zmijanje area of Bosnia and Herzegovina belong to particular settings. Reading them well begins with the object and its documented context, rather than assuming that every repeated shape has one translation.",
+            "text": "UNESCO describes Zmijanje embroidery as a practice associated with the Zmijanje region of Bosnia and Herzegovina. The Ivan Honchar Museum has a collection of Ukrainian rushnyky, or ritual towels. These provide two documented starting points for this guide: a regional embroidery practice and a type of ceremonial textile, each with its own context.",
             "source_ids": [
-              "s1"
+              "s1",
+              "s2"
             ]
           },
           {
             "text": "A useful first question is what the embroidery was made for. Clothing, household textiles and ceremonial objects can carry different associations even when their decoration looks similar. A museum description that identifies a place, use and approximate date provides a starting point. The pattern becomes more informative when those details are considered together.",
             "source_ids": [
+              "s1",
               "s2"
             ]
           }
@@ -66,7 +68,7 @@
           {
             "text": "For a particular family textile, the history of making, giving, wearing or keeping it can add meaning that a photograph alone cannot supply. A surviving cloth might have a documented connection with a celebration or a household. Where that connection is unknown, it is better to preserve the uncertainty than to supply an attractive but unsupported story.",
             "source_ids": [
-              "s2"
+              "s1"
             ]
           }
         ]
@@ -83,7 +85,7 @@
           {
             "text": "To read a textile, ask a small set of questions: what is it, where did it come from, when was it made, and how was it used? Then consider who made or preserved it, if that information survives. This approach keeps symbols and colour connected to evidence, while leaving room for the particular memories a community or family attaches to its work.",
             "source_ids": [
-              "s2"
+              "s1"
             ]
           }
         ]
@@ -91,17 +93,7 @@
     ],
     "concerns": []
   },
-  "issues": [
-    {
-      "claim": "Slavic embroidery is a broad description, not the name of one uniform tradition. An embroidered Ukrainian shirt, a ceremonial cloth and work from the Zmijanje area of Bosnia and Herzegovina belong to particular settings.",
-      "reason": "The sources discuss Zmijanje embroidery in detail and reference Ukrainian rushnyky as museum objects, but do not provide direct evidence for the broad comparative statement that 'Slavic embroidery is a broad description, not the name of one uniform tradition', nor do they directly link Ukrainian shirts, ceremonial cloth, and Zmijanje together for this comparison.",
-      "evidence_needed": "An explicit source discussing Slavic embroidery as a broad descriptor, comparing Ukrainian, Bosnian, and other traditions, and emphasizing the importance of documented context for each object.",
-      "source_urls": [
-        "https://ich.unesco.org/en/RL/zmijanje-embroidery-00990?utm_source=openai",
-        "https://honchar.org.ua/en/collections/view/rushnyky?utm_source=openai"
-      ]
-    }
-  ],
+  "issues": [],
   "sources": {
     "s1": {
       "url": "https://ich.unesco.org/en/RL/zmijanje-embroidery-00990?utm_source=openai",
@@ -109,15 +101,15 @@
     },
     "s2": {
       "url": "https://honchar.org.ua/en/collections/view/rushnyky?utm_source=openai",
-      "sha256": "c495e81c2dbe0db747043192d970013f206bbf2621edda24a9d25f0624f165c9"
+      "sha256": "632a0946cca7e2030a3031709fa41dd33cbf9d4d4df419bd059a5c82d6175602"
     },
     "s3": {
       "url": "https://zmijanje.design/shop/book-zmijanje-embroidery-patterns/?utm_source=openai",
-      "sha256": "9725dc9d6a8ea4c1d0a92cacba79bfcb1183d5cdf311ab0ea61d08b8117674b5"
+      "sha256": "c8734010a3a4a7e304c5fcae668f371c0add9023d4f51c1fd7ffe60f9ab421ab"
     },
     "s4": {
       "url": "https://www.unesco.org/archives/multimedia/document-3675?utm_source=openai",
-      "sha256": "05d6cd47fd54709e17552d0d83fa29a3a57763cd2f9d85ce4b316491015fe512"
+      "sha256": "18e1251d886a274372fcb4fa7c75711e88e800688ad931b0d0fb3eb0fbf3cac4"
     }
   }
 }

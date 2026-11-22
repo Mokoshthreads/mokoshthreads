@@ -80,23 +80,21 @@
       "id": "slavic-embroidery-symbols",
       "title": "Reading Slavic Embroidery: Symbols, Colour and Memory",
       "category": "Slavic Culture",
-      "excerpt": "A beginner-friendly introduction to the way motifs, colour, region and family traditions can shape the meaning of embroidered clothing.",
+      "excerpt": "How to read motifs and colour through regional traditions, ceremonial use and the knowledge passed between generations.",
       "url": "./slavic-embroidery-symbols/",
-      "image": "",
-      "imageAlt": "Traditional Slavic embroidery patterns",
-      "date": "2026-08-07",
-      "readingTime": 9,
+      "image": "../images/podilska-black-01.webp",
+      "imageAlt": "Contemporary black blouse with colourful embroidery from the Mokosh Threads catalogue",
+      "date": "2027-02-15",
+      "readingTime": 4,
       "tags": [
-        "Slavic culture",
-        "embroidery",
-        "symbols",
-        "folk clothing"
+        "Slavic Culture"
       ],
       "featured": false,
       "published": false,
-      "readyToPublish": false,
+      "readyToPublish": true,
       "series": "weekly-editorial",
-      "seriesOrder": 12
+      "seriesOrder": 12,
+      "publishAt": "2027-02-15T12:00:00+08:00"
     },
     {
       "id": "slavic-costume-renfaire",
