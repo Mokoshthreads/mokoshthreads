@@ -95,9 +95,11 @@
       "publishAt": "2027-02-15T12:00:00+08:00",
       "image": "../../images/podilska-black-01.webp",
       "imageAlt": "Contemporary black blouse with colourful embroidery from the Mokosh Threads catalogue",
-      "status": "ready",
+      "status": "published",
       "issue_number": 3,
-      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/3"
+      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/3",
+      "publishedAt": "2026-11-22",
+      "publicationMode": "immediate at user request"
     },
     {
       "id": "imperial-russia-timekeeping",

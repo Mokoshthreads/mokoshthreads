@@ -36,7 +36,7 @@
         "embroidery",
         "regional dress"
       ],
-      "featured": true,
+      "featured": false,
       "published": true,
       "readyToPublish": false
     },
@@ -84,17 +84,21 @@
       "url": "./slavic-embroidery-symbols/",
       "image": "../images/podilska-black-01.webp",
       "imageAlt": "Contemporary black blouse with colourful embroidery from the Mokosh Threads catalogue",
-      "date": "2027-02-15",
-      "readingTime": 4,
+      "date": "2026-11-22",
+      "readingTime": 3,
       "tags": [
-        "Slavic Culture"
+        "Slavic culture",
+        "embroidery",
+        "symbols",
+        "colour",
+        "textiles",
+        "folk clothing",
+        "Zmijanje",
+        "rushnyk"
       ],
-      "featured": false,
-      "published": false,
-      "readyToPublish": true,
-      "series": "weekly-editorial",
-      "seriesOrder": 12,
-      "publishAt": "2027-02-15T12:00:00+08:00"
+      "featured": true,
+      "published": true,
+      "readyToPublish": false
     },
     {
       "id": "slavic-costume-renfaire",
