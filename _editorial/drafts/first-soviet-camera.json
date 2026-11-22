@@ -111,23 +111,39 @@
     ],
     "concerns": []
   },
-  "issues": [],
+  "issues": [
+    {
+      "claim": "Model-specific source review",
+      "reason": "Editorial check: manual indexes are leads, not technical evidence. Re-fetch actual model-specific references. The replacement URLs are unverified research leads until retrieved.",
+      "evidence_needed": "Read the model-specific pages and match each technical assertion to actual instructions or specialist descriptions.",
+      "source_urls": [
+        "https://sovietcameras.org/zenit-cameras/",
+        "https://sovietcameras.org/smena-8m/",
+        "https://sovietcameras.org/zorki-4/",
+        "https://sovietcameras.org/fed-2/",
+        "https://kiev4.narod.ru/manuals/man_kiev4_e.html",
+        "https://www.geocities.ws/kiev60slr/manual/instructions1.html"
+      ]
+    }
+  ],
   "sources": {
     "s1": {
-      "url": "https://butkus.org/chinon/russian.htm?utm_source=openai",
-      "sha256": "0f3913cb70e40a2b435c2a760ac3614480f3975dc79f345f216f4c3d33063103"
+      "url": "https://sovietcameras.org/zenit-cameras/"
     },
     "s2": {
-      "url": "https://eugigufo.net/en/download/photovideo/?utm_source=openai",
-      "sha256": "9e9404c7a88a02b5b25175f6c42bae8d4ec399e6048815f8799b31c6fe211543"
+      "url": "https://sovietcameras.org/smena-8m/"
     },
     "s3": {
-      "url": "https://kiev4.narod.ru/manuals/man_kiev4_e.html?utm_source=openai",
-      "sha256": "0eaf9181483bc2ea0e82983d166aa96fa8e0dd52edcc3df6feef8002998ef1d1"
+      "url": "https://sovietcameras.org/zorki-4/"
     },
     "s4": {
-      "url": "https://www.geocities.ws/kiev60slr/manual/instructions1.html?utm_source=openai",
-      "sha256": "83bc72c3d2d4fc37ca79e8f7de3225ab31d60bca9363d68bb99056dd21c5eb72"
+      "url": "https://sovietcameras.org/fed-2/"
+    },
+    "s5": {
+      "url": "https://kiev4.narod.ru/manuals/man_kiev4_e.html"
+    },
+    "s6": {
+      "url": "https://www.geocities.ws/kiev60slr/manual/instructions1.html"
     }
   }
 }
