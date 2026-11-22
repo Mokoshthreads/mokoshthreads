@@ -132,7 +132,10 @@
       "category": "Renfaire",
       "publishAt": "2027-03-22T12:00:00+08:00",
       "image": "../../images/dress-waterfall-01.webp",
-      "imageAlt": "Contemporary white Waterfall dress with blue embroidery from the Mokosh Threads catalogue"
+      "imageAlt": "Contemporary white Waterfall dress with blue embroidery from the Mokosh Threads catalogue",
+      "status": "needs_verification",
+      "issue_number": 4,
+      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/4"
     }
   ]
 }

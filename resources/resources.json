@@ -117,7 +117,10 @@
         "outfit guide"
       ],
       "featured": false,
-      "published": false
+      "published": false,
+      "readyToPublish": false,
+      "series": "weekly-editorial",
+      "seriesOrder": 17
     },
     {
       "id": "first-soviet-camera",

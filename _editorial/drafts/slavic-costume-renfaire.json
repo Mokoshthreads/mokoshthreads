@@ -1,0 +1,114 @@
+{
+  "draft": {
+    "title": "Building a Slavic-Inspired Renfaire Outfit",
+    "description": "A practical guide to embroidered starting pieces, simple layers and accessories for a contemporary Renaissance fair outfit.",
+    "sections": [
+      {
+        "heading": "Choose a direction",
+        "paragraphs": [
+          {
+            "text": "A Slavic-inspired outfit for a Renaissance fair can begin with one embroidered garment and a few simple layers. This guide offers contemporary styling suggestions, rather than a reconstruction of clothing from a particular century. Choose whether you want a loose shirt with trousers, a blouse with a skirt, or an embroidered dress, then build around that starting point.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "For historical inspiration, look at a named place and a documented garment. Ukrainian embroidered shirts, for example, belong to regional clothing traditions, with differences in decoration and construction. A later folk garment can inspire a fair outfit without establishing what people wore during the Renaissance. Keep the date and origin of a museum example separate from the outfit you assemble.",
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Let the embroidery lead",
+        "paragraphs": [
+          {
+            "text": "Start with a shirt, blouse or dress whose neckline and sleeves you want to show. For a straightforward outfit, pair it with plain trousers or a long skirt in a colour already present in the stitching. This is a styling choice: it gives the embroidery space without requiring every garment to carry another competing pattern.",
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
+          },
+          {
+            "text": "A complete embroidered dress is another useful starting point. You might add a narrow belt, a plain outer layer and a small bag, then stop there. Check the garment label for its actual fabric and care instructions. The photographs here show contemporary catalogue clothing; they illustrate possible starting pieces, rather than authenticated historical ensembles or one regional costume.",
+            "source_ids": [
+              "s1"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Build with simple layers",
+        "paragraphs": [
+          {
+            "text": "Try a loose shirt over straight trousers, or tuck a blouse into a skirt and adjust the fullness until the outfit feels comfortable. A waistcoat or plain wrap can add another layer if you want one. Treat these combinations as options for a modern fair outfit, rather than rules defining how a particular community dressed.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "For an easy colour plan, repeat one embroidery colour in the belt or outer layer and keep the remaining pieces quiet. Red stitching might be paired with a dark skirt; blue stitching might be paired with neutral trousers. These pairings are suggestions for balance. They do not assign a fixed symbolic meaning to the colours or claim a historical regional combination.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Choose accessories with context",
+        "paragraphs": [
+          {
+            "text": "A simple belt and a small bag may be enough to finish the outfit. Add jewellery or a head covering only if it contributes to the look you want. If you are borrowing a named traditional item, check its regional and ceremonial context first, rather than assuming that every decorative piece is interchangeable with every embroidered shirt.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "The same care applies to embroidery itself. A pattern can be admired without giving each shape a universal meaning. UNESCO’s account of Zmijanje embroidery, for example, describes a specific community practice associated with distinctive deep-blue stitching. Use documented examples to understand an object’s context; choose your fair accessories without presenting an invented mixture as a complete traditional costume.",
+            "source_ids": [
+              "s1"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Make the outfit work for the day",
+        "paragraphs": [
+          {
+            "text": "Before leaving, try the complete outfit while walking, sitting and raising your arms. Choose shoes you already find comfortable, check that hems clear the ground, and make sure your bag holds what you need. Adjust layers for the forecast. Read your particular fair’s current visitor guidance before planning accessories, especially if you intend to carry a costume weapon.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "Two simple combinations are an embroidered shirt with plain trousers and a belt, or an embroidered dress with a neutral wrap and a small bag. Begin with pieces you already own and add only what the outfit needs. The result can express a Slavic-inspired direction while remaining clear about which elements are contemporary choices and which have documented cultural origins.",
+            "source_ids": [
+              "s1"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": []
+  },
+  "issues": [
+    {
+      "claim": "UNESCO’s account of Zmijanje embroidery, for example, describes a specific community practice associated with distinctive deep-blue stitching.",
+      "reason": "The provided sources do not contain any information about Zmijanje embroidery or UNESCO's account of it.",
+      "evidence_needed": "Documented reference to UNESCO's description of Zmijanje embroidery and its use of deep-blue stitching.",
+      "source_urls": []
+    }
+  ],
+  "sources": {
+    "s1": {
+      "url": "https://www.theukrainianmuseum.org/collections/?utm_source=openai",
+      "sha256": "5a2d4af7cf2532798e33e66a551a79f8db21adb2d8b0dd195685433c5ccccc49"
+    },
+    "s2": {
+      "url": "https://museum.kh.ua/en/collection/tk-4618/?utm_source=openai",
+      "sha256": "dd181d36f85390a11ca1e7b3d519c9126bb56723a73269fd99982508d88ddd50"
+    }
+  }
+}
