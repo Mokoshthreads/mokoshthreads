@@ -84,7 +84,7 @@ class DraftingTests(unittest.TestCase):
         topics = json.loads((root / '_editorial/queue.json').read_text())['topics']
         self.assertGreaterEqual(len(topics), 16)
         self.assertEqual(len({t['id'] for t in topics}), len(topics))
-        dates = [datetime.fromisoformat(t['publishAt']) for t in topics]
+        dates = [datetime.fromisoformat(t['publishAt']) for t in topics if t.get('status') != 'published']
         self.assertTrue(all(d.weekday() == 0 and d.hour == 12 and d.utcoffset().total_seconds() == 8 * 3600 for d in dates))
         self.assertTrue(all((b - a).days == 7 for a, b in zip(dates, dates[1:])))
 

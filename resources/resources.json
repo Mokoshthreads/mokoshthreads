@@ -8,7 +8,7 @@
       "url": "./timeline-history-of-soviet-posters/",
       "image": "./assets/soviet-posters/timeline-cover.jpg",
       "imageAlt": "Poster reproductions showing geometric design, a wartime appeal and space exploration",
-      "date": "2026-11-22",
+      "date": "2026-10-12",
       "readingTime": 4,
       "tags": [
         "Soviet posters",
@@ -28,7 +28,7 @@
       "url": "./what-is-a-vyshyvanka/",
       "image": "../images/blouse-podilska-red-02.jpeg",
       "imageAlt": "Red embroidered blouse from the Mokosh Threads clothing catalogue",
-      "date": "2026-11-22",
+      "date": "2026-10-26",
       "readingTime": 3,
       "tags": [
         "vyshyvanka",
@@ -48,7 +48,7 @@
       "url": "./history-of-vostok-watches/",
       "image": "./assets/vostok-history.jpg",
       "imageAlt": "Vostok Komandirskie Hovercraft Blue from the Mokosh Threads collection",
-      "date": "2026-11-22",
+      "date": "2026-10-05",
       "readingTime": 6,
       "tags": [
         "Vostok",
@@ -67,7 +67,7 @@
       "url": "./history-of-zenit-cameras/",
       "image": "../filmcameras/assets/01-zenit-e.webp",
       "imageAlt": "Zenit-E camera from the Mokosh Threads collection",
-      "date": "2026-11-22",
+      "date": "2026-10-19",
       "readingTime": 3,
       "tags": [
         "Camera History"
@@ -84,7 +84,7 @@
       "url": "./slavic-embroidery-symbols/",
       "image": "./assets/slavic-embroidery-card.jpg",
       "imageAlt": "AI-generated illustration of red and black geometric embroidery on ivory linen",
-      "date": "2026-11-22",
+      "date": "2026-11-02",
       "readingTime": 4,
       "tags": [
         "Slavic culture",
@@ -108,7 +108,7 @@
       "url": "./slavic-renfaire-outfit-guide/",
       "image": "../images/dress-waterfall-01.webp",
       "imageAlt": "Contemporary white Waterfall dress with blue embroidery from the Mokosh Threads catalogue",
-      "date": "2026-11-22",
+      "date": "2026-11-09",
       "readingTime": 3,
       "tags": [
         "Renfaire",
@@ -129,7 +129,7 @@
       "url": "./best-soviet-camera-for-beginners/",
       "image": "../filmcameras/assets/06-zenit-ttl.webp",
       "imageAlt": "Zenit-TTL camera from the Mokosh Threads catalogue",
-      "date": "2026-11-22",
+      "date": "2026-11-16",
       "readingTime": 5,
       "tags": [
         "buying guide",
@@ -153,7 +153,7 @@
       "url": "./komandirskie-vs-amphibia/",
       "image": "../images/watches/amphibia_albatross.jpg",
       "imageAlt": "Vostok Amphibia Albatross from the Mokosh Threads collection",
-      "date": "2026-11-30",
+      "date": "2026-11-23",
       "readingTime": 4,
       "tags": [
         "Watch History"
@@ -163,7 +163,7 @@
       "readyToPublish": true,
       "series": "weekly-editorial",
       "seriesOrder": 1,
-      "publishAt": "2026-11-30T12:00:00+08:00"
+      "publishAt": "2026-11-23T12:00:00+08:00"
     }
   ]
 }
