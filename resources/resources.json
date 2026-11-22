@@ -117,7 +117,7 @@
         "Slavic-inspired",
         "layers"
       ],
-      "featured": true,
+      "featured": false,
       "published": true,
       "readyToPublish": false
     },
@@ -129,17 +129,21 @@
       "url": "./best-soviet-camera-for-beginners/",
       "image": "../filmcameras/assets/06-zenit-ttl.webp",
       "imageAlt": "Zenit-TTL camera from the Mokosh Threads catalogue",
-      "date": "2027-03-29",
-      "readingTime": 4,
+      "date": "2026-11-22",
+      "readingTime": 5,
       "tags": [
-        "Buying Guides"
+        "buying guide",
+        "Soviet cameras",
+        "Zenit",
+        "Smena",
+        "FED",
+        "Zorki",
+        "Kiev",
+        "film photography"
       ],
-      "featured": false,
-      "published": false,
-      "readyToPublish": true,
-      "publishAt": "2027-03-29T12:00:00+08:00",
-      "series": "weekly-editorial",
-      "seriesOrder": 18
+      "featured": true,
+      "published": true,
+      "readyToPublish": false
     },
     {
       "id": "komandirskie-vs-amphibia",
