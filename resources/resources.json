@@ -96,7 +96,7 @@
         "rushnyky",
         "cultural heritage"
       ],
-      "featured": true,
+      "featured": false,
       "published": true,
       "readyToPublish": false
     },
@@ -158,9 +158,9 @@
       "tags": [
         "Watch History"
       ],
-      "featured": false,
-      "published": false,
-      "readyToPublish": true,
+      "featured": true,
+      "published": true,
+      "readyToPublish": false,
       "series": "weekly-editorial",
       "seriesOrder": 1,
       "publishAt": "2026-11-23T12:00:00+08:00"
