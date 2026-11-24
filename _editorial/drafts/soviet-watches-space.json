@@ -1,0 +1,150 @@
+{
+  "draft": {
+    "title": "Soviet Watches and the Space Programme: Documented History and Popular Stories",
+    "description": "A factual overview of Soviet watches and their role in space exploration based on factory records, museum data, and contemporary accounts.",
+    "sections": [
+      {
+        "heading": "Foundations of Soviet Watchmaking",
+        "paragraphs": [
+          {
+            "text": "The First Moscow Watch Factory was founded in 1930 as the cornerstone of the Soviet watch industry. Its establishment relied on imported machinery and expertise from the bankrupt Dueber-Hampden Watch Company in the United States, marking a significant transfer of horological knowledge to the Soviet Union.",
+            "source_ids": [
+              "s3"
+            ]
+          },
+          {
+            "text": "This factory began producing early pocket and wristwatches under various names and later became internationally recognized for its mechanical chronographs. Soviet-era watch production was documented in museum catalogues and factory archives, with factory names such as Kirovskie, Pobeda, Sturmanskie, Strela, and eventually Poljot.",
+            "source_ids": [
+              "s1",
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Watches for Cosmonauts: Documented Flights",
+        "paragraphs": [
+          {
+            "text": "In April 1961, Yuri Gagarin became the first human in space, wearing a Sturmanskie watch produced by the First Moscow Watch Factory. This model, issued during his time as a military pilot, has been associated with his historic flight based on published reports and factory documentation.",
+            "source_ids": [
+              "s2",
+              "s3"
+            ]
+          },
+          {
+            "text": "During the first spacewalk in 1965, Alexei Leonov reportedly wore a Strela chronograph, another product of the same factory. These watches became linked in official and collector accounts with key moments in Soviet space exploration, cementing their place in horological history.",
+            "source_ids": [
+              "s3",
+              "s4"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Engineering and Selection Philosophy",
+        "paragraphs": [
+          {
+            "text": "Soviet space watches relied on military-tested reliable movements rather than special space-specific development. The approach emphasized proven performance, with equipment selected based on prior field use rather than exhaustive laboratory testing.",
+            "source_ids": [
+              "s4"
+            ]
+          },
+          {
+            "text": "Unlike the American programme, which used rigorous formal qualification, the Soviets often issued watches that survived extreme earthly conditions to cosmonauts. This distinction characterizes much of the documented Soviet space equipment selection process.",
+            "source_ids": [
+              "s4"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Movement Technology and Model Evolution",
+        "paragraphs": [
+          {
+            "text": "The Poljot 3017 movement, derived from the Swiss Venus 150, became the heart of Soviet chronography and was used in many military-issue watches. It was known for its column-wheel mechanism, a feature considered a mark of quality and durability.",
+            "source_ids": [
+              "s4"
+            ]
+          },
+          {
+            "text": "Later, the Poljot 3133 movement replaced the 3017 in the mid-1970s, switching to a cam system for easier manufacturing and servicing. The 3133 powered chronographs used by cosmonauts on later Soyuz and space station missions.",
+            "source_ids": [
+              "s4",
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Legacy, Documentation, and Collecting",
+        "paragraphs": [
+          {
+            "text": "Authenticity can be challenging to verify due to inconsistent Soviet-era record keeping and frequent servicing replacements. Still, surviving factory catalogues and museum records provide key reference points for identifying correct models and calibres.",
+            "source_ids": [
+              "s1",
+              "s4"
+            ]
+          },
+          {
+            "text": "Although the Poljot factory ended production in 2004, the heritage of these watches remains active among collectors. Their role in the Soviet space programme contributes to their ongoing significance and interest in horological and space history communities.",
+            "source_ids": [
+              "s4",
+              "s1"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": [
+      {
+        "claim": "Alexei Leonov reportedly wore a Strela chronograph during the first spacewalk.",
+        "reason": "Some sources state this as a fact, while others use 'reportedly.'",
+        "evidence_needed": "Definitive original flight records or firsthand accounts proving Leonov's exact watch model.",
+        "source_urls": [
+          "https://horologyatlas.com/watchmakers/first-moscow-watch-factory?utm_source=openai",
+          "https://univaque-watches.com/soviet-space-watches-complete/?utm_source=openai"
+        ]
+      }
+    ]
+  },
+  "issues": [
+    {
+      "claim": "Alexei Leonov reportedly wore a Strela chronograph during the first spacewalk.",
+      "reason": "Some sources state this as a fact, while others use 'reportedly.'",
+      "evidence_needed": "Definitive original flight records or firsthand accounts proving Leonov's exact watch model.",
+      "source_urls": [
+        "https://horologyatlas.com/watchmakers/first-moscow-watch-factory?utm_source=openai",
+        "https://univaque-watches.com/soviet-space-watches-complete/?utm_source=openai"
+      ]
+    },
+    {
+      "claim": "Article source checks",
+      "reason": "Article body must be between 450 and 950 words.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
+      "source_urls": [
+        "https://sovietwatchmuseum.com/catalogs?utm_source=openai",
+        "https://sturmanskie.com/?utm_source=openai",
+        "https://horologyatlas.com/watchmakers/first-moscow-watch-factory?utm_source=openai",
+        "https://univaque-watches.com/soviet-space-watches-complete/?utm_source=openai"
+      ]
+    }
+  ],
+  "sources": {
+    "s1": {
+      "url": "https://sovietwatchmuseum.com/catalogs?utm_source=openai",
+      "sha256": "3e8cd5ade05f79e7355a3b782cc66a650d1b29368b99cd3e8d7421137fbdf848"
+    },
+    "s2": {
+      "url": "https://sturmanskie.com/?utm_source=openai",
+      "sha256": "78ee0db44f9a8f80ed14b2b1cc70d9db3e94e4a0bf74d32506280db269d3cfb3"
+    },
+    "s3": {
+      "url": "https://horologyatlas.com/watchmakers/first-moscow-watch-factory?utm_source=openai",
+      "sha256": "094aa3597ef525af0ded0f71c12b9ce62010adb2ea55e3539c0965e801fab8f9"
+    },
+    "s4": {
+      "url": "https://univaque-watches.com/soviet-space-watches-complete/?utm_source=openai",
+      "sha256": "369af1ac672fe52da764298858d8b5f8119a526b1b134d9f800d8b7440a4a156"
+    }
+  }
+}

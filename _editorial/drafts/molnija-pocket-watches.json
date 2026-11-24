@@ -1,0 +1,123 @@
+{
+  "draft": {
+    "title": "Molnija: From Pocket Watches to Collectors’ Favourites",
+    "description": "A concise history and profile of the Molnija watch factory, its technical legacy, collectible status, and continuing influence.",
+    "sections": [
+      {
+        "heading": "Foundations and Early Years",
+        "paragraphs": [
+          {
+            "text": "The Molnija watch factory was established in Chelyabinsk, Russia, on November 17, 1947. During its early years, Molnija worked primarily with the Soviet Union Department of Defense to create wristwatches, pocket watches, and table clocks, ensuring their products met strict technical demands.",
+            "source_ids": [
+              "s3"
+            ]
+          },
+          {
+            "text": "After World War II, the Soviet government repurposed watchmaking resources from evacuated factories, establishing Molnija in the Southern Urals. Since 1947, the company has supplied precise timekeeping instruments for military vehicles and vessels, demonstrating its role in both civilian and defense-related manufacturing.",
+            "source_ids": [
+              "s1"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Development of the Molnija Pocket Watch",
+        "paragraphs": [
+          {
+            "text": "Molnija began producing pocket watches in 1949, and these quickly became a significant part of Soviet daily life. These watches were given as awards, keepsakes, and family heirlooms, making them a lasting household item with deep cultural meaning.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "The Molnija pocket watch used the calibre 3602, a robust lever movement designed for mass production and straightforward servicing. This became the standard Soviet pocket watch for decades, found both in domestic markets and exported abroad to various countries.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Design and Technical Features",
+        "paragraphs": [
+          {
+            "text": "The architecture of the Molnija movement was influenced by Western watchmaking, reflecting the industrial heritage of machinery and technical assistance from abroad. The main mechanism was copied from a Swiss Cortébert movement, adapted by Soviet engineers to serve local needs.",
+            "source_ids": [
+              "s2",
+              "s3"
+            ]
+          },
+          {
+            "text": "Molnija pocket watches typically featured a large, plain lever movement. Early versions had 15 jewels, while later models increased to 18 jewels, prioritizing reliability and ease of servicing in demanding conditions. Variations in design, such as engraved backs for special occasions, also became well-known features.",
+            "source_ids": [
+              "s3",
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Molnija’s Place in Collecting and Heritage",
+        "paragraphs": [
+          {
+            "text": "The robustness and historical significance of Molnija pocket watches have made them popular among collectors of Soviet-era timepieces. Presentation examples engraved for specific occasions are especially notable within horological collections.",
+            "source_ids": [
+              "s2"
+            ]
+          },
+          {
+            "text": "Molnija pocket watches are commonly found in both dedicated Soviet material collections and broader horological institutions, illustrating the state-focused, mass-manufacturing approach that exemplified their era and type.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Modern Revival and Continuing Legacy",
+        "paragraphs": [
+          {
+            "text": "Although Molnija ceased traditional production in 2007, new initiatives later revived the brand with contemporary designs. Since 2018, Molnija has introduced wristwatch collections and remains involved in producing technical watches for specialized uses.",
+            "source_ids": [
+              "s3",
+              "s1"
+            ]
+          },
+          {
+            "text": "Today, Molnija operates as a full-cycle manufacturer, handling every stage of watchmaking from concept to assembly. Their longstanding reputation ensures the Molnija name remains recognized among watch collectors and enthusiasts worldwide.",
+            "source_ids": [
+              "s1"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": []
+  },
+  "issues": [
+    {
+      "claim": "Article source checks",
+      "reason": "Article body must be between 450 and 950 words.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
+      "source_urls": [
+        "https://molnija.shop/en/about/?utm_source=openai",
+        "https://horologyatlas.com/database/molnija-soviet-pocket-watch?utm_source=openai",
+        "https://en.wikipedia.org/wiki/Molnija?utm_source=openai"
+      ]
+    }
+  ],
+  "sources": {
+    "s1": {
+      "url": "https://molnija.shop/en/about/?utm_source=openai",
+      "sha256": "6e30560498c09e7a5cb5b9d72228c86988fee42a77a3574d8cb52e6a33716cd1"
+    },
+    "s2": {
+      "url": "https://horologyatlas.com/database/molnija-soviet-pocket-watch?utm_source=openai",
+      "sha256": "1d162d1b63a81a1887304030bbdae29ba023d190d3f22572038bf2081470fe78"
+    },
+    "s3": {
+      "url": "https://en.wikipedia.org/wiki/Molnija?utm_source=openai",
+      "sha256": "a8828c7dae9faefe70bfc67181edeaf444531968455e3f453369c460c85dc683"
+    }
+  }
+}

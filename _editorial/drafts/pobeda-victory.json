@@ -1,0 +1,133 @@
+{
+  "draft": {
+    "title": "Pobeda: The Watch Named Victory",
+    "description": "A factual account of Pobeda, the Soviet watch named to celebrate the end of World War II.",
+    "sections": [
+      {
+        "heading": "Origins of Pobeda",
+        "paragraphs": [
+          {
+            "text": "The name Pobeda, meaning \"Victory\" in Russian, was chosen by Joseph Stalin in 1945 to mark the Soviet victory in World War II. This watch was released as a symbol of triumph and became an important part of the Soviet watch industry.",
+            "source_ids": [
+              "s1",
+              "s3"
+            ]
+          },
+          {
+            "text": "The first prototype was developed at the Penza Watch Factory by the end of 1945, with the first public model produced by the Kirov (First Moscow) Watch Factory in March 1946. These beginnings anchored Pobeda as a postwar Soviet icon.",
+            "source_ids": [
+              "s2",
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Design and Movement",
+        "paragraphs": [
+          {
+            "text": "Pobeda watches were powered by the K-26 movement, a Soviet adaptation of the French Lip R-26 design. This 15-jewel movement was engineered to be reliable, simple, and easy to mass-produce and maintain for widespread Soviet use.",
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
+          },
+          {
+            "text": "The French manufacturer Lip contributed its technology to the Penza factory, which led to the further development of the K-26 movement with significant alterations. The result was a cost-effective watch, ready for the postwar Soviet populace.",
+            "source_ids": [
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Widespread Production",
+        "paragraphs": [
+          {
+            "text": "After initial production at Penza from 1945, the Pobeda was manufactured at multiple Soviet factories. These included the First Moscow Watch Factory, Petrodvorets, Chistopol, the Maslennikov Plant, and later, other facilities across the USSR.",
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
+          },
+          {
+            "text": "The spread of production made the Pobeda one of the most distributed and recognized Soviet wristwatches. It quickly became a standard item, produced in large quantities and serving many Soviet citizens for decades.",
+            "source_ids": [
+              "s2",
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Recognition and Symbolism",
+        "paragraphs": [
+          {
+            "text": "Beyond its function, the Pobeda carried symbolic significance. Many were given as commemorative gifts for achievements or significant state events, such as Party congresses and anniversaries of Soviet accomplishments.",
+            "source_ids": [
+              "s1",
+              "s3"
+            ]
+          },
+          {
+            "text": "Its presence extended across all regions of the Soviet Union and into many allied countries. Pobeda watches were known as tokens of honor and markers of special occasions, reinforcing their status beyond utilitarian objects.",
+            "source_ids": [
+              "s1",
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Legacy in Russian Horology",
+        "paragraphs": [
+          {
+            "text": "Today, Pobeda remains one of the most recognizable names in Soviet and Russian horology. The modern Raketa 2609 movement, used in Petrodvorets-made watches, traces its heritage directly back to the K-26 lineage from the original Pobeda.",
+            "source_ids": [
+              "s1",
+              "s3"
+            ]
+          },
+          {
+            "text": "Although manufacturing is now concentrated in Saint Petersburg, the Pobeda’s impact endures. Its blend of historical significance and technical adaptation ensures its continuing presence in collections and museums throughout Russia and beyond.",
+            "source_ids": [
+              "s4"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": []
+  },
+  "issues": [
+    {
+      "claim": "Article source checks",
+      "reason": "Article body must be between 450 and 950 words.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
+      "source_urls": [
+        "https://watchvaulthistory.com/objects/pobeda?utm_source=openai",
+        "https://ranfft.org/manufacturer/242-Pobeda?utm_source=openai",
+        "https://en.wikipedia.org/wiki/Pobeda_%28watch%29?utm_source=openai",
+        "https://sovietwatchmuseum.com/catalogs?utm_source=openai"
+      ]
+    }
+  ],
+  "sources": {
+    "s1": {
+      "url": "https://watchvaulthistory.com/objects/pobeda?utm_source=openai",
+      "sha256": "4ce61d5ce77c2c6c5ee91d6767bb6addbbd362e414c134d2b3ac2ad807253a65"
+    },
+    "s2": {
+      "url": "https://ranfft.org/manufacturer/242-Pobeda?utm_source=openai",
+      "sha256": "916b3fd346b267a8b1642a074c2265c4396172e58fdbcd5ad01cdb734d9d6979"
+    },
+    "s3": {
+      "url": "https://en.wikipedia.org/wiki/Pobeda_%28watch%29?utm_source=openai",
+      "sha256": "e9f5bda3da41d8a96ca9ccbff3d09c46ac15c42fe573a7b31d654e28254df34c"
+    },
+    "s4": {
+      "url": "https://sovietwatchmuseum.com/catalogs?utm_source=openai",
+      "sha256": "3e8cd5ade05f79e7355a3b782cc66a650d1b29368b99cd3e8d7421137fbdf848"
+    }
+  }
+}

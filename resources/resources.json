@@ -215,6 +215,57 @@
       "readyToPublish": false,
       "series": "weekly-editorial",
       "seriesOrder": 5
+    },
+    {
+      "id": "pobeda-victory",
+      "title": "Pobeda: The Watch Named Victory",
+      "category": "Watch History",
+      "excerpt": "Article in preparation.",
+      "url": "./pobeda-victory/",
+      "image": "",
+      "imageAlt": "",
+      "date": "2026-12-21",
+      "readingTime": 4,
+      "tags": [],
+      "featured": false,
+      "published": false,
+      "readyToPublish": false,
+      "series": "weekly-editorial",
+      "seriesOrder": 6
+    },
+    {
+      "id": "molnija-pocket-watches",
+      "title": "Molnija: From Pocket Watches to Collectors’ Favourites",
+      "category": "Watch History",
+      "excerpt": "Article in preparation.",
+      "url": "./molnija-pocket-watches/",
+      "image": "",
+      "imageAlt": "",
+      "date": "2026-12-28",
+      "readingTime": 4,
+      "tags": [],
+      "featured": false,
+      "published": false,
+      "readyToPublish": false,
+      "series": "weekly-editorial",
+      "seriesOrder": 7
+    },
+    {
+      "id": "soviet-watches-space",
+      "title": "Soviet Watches and the Space Programme: Documented History and Popular Stories",
+      "category": "Watch History",
+      "excerpt": "Article in preparation.",
+      "url": "./soviet-watches-space/",
+      "image": "",
+      "imageAlt": "",
+      "date": "2027-01-04",
+      "readingTime": 4,
+      "tags": [],
+      "featured": false,
+      "published": false,
+      "readyToPublish": false,
+      "series": "weekly-editorial",
+      "seriesOrder": 9
     }
   ]
 }
