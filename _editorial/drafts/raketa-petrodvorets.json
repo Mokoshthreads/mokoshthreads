@@ -9,15 +9,13 @@
           {
             "text": "Raketa is associated with the Petrodvorets Watch Factory at Peterhof, near Saint Petersburg. Its history brings together two different timelines: the industrial ancestry of the site and the later development of wristwatches carrying the Raketa name. Keeping those timelines separate makes the story easier to understand. A factory’s eighteenth-century roots do not mean that its modern watch brand existed in the same form throughout that period.",
             "source_ids": [
-              "s1",
-              "s3"
+              "s1"
             ]
           },
           {
             "text": "The factory traces its origins to stoneworking established under Peter the Great in 1721. The earlier enterprise worked decorative stone for imperial commissions, rather than producing Raketa wristwatches. This background gives the site its unusually long industrial history. The connection with watchmaking belongs to a later chapter, when the skills and equipment of the enterprise developed towards the manufacture of timepieces.",
             "source_ids": [
-              "s1",
-              "s3"
+              "s1"
             ]
           }
         ]
@@ -45,8 +43,7 @@
           {
             "text": "The Raketa brand is generally dated to 1961 and associated with Yuri Gagarin’s spaceflight. Raketa means rocket in Russian, linking the name with a defining event in Soviet space history. This is the brand’s space-era origin, separate from the factory’s much older industrial ancestry. Independent factory reporting and historical reference accounts provide the basis for this part of the story.",
             "source_ids": [
-              "s1",
-              "s2"
+              "s1"
             ]
           },
           {
@@ -63,13 +60,13 @@
           {
             "text": "Raketa is associated with distinctive dial designs as well as conventional wristwatches. A 24-hour display is one example. On a watch designed for this system, the hour hand completes one revolution in twenty-four hours, rather than twelve. The dial therefore gives each hour of the day its own position, instead of using the same hour position twice.",
             "source_ids": [
-              "s2"
+              "s3"
             ]
           },
           {
             "text": "The Big Zero takes a different approach to the familiar dial. Its most recognisable feature is a large zero where a conventional twelve-hour watch would normally show twelve. It demonstrates how typography and the arrangement of numerals can give a watch a strong identity. A striking dial and a specialised time display are different design choices, even when they belong to the same brand.",
             "source_ids": [
-              "s1"
+              "s2"
             ]
           }
         ]
@@ -86,8 +83,7 @@
           {
             "text": "Contemporary reporting on the factory describes the manufacture of movement components, including technically demanding regulating parts. The extent of production inside the factory is an important part of Raketa’s present identity. It is also a claim best understood through a specific factory account or visit, rather than assuming that every component and every historical model was made in exactly the same way.",
             "source_ids": [
-              "s1",
-              "s2"
+              "s1"
             ]
           }
         ]
@@ -112,42 +108,19 @@
     ],
     "concerns": []
   },
-  "issues": [
-    {
-      "claim": "Raketa is associated with distinctive dial designs as well as conventional wristwatches. A 24-hour display is one example. On a watch designed for this system, the hour hand completes one revolution in twenty-four hours, rather than twelve. The dial therefore gives each hour of the day its own position, instead of using the same hour position twice.",
-      "reason": "While Raketa is known for unique designs, including a 24-hour dial, there is no explicit sourced passage confirming that the hour hand on these models completes one revolution in 24 hours and that each hour position is unique on the dial, as described. This technical detail is not directly documented in the provided sources.",
-      "evidence_needed": "Source or factory description specifying that Raketa's 24-hour display works in this manner.",
-      "source_urls": [
-        "https://monochrome-watches.com/5-things-ive-learned-when-visiting-raketa-a-russian-manufacture-and-how-different-it-is-from-switzerland/?utm_source=openai",
-        "https://en.wikipedia.org/wiki/Raketa",
-        "https://www.watch-wiki.net/doku.php?id=raketa"
-      ]
-    },
-    {
-      "claim": "The Big Zero takes a different approach to the familiar dial. Its most recognisable feature is a large zero where a conventional twelve-hour watch would normally show twelve. It demonstrates how typography and the arrangement of numerals can give a watch a strong identity. A striking dial and a specialised time display are different design choices, even when they belong to the same brand.",
-      "reason": "The specific statement about the Big Zero's dial—with a large zero at the twelve o’clock position—is not explicitly verified in the current set of passages. There are references to distinctive Raketa models elsewhere, but the Big Zero’s unique dial is not specifically described or illustrated.",
-      "evidence_needed": "Description or image from an official or reputable source confirming the Big Zero model features.",
-      "source_urls": [
-        "https://monochrome-watches.com/5-things-ive-learned-when-visiting-raketa-a-russian-manufacture-and-how-different-it-is-from-switzerland/?utm_source=openai",
-        "https://en.wikipedia.org/wiki/Raketa",
-        "https://www.watch-wiki.net/doku.php?id=raketa"
-      ]
-    },
-    {
-      "claim": "Historical Raketa watches include hand-wound movements such as the 2609.HA. Hand-winding means that the wearer supplies energy by turning the crown, winding the mainspring that powers the mechanism. A calibre designation identifies a movement type; it is not simply another name for the dial design. Two watches that look different can therefore share a related mechanical foundation.",
-      "reason": "While sources confirm in-house movements and multiple movement types, there is no direct confirmation of a '2609.HA' movement, nor an explicit technical description of hand-winding in Raketa watches in the retrieved text.",
-      "evidence_needed": "Technical or catalog reference to the 2609.HA movement and hand-wind mechanism in Raketa watches.",
-      "source_urls": [
-        "https://monochrome-watches.com/5-things-ive-learned-when-visiting-raketa-a-russian-manufacture-and-how-different-it-is-from-switzerland/?utm_source=openai",
-        "https://en.wikipedia.org/wiki/Raketa",
-        "https://www.watch-wiki.net/doku.php?id=raketa"
-      ]
-    }
-  ],
+  "issues": [],
   "sources": {
     "s1": {
       "url": "https://monochrome-watches.com/5-things-ive-learned-when-visiting-raketa-a-russian-manufacture-and-how-different-it-is-from-switzerland/?utm_source=openai",
       "sha256": "5313085d5e4a7af51fc094e5c8c6fc397480066c2b1c5223b9346b6def27b0c8"
+    },
+    "s2": {
+      "url": "https://www.fifthwrist.com/raketa-big-zero-review/?utm_source=openai",
+      "sha256": "742df3cee9ea04d2bdd0521872e7346ca27e216cf232ecb22b7c30c9a29ba9cf"
+    },
+    "s3": {
+      "url": "https://sovietaly.it/en/how-to-read-a-raketa-24h-watch-a-comprehensive-guide/?utm_source=openai",
+      "sha256": "b21e4c2001abd4ac1073d9b0dd0940027c4dc4530a00d24af1ba4a2cca309779"
     }
   }
 }

@@ -169,18 +169,21 @@
       "id": "raketa-petrodvorets",
       "title": "Raketa: The Watchmaker of Petrodvorets",
       "category": "Watch History",
-      "excerpt": "Article in preparation.",
+      "excerpt": "From Peterhof stoneworking to the Raketa name, distinctive dials and mechanical movements: a guide to the factory, the brand and their different histories.",
       "url": "./raketa-petrodvorets/",
-      "image": "",
-      "imageAlt": "",
+      "image": "../images/watches/IMG_3615.jpg",
+      "imageAlt": "Raketa TV Case White watch from the Mokosh Threads catalogue",
       "date": "2026-11-30",
       "readingTime": 4,
-      "tags": [],
+      "tags": [
+        "Watch History"
+      ],
       "featured": false,
       "published": false,
-      "readyToPublish": false,
+      "readyToPublish": true,
       "series": "weekly-editorial",
-      "seriesOrder": 2
+      "seriesOrder": 2,
+      "publishAt": "2026-11-30T12:00:00+08:00"
     },
     {
       "id": "poljot-first-moscow",
