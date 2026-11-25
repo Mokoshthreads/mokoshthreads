@@ -113,7 +113,8 @@
       ]
     }
   ],
-  "sources": {
+  "sources": {},
+  "previous_sources": {
     "s1": {
       "url": "https://en.wikipedia.org/wiki/Petrodvorets_Watch_Factory?utm_source=openai",
       "sha256": "28d4fc2e523dba3209c1c3603215f34c2586070c233dc095ef3279900d46384b"
@@ -126,5 +127,6 @@
       "url": "https://dumarko.com/blogs/news/raketa-watches-from-creation-to-the-fall-of-the-ussr?utm_source=openai",
       "sha256": "6524f3479a3349493f014549c280c04343151c5393af713ad4fe716d2956ac2b"
     }
-  }
+  },
+  "research_note": "Fresh research requested: original sources are mainly retailer summaries. Seek factory history and independent factory visits; retained previous URLs for audit only."
 }
