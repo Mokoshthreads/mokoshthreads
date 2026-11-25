@@ -40,6 +40,12 @@ jobs:
         env:
           PYTHONDONTWRITEBYTECODE: '1'
         run: python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Enable text extraction from source PDFs
+        run: |
+          if ! command -v pdftotext >/dev/null 2>&1; then
+            sudo apt-get update -qq
+            sudo apt-get install -y poppler-utils
+          fi
       - name: Research, draft and independently review queued topics
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
