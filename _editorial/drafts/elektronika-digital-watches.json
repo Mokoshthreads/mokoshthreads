@@ -1,0 +1,126 @@
+{
+  "draft": {
+    "title": "Elektronika: The Soviet Union’s Digital Watches",
+    "description": "A factual overview of Elektronika digital watches, their origins, manufacturing context, and historical significance in Soviet technology.",
+    "sections": [
+      {
+        "heading": "Origins and Historical Context",
+        "paragraphs": [
+          {
+            "text": "Elektronika was introduced as the Soviet Union’s answer to the growing popularity of quartz digital technology in the West. The watches were part of a wide range of electronic goods produced under the Elektronika name, alongside items like computers, calculators, and tape recorders.",
+            "source_ids": [
+              "s4"
+            ]
+          },
+          {
+            "text": "The first Elektronika quartz digital watches appeared in the early 1970s, reflecting Western influences such as the Pulsar watch. Initial models were relatively simple, focusing on showcasing digital time rather than advanced features.",
+            "source_ids": [
+              "s4"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Model Lineup and Features",
+        "paragraphs": [
+          {
+            "text": "Elektronika is not a single model but a line of electronic watches, with a range covering basic wristwatches and larger electronic displays. Model details and functions vary, and it is important not to rely on the Elektronika name alone to identify features.",
+            "source_ids": [
+              "s3"
+            ]
+          },
+          {
+            "text": "While early designs offered basic digital timekeeping, later Elektronika watches added functions such as calendars, chronographs, and multifunction displays. Evolution within the line demonstrates technological ambition as new features were incorporated over time.",
+            "source_ids": [
+              "s4"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Factories and Manufacturing",
+        "paragraphs": [
+          {
+            "text": "Production of Elektronika watches was distributed across several Soviet factories, including facilities in Moscow, Zelenograd, Minsk, and Novosibirsk. Among these, the Integral factory in Minsk played a leading role in the manufacture of various models.",
+            "source_ids": [
+              "s4"
+            ]
+          },
+          {
+            "text": "The Soviet Watch Museum collection documents factories and gives a structured archive where factory-related data on Elektronika and other watch types is digitally catalogued, offering evidence-based support for identifying sources.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Identification and Inspection",
+        "paragraphs": [
+          {
+            "text": "Identifying a specific Elektronika watch requires direct examination of its markings. Model designations and material details should be checked on both the case front and back, as case appearance alone does not provide conclusive identification.",
+            "source_ids": [
+              "s3"
+            ]
+          },
+          {
+            "text": "Before evaluating or collecting Elektronika watches, the display, buttons, and structural condition should be tested. Age is not a guarantee of working condition, and visible markings are critical for accuracy.",
+            "source_ids": [
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Legacy and Historical Impact",
+        "paragraphs": [
+          {
+            "text": "Elektronika watches remain an important chapter of Soviet horology. Their characteristic digital displays and varied aesthetics stand as symbols of the Soviet effort to match global technological developments in personal electronics.",
+            "source_ids": [
+              "s4"
+            ]
+          },
+          {
+            "text": "Each Elektronika model reflects both the functional aims and historical ambitions of the USSR during the electronic age. Museum and collector archives today provide context, showing the breadth and legacy of this digital watch line.",
+            "source_ids": [
+              "s4",
+              "s1"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": []
+  },
+  "issues": [
+    {
+      "claim": "Article source checks",
+      "reason": "Article body must be between 450 and 950 words.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
+      "source_urls": [
+        "https://sovietwatchmuseum.com/catalogs?utm_source=openai",
+        "https://sovietwatchmuseum.com/factories?utm_source=openai",
+        "https://technotoday.org/en/elektronika-watches-history-and-what-to-check/?utm_source=openai",
+        "https://sovietaly.it/en/elektronika-en/?utm_source=openai"
+      ]
+    }
+  ],
+  "sources": {
+    "s1": {
+      "url": "https://sovietwatchmuseum.com/catalogs?utm_source=openai",
+      "sha256": "3e8cd5ade05f79e7355a3b782cc66a650d1b29368b99cd3e8d7421137fbdf848"
+    },
+    "s2": {
+      "url": "https://sovietwatchmuseum.com/factories?utm_source=openai",
+      "sha256": "71f2b020f15e369b725064d4e81def76b9c6c626b15447c719f7a2af2da0959c"
+    },
+    "s3": {
+      "url": "https://technotoday.org/en/elektronika-watches-history-and-what-to-check/?utm_source=openai",
+      "sha256": "82ec0ff7931e5f7446cf8371c68c48d5536b32ad3a0dc45c846d56314b6703c6"
+    },
+    "s4": {
+      "url": "https://sovietaly.it/en/elektronika-en/?utm_source=openai",
+      "sha256": "21e41a119bfb3cf878f5fb11c695fdbfe973e1e488cf48f237cec300a0972a71"
+    }
+  }
+}

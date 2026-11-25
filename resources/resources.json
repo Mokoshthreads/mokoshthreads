@@ -296,6 +296,57 @@
       "readyToPublish": false,
       "series": "weekly-editorial",
       "seriesOrder": 10
+    },
+    {
+      "id": "elektronika-digital-watches",
+      "title": "Elektronika: The Soviet Union’s Digital Watches",
+      "category": "Watch History",
+      "excerpt": "Article in preparation.",
+      "url": "./elektronika-digital-watches/",
+      "image": "",
+      "imageAlt": "",
+      "date": "2027-01-18",
+      "readingTime": 4,
+      "tags": [],
+      "featured": false,
+      "published": false,
+      "readyToPublish": false,
+      "series": "weekly-editorial",
+      "seriesOrder": 11
+    },
+    {
+      "id": "imperial-russia-timekeeping",
+      "title": "Timekeeping in Imperial Russia: Before the Soviet Watch Factories",
+      "category": "Watch History",
+      "excerpt": "Article in preparation.",
+      "url": "./imperial-russia-timekeeping/",
+      "image": "",
+      "imageAlt": "",
+      "date": "2027-01-25",
+      "readingTime": 4,
+      "tags": [],
+      "featured": false,
+      "published": false,
+      "readyToPublish": false,
+      "series": "weekly-editorial",
+      "seriesOrder": 13
+    },
+    {
+      "id": "imperial-russian-pocket-watches",
+      "title": "Pocket Watches in Imperial Russia: Makers, Imports and Retailers",
+      "category": "Watch History",
+      "excerpt": "Article in preparation.",
+      "url": "./imperial-russian-pocket-watches/",
+      "image": "",
+      "imageAlt": "",
+      "date": "2027-02-01",
+      "readingTime": 4,
+      "tags": [],
+      "featured": false,
+      "published": false,
+      "readyToPublish": false,
+      "series": "weekly-editorial",
+      "seriesOrder": 14
     }
   ]
 }

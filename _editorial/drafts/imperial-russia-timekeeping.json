@@ -1,0 +1,115 @@
+{
+  "draft": {
+    "title": "Timekeeping in Imperial Russia: Before the Soviet Watch Factories",
+    "description": "A factual overview of timekeeping and watchmaking in Russia prior to the establishment of Soviet watch factories, focusing on practices, foreign influence, and historical developments during the Imperial period.",
+    "sections": [
+      {
+        "heading": "Foreign Influence and Imports",
+        "paragraphs": [
+          {
+            "text": "The connection between Russia and foreign watchmakers began as early as the 17th century, when Tsar Mikhail Fyodorovich Romanov imported more than 20,000 watches. This reliance on imports continued for centuries, reflecting the Imperial court's preference for European craftsmanship.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "Throughout Imperial-era Russia, the local industry mainly involved assembling watches using non-Russian parts, often unfinished Swiss and German ebauchés that were completed in Russian workshops. This method was adopted due to limited technology and equipment in Russia, making imports more practical.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Role of Specialist Watchmakers",
+        "paragraphs": [
+          {
+            "text": "Independent watchmakers played an important part in Imperial Russian timekeeping. These specialists, such as Pavel Buhre and Heinrich Moser, were appointed by the Imperial Court to assemble and supply watches for official use. Their work helped maintain the quality of timepieces available to the Russian elite.",
+            "source_ids": [
+              "s2"
+            ]
+          },
+          {
+            "text": "The watches produced for the court were notable for their craftsmanship, often featuring porcelain and enamel dials and cases made from materials like nickel, brass, silver, or gold. These details underscored the luxury and status associated with timepieces in Imperial Russia.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Development of Workshops and Local Industry",
+        "paragraphs": [
+          {
+            "text": "In the 18th century, Russia saw foreign watchmakers begin to relocate to St. Petersburg, attracted by the opportunities offered by the Russian market and the imperial court. This shift encouraged some growth in local assembly and finishing of watches.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "However, even with local workshops, Russian watchmakers continued to rely heavily on imported movements and components. The arrangement allowed some customization and branding for the Russian market but did not lead to a fully indigenous industry before the Soviet period.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Notable Timepieces and Collectors",
+        "paragraphs": [
+          {
+            "text": "Significant individuals, like Pavel Buhre, opened shops in cities such as St. Petersburg, creating timepieces for Russian nobility and the Tsars. One of Buhre’s creations, a 1905 chronograph with the royal coat of arms, was commissioned by Tsar Nicholas II.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "Imperial timepieces can be found today in museum collections, such as those at the Kremlin Armory, which displays watches that belonged to the Russian Tsars. These collections provide a direct link to the history of Russian timekeeping prior to Soviet industrialization.",
+            "source_ids": [
+              "s1"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "The Transition to State Control",
+        "paragraphs": [
+          {
+            "text": "The Russian Revolution of 1917 and the years that followed led to the nationalization of all independent watchmaking workshops in 1918. The new Soviet government incorporated these into State control, marking the end of privately-run timepiece production.",
+            "source_ids": [
+              "s2"
+            ]
+          },
+          {
+            "text": "By the early 1920s, the State Trust of Precision Mechanics, known as Gostrest Tochmeh, managed all former independent watchmaking activity. This centralization laid the groundwork for the later establishment of large Soviet watch factories.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": []
+  },
+  "issues": [
+    {
+      "claim": "Article source checks",
+      "reason": "Article body must be between 450 and 950 words.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
+      "source_urls": [
+        "https://www.themoscowtimes.com/2011/10/26/imperial-timepieces-and-more-at-armory-a10438?utm_source=openai",
+        "https://mroatman.wixsite.com/watches-of-the-ussr/antique-watches?utm_source=openai"
+      ]
+    }
+  ],
+  "sources": {
+    "s1": {
+      "url": "https://www.themoscowtimes.com/2011/10/26/imperial-timepieces-and-more-at-armory-a10438?utm_source=openai",
+      "sha256": "22329cb45312fb78802734e96094eeef20f6357ab29693d7b795c625f4e58337"
+    },
+    "s2": {
+      "url": "https://mroatman.wixsite.com/watches-of-the-ussr/antique-watches?utm_source=openai",
+      "sha256": "701c20c9de7d33a1590f3b3146a89e70213782a4d0f17bb1384ae4e286957c07"
+    }
+  }
+}

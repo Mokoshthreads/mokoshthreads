@@ -112,7 +112,10 @@
       "id": "elektronika-digital-watches",
       "title": "Elektronika: The Soviet Union’s Digital Watches",
       "category": "Watch History",
-      "publishAt": "2027-01-18T12:00:00+08:00"
+      "publishAt": "2027-01-18T12:00:00+08:00",
+      "status": "needs_verification",
+      "issue_number": 12,
+      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/12"
     },
     {
       "id": "slavic-embroidery-symbols",
@@ -133,13 +136,19 @@
       "id": "imperial-russia-timekeeping",
       "title": "Timekeeping in Imperial Russia: Before the Soviet Watch Factories",
       "category": "Watch History",
-      "publishAt": "2027-01-25T12:00:00+08:00"
+      "publishAt": "2027-01-25T12:00:00+08:00",
+      "status": "needs_verification",
+      "issue_number": 13,
+      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/13"
     },
     {
       "id": "imperial-russian-pocket-watches",
       "title": "Pocket Watches in Imperial Russia: Makers, Imports and Retailers",
       "category": "Watch History",
-      "publishAt": "2027-02-01T12:00:00+08:00"
+      "publishAt": "2027-02-01T12:00:00+08:00",
+      "status": "needs_verification",
+      "issue_number": 14,
+      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/14"
     },
     {
       "id": "soviet-watch-calibres",
