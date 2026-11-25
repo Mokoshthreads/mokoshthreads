@@ -266,6 +266,23 @@
       "readyToPublish": false,
       "series": "weekly-editorial",
       "seriesOrder": 9
+    },
+    {
+      "id": "soviet-alarm-watches",
+      "title": "Soviet Alarm Watches: How a Mechanical Watch Rings",
+      "category": "Watch History",
+      "excerpt": "Article in preparation.",
+      "url": "./soviet-alarm-watches/",
+      "image": "",
+      "imageAlt": "",
+      "date": "2027-01-11",
+      "readingTime": 4,
+      "tags": [],
+      "featured": false,
+      "published": false,
+      "readyToPublish": false,
+      "series": "weekly-editorial",
+      "seriesOrder": 10
     }
   ]
 }

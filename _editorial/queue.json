@@ -100,7 +100,10 @@
       "id": "soviet-alarm-watches",
       "title": "Soviet Alarm Watches: How a Mechanical Watch Rings",
       "category": "Watch History",
-      "publishAt": "2027-01-11T12:00:00+08:00"
+      "publishAt": "2027-01-11T12:00:00+08:00",
+      "status": "needs_verification",
+      "issue_number": 11,
+      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/11"
     },
     {
       "id": "elektronika-digital-watches",

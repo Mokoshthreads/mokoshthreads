@@ -1,0 +1,208 @@
+{
+  "draft": {
+    "title": "Soviet Alarm Watches: How a Mechanical Watch Rings",
+    "description": "A neutral look at how Soviet mechanical alarm wristwatches and clocks work, focusing on their design, mechanical principles, and operation.",
+    "sections": [
+      {
+        "heading": "Mechanical Alarms in Soviet Horology",
+        "paragraphs": [
+          {
+            "text": "Mechanical alarm watches and clocks became popular within the Soviet Union as part of broader developments in timekeeping during the mid-twentieth century. The Horology Atlas assigns such devices to the Modern Mechanical Horology period, roughly from 1945 to 1969, a time when innovations in design and materials shaped everyday clocks and watches.",
+            "source_ids": [
+              "s2"
+            ]
+          },
+          {
+            "text": "Soviet alarm clocks of the period often combined metal and plastic in their construction, reflecting industrial trends of the era. This period also included advances like battery-powered movements but mechanical alarms using springs and gears remained a significant category in the Soviet and international collections.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "How Mechanical Alarm Watches Work",
+        "paragraphs": [
+          {
+            "text": "Mechanical alarm watches and clocks use a traditional system where a spring or weight is wound separately from the standard timekeeping mechanism. At the set time, the energy stored in the alarm spring is released, driving a hammer to strike a bell or similar resonator, producing the alarm sound.",
+            "source_ids": [
+              "s2"
+            ]
+          },
+          {
+            "text": "The clear separation of winding mechanisms is a key feature: there is a regular winding system for timekeeping and a distinct system for the alarm. The alarm time is usually set by a dedicated dial or indicator, which disconnects once triggered, requiring manual reset for future use.",
+            "source_ids": [
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "The Raketa 3031: Soviet Alarm Watch Example",
+        "paragraphs": [
+          {
+            "text": "Among Soviet alarm watches, the Raketa 3031 provides a distinctive example. Designed in the early 1970s, this model includes an alarm complication with a separate spring barrel, showing how Soviet engineers pursued technically ambitious wristwatch designs.",
+            "source_ids": [
+              "s3"
+            ]
+          },
+          {
+            "text": "The Raketa 3031 resembles some foreign alarm watches, such as the Seiko Bell-Matic, especially with its internal rotating bezel for setting the alarm. However, the underlying mechanical design was original, featuring unique solutions for the alarm module distinct from mass-produced Soviet movements.",
+            "source_ids": [
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Setting and Operating the Alarm",
+        "paragraphs": [
+          {
+            "text": "To operate the Raketa 3031’s alarm, users employ two crowns. The upper crown winds the alarm spring and allows for setting the alarm time. Pulling and turning the crown sets the desired ringing time, and winding it releases the block which enables the alarm to sound.",
+            "source_ids": [
+              "s3"
+            ]
+          },
+          {
+            "text": "Once set and wound, the alarm rings when the hour and minute hands reach the position indicated by the alarm pointer. The mechanical hammer strikes an internal resonance rod. This continues until the alarm spring winds down or is stopped manually by pulling the alarm crown again.",
+            "source_ids": [
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "The Sound and Experience of Mechanical Alarms",
+        "paragraphs": [
+          {
+            "text": "Soviet mechanical alarm watches, such as the Raketa 3031 and Poljot 2612.1, typically produce a buzzing sound as the hammer rapidly strikes a metal component inside the case. This physical sound is a hallmark of mechanical alarms and clearly distinguishes them from electronic or digital signals.",
+            "source_ids": [
+              "s3"
+            ]
+          },
+          {
+            "text": "Because the alarm depends on a wound spring and a mechanical striker, the loudness and duration are determined by the stored energy and design details. Mechanical alarm watches were practical before quartz or digital alternatives appeared, and are still recognized for their intricate mechanical engineering.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": []
+  },
+  "issues": [
+    {
+      "claim": "The Horology Atlas assigns such devices to the Modern Mechanical Horology period, roughly from 1945 to 1969, a time when innovations in design and materials shaped everyday clocks and watches.",
+      "reason": "While s2 confirms the placement of certain Soviet alarm clocks in the Modern Mechanical Horology period (1945–1969), it applies specifically to a Sevani clock dated 1950s–1960s. The generalization that 'such devices' (which could imply watches as well as clocks) are all definitely assigned to this period is not fully supported. The phrase 'innovations in design and materials shaped everyday clocks and watches' is reasonable per s2's mention of plastic/metal cases, but the implication of watches being included under this classification by Horology Atlas requires clearer evidence.",
+      "evidence_needed": "Direct evidence from Horology Atlas or another reputable source explicitly stating that Soviet mechanical alarm wristwatches (not just clocks) from this period are categorized under 'Modern Mechanical Horology' for the entire Soviet range is needed.",
+      "source_urls": [
+        "https://atlas.watchmuseum.org/museum/alarm-clock-by-sevani-russia-1950s1960s-7071a8"
+      ]
+    },
+    {
+      "claim": "Soviet alarm clocks of the period often combined metal and plastic in their construction, reflecting industrial trends of the era.",
+      "reason": "s2 supports that the specific Sevani alarm clock from the 1950s–1960s used plastic and metal, and contextual text suggests this was part of postwar trends in clock manufacturing. However, the statement is generalized without enough evidence about the broader range of Soviet alarm clocks or watches.",
+      "evidence_needed": "Multiple independent catalog or scholarly sources confirming that this construction was indeed typical for Soviet alarm clocks of the era in general (not just for one artifact).",
+      "source_urls": [
+        "https://atlas.watchmuseum.org/museum/alarm-clock-by-sevani-russia-1950s1960s-7071a8"
+      ]
+    },
+    {
+      "claim": "This period also included advances like battery-powered movements but mechanical alarms using springs and gears remained a significant category in the Soviet and international collections.",
+      "reason": "s2 notes the existence of postwar clocks with battery-powered (transistor) movements from the late 1950s and confirms that mechanical alarm clocks existed in the same period. However, specific evidence that mechanical alarms 'remained a significant category in the Soviet and international collections' is interpretive and not directly stated.",
+      "evidence_needed": "Primary or secondary sources providing quantitative or qualitative data on the prevalence of mechanical alarm clocks in collections or on the market during this period, especially in the Soviet context.",
+      "source_urls": [
+        "https://atlas.watchmuseum.org/museum/alarm-clock-by-sevani-russia-1950s1960s-7071a8"
+      ]
+    },
+    {
+      "claim": "Mechanical alarm watches and clocks use a traditional system where a spring or weight is wound separately from the standard timekeeping mechanism. At the set time, the energy stored in the alarm spring is released, driving a hammer to strike a bell or similar resonator, producing the alarm sound.",
+      "reason": "The general principle is supported by s2—but most evidence in s2 refers to clocks, not wristwatches. It does note 'a separate spring or weight is released at the set time and drives a hammer against a bell,' which is broadly accurate for alarm clocks. The generalization to watches is plausible, but strict textual evidence is needed for both forms.",
+      "evidence_needed": "A reference from watch movement documentation or technical guides confirming this mechanism applies identically to Soviet alarm wristwatches.",
+      "source_urls": [
+        "https://atlas.watchmuseum.org/museum/alarm-clock-by-sevani-russia-1950s1960s-7071a8"
+      ]
+    },
+    {
+      "claim": "The clear separation of winding mechanisms is a key feature: there is a regular winding system for timekeeping and a distinct system for the alarm.",
+      "reason": "No source directly confirms this is a defining feature for all Soviet mechanical alarm watches and clocks. s3 describes the Raketa 3031 as having two separate spring barrels (one for time, one for alarm), but the statement is generalized beyond the Raketa 3031 and similar movements.",
+      "evidence_needed": "Documentation or catalogues specifying that this separation of winding mechanisms was universal or typical across Soviet mechanical alarm watches or clocks.",
+      "source_urls": [
+        "https://www.cinciwatches.com/my-reviews-and-articles/2499865_discovering-the-raketa-3031-a-holy-grail-at-the-crossroads-of-soviet-and-alarm-watch-collecting"
+      ]
+    },
+    {
+      "claim": "At the set time, the energy stored in the alarm spring is released, driving a hammer to strike a bell or similar resonator, producing the alarm sound.",
+      "reason": "This is supported for alarm clocks by s2. For wristwatches, s3 supports the existence of a hammer and mechanical resonance rod in the Raketa 3031, but direct confirmation about 'striking a bell or similar resonator' for Soviet watches in general is lacking.",
+      "evidence_needed": "Technical descriptions or diagrams of Soviet alarm wristwatches other than the Raketa 3031 and Poljot 2612.1 confirming the same principle.",
+      "source_urls": [
+        "https://atlas.watchmuseum.org/museum/alarm-clock-by-sevani-russia-1950s1960s-7071a8",
+        "https://www.cinciwatches.com/my-reviews-and-articles/2499865_discovering-the-raketa-3031-a-holy-grail-at-the-crossroads-of-soviet-and-alarm-watch-collecting"
+      ]
+    },
+    {
+      "claim": "Among Soviet alarm watches, the Raketa 3031 provides a distinctive example. Designed in the early 1970s, this model includes an alarm complication with a separate spring barrel, showing how Soviet engineers pursued technically ambitious wristwatch designs.",
+      "reason": "s3 confirms that the Raketa 3031 was developed in the early 1970s and incorporates a separate alarm spring barrel. However, the claim that it 'shows how Soviet engineers pursued technically ambitious wristwatch designs' is interpretive, not strictly factual, though plausible.",
+      "evidence_needed": "Primary documents or reliable third-party commentary describing the technical ambitions or intentions of the engineers or context within Raketa’s development philosophy.",
+      "source_urls": [
+        "https://www.cinciwatches.com/my-reviews-and-articles/2499865_discovering-the-raketa-3031-a-holy-grail-at-the-crossroads-of-soviet-and-alarm-watch-collecting"
+      ]
+    },
+    {
+      "claim": "The Raketa 3031 resembles some foreign alarm watches, such as the Seiko Bell-Matic, especially with its internal rotating bezel for setting the alarm. However, the underlying mechanical design was original, featuring unique solutions for the alarm module distinct from mass-produced Soviet movements.",
+      "reason": "s3 mentions similarities to Seiko Bell-Matic in appearance and alarm bezel setting, but states the technical design is different and original. 'Unique solutions distinct from mass-produced Soviet movements' is a fair characterization based on the text.",
+      "evidence_needed": "None beyond the references already provided.",
+      "source_urls": [
+        "https://www.cinciwatches.com/my-reviews-and-articles/2499865_discovering-the-raketa-3031-a-holy-grail-at-the-crossroads-of-soviet-and-alarm-watch-collecting"
+      ]
+    },
+    {
+      "claim": "To operate the Raketa 3031’s alarm, users employ two crowns. The upper crown winds the alarm spring and allows for setting the alarm time. Pulling and turning the crown sets the desired ringing time, and winding it releases the block which enables the alarm to sound.",
+      "reason": "s3 describes the operation of the Raketa 3031 in detail, and the two-crown system, winding, and alarm setting are supported. However, the drafted explanation omits the nuance that pulling the crown to set the time also blocks the alarm; this is important to clarify to avoid misleading certainty about how the mechanism works.",
+      "evidence_needed": "None for basic operation, but a more nuanced explanation aligning with s3's precise instructions (pulling the crown blocks the alarm; winding releases the block).",
+      "source_urls": [
+        "https://www.cinciwatches.com/my-reviews-and-articles/2499865_discovering-the-raketa-3031-a-holy-grail-at-the-crossroads-of-soviet-and-alarm-watch-collecting"
+      ]
+    },
+    {
+      "claim": "Once set and wound, the alarm rings when the hour and minute hands reach the position indicated by the alarm pointer. The mechanical hammer strikes an internal resonance rod. This continues until the alarm spring winds down or is stopped manually by pulling the alarm crown again.",
+      "reason": "s3 confirms these elements: the alarm rings when hands reach the alarm pointer, hammer strikes a resonance rod, and can be stopped manually or when the spring winds down.",
+      "evidence_needed": "None.",
+      "source_urls": [
+        "https://www.cinciwatches.com/my-reviews-and-articles/2499865_discovering-the-raketa-3031-a-holy-grail-at-the-crossroads-of-soviet-and-alarm-watch-collecting"
+      ]
+    },
+    {
+      "claim": "Soviet mechanical alarm watches, such as the Raketa 3031 and Poljot 2612.1, typically produce a buzzing sound as the hammer rapidly strikes a metal component inside the case. This physical sound is a hallmark of mechanical alarms and clearly distinguishes them from electronic or digital signals.",
+      "reason": "s3 describes the sound produced by the Raketa 3031 and compares it to the Poljot 2612.1, referencing the hammer and resonance. However, the claim that 'this physical sound is a hallmark of mechanical alarms and clearly distinguishes them from electronic or digital signals' is a generalization not specifically established in either s2 or s3.",
+      "evidence_needed": "Comparative references or authoritative sources explaining how mechanical watch alarms are audibly distinct from electronic/digital alarms.",
+      "source_urls": [
+        "https://www.cinciwatches.com/my-reviews-and-articles/2499865_discovering-the-raketa-3031-a-holy-grail-at-the-crossroads-of-soviet-and-alarm-watch-collecting"
+      ]
+    },
+    {
+      "claim": "Because the alarm depends on a wound spring and a mechanical striker, the loudness and duration are determined by the stored energy and design details. Mechanical alarm watches were practical before quartz or digital alternatives appeared, and are still recognized for their intricate mechanical engineering.",
+      "reason": "s2 confirms that electric, quartz, and digital clocks appeared after mechanical ones; s3 discusses wound springs and hammer. The statements about practicality and ongoing recognition for intricate engineering are at least partially interpretive and could use direct documentary support.",
+      "evidence_needed": "Secondary sources explicitly stating the comparative practicality of mechanical alarm watches before electronic/ quartz alternatives, and evidence for modern recognition of their engineering value.",
+      "source_urls": [
+        "https://atlas.watchmuseum.org/museum/alarm-clock-by-sevani-russia-1950s1960s-7071a8",
+        "https://www.cinciwatches.com/my-reviews-and-articles/2499865_discovering-the-raketa-3031-a-holy-grail-at-the-crossroads-of-soviet-and-alarm-watch-collecting"
+      ]
+    }
+  ],
+  "sources": {
+    "s1": {
+      "url": "https://sovietwatchmuseum.com/catalogs?utm_source=openai",
+      "sha256": "3e8cd5ade05f79e7355a3b782cc66a650d1b29368b99cd3e8d7421137fbdf848"
+    },
+    "s2": {
+      "url": "https://atlas.watchmuseum.org/museum/alarm-clock-by-sevani-russia-1950s1960s-7071a8?utm_source=openai",
+      "sha256": "8b9a479a536ceba887030a63f860743b368a8553e4269036e84f0665e89c6987"
+    },
+    "s3": {
+      "url": "https://www.cinciwatches.com/my-reviews-and-articles/2499865_discovering-the-raketa-3031-a-holy-grail-at-the-crossroads-of-soviet-and-alarm-watch-collecting?utm_source=openai",
+      "sha256": "b2d2ecbe3ed878d996498e0517976274ecd7fe272a3dcaa51f8eb56a0549e0ed"
+    }
+  }
+}
