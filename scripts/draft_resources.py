@@ -371,7 +371,7 @@ def process(root, topic):
     retrieve(cached_urls[:6])
     research_response = {'output': []}
     if len({domain(source['url']) for source in sources.values()}) < 2:
-        research, research_response = api('Research this article: ' + topic['title'] + '\nFind at least four relevant source pages spanning at least two distinct domains. Prioritise factory, museum, archive and original catalogue material, but if the manufacturer archives are offline, use well-established independent specialist histories and original manuals hosted elsewhere. Do not give only manufacturer-domain citations. '
+        research, research_response = api('Research this article: ' + topic['title'] + '\nSpecific source research brief: ' + topic.get('research_query', '') + '\nFind at least four relevant source pages spanning at least two distinct domains. Prioritise factory, museum, archive and original catalogue material, but if the manufacturer archives are offline, use well-established independent specialist histories and original manuals hosted elsewhere. Do not give only manufacturer-domain citations. '
             'Identify the dates and technical claims that require checking. Cite every source as web-search URL citations. Do not rely on snippets or retailer claims alone. Do not generate the article yet.' + evidence_hint, research=True)
         retrieve(cited_urls(research_response)[:6])
     if len({domain(source['url']) for source in sources.values()}) < 2:
