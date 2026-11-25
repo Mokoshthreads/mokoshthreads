@@ -1,147 +1,21 @@
 {
-  "draft": {
-    "title": "Raketa: The Watchmaker of Petrodvorets",
-    "description": "From Peterhof stoneworking to the Raketa name, distinctive dials and mechanical movements: a guide to the factory, the brand and their different histories.",
-    "sections": [
-      {
-        "heading": "A factory history older than the watch brand",
-        "paragraphs": [
-          {
-            "text": "Raketa is associated with the Petrodvorets Watch Factory at Peterhof, near Saint Petersburg. Its history brings together two different timelines: the industrial ancestry of the site and the later development of wristwatches carrying the Raketa name. Keeping those timelines separate makes the story easier to understand. A factory’s eighteenth-century roots do not mean that its modern watch brand existed in the same form throughout that period.",
-            "source_ids": [
-              "s1",
-              "s2"
-            ]
-          },
-          {
-            "text": "The factory traces its origins to stoneworking established under Peter the Great in 1721. The earlier enterprise worked decorative stone for imperial commissions, rather than producing Raketa wristwatches. This background gives the site its unusually long industrial history. The connection with watchmaking belongs to a later chapter, when the skills and equipment of the enterprise developed towards the manufacture of timepieces.",
-            "source_ids": [
-              "s2"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "From stoneworking to watchmaking",
-        "paragraphs": [
-          {
-            "text": "The development of watch production at Petrodvorets belongs to the Soviet period, with post-war production associated with names including Pobeda and Zvezda. These names precede Raketa as a watch brand at the factory. They matter because the history is not simply a straight line from an imperial workshop to a watch with the word Raketa printed on its dial.",
-            "source_ids": [
-              "s2",
-              "s3"
-            ]
-          },
-          {
-            "text": "The change also involved a different kind of manufacturing. A mechanical watch requires a movement: the assembly of parts that stores energy, controls its release and drives the hands. Making watches therefore meant producing and assembling mechanisms as well as finishing their visible cases and dials. This helps explain why the factory’s story is about industrial development alongside changes in names and outward design.",
-            "source_ids": [
-              "s1",
-              "s2"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "1961 and the rocket name",
-        "paragraphs": [
-          {
-            "text": "The Raketa name was introduced in 1961 in honour of Yuri Gagarin’s spaceflight. Raketa means rocket in Russian, linking the brand with a defining event in Soviet space history. The date marks the introduction of the brand, rather than the beginning of the factory’s much older industrial ancestry. It is the clearest point at which the familiar name enters the story.",
-            "source_ids": [
-              "s1"
-            ]
-          },
-          {
-            "text": "For a reader encountering a vintage example, the distinction is useful: the factory name, the brand on the dial and the movement inside describe different aspects of the watch. An early factory history cannot by itself date an individual piece. Its dial, movement, case and any surviving documentation need to be considered together when identifying the particular watch.",
-            "source_ids": [
-              "s3"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Different ways of displaying the day",
-        "paragraphs": [
-          {
-            "text": "Raketa is associated with distinctive dial designs as well as conventional wristwatches. A 24-hour display is one example. On a watch designed for this system, the hour hand completes one revolution in twenty-four hours, rather than twelve. The dial therefore gives each hour of the day its own position, instead of using the same hour position twice.",
-            "source_ids": [
-              "s3"
-            ]
-          },
-          {
-            "text": "The Big Zero takes a different approach to the familiar dial. Its most recognisable feature is a large zero where a conventional twelve-hour watch would normally show twelve. It demonstrates how typography and the arrangement of numerals can give a watch a strong identity. A striking dial and a specialised time display are different design choices, even when they belong to the same brand.",
-            "source_ids": [
-              "s3"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "The movement behind the dial",
-        "paragraphs": [
-          {
-            "text": "Historical Raketa watches include hand-wound movements such as the 2609.HA. Hand-winding means that the wearer supplies energy by turning the crown, winding the mainspring that powers the mechanism. A calibre designation identifies a movement type; it is not simply another name for the dial design. Two watches that look different can therefore share a related mechanical foundation.",
-            "source_ids": [
-              "s3"
-            ]
-          },
-          {
-            "text": "Contemporary reporting on the factory describes the manufacture of movement components, including technically demanding regulating parts. The extent of production inside the factory is an important part of Raketa’s present identity. It is also a claim best understood through a specific factory account or visit, rather than assuming that every component and every historical model was made in exactly the same way.",
-            "source_ids": [
-              "s1"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "After the Soviet period",
-        "paragraphs": [
-          {
-            "text": "The end of the Soviet Union brought substantial changes to the factory and its production. Accounts of its later history describe contraction followed by efforts to rebuild the business and develop contemporary Raketa watches. This later chapter should be read alongside the Soviet-era output, while recognising that the scale of the enterprise and the watches it makes have changed over time.",
-            "source_ids": [
-              "s3",
-              "s4"
-            ]
-          },
-          {
-            "text": "For anyone beginning to explore Raketa, three useful starting points are the factory’s industrial ancestry, the introduction of the brand in 1961 and the particular mechanism and display of an individual watch. Together, they explain why the name can appear in discussions of imperial craft, Soviet industry and contemporary watchmaking. Each is a connected part of the story, with its own period and evidence.",
-            "source_ids": [
-              "s2",
-              "s1"
-            ]
-          }
-        ]
-      }
-    ],
-    "concerns": []
-  },
+  "draft": null,
   "issues": [
     {
-      "claim": "The Raketa name was introduced in 1961 in honour of Yuri Gagarin’s spaceflight.",
-      "reason": "There is conflicting information among sources regarding the year of the Raketa brand's introduction. Some sources (Wikipedia, Watch-Wiki) state 1961 in honor of Gagarin, while another (Soviet Watch Store) says 'in 1962 the factory launched its own tribute: a new watch brand called Raketa.' Without definitive evidence for 1961 as the actual launch year, the claim is not fully supported.",
-      "evidence_needed": "Primary documentation from the Petrodvorets factory or contemporary 1961-1962 sources indicating the official launch date of the Raketa brand as 1961.",
+      "claim": "Insufficient accessible sources for Raketa: The Watchmaker of Petrodvorets",
+      "reason": "Fewer than two source domains could be retrieved as full text.",
+      "evidence_needed": "Provide reliable full source text, catalogue scans/transcriptions or accessible museum/factory references.",
       "source_urls": [
-        "https://en.wikipedia.org/wiki/Raketa?utm_source=openai",
-        "https://sovietwatchstore.com/raketa-watch-factory-history/?utm_source=openai",
-        "https://www.watch-wiki.net/doku.php?id=raketa&utm_source=openai"
+        "https://raketa.com/en/history?utm_source=openai",
+        "https://www.raketa.com/w/wp-content/uploads/sites/4/2024/02/waqwaq.pdf?utm_source=openai",
+        "https://raketa.com/w/wp-content/uploads/sites/4/2020/10/Dive_into_Watches_compressed.pdf?utm_source=openai"
       ]
     }
   ],
-  "sources": {},
-  "previous_sources": {
+  "sources": {
     "s1": {
-      "url": "https://en.wikipedia.org/wiki/Raketa?utm_source=openai",
-      "sha256": "97477ddfb69334f957d29afe9a289a37e312511e4454bc434e7705d570515941"
-    },
-    "s2": {
-      "url": "https://en.wikipedia.org/wiki/Petrodvorets_Watch_Factory?utm_source=openai",
-      "sha256": "a1be552dd255bfc979c16a45206b95e3bc08347e68fcf80b2781d701705aacf2"
-    },
-    "s3": {
-      "url": "https://sovietwatchstore.com/raketa-watch-factory-history/?utm_source=openai",
-      "sha256": "c295df187a1bd2939acb93da8901184026c6b4848d4610c4210857923b0fc172"
-    },
-    "s4": {
-      "url": "https://www.watch-wiki.net/doku.php?id=raketa&utm_source=openai",
-      "sha256": "496df23d2c3774667de2e7e4066d76a40a36fec66177d3e61c4d73d3fd8941c5"
+      "url": "https://monochrome-watches.com/5-things-ive-learned-when-visiting-raketa-a-russian-manufacture-and-how-different-it-is-from-switzerland/?utm_source=openai",
+      "sha256": "5313085d5e4a7af51fc094e5c8c6fc397480066c2b1c5223b9346b6def27b0c8"
     }
   }
 }
