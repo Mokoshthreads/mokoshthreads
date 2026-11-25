@@ -8,7 +8,7 @@
         "heading": "One factory, two starting points",
         "paragraphs": [
           {
-            "text": "Komandirskie and Amphibia are two watch families associated with Vostok’s factory in Chistopol. Their names are often encountered together, but they began with different purposes. Komandirskie developed a military-associated identity; Amphibia addressed the problem of building a practical underwater watch. Understanding those starting points helps explain their designs without treating either name as a complete specification for every watch that carries it.",
+            "text": "Komandirskie and Amphibia are two watch families associated with Vostok’s factory in Chistopol. Komandirskie has a documented military association, while histories of Amphibia describe a watch designed for underwater use. This comparison follows those two histories and their characteristic designs, then considers what to check in an individual watch. The shared manufacturer does not make the names interchangeable or turn either name into a complete specification.",
             "source_ids": [
               "s1"
             ]
@@ -16,8 +16,7 @@
           {
             "text": "The usual historical milestones are 1965 for Komandirskie and 1967 for Amphibia. These dates belong to the development of the watch families, rather than the founding of the factory itself. Both names have appeared on watches made across different periods. A comparison therefore needs to separate the original design brief from the features of a particular example offered today.",
             "source_ids": [
-              "s1",
-              "s2"
+              "s1"
             ]
           }
         ]
@@ -26,7 +25,7 @@
         "heading": "Komandirskie: the commander’s watch",
         "paragraphs": [
           {
-            "text": "The name Komandirskie is commonly translated as commander’s. Its history is associated with the factory becoming a supplier to the Soviet Ministry of Defence in the 1960s. Military subjects became a familiar part of the family’s visual identity: stars, service emblems and representations of equipment could give a dial a strong connection with a particular theme, even before the wearer considered the movement inside.",
+            "text": "The name Komandirskie is commonly translated as commander’s. Its history is associated with the factory becoming a supplier to the Soviet Ministry of Defence in the 1960s. That connection is a useful starting point for understanding the name and the family’s identity. It provides historical context, while the markings and documentation of an individual example require their own examination.",
             "source_ids": [
               "s1"
             ]
@@ -51,7 +50,8 @@
           {
             "text": "The familiar classic construction uses a domed acrylic crystal and a case back secured by a separate retaining ring. The materials and geometry are part of the engineering, not simply decorative features. Acrylic should not be confused with mineral glass when describing these watches. For another model or a modified vintage example, its actual specification still needs to be checked rather than inferred from the family name.",
             "source_ids": [
-              "s2"
+              "s2",
+              "s3"
             ]
           }
         ]
@@ -62,7 +62,7 @@
           {
             "text": "Winding type describes how the mainspring receives energy. A hand-wound movement is wound by turning the crown; an automatic movement adds a mechanism that winds it through movement of the watch. These terms describe the mechanism rather than a military or diving theme. When comparing Vostoks, identify the fitted movement and its winding system instead of using the family name as a substitute for that information.",
             "source_ids": [
-              "s1"
+              "s2"
             ]
           },
           {
@@ -96,13 +96,12 @@
           {
             "text": "A useful comparison starts with a few concrete details: the full model reference, movement and winding type, case and crystal specification, and stated water resistance. Then ask about the particular watch: what is included, what has been serviced, and whether components have been replaced. A family history gives context, but it cannot provide a service record or establish the originality of every visible part.",
             "source_ids": [
-              "s1"
+              "s2"
             ]
           },
           {
             "text": "The two families remain interesting for different reasons. Komandirskie connects everyday mechanical watchmaking with military-associated imagery and history. Amphibia offers a distinctive approach to the demands of an underwater watch. Knowing that distinction makes the next step easier: choose the design that interests you, then check the exact model and the condition of the individual example before deciding how you intend to use it.",
             "source_ids": [
-              "s1",
               "s2"
             ]
           }
@@ -111,98 +110,19 @@
     ],
     "concerns": []
   },
-  "issues": [
-    {
-      "claim": "Komandirskie and Amphibia are two watch families associated with Vostok’s factory in Chistopol. Their names are often encountered together, but they began with different purposes. Komandirskie developed a military-associated identity; Amphibia addressed the problem of building a practical underwater watch. Understanding those starting points helps explain their designs without treating either name as a complete specification for every watch that carries it.",
-      "reason": "Most of these claims are supported, but explicit evidence that Komandirskie and Amphibia began with 'different purposes' (military focus versus underwater use) in the sourced passages is only partially found. The sources evidence military association for Komandirskie and a diving function for Amphibia, but do not contain a direct statement explicitly contrasting their initial design briefs—this is inferred.",
-      "evidence_needed": "Primary factory or contemporary sources stating the original design purpose for each line, and specifically that these were conceived as separate-use cases from the start.",
-      "source_urls": [
-        "https://mroatman.wixsite.com/watches-of-the-ussr/komandirskie?utm_source=openai",
-        "https://vostokamphibia.com/ja/articles/amphibia-watch-history/?utm_source=openai"
-      ]
-    },
-    {
-      "claim": "The usual historical milestones are 1965 for Komandirskie and 1967 for Amphibia. These dates belong to the development of the watch families, rather than the founding of the factory itself.",
-      "reason": "While the 1967 date for Amphibia is directly sourced, the 1965 date for Komandirskie is confirmed in s1. The claim that these years refer to the families' launches and not the factory founding is accurate based on the sources.",
-      "evidence_needed": "None.",
-      "source_urls": [
-        "https://mroatman.wixsite.com/watches-of-the-ussr/komandirskie?utm_source=openai",
-        "https://vostokamphibia.com/ja/articles/amphibia-watch-history/?utm_source=openai"
-      ]
-    },
-    {
-      "claim": "The name Komandirskie is commonly translated as commander’s. Its history is associated with the factory becoming a supplier to the Soviet Ministry of Defence in the 1960s. Military subjects became a familiar part of the family’s visual identity: stars, service emblems and representations of equipment could give a dial a strong connection with a particular theme, even before the wearer considered the movement inside.",
-      "reason": "The common translation and the association with MoD supplier status are both supported in the sources (s1). The decorative elements are mentioned in the sources but not in extensive detail about dial iconography.",
-      "evidence_needed": "Period product catalogues or photographic evidence confirming prevalence of such dial imagery as a 'familiar part' across the family.",
-      "source_urls": [
-        "https://mroatman.wixsite.com/watches-of-the-ussr/komandirskie?utm_source=openai"
-      ]
-    },
-    {
-      "claim": "That military association needs to be read carefully. The collector reference Watches of the USSR describes Komandirskie watches sold through Voentorg military shops and distinguishes those sales from military issue. Some Soviet examples carry an inscription referring to an order from the Ministry of Defence. A military-themed dial alone, however, does not establish that an individual watch was issued to a serviceman or document its particular history.",
-      "reason": "Source s1 confirms that Voentorg sales are separate from military issue; that some models have a 'Заказ мо СССР' inscription, and clarifies not all were issued. The caution about inferring issue from dial theme is editorial and aligns with the evidence.",
-      "evidence_needed": "None.",
-      "source_urls": [
-        "https://mroatman.wixsite.com/watches-of-the-ussr/komandirskie?utm_source=openai"
-      ]
-    },
-    {
-      "claim": "Amphibia’s defining historical purpose was underwater use, with the classic design associated with a 200-metre water-resistance specification. Its construction approached sealing as a system involving the crystal, case back and gaskets. Accounts of the design explain how the pressure encountered at depth contributes to the seal. This is more informative than describing the watch as waterproof because of one isolated component.",
-      "reason": "Supported directly by s2, which discusses the engineering and 200m rating.",
-      "evidence_needed": "None.",
-      "source_urls": [
-        "https://vostokamphibia.com/ja/articles/amphibia-watch-history/?utm_source=openai"
-      ]
-    },
-    {
-      "claim": "The familiar classic construction uses a domed acrylic crystal and a case back secured by a separate retaining ring. The materials and geometry are part of the engineering, not simply decorative features. Acrylic should not be confused with mineral glass when describing these watches. For another model or a modified vintage example, its actual specification still needs to be checked rather than inferred from the family name.",
-      "reason": "The sources discuss the engineering of the crystal and back and the importance of not assuming specs from family name alone. The material as 'acrylic' is suggested though specific 'domed acrylic' is not stated verbatim.",
-      "evidence_needed": "Original technical literature or manuals describing the material as acrylic and specifying the case back arrangement for classic Amphibia.",
-      "source_urls": [
-        "https://vostokamphibia.com/ja/articles/amphibia-watch-history/?utm_source=openai"
-      ]
-    },
-    {
-      "claim": "Winding type describes how the mainspring receives energy. A hand-wound movement is wound by turning the crown; an automatic movement adds a mechanism that winds it through movement of the watch. These terms describe the mechanism rather than a military or diving theme. When comparing Vostoks, identify the fitted movement and its winding system instead of using the family name as a substitute for that information.",
-      "reason": "This is a general horological explanation, not a unique claim about Vostok, and aligns with conventional watchmaking definitions. It does not need a specific source.",
-      "evidence_needed": "None.",
-      "source_urls": []
-    },
-    {
-      "claim": "The dial, case and mechanism also need to be considered together. Two watches with similar military imagery can have different technical specifications, while differently decorated watches may share a movement type. A catalogue reference or model-specific description is useful for separating those details. For an older watch, photographs of the actual piece and information about servicing are more informative than a photograph of a similar model.",
-      "reason": "This is advisory, reiterating well-established collecting advice, and does not claim specific historical requirements.",
-      "evidence_needed": "None.",
-      "source_urls": []
-    },
-    {
-      "claim": "If the diving design is the main attraction, a classic Amphibia is the natural family to investigate first. Look for the particular case and dial you prefer, then establish the specifications and condition of that reference. If military-themed decoration and the history of the commander’s watch are the main interests, begin with Komandirskie. These are starting points for choosing, rather than rankings of which family is universally better.",
-      "reason": "This is editorial advice and does not claim historical endorsement; not requiring external evidence.",
-      "evidence_needed": "None.",
-      "source_urls": []
-    },
-    {
-      "claim": "Water resistance deserves a separate question in any purchase. Do not assign a single depth rating to every Komandirskie, or assume that an older Amphibia still meets its original specification. Ask what rating applies to the exact reference and whether its present condition has been assessed. For intended water use, a recent appropriate water-resistance test is more useful than relying on the name printed on the dial.",
-      "reason": "This is prudent advice for collectors and owners, not a claim requiring specific evidence.",
-      "evidence_needed": "None.",
-      "source_urls": []
-    },
-    {
-      "claim": "A useful comparison starts with a few concrete details: the full model reference, movement and winding type, case and crystal specification, and stated water resistance. Then ask about the particular watch: what is included, what has been serviced, and whether components have been replaced. A family history gives context, but it cannot provide a service record or establish the originality of every visible part.",
-      "reason": "Again, this is editorial advice for buyers and collectors.",
-      "evidence_needed": "None.",
-      "source_urls": []
-    },
-    {
-      "claim": "The two families remain interesting for different reasons. Komandirskie connects everyday mechanical watchmaking with military-associated imagery and history. Amphibia offers a distinctive approach to the demands of an underwater watch. Knowing that distinction makes the next step easier: choose the design that interests you, then check the exact model and the condition of the individual example before deciding how you intend to use it.",
-      "reason": "This is a recommendation and summary, not a claim needing external verification.",
-      "evidence_needed": "None.",
-      "source_urls": []
-    }
-  ],
+  "issues": [],
   "sources": {
     "s1": {
       "url": "https://mroatman.wixsite.com/watches-of-the-ussr/komandirskie?utm_source=openai",
       "sha256": "de3ac4e2809d841066bc9bbe78c8a9d938f5f5ad7e90081169b656d2609b6567"
+    },
+    "s2": {
+      "url": "https://vostokamphibia.com/articles/amphibia-watch-history/?utm_source=openai",
+      "sha256": "4069dc2a92c11786968a36e092df15a1fc80a59c6071b2d947e09fdd9d3a90ff"
+    },
+    "s3": {
+      "url": "https://www.hodinkee.com/articles/vostok-amphibia?utm_source=openai",
+      "sha256": "13f6c8dc4887162eae27b2d1b60024b3f1f8588dfdf0926896a9147a895172d7"
     }
   }
 }
