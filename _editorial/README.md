@@ -65,3 +65,5 @@ When source excerpts are reviewed in the development chat, the corrected draft a
 ## Revisions of published articles
 
 An explicitly requested rewrite can use `"mode": "revision"` with `topic_id` and `title` in `_editorial/research-request.json`. The review copies optional `_editorial/prepared-revisions/<id>.json` and `_editorial/revision-evidence/<id>.txt` into isolated research storage, refetches source texts and saves only the review outcome to `_editorial/revisions/<id>.json`. It leaves the published page, catalogue and queue untouched on both success and failure. The reviewed rewrite is published separately after inspection; the review workflow never overwrites a live article.
+
+Research accepts text-based PDFs as well as HTML. The drafting workflows install `pdftotext` when needed. PDF responses require a valid PDF header, stay within a 12 MB download cap and have a bounded text-extraction timeout. Image-only scans without readable text do not become source evidence; the existing source-quality and review gates still apply.
