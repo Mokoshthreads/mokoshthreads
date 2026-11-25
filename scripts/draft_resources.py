@@ -133,20 +133,35 @@ class PageText(HTMLParser):
             self.parts.append(text)
 
 
+def extract_source_text(raw, content_type, charset='utf-8'):
+    if content_type == 'application/pdf':
+        if not raw.startswith(b'%PDF-'):
+            raise ValueError('Source has an invalid PDF header.')
+        result = subprocess.run(['pdftotext', '-layout', '-', '-'], input=raw,
+            stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, timeout=25, check=True)
+        return re.sub(r'\s+', ' ', result.stdout.decode('utf-8', errors='replace')).strip()
+    parser = PageText()
+    parser.feed(raw.decode(charset, errors='replace'))
+    return re.sub(r'\s+', ' ', ' '.join(parser.parts)).strip()
+
+
 def fetch_source(url):
     public_url(url)
     opener = urllib.request.build_opener(PublicRedirects())
     request = urllib.request.Request(url, headers={'User-Agent': 'MokoshThreadsEditorial/1.0'})
     with opener.open(request, timeout=30) as response:
         public_url(response.url)
-        if response.headers.get_content_type() not in ('text/html', 'text/plain', 'application/xhtml+xml'):
-            raise ValueError('Source is not a readable text page; evidence is needed.')
-        raw = response.read(2_000_001)
-        if len(raw) > 2_000_000:
+        content_type = response.headers.get_content_type()
+        if content_type not in ('text/html', 'text/plain', 'application/xhtml+xml', 'application/pdf'):
+            raise ValueError('Source is not a readable text page or PDF; evidence is needed.')
+        limit = 12_000_000 if content_type == 'application/pdf' else 2_000_000
+        raw = response.read(limit + 1)
+        if len(raw) > limit:
             raise ValueError('Source exceeds the research size limit.')
-        parser = PageText()
-        parser.feed(raw.decode(response.headers.get_content_charset() or 'utf-8', errors='replace'))
-    text = re.sub(r'\s+', ' ', ' '.join(parser.parts)).strip()
+        try:
+            text = extract_source_text(raw, content_type, response.headers.get_content_charset() or 'utf-8')
+        except (OSError, subprocess.SubprocessError) as error:
+            raise ValueError('The source PDF could not be read as text.') from error
     if len(text) < 800:
         raise ValueError('Source contains too little readable text.')
     return {'url': url, 'text': text[:35000], 'sha256': hashlib.sha256(raw).hexdigest()}
