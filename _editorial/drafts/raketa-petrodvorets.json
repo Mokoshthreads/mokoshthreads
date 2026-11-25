@@ -148,14 +148,6 @@
     "s1": {
       "url": "https://monochrome-watches.com/5-things-ive-learned-when-visiting-raketa-a-russian-manufacture-and-how-different-it-is-from-switzerland/?utm_source=openai",
       "sha256": "5313085d5e4a7af51fc094e5c8c6fc397480066c2b1c5223b9346b6def27b0c8"
-    },
-    "s2": {
-      "url": "https://en.wikipedia.org/wiki/Raketa",
-      "sha256": "7aab4be313ad3aa38ae46b4a4ac223e571b1122b4632034417ee48fa8f757430"
-    },
-    "s3": {
-      "url": "https://www.watch-wiki.net/doku.php?id=raketa",
-      "sha256": "7956b20e1522d1c20b672741d89a19aed1ddc271356aca912eb16ee1c0623e19"
     }
   }
 }
