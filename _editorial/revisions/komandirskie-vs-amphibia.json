@@ -203,10 +203,6 @@
     "s1": {
       "url": "https://mroatman.wixsite.com/watches-of-the-ussr/komandirskie?utm_source=openai",
       "sha256": "de3ac4e2809d841066bc9bbe78c8a9d938f5f5ad7e90081169b656d2609b6567"
-    },
-    "s2": {
-      "url": "https://vostokamphibia.com/ja/articles/amphibia-watch-history/?utm_source=openai",
-      "sha256": "19fa2461b75c50ed387a6db2683ba3b66cc01518eced358c5285664e8d2ebfb1"
     }
   }
 }
