@@ -6,9 +6,12 @@
       "reason": "Fewer than two source domains could be retrieved as full text.",
       "evidence_needed": "Provide reliable full source text, catalogue scans/transcriptions or accessible museum/factory references.",
       "source_urls": [
+        "https://www.raketa.com/w/wp-content/uploads/sites/4/2024/02/waqwaq.pdf",
+        "https://raketa.com/w/wp-content/uploads/sites/4/2020/10/Dive_into_Watches_compressed.pdf",
         "https://raketa.com/en/history?utm_source=openai",
-        "https://www.raketa.com/w/wp-content/uploads/sites/4/2024/02/waqwaq.pdf?utm_source=openai",
-        "https://raketa.com/w/wp-content/uploads/sites/4/2020/10/Dive_into_Watches_compressed.pdf?utm_source=openai"
+        "https://raketa.com/wp-content/uploads/2020/06/Raketa_-A-Rocket-for-the-Wrist-watchuseek.com_.pdf?utm_source=openai",
+        "https://raketa.com/w/wp-content/uploads/sites/4/2021/09/Raketa_Time_Transformed.pdf?utm_source=openai",
+        "https://world.raketa.com/news/klassika-v-kvadrate?utm_source=openai"
       ]
     }
   ],
@@ -16,12 +19,6 @@
     "s1": {
       "url": "https://monochrome-watches.com/5-things-ive-learned-when-visiting-raketa-a-russian-manufacture-and-how-different-it-is-from-switzerland/?utm_source=openai",
       "sha256": "5313085d5e4a7af51fc094e5c8c6fc397480066c2b1c5223b9346b6def27b0c8"
-    },
-    "s2": {
-      "url": "https://www.raketa.com/w/wp-content/uploads/sites/4/2024/02/waqwaq.pdf"
-    },
-    "s3": {
-      "url": "https://raketa.com/w/wp-content/uploads/sites/4/2020/10/Dive_into_Watches_compressed.pdf"
     }
   }
 }
