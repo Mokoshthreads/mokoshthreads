@@ -154,13 +154,19 @@
       "id": "soviet-watch-calibres",
       "title": "Inside a Soviet Watch: Movements, Jewels and Calibre Numbers Explained",
       "category": "Guides",
-      "publishAt": "2027-02-08T12:00:00+08:00"
+      "publishAt": "2027-02-08T12:00:00+08:00",
+      "status": "needs_verification",
+      "issue_number": 15,
+      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/15"
     },
     {
       "id": "russian-enamel-imperial",
       "title": "Russian Enamel: Colour and Craft in the Imperial Era",
       "category": "Slavic Culture",
-      "publishAt": "2027-02-15T12:00:00+08:00"
+      "publishAt": "2027-02-15T12:00:00+08:00",
+      "status": "needs_verification",
+      "issue_number": 16,
+      "issue_url": "https://github.com/Mokoshthreads/mokoshthreads/issues/16"
     },
     {
       "id": "slavic-costume-renfaire",

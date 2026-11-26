@@ -1,0 +1,122 @@
+{
+  "draft": {
+    "title": "Inside a Soviet Watch: Movements, Jewels and Calibre Numbers Explained",
+    "description": "A plain-English guide to the internal workings of Soviet watch movements, exploring the meaning of movements, jewels, and calibre numbers.",
+    "sections": [
+      {
+        "heading": "Understanding Soviet Watch Movements",
+        "paragraphs": [
+          {
+            "text": "The inner workings of Soviet watches are often catalogued in dedicated collections and archives. Resources such as the Soviet Watch Museum provide sophisticated digital catalogues that document the architecture and diversity of these timepieces, giving insight into how movements were documented and classified during the Soviet era.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "Detailed catalogues and articles help passionate collectors and researchers trace the development of mechanical movements in Soviet watches. These collections routinely offer background information, images, and technical descriptions, illuminating historical and technical aspects of Soviet timekeeping.",
+            "source_ids": [
+              "s1"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Movement Structure and Purpose",
+        "paragraphs": [
+          {
+            "text": "A movement is the engine of the watch, driving the hands and keeping time. The Soviet Molnija 3602, for example, is a manual wind movement produced by the Chelyabinsk Watch Factory and widely recognized for its robust construction and use in pocket and railway watches.",
+            "source_ids": [
+              "s2"
+            ]
+          },
+          {
+            "text": "Movements like the 3602 are typically described by their type, manufacturer, and specifications such as jewel count and dimensions. The structure often includes the mainplate, wheels, springs, bridges, and escapement, with each component fulfilling a precise role in the timekeeping process.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Jewels: Function and Design",
+        "paragraphs": [
+          {
+            "text": "Jewels in watch movements play a critical part in reducing friction and increasing longevity. The 18-jewel configuration found in movements like the Molnija 3602 and precision calibers from Chistopol Watch Factory exemplifies this approach, allowing smoother movement and better longevity.",
+            "source_ids": [
+              "s2",
+              "s3"
+            ]
+          },
+          {
+            "text": "Cap jewels, in particular, are used to further lower friction at critical pivot points. In Soviet designs such as the Vostok 2809, cap jewels are commonly found on the train bridge rather than the main plate\u0014a decision influenced by how wristwatches are most often positioned during use.",
+            "source_ids": [
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Calibre Numbers and Identification",
+        "paragraphs": [
+          {
+            "text": "Each movement is identified by a calibre number, which helps distinguish its technical attributes and lineage. For example, the Molnija 3602's designation reflects its manufacturing origin and differentiates it from similar movements, providing both collectors and technicians a reference for repairs and parts.",
+            "source_ids": [
+              "s2"
+            ]
+          },
+          {
+            "text": "Some movements, such as the Vostok 2809, possess unique design roots. Its engineering was heavily influenced by the Swiss Zenith 135 chronometer, but Soviet engineers reworked and refined the calibre, adapting it for their own manufacturing philosophies while preserving many key features.",
+            "source_ids": [
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Legacy of Soviet Precision Movements",
+        "paragraphs": [
+          {
+            "text": "Precision movements, like those in the Vostok 2809 and later models, brought technical improvements such as increased use of cap jewels, special alloys for hairsprings, and large balance wheels for rate stability. These innovations ensured the reliability and accuracy sought for military and scientific purposes.",
+            "source_ids": [
+              "s3"
+            ]
+          },
+          {
+            "text": "The progress made in Soviet high-grade movements influenced future watchmaking, carrying forward solutions into later calibers used in both civilian and specialized watches. Many of these practical advancements and their underlying philosophy are now documented in museum collections and technical archives.",
+            "source_ids": [
+              "s3",
+              "s1"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": []
+  },
+  "issues": [
+    {
+      "claim": "Article source checks",
+      "reason": "Article body must be between 450 and 950 words.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
+      "source_urls": [
+        "https://sovietwatchmuseum.com/catalogs?utm_source=openai",
+        "https://locator.watch/catalogue/molnija/3602?utm_source=openai",
+        "https://soviet-box.com/vostok-2809-precision-caliber-service?utm_source=openai"
+      ]
+    }
+  ],
+  "sources": {
+    "s1": {
+      "url": "https://sovietwatchmuseum.com/catalogs?utm_source=openai",
+      "sha256": "264e561540a907e9b5cf8eb38246cb7ba8665788a620a508dfee866ea0de31ba"
+    },
+    "s2": {
+      "url": "https://locator.watch/catalogue/molnija/3602?utm_source=openai",
+      "sha256": "785515ab1485c482e565dd198c18250ba6587d7a0fc7eb923de6bc7999044248"
+    },
+    "s3": {
+      "url": "https://soviet-box.com/vostok-2809-precision-caliber-service?utm_source=openai",
+      "sha256": "838d6d545d1733b0e9857f526adf660a254602f6848e94c1ad49af7c5f1b54d6"
+    }
+  }
+}

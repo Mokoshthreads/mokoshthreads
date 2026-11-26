@@ -1,0 +1,120 @@
+{
+  "draft": {
+    "title": "Russian Enamel: Colour and Craft in the Imperial Era",
+    "description": "An exploration of the artistry, history, and royal patronage associated with Russian enamel and porcelain, highlighting the Imperial era’s finest innovations and the legacy of celebrated workshops such as the Imperial Porcelain Factory and Fabergé.",
+    "sections": [
+      {
+        "heading": "Foundations of Russian Porcelain Artistry",
+        "paragraphs": [
+          {
+            "text": "Established in 1744 by Empress Elizabeth of Russia, the Imperial Porcelain Manufactory became Russia’s first porcelain works and the third in Europe. At that time, Europeans had little knowledge of porcelain’s composition, which was still guarded as a secret by Chinese artisans, making it highly valued.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "During Catherine II’s reign, Russian porcelain reached new artistic heights, as the empress emphasized porcelain production and promoted the display and sale of the finest pieces. This period marked the beginning of an enduring imperial fascination with decorative porcelain wares.",
+            "source_ids": [
+              "s1"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Empire Style and the Guriev Service",
+        "paragraphs": [
+          {
+            "text": "The early 19th century witnessed the creation of the Guriev Service at the Imperial Porcelain Factory, exemplifying the Empire style in Russian decorative art under Alexander I. This official state service was produced in St. Petersburg between 1809 and 1816.",
+            "source_ids": [
+              "s2"
+            ]
+          },
+          {
+            "text": "Directed by sculptor Stepan Pimenov, the Guriev Service featured pieces adorned with miniature paintings that depicted Russian tradesmen and city scenes. These images drew from works by renowned Russian and foreign artists, adding an authentic and descriptive touch.",
+            "source_ids": [
+              "s2"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Innovations in Colour and Form",
+        "paragraphs": [
+          {
+            "text": "Technical innovations during the reign of Nicholas II advanced porcelain and enamel art in Russia. The Imperial Porcelain Factory took pride in its art technology, which later supported the production of complex items for domestic and official use.",
+            "source_ids": [
+              "s1"
+            ]
+          },
+          {
+            "text": "Russian decorative trends emerged, with designers like Fedor Solntsev creating sets inspired by Russian history and culture. The factory became known for artful painting and the inclusion of old masters’ works, reflecting a growing appreciation of diversity and tradition in Russian decorative arts.",
+            "source_ids": [
+              "s1"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Imperial Patronage and Fabergé",
+        "paragraphs": [
+          {
+            "text": "Enamel artworks enjoyed the special patronage of Russia’s imperial household. Notably, Peter Carl Fabergé became renowned for creating enamel objects of exceptional quality on commission for the royal family, earning prestigious titles for his work.",
+            "source_ids": [
+              "s3"
+            ]
+          },
+          {
+            "text": "In the 1880s, Fabergé expanded the available palette and patterns for enamel, introducing machined repeating designs and employing prominent enamel artists. These developments exemplified the technical and artistic innovations seen in Russian enamel during the late imperial era.",
+            "source_ids": [
+              "s3"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Legacy and Representation",
+        "paragraphs": [
+          {
+            "text": "Many objects from Russian enamel and porcelain workshops remain preserved in major museum collections. Services such as the Guriev were often updated to replace pieces lost over time, illustrating both their continued use and enduring aesthetic value.",
+            "source_ids": [
+              "s2"
+            ]
+          },
+          {
+            "text": "Museum and private collections across the world, like the Khalili Collection, display the breadth of Russian enamelling, with works created under imperial patronage. These objects showcase the variety and sophistication of techniques developed in Russia up to the early 20th century.",
+            "source_ids": [
+              "s3"
+            ]
+          }
+        ]
+      }
+    ],
+    "concerns": []
+  },
+  "issues": [
+    {
+      "claim": "Article source checks",
+      "reason": "Article body must be between 450 and 950 words.",
+      "evidence_needed": "Supply evidence or revise the unsupported passage.",
+      "source_urls": [
+        "https://ipm-jsc.com/?utm_source=openai",
+        "https://rusmuseumvrm.ru/data/collections/arts_and_crafts/gurevskiy_serviz/index.php?lang=en&utm_source=openai",
+        "https://en.wikipedia.org/wiki/Khalili_Collection_of_Enamels_of_the_World?utm_source=openai"
+      ]
+    }
+  ],
+  "sources": {
+    "s1": {
+      "url": "https://ipm-jsc.com/?utm_source=openai",
+      "sha256": "40d77615b4788684be0983283cc16d338fa1ee4d03f34ac5550ef57c8629d21e"
+    },
+    "s2": {
+      "url": "https://rusmuseumvrm.ru/data/collections/arts_and_crafts/gurevskiy_serviz/index.php?lang=en&utm_source=openai",
+      "sha256": "2d38055831193764ee8af4be7ba1646b5df25e1b6d41cfa94abfcb4029132dc8"
+    },
+    "s3": {
+      "url": "https://en.wikipedia.org/wiki/Khalili_Collection_of_Enamels_of_the_World?utm_source=openai",
+      "sha256": "6cf25b8f845dd3a94b493b205f76a74270503ffbd2750dc39eb4091948a3e50a"
+    }
+  }
+}

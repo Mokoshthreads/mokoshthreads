@@ -347,6 +347,40 @@
       "readyToPublish": false,
       "series": "weekly-editorial",
       "seriesOrder": 14
+    },
+    {
+      "id": "soviet-watch-calibres",
+      "title": "Inside a Soviet Watch: Movements, Jewels and Calibre Numbers Explained",
+      "category": "Guides",
+      "excerpt": "Article in preparation.",
+      "url": "./soviet-watch-calibres/",
+      "image": "",
+      "imageAlt": "",
+      "date": "2027-02-08",
+      "readingTime": 4,
+      "tags": [],
+      "featured": false,
+      "published": false,
+      "readyToPublish": false,
+      "series": "weekly-editorial",
+      "seriesOrder": 15
+    },
+    {
+      "id": "russian-enamel-imperial",
+      "title": "Russian Enamel: Colour and Craft in the Imperial Era",
+      "category": "Slavic Culture",
+      "excerpt": "Article in preparation.",
+      "url": "./russian-enamel-imperial/",
+      "image": "",
+      "imageAlt": "",
+      "date": "2027-02-15",
+      "readingTime": 4,
+      "tags": [],
+      "featured": false,
+      "published": false,
+      "readyToPublish": false,
+      "series": "weekly-editorial",
+      "seriesOrder": 16
     }
   ]
 }
